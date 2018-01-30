@@ -1,0 +1,6 @@
+C:\USeClient\TFS\ArbitrateDealTool\Main\Bin\USe.OrderDrvierBase.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Bin\USe.OrderDrvierBase.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Bin\USe.OrderDrvierBase.XML
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeTraderDrvier\USe.OrderDrvierBase\obj\Release\USe.OrderDrvierBase.csprojResolveAssemblyReference.cache
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeTraderDrvier\USe.OrderDrvierBase\obj\Release\USe.OrderDrvierBase.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeTraderDrvier\USe.OrderDrvierBase\obj\Release\USe.OrderDrvierBase.pdb

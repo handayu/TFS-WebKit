@@ -1,0 +1,7 @@
+C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\TestTempForm\bin\Debug\TestTempForm.exe
+C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\TestTempForm\bin\Debug\TestTempForm.pdb
+C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\TestTempForm\obj\Debug\TestTempForm.Properties.Resources.resources
+C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\TestTempForm\obj\Debug\TestTempForm.csproj.GenerateResource.Cache
+C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\TestTempForm\obj\Debug\TestTempForm.exe
+C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\TestTempForm\obj\Debug\TestTempForm.pdb
+C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\TestTempForm\obj\Debug\TestTempForm.Form1.resources

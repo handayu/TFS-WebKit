@@ -1,0 +1,12 @@
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeRangeManager\bin\Release\TradeRangeManager.exe.config
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeRangeManager\bin\Release\TradeRangeManager.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeRangeManager\bin\Release\TradeRangeManager.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeRangeManager\bin\Release\MySql.Data.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeRangeManager\bin\Release\USe.Common.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeRangeManager\bin\Release\USe.Common.xml
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeRangeManager\obj\Release\TradeRangeManager.TradeRangeManagerForm.resources
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeRangeManager\obj\Release\TradeRangeManager.Properties.Resources.resources
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeRangeManager\obj\Release\TradeRangeManager.csproj.GenerateResource.Cache
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeRangeManager\obj\Release\TradeRangeManager.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeRangeManager\obj\Release\TradeRangeManager.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeRangeManager\obj\Release\TradeRangeManager.csprojResolveAssemblyReference.cache

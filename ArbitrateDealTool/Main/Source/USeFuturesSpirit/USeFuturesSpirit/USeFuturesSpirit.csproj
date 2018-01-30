@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2BC4C461-3B8F-449A-91A0-87EA7327C3D4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>USeFuturesSpirit</RootNamespace>
+    <AssemblyName>USeFuturesSpirit</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Arbitrage.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CTPCommon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Reference\CTP_YM\CTPCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="CTPFeed, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Reference\CTP_YM\CTPFeed.dll</HintPath>
+    </Reference>
+    <Reference Include="CTPUser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Reference\CTP_YM\CTPUser.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="USe.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Reference\USe.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.Common.AppLogger, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Reference\USe.Common.AppLogger.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.CTPOrderDriver, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Bin\USe.CTPOrderDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.CTPQuoteDriver, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Bin\USe.CTPQuoteDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.OrderDrvierBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Bin\USe.OrderDrvierBase.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.QuoteDriverBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Bin\USe.QuoteDriverBase.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.TestOrderDriver">
+      <HintPath>..\..\..\Bin\USe.TestOrderDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.TestQuoteDriver">
+      <HintPath>..\..\..\Bin\USe.TestQuoteDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.TradeDriver.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Bin\USe.TradeDriver.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutMeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutMeForm.Designer.cs">
+      <DependentUpon>AboutMeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArbitrageDataSaver.cs" />
+    <Compile Include="ArbitrageDefultOrderSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArbitrageDefultOrderSettingsForm.Designer.cs">
+      <DependentUpon>ArbitrageDefultOrderSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArbitrageOrderCreateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArbitrageOrderCreateForm.Designer.cs">
+      <DependentUpon>ArbitrageOrderCreateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArbitrageOrderViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArbitrageOrderViewForm.Designer.cs">
+      <DependentUpon>ArbitrageOrderViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arbitrage\Argument\ArbitrageAlarmArgument.cs" />
+    <Compile Include="Arbitrage\Argument\ArbitrageArgument.cs" />
+    <Compile Include="Arbitrage\ArbitrageOrderSettlement.cs" />
+    <Compile Include="Arbitrage\Argument\ArbitrageStopLossArgument.cs" />
+    <Compile Include="Arbitrage\ArbitrageTaskState.cs" />
+    <Compile Include="Arbitrage\ArbitrageSubTask.cs" />
+    <Compile Include="Arbitrage\Argument\PriceSpreadCondition.cs" />
+    <Compile Include="Arbitrage\OrderBookUpdateResult.cs" />
+    <Compile Include="AutoOrder\AutoTrader.BackgroundWorker.cs" />
+    <Compile Include="AutoOrder\AutoTrader.OpenOrClose.cs" />
+    <Compile Include="AutoOrder\AutoTrader.TradeDriver.cs" />
+    <Compile Include="AutoOrder\AutoTraderEnum.cs" />
+    <Compile Include="AutoOrder\AutoTraderEventHandle.cs" />
+    <Compile Include="CancelOrdersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CancelOrdersForm.Designer.cs">
+      <DependentUpon>CancelOrdersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\ExchangeTradeRangeElementCollection.cs" />
+    <Compile Include="Configuration\TradingDayElementCollection.cs" />
+    <Compile Include="Configuration\ExchangeTradeRangeItemElementCollection.cs" />
+    <Compile Include="Configuration\ExchangeTradeRangeItemElement.cs" />
+    <Compile Include="Configuration\ProductTradeRangeItemElement.cs" />
+    <Compile Include="Configuration\TradingDayElement.cs" />
+    <Compile Include="Entity\AlarmNotice.cs" />
+    <Compile Include="Entity\ArbitrageCombineInstrument.cs" />
+    <Compile Include="Entity\ArbitrageCombineInstrumentData.cs" />
+    <Compile Include="Entity\ArbitrageCombineOrderSetting.cs" />
+    <Compile Include="Entity\ErrorArbitrageOrder.cs" />
+    <Compile Include="Entity\ErrorUSeOrderBook.cs" />
+    <Compile Include="Entity\PriceSpreadCheckResult.cs" />
+    <Compile Include="Entity\UserDefineSetting.cs" />
+    <Compile Include="Entity\USeSystemConfig.cs" />
+    <Compile Include="Enum\ArbitrageOperationSide.cs" />
+    <Compile Include="Enum\ArbitragePriceSpreadAlarmType.cs" />
+    <Compile Include="Enum\AlarmType.cs" />
+    <Compile Include="Enum\OpenCloseType.cs" />
+    <Compile Include="Enum\PriceSpreadSide.cs" />
+    <Compile Include="Enum\TaskOrderReason.cs" />
+    <Compile Include="Enum\USeMarketPriceMethod.cs" />
+    <Compile Include="ErrorOrderBookProcessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorOrderBookProcessForm.Designer.cs">
+      <DependentUpon>ErrorOrderBookProcessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoryArbitrageOrderListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoryArbitrageOrderListForm.Designer.cs">
+      <DependentUpon>HistoryArbitrageOrderListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessor\IUSeDataAccessor.cs" />
+    <Compile Include="Manager\AlarmManager.cs" />
+    <Compile Include="Manager\AutoTraderManager.cs" />
+    <Compile Include="Arbitrage\ArbitrageTask.cs" />
+    <Compile Include="Arbitrage\ArbitrageTaskGroup.cs" />
+    <Compile Include="Arbitrage\USeArbitrageOrder.cs" />
+    <Compile Include="Arbitrage\Argument\ArbitrageCloseArgument.cs" />
+    <Compile Include="AutoOrder\AutoTrader.Entity.cs" />
+    <Compile Include="AutoOrder\AutoTraderNotice.cs" />
+    <Compile Include="Entity\FrontSeverConfig.cs" />
+    <Compile Include="Entity\GlobalFontServerConfig.cs" />
+    <Compile Include="Enum\ArbitrageOrderState.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontServerConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontServerConfigForm.Designer.cs">
+      <DependentUpon>FrontServerConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArbitrageOpenArgumentSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArbitrageOpenArgumentSetForm.Designer.cs">
+      <DependentUpon>ArbitrageOpenArgumentSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\FundCalculator.cs" />
+    <Compile Include="Manager\SystemConfigManager.cs" />
+    <Compile Include="SelectProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectProductForm.Designer.cs">
+      <DependentUpon>SelectProductForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettlementInfoConfirmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettlementInfoConfirmForm.Designer.cs">
+      <DependentUpon>SettlementInfoConfirmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleOrderForm.Designer.cs">
+      <DependentUpon>SimpleOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestFormPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestFormPicture.Designer.cs">
+      <DependentUpon>TestFormPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestOrderDriverConsole\TestPositionDataViewModel.cs" />
+    <Compile Include="TestOrderDriverConsole\TestTraderDriverSimulateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestOrderDriverConsole\TestTraderDriverSimulateForm.Designer.cs">
+      <DependentUpon>TestTraderDriverSimulateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessor\USeDataAccessor.Internal.cs" />
+    <Compile Include="DataAccessor\USeDataAccessor.IUSeDataAccessor.cs" />
+    <Compile Include="UserControl\ArbitrageCloseArgumentView2Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageCloseArgumentView2Control.Designer.cs">
+      <DependentUpon>ArbitrageCloseArgumentView2Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageCloseArgumentViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageCloseArgumentViewControl.Designer.cs">
+      <DependentUpon>ArbitrageCloseArgumentViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageOrderControl.Entity.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageOrderControl.Menu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\AlarmNoticeViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\AlarmNoticeViewControl.Designer.cs">
+      <DependentUpon>AlarmNoticeViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageOpenArgumentView2Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageOpenArgumentView2Control.Designer.cs">
+      <DependentUpon>ArbitrageOpenArgumentView2Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageOpenArgumentViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageOpenArgumentViewControl.Designer.cs">
+      <DependentUpon>ArbitrageOpenArgumentViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageOrderTradeChart.cs" />
+    <Compile Include="ArbitrageQuoteChoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArbitrageQuoteChoiceForm.Designer.cs">
+      <DependentUpon>ArbitrageQuoteChoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageQuoteListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageQuoteListControl.Designer.cs">
+      <DependentUpon>ArbitrageQuoteListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageRunStateControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageRunStateControl.Designer.cs">
+      <DependentUpon>ArbitrageRunStateControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Argument\ArbitrageOperationSideControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\Argument\ArbitrageOperationSideControl.Designer.cs">
+      <DependentUpon>ArbitrageOperationSideControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\InvestorFundControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\InvestorFundControl.Designer.cs">
+      <DependentUpon>InvestorFundControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\OrderBookListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\OrderBookListControl.Designer.cs">
+      <DependentUpon>OrderBookListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Argument\PreferentialSideControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\Argument\PreferentialSideControl.Designer.cs">
+      <DependentUpon>PreferentialSideControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Argument\ArbitragePriceSpreadMonitorTypeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\Argument\ArbitragePriceSpreadMonitorTypeControl.Designer.cs">
+      <DependentUpon>ArbitragePriceSpreadMonitorTypeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Argument\PriceSpreadSideControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\Argument\PriceSpreadSideControl.Designer.cs">
+      <DependentUpon>PriceSpreadSideControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Argument\OrderPriceTypeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\Argument\OrderPriceTypeControl.Designer.cs">
+      <DependentUpon>OrderPriceTypeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PictureScollControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\PictureScollControl.Designer.cs">
+      <DependentUpon>PictureScollControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PositionListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\PositionListControl.Designer.cs">
+      <DependentUpon>PositionListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\QuoteListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\QuoteListControl.designer.cs">
+      <DependentUpon>QuoteListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\TaskGroupViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\TaskGroupViewControl.Designer.cs">
+      <DependentUpon>TaskGroupViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\TradeBookListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\TradeBookListControl.Designer.cs">
+      <DependentUpon>TradeBookListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessor\USeDataAccessor.cs" />
+    <Compile Include="UserControl\ArbitrageOrderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageOrderControl.Designer.cs">
+      <DependentUpon>ArbitrageOrderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arbitrage\Argument\ArbitrageOpenArgument.cs" />
+    <Compile Include="Enum\ArbitrageOrderPriceType.cs" />
+    <Compile Include="AutoOrder\AutoTrader.cs" />
+    <Compile Include="UserControl\BottomStateControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\BottomStateControl.Designer.cs">
+      <DependentUpon>BottomStateControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageOrderListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageOrderListControl.Designer.cs">
+      <DependentUpon>ArbitrageOrderListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\InvestorAccount.cs" />
+    <Compile Include="UseSystemConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseSystemConfigForm.Designer.cs">
+      <DependentUpon>UseSystemConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\AlarmLogViewModel.cs" />
+    <Compile Include="ViewModel\ArbitrageCombineInstrumentViewModel.cs" />
+    <Compile Include="ViewModel\ArbitrageCombineOrderSettingViewModel.cs" />
+    <Compile Include="ViewModel\ArbitrageLogViewModel.cs" />
+    <Compile Include="UserControl\SelectProductControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\SelectProductControl.Designer.cs">
+      <DependentUpon>SelectProductControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TempUtility.cs" />
+    <Compile Include="USeManager.cs" />
+    <Compile Include="UserControl\ArbitrageLogViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageLogViewControl.Designer.cs">
+      <DependentUpon>ArbitrageLogViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageOrderCreateControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ArbitrageOrderCreateControl.Designer.cs">
+      <DependentUpon>ArbitrageOrderCreateControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControl\SimpleOrderPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\SimpleOrderPanelControl.Designer.cs">
+      <DependentUpon>SimpleOrderPanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\USeUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="USeFuturesSpiritUtility.cs" />
+    <Compile Include="ViewModel\ArbitrageTaskOrderBookViewModel.cs" />
+    <Compile Include="ViewModel\ArbitrageSubTaskViewModel.cs" />
+    <Compile Include="ViewModel\FrontSeverConfigViewModel.cs" />
+    <Compile Include="ViewModel\MarketDataViewModel.cs" />
+    <Compile Include="ViewModel\ArbitrageOrderBookViewModel.cs" />
+    <Compile Include="ViewModel\OrderBookViewModel.cs" />
+    <Compile Include="ViewModel\PositionDetailDataViewModel.cs" />
+    <Compile Include="ViewModel\PositionDataViewModel.cs" />
+    <Compile Include="ViewModel\TradeBookViewＭodel.cs" />
+    <Compile Include="Configuration\ProductTradeRangeItemElementCollection.cs" />
+    <Compile Include="Configuration\TradeRangeSection.cs" />
+    <Compile Include="YMTestUnit.cs" />
+    <EmbeddedResource Include="AboutMeForm.resx">
+      <DependentUpon>AboutMeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArbitrageDefultOrderSettingsForm.resx">
+      <DependentUpon>ArbitrageDefultOrderSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArbitrageOrderCreateForm.resx">
+      <DependentUpon>ArbitrageOrderCreateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArbitrageOrderViewForm.resx">
+      <DependentUpon>ArbitrageOrderViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancelOrdersForm.resx">
+      <DependentUpon>CancelOrdersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorOrderBookProcessForm.resx">
+      <DependentUpon>ErrorOrderBookProcessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryArbitrageOrderListForm.resx">
+      <DependentUpon>HistoryArbitrageOrderListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontServerConfigForm.resx">
+      <DependentUpon>FrontServerConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArbitrageOpenArgumentSetForm.resx">
+      <DependentUpon>ArbitrageOpenArgumentSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectProductForm.resx">
+      <DependentUpon>SelectProductForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettlementInfoConfirmForm.resx">
+      <DependentUpon>SettlementInfoConfirmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleOrderForm.resx">
+      <DependentUpon>SimpleOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFormPicture.resx">
+      <DependentUpon>TestFormPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestOrderDriverConsole\TestTraderDriverSimulateForm.resx">
+      <DependentUpon>TestTraderDriverSimulateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ArbitrageCloseArgumentView2Control.resx">
+      <DependentUpon>ArbitrageCloseArgumentView2Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ArbitrageCloseArgumentViewControl.resx">
+      <DependentUpon>ArbitrageCloseArgumentViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\AlarmNoticeViewControl.resx">
+      <DependentUpon>AlarmNoticeViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ArbitrageOpenArgumentView2Control.resx">
+      <DependentUpon>ArbitrageOpenArgumentView2Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ArbitrageOpenArgumentViewControl.resx">
+      <DependentUpon>ArbitrageOpenArgumentViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArbitrageQuoteChoiceForm.resx">
+      <DependentUpon>ArbitrageQuoteChoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ArbitrageQuoteListControl.resx">
+      <DependentUpon>ArbitrageQuoteListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ArbitrageRunStateControl.resx">
+      <DependentUpon>ArbitrageRunStateControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Argument\ArbitrageOperationSideControl.resx">
+      <DependentUpon>ArbitrageOperationSideControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\InvestorFundControl.resx">
+      <DependentUpon>InvestorFundControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\OrderBookListControl.resx">
+      <DependentUpon>OrderBookListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Argument\PreferentialSideControl.resx">
+      <DependentUpon>PreferentialSideControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Argument\ArbitragePriceSpreadMonitorTypeControl.resx">
+      <DependentUpon>ArbitragePriceSpreadMonitorTypeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Argument\PriceSpreadSideControl.resx">
+      <DependentUpon>PriceSpreadSideControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Argument\OrderPriceTypeControl.resx">
+      <DependentUpon>OrderPriceTypeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\PictureScollControl.resx">
+      <DependentUpon>PictureScollControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\PositionListControl.resx">
+      <DependentUpon>PositionListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\QuoteListControl.resx">
+      <DependentUpon>QuoteListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\TaskGroupViewControl.resx">
+      <DependentUpon>TaskGroupViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\TradeBookListControl.resx">
+      <DependentUpon>TradeBookListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ArbitrageOrderControl.resx">
+      <DependentUpon>ArbitrageOrderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\BottomStateControl.resx">
+      <DependentUpon>BottomStateControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ArbitrageOrderListControl.resx">
+      <DependentUpon>ArbitrageOrderListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\SelectProductControl.resx">
+      <DependentUpon>SelectProductControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ArbitrageLogViewControl.resx">
+      <DependentUpon>ArbitrageLogViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ArbitrageOrderCreateControl.resx">
+      <DependentUpon>ArbitrageOrderCreateControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControl\SimpleOrderPanelControl.resx">
+      <DependentUpon>SimpleOrderPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseSystemConfigForm.resx">
+      <DependentUpon>UseSystemConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Arbitrage.ico" />
+    <Content Include="Memo.txt" />
+    <None Include="Resources\alarm_unable.png" />
+    <None Include="Resources\alarm_enable.png" />
+    <None Include="Resources\scoll11.png" />
+    <None Include="Resources\scoll10.png" />
+    <None Include="Resources\scoll9.png" />
+    <None Include="Resources\scoll8.gif" />
+    <None Include="Resources\scoll7.gif" />
+    <None Include="Resources\scoll6.gif" />
+    <None Include="Resources\scoll5.gif" />
+    <None Include="Resources\scoll4.gif" />
+    <None Include="Resources\scoll3.gif" />
+    <None Include="Resources\scoll2.gif" />
+    <None Include="Resources\scoll.gif" />
+    <None Include="Resources\red.ico" />
+    <None Include="Resources\green.ico" />
+    <None Include="Resources\red.png" />
+    <None Include="Resources\green.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

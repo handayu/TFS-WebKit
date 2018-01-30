@@ -1,0 +1,229 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketDataStore", "MarketDataStore\MarketDataStore.csproj", "{CA6F8853-D12B-41B3-ACD3-E14994D72F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeRangeManager", "TradeRangeManager\TradeRangeManager.csproj", "{3F8A95E2-21C7-4959-9F5F-D8950CF82B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeCalendarManager", "TradeCalendarManager\TradeCalendarManager.csproj", "{18112A33-1A60-440A-BD23-5C6ECA22BF04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USe.CtpOrderQuerier", "USe.CtpOrderQuerier\USe.CtpOrderQuerier.csproj", "{14C4A94A-F35F-48BC-B791-309EE805BC56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CtpInstrumentDownload", "CtpInstrumentDownLoad\CtpInstrumentDownload.csproj", "{6D96877A-40C0-44C4-9FFB-4EFCC1796F96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistoryKLineImport", "HistoryKLineImport\HistoryKLineImport.csproj", "{D823F91C-EE20-458F-BA34-72EF86300954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainContractCalculater", "MainContractCalculater\MainContractCalculater.csproj", "{D8FE9A44-8029-4206-8BC8-AF595BB19A24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloseMarketDataDownload", "CloseMarketDataDownLoad\CloseMarketDataDownload.csproj", "{92E9CC5E-8FA4-45B9-A531-B563D3ADEE13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoonMarketDataDownload", "NoonMarketDataDownload\NoonMarketDataDownload.csproj", "{DA3BB049-4CC9-41B6-B0BB-4C65D9A78F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialContractCalculater", "SerialContractCalculater\SerialContractCalculater.csproj", "{E9687880-2EE5-4B77-9E84-E559A6FBE4FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractIndexTestForm", "ContractIndexTestForm\ContractIndexTestForm.csproj", "{DB127EEB-9484-4836-AA8D-96B81D7DB671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USe.Common.Manager", "USe.Common.Manager\USe.Common.Manager.csproj", "{AD61A7DE-FA32-49D6-B1D8-A3C3F754CA62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempUtilityForm", "TempUtilityForm\TempUtilityForm.csproj", "{DD2B6183-4E88-4C21-A0A0-376B27979114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketDataRecover", "MarketDataRecover\MarketDataRecover.csproj", "{EF52F0A2-2F44-44B2-96FF-0DDF3296D3E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDXDataConvert", "TDXDataConvert\TDXDataConvert.csproj", "{34AA9462-CBF2-41BF-9626-17D528FDB392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStoreCommon", "DataStoreCommon\DataStoreCommon.csproj", "{03058A34-E8EA-4A56-B264-872E024FC690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OuterMarketDataStore", "OuterMarketDataStore\OuterMarketDataStore.csproj", "{4CE138B2-447B-4B6A-A12D-0DA84BAB809F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefreashSendimentaryMoney", "RefreashSendimentaryMoney\RefreashSendimentaryMoney.csproj", "{247A18D0-7229-4868-B4D5-5F810F84CBD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA6F8853-D12B-41B3-ACD3-E14994D72F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6F8853-D12B-41B3-ACD3-E14994D72F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6F8853-D12B-41B3-ACD3-E14994D72F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6F8853-D12B-41B3-ACD3-E14994D72F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8A95E2-21C7-4959-9F5F-D8950CF82B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8A95E2-21C7-4959-9F5F-D8950CF82B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8A95E2-21C7-4959-9F5F-D8950CF82B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8A95E2-21C7-4959-9F5F-D8950CF82B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18112A33-1A60-440A-BD23-5C6ECA22BF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18112A33-1A60-440A-BD23-5C6ECA22BF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18112A33-1A60-440A-BD23-5C6ECA22BF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18112A33-1A60-440A-BD23-5C6ECA22BF04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C4A94A-F35F-48BC-B791-309EE805BC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C4A94A-F35F-48BC-B791-309EE805BC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C4A94A-F35F-48BC-B791-309EE805BC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C4A94A-F35F-48BC-B791-309EE805BC56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D96877A-40C0-44C4-9FFB-4EFCC1796F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D96877A-40C0-44C4-9FFB-4EFCC1796F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D96877A-40C0-44C4-9FFB-4EFCC1796F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D96877A-40C0-44C4-9FFB-4EFCC1796F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D823F91C-EE20-458F-BA34-72EF86300954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D823F91C-EE20-458F-BA34-72EF86300954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D823F91C-EE20-458F-BA34-72EF86300954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D823F91C-EE20-458F-BA34-72EF86300954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FE9A44-8029-4206-8BC8-AF595BB19A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FE9A44-8029-4206-8BC8-AF595BB19A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FE9A44-8029-4206-8BC8-AF595BB19A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FE9A44-8029-4206-8BC8-AF595BB19A24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E9CC5E-8FA4-45B9-A531-B563D3ADEE13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E9CC5E-8FA4-45B9-A531-B563D3ADEE13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E9CC5E-8FA4-45B9-A531-B563D3ADEE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E9CC5E-8FA4-45B9-A531-B563D3ADEE13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3BB049-4CC9-41B6-B0BB-4C65D9A78F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3BB049-4CC9-41B6-B0BB-4C65D9A78F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3BB049-4CC9-41B6-B0BB-4C65D9A78F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3BB049-4CC9-41B6-B0BB-4C65D9A78F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9687880-2EE5-4B77-9E84-E559A6FBE4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9687880-2EE5-4B77-9E84-E559A6FBE4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9687880-2EE5-4B77-9E84-E559A6FBE4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9687880-2EE5-4B77-9E84-E559A6FBE4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB127EEB-9484-4836-AA8D-96B81D7DB671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB127EEB-9484-4836-AA8D-96B81D7DB671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB127EEB-9484-4836-AA8D-96B81D7DB671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB127EEB-9484-4836-AA8D-96B81D7DB671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD61A7DE-FA32-49D6-B1D8-A3C3F754CA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD61A7DE-FA32-49D6-B1D8-A3C3F754CA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD61A7DE-FA32-49D6-B1D8-A3C3F754CA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD61A7DE-FA32-49D6-B1D8-A3C3F754CA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2B6183-4E88-4C21-A0A0-376B27979114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2B6183-4E88-4C21-A0A0-376B27979114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2B6183-4E88-4C21-A0A0-376B27979114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2B6183-4E88-4C21-A0A0-376B27979114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF52F0A2-2F44-44B2-96FF-0DDF3296D3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF52F0A2-2F44-44B2-96FF-0DDF3296D3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF52F0A2-2F44-44B2-96FF-0DDF3296D3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF52F0A2-2F44-44B2-96FF-0DDF3296D3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AA9462-CBF2-41BF-9626-17D528FDB392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AA9462-CBF2-41BF-9626-17D528FDB392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AA9462-CBF2-41BF-9626-17D528FDB392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AA9462-CBF2-41BF-9626-17D528FDB392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03058A34-E8EA-4A56-B264-872E024FC690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03058A34-E8EA-4A56-B264-872E024FC690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03058A34-E8EA-4A56-B264-872E024FC690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03058A34-E8EA-4A56-B264-872E024FC690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE138B2-447B-4B6A-A12D-0DA84BAB809F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE138B2-447B-4B6A-A12D-0DA84BAB809F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE138B2-447B-4B6A-A12D-0DA84BAB809F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE138B2-447B-4B6A-A12D-0DA84BAB809F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247A18D0-7229-4868-B4D5-5F810F84CBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247A18D0-7229-4868-B4D5-5F810F84CBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247A18D0-7229-4868-B4D5-5F810F84CBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247A18D0-7229-4868-B4D5-5F810F84CBD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 19
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.16.88.11:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = USe.Common.Manager\\USe.Common.Manager.csproj
+		SccProjectName1 = USe.Common.Manager
+		SccLocalPath1 = USe.Common.Manager
+		SccProjectUniqueName2 = MarketDataStore\\MarketDataStore.csproj
+		SccProjectName2 = MarketDataStore
+		SccLocalPath2 = MarketDataStore
+		SccProjectUniqueName3 = TradeRangeManager\\TradeRangeManager.csproj
+		SccProjectName3 = TradeRangeManager
+		SccLocalPath3 = TradeRangeManager
+		SccProjectUniqueName4 = TradeCalendarManager\\TradeCalendarManager.csproj
+		SccProjectName4 = TradeCalendarManager
+		SccLocalPath4 = TradeCalendarManager
+		SccProjectUniqueName5 = USe.CtpOrderQuerier\\USe.CtpOrderQuerier.csproj
+		SccProjectName5 = USe.CtpOrderQuerier
+		SccLocalPath5 = USe.CtpOrderQuerier
+		SccProjectUniqueName6 = CtpInstrumentDownLoad\\CtpInstrumentDownload.csproj
+		SccProjectName6 = CtpInstrumentDownLoad
+		SccLocalPath6 = CtpInstrumentDownLoad
+		SccProjectUniqueName7 = HistoryKLineImport\\HistoryKLineImport.csproj
+		SccProjectName7 = HistoryKLineImport
+		SccLocalPath7 = HistoryKLineImport
+		SccProjectUniqueName8 = MainContractCalculater\\MainContractCalculater.csproj
+		SccProjectName8 = MainContractCalculater
+		SccLocalPath8 = MainContractCalculater
+		SccProjectUniqueName9 = CloseMarketDataDownLoad\\CloseMarketDataDownload.csproj
+		SccProjectName9 = CloseMarketDataDownLoad
+		SccLocalPath9 = CloseMarketDataDownLoad
+		SccProjectUniqueName10 = NoonMarketDataDownload\\NoonMarketDataDownload.csproj
+		SccProjectName10 = NoonMarketDataDownload
+		SccLocalPath10 = NoonMarketDataDownload
+		SccProjectUniqueName11 = SerialContractCalculater\\SerialContractCalculater.csproj
+		SccProjectName11 = SerialContractCalculater
+		SccLocalPath11 = SerialContractCalculater
+		SccProjectUniqueName12 = ContractIndexTestForm\\ContractIndexTestForm.csproj
+		SccProjectName12 = ContractIndexTestForm
+		SccLocalPath12 = ContractIndexTestForm
+		SccProjectUniqueName13 = TempUtilityForm\\TempUtilityForm.csproj
+		SccProjectName13 = TempUtilityForm
+		SccLocalPath13 = TempUtilityForm
+		SccProjectUniqueName14 = MarketDataRecover\\MarketDataRecover.csproj
+		SccProjectName14 = MarketDataRecover
+		SccLocalPath14 = MarketDataRecover
+		SccProjectUniqueName15 = TDXDataConvert\\TDXDataConvert.csproj
+		SccProjectName15 = TDXDataConvert
+		SccLocalPath15 = TDXDataConvert
+		SccProjectUniqueName16 = DataStoreCommon\\DataStoreCommon.csproj
+		SccProjectName16 = DataStoreCommon
+		SccLocalPath16 = DataStoreCommon
+		SccProjectUniqueName17 = OuterMarketDataStore\\OuterMarketDataStore.csproj
+		SccProjectName17 = OuterMarketDataStore
+		SccLocalPath17 = OuterMarketDataStore
+		SccProjectUniqueName18 = RefreashSendimentaryMoney\\RefreashSendimentaryMoney.csproj
+		SccProjectName18 = RefreashSendimentaryMoney
+		SccLocalPath18 = RefreashSendimentaryMoney
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 15
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.16.88.11:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MarketDataStore\\MarketDataStore.csproj
+		SccProjectName1 = MarketDataStore
+		SccLocalPath1 = MarketDataStore
+		SccProjectUniqueName2 = TradeRangeManager\\TradeRangeManager.csproj
+		SccProjectName2 = TradeRangeManager
+		SccLocalPath2 = TradeRangeManager
+		SccProjectUniqueName3 = TradeCalendarManager\\TradeCalendarManager.csproj
+		SccProjectName3 = TradeCalendarManager
+		SccLocalPath3 = TradeCalendarManager
+		SccProjectUniqueName4 = USe.CtpOrderQuerier\\USe.CtpOrderQuerier.csproj
+		SccProjectName4 = USe.CtpOrderQuerier
+		SccLocalPath4 = USe.CtpOrderQuerier
+		SccProjectUniqueName5 = CtpInstrumentDownLoad\\CtpInstrumentDownload.csproj
+		SccProjectName5 = CtpInstrumentDownLoad
+		SccLocalPath5 = CtpInstrumentDownLoad
+		SccProjectUniqueName6 = HistoryKLineImport\\HistoryKLineImport.csproj
+		SccProjectName6 = HistoryKLineImport
+		SccLocalPath6 = HistoryKLineImport
+		SccProjectUniqueName7 = MainContractCalculater\\MainContractCalculater.csproj
+		SccProjectName7 = MainContractCalculater
+		SccLocalPath7 = MainContractCalculater
+		SccProjectUniqueName8 = CloseMarketDataDownLoad\\CloseMarketDataDownload.csproj
+		SccProjectName8 = CloseMarketDataDownLoad
+		SccLocalPath8 = CloseMarketDataDownLoad
+		SccProjectUniqueName9 = NoonMarketDataDownload\\NoonMarketDataDownload.csproj
+		SccProjectName9 = NoonMarketDataDownload
+		SccLocalPath9 = NoonMarketDataDownload
+		SccProjectUniqueName10 = SerialContractCalculater\\SerialContractCalculater.csproj
+		SccProjectName10 = SerialContractCalculater
+		SccLocalPath10 = SerialContractCalculater
+		SccProjectUniqueName11 = ContractIndexTestForm\\ContractIndexTestForm.csproj
+		SccProjectName11 = ContractIndexTestForm
+		SccLocalPath11 = ContractIndexTestForm
+		SccProjectUniqueName12 = USe.Common.Manager\\USe.Common.Manager.csproj
+		SccProjectName12 = USe.Common.Manager
+		SccLocalPath12 = USe.Common.Manager
+		SccProjectUniqueName13 = TempUtilityForm\\TempUtilityForm.csproj
+		SccProjectName13 = TempUtilityForm
+		SccLocalPath13 = TempUtilityForm
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\MarketDataRecover\bin\Debug\MarketDataRecover.exe.config
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\MarketDataRecover\bin\Debug\MarketDataRecover.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\MarketDataRecover\bin\Debug\MarketDataRecover.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\MarketDataRecover\bin\Debug\MySql.Data.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\MarketDataRecover\bin\Debug\USe.TradeDriver.Common.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\MarketDataRecover\bin\Debug\USe.TradeDriver.Common.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\MarketDataRecover\bin\Debug\USe.TradeDriver.Common.xml
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\MarketDataRecover\obj\Debug\MarketDataRecover.Form1.resources
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\MarketDataRecover\obj\Debug\MarketDataRecover.Properties.Resources.resources
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\MarketDataRecover\obj\Debug\MarketDataRecover.csproj.GenerateResource.Cache
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\MarketDataRecover\obj\Debug\MarketDataRecover.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\MarketDataRecover\obj\Debug\MarketDataRecover.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\MarketDataRecover\obj\Debug\MarketDataRecover.csprojResolveAssemblyReference.cache

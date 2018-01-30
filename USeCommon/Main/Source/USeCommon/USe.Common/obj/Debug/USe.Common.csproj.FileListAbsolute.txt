@@ -1,0 +1,5 @@
+C:\USeClient\TFS\USeCommon\Main\Bin\USe.Common.dll
+C:\USeClient\TFS\USeCommon\Main\Bin\USe.Common.pdb
+C:\USeClient\TFS\USeCommon\Main\Bin\USe.Common.XML
+C:\USeClient\TFS\USeCommon\Main\Source\USeCommon\USe.Common\obj\Debug\USe.Common.dll
+C:\USeClient\TFS\USeCommon\Main\Source\USeCommon\USe.Common\obj\Debug\USe.Common.pdb

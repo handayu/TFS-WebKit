@@ -1,0 +1,1660 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>USe.CTPOrderDriver</name>
+    </assembly>
+    <members>
+        <member name="T:USe.TradeDriver.Ctp.CtpOrderDriverElement">
+            <summary>
+            Ctp交易服务器端配置元素定义。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriverElement.Name">
+            <summary>
+            获取或设置配置元素属性name。
+            </summary>
+            <value>
+            name属性值。
+            </value>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriverElement.Address">
+            <summary>
+            获取或设置配置元素属性address。
+            </summary>       
+            <value>
+            address属性值。
+            </value>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriverElement.Port">
+            <summary>
+            获取或设置配置元素属性port。
+            </summary>
+            <value>
+            port属性值。
+            </value>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriverElement.ConnectTimeOut">
+            <summary>
+            获取或设置连接超时时间connectTimeOut。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriverElement.QueryTimeOut">
+            <summary>
+            获取或设置查询超时时间queryTimeOut。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriverElement.DriverTypeCode">
+            <summary>
+            获取或设置交易服务器类型代码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriverElement.DriverType">
+            <summary>
+            获取或设置交易服务器类型。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriverElement.StreamPath">
+            <summary>
+            获取或设置文件流路径streamPath。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpOrderDriverElementCollection">
+            <summary>
+            CtpOrderDriver配置元素集合。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriverElementCollection.ElementName">
+            <summary>
+            配置元素名称, 只读。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriverElementCollection.Item(System.Int32)">
+            <summary>
+            整型索引器。
+            </summary>
+            <param name="index">索引。</param>
+            <returns>CtpOrderDriver配置元素。</returns>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriverElementCollection.Item(System.String)">
+            <summary>
+            字符串名称索引器。
+            </summary>
+            <param name="name">名称。</param>
+            <returns>CtpOrderDriver配置元素。</returns>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriverElementCollection.CollectionType">
+            <summary>
+            集合类型, 只读。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriverElementCollection.CreateNewElement">
+            <summary>
+            创建CtpTradeDriver配置元素对象。
+            </summary>
+            <returns>CtpTradeDirver配置元素对象。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriverElementCollection.GetElementKey(System.Configuration.ConfigurationElement)">
+            <summary>
+            获取指定CtpOrderDriver配置元素的键值。
+            </summary>
+            <param name="element">配置元素。</param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpOrderSection">
+            <summary>
+            Ctp交易服务器配置节定义。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderSection.CtpOrderDrivers">
+            <summary>
+            CtpOrderDrivers配置节集合, 只读。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderSection.GetSection">
+            <summary>
+            获取系统默认配置文件里面的CtpOrderDriver配置节集合。
+            </summary>
+            <returns>CtpOrderDriver配置节。</returns>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpOrderDriver">
+            <summary>
+             CTP交易驱动类。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.#ctor(USe.TradeDriver.Common.USeDriverType,System.String,System.Int32)">
+            <summary>
+            构造CtpOrderDriver实例。
+            </summary>
+            <param name="driverType">服务器环境类型。</param>
+            <param name="address">交易服务器地址。</param>
+            <param name="port">交易服务器端口。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.#ctor(USe.TradeDriver.Common.USeDriverType,System.String,System.Int32,System.String)">
+            <summary>
+            构造CtpOrderDriver实例。
+            </summary>
+            <param name="driverType">服务器环境类型。</param>
+            <param name="address">交易服务器地址。</param>
+            <param name="port">交易服务器端口。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.#ctor(USe.TradeDriver.Common.USeDriverType,System.String,System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            构造CtpOrderDriver实例。
+            </summary>
+            <param name="driverType">服务器环境类型。</param>
+            <param name="address">行情服务器地址。</param>
+            <param name="port">交易服务器端口。</param>
+            <param name="connectTimeOut">连接超时时间。</param>
+            <param name="queryTimeOut">查询超时时间。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.#ctor(USe.TradeDriver.Ctp.CtpOrderSection)">
+            <summary>
+            构造CtpOrderDriver实例。
+            </summary>
+            <param name="section">CtpOrderSection配置节。</param>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriver.DriverName">
+            <summary>
+            驱动名称。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnQueryExpired(System.Object)">
+            <summary>
+            定时查询方法。
+            </summary>
+            <param name="state">与超时事件关联的State对象。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnQueryFeeExpired(USe.TradeDriver.Ctp.CtpQueryFeeInfo)">
+            <summary>
+            定时查询--手续费查询。
+            </summary>
+            <param name="queryInfo"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnQueryMarginExpired(USe.TradeDriver.Ctp.CtpQueryMarginInfo)">
+            <summary>
+            定时查询--保证金查询。
+            </summary>
+            <param name="queryInfo"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnQueryFundExpired(USe.TradeDriver.Ctp.CtpQueryFundInfo)">
+            <summary>
+            定时查询--账户资金查询。
+            </summary>
+            <param name="queryInfo"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnAutoLoginExpired(System.Object)">
+            <summary>
+            自动登录。
+            </summary>
+            <param name="state"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnQueryAccountExpired(System.Object)">
+            <summary>
+            触发定时账户资金查询。
+            </summary>
+            <param name="state"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryAllInstrumentFromCtp">
+            <summary>
+            查询所有合约代码。
+            </summary>
+            <param name="error"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryAllOrderFieldFromCtp">
+             <summary>
+             查询所有委托单明细。
+             </summary>
+            <param name="error">查询结果信息。</param>
+             <returns>查询委托单明细是否成功。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryAllTradeFieldFromCtp">
+             <summary>
+             查询成交回报明细。
+             </summary>
+            <param name="error">查询结果信息。</param>
+             <returns>查询成交回报是否成功。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryInvestorPositionFromCtp">
+             <summary>
+             查询账户持仓信息。
+             </summary>
+            <param name="error">查询结果信息。</param>
+             <returns>查询持仓信息是否成功。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryTradingAccountFromCtp">
+             <summary>
+             查询账户资金。
+             </summary>
+            <param name="error">查询结果信息。</param>
+             <returns>查询账户资金是否成功。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryInvestorBaseInfoFromCtp">
+             <summary>
+             查询账户基本信息
+             </summary>
+            <param name="error">查询结果信息。</param>
+             <returns>查询账户基本信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryCommissionRateFieldFromCtp(System.String)">
+            <summary>
+            从Ctp查询手续费。
+            </summary>
+            <param name="instrumentCode">合约代码。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryMarginFromCtp(System.String)">
+            <summary>
+            从Ctp查询保证金。
+            </summary>
+            <param name="instrumentCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryNeedSettlementInfoConfirmFromCtp">
+            <summary>
+            从Ctp查询是否需要投资者结算信息确认。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QuerySettlementInfoFromCtp(System.String)">
+            <summary>
+            从Ctp查询是否需要投资者结算信息确认。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff">
+            <summary>
+            数据缓冲区域。
+            </summary>
+            <summary>
+            数据缓冲区域。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.LastTradeTime">
+            <summary>
+            最后一笔成交时间。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.InitializeInstrumentInfo(System.Collections.Generic.List{CTPAPI.InstrumentField})">
+            <summary>
+            初始化产品基本信息。
+            </summary>
+            <param name="instruments"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.InitializeData(System.Collections.Generic.List{CTPAPI.OrderField},System.Collections.Generic.List{CTPAPI.TradeField},System.Collections.Generic.List{CTPAPI.InvestorPositionField},CTPAPI.TradingAccountField,CTPAPI.InvestorField)">
+            <summary>
+            初始化DataBuffer。
+            </summary>
+            <param name="orderFields">委托信息。</param>
+            <param name="tradeFields">成交信息。</param>
+            <param name="positonFields">持仓信息。</param>
+            <param name="tradingAccountField">账户信息。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.Clear">
+            <summary>
+            清空数据缓存。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.UpdateInstrumentFee(CTPAPI.InstrumentCommissionRateField,System.String)">
+            <summary>
+            更新合约手续费。
+            </summary>
+            <param name="field">CTP 手续费信息。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.UpdateInstrumentMagin(CTPAPI.InstrumentMarginRateField)">
+            <summary>
+            更新合约保证金。
+            </summary>
+            <param name="field">CTP 保证金信息。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.UpdateTradingAccountInfo(CTPAPI.TradingAccountField)">
+            <summary>
+            更新账户信息。
+            </summary>
+            <param name="field">CTP 账户资金信息。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.UpdateOrderField(CTPAPI.OrderField)">
+            <summary>
+            更新委托回报。
+            </summary>
+            <param name="orderField">CTP委托回报。</param>
+            <returns>委托单号。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.BlankOrder(USe.TradeDriver.Common.USeOrderNum,System.String)">
+            <summary>
+            委托回报作废(下单失败等原因)。
+            </summary>
+            <param name="orderNum">委托单号。</param>
+            <param name="reason">作废原因。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.CancelOrderFaild(USe.TradeDriver.Common.USeOrderNum,System.String)">
+            <summary>
+            委托单撤单失败。
+            </summary>
+            <param name="orderNum">委托单号。</param>
+            <param name="reason">撤单失败原因。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.AddTradeField(CTPAPI.TradeField)">
+            <summary>
+            按先后顺序更新成交回报。
+            </summary>
+            <param name="tradeBook"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.InternalUpdatePositonListByTradeBook(USe.TradeDriver.Common.USeTradeBook)">
+            <summary>
+            更新持仓主表信息。
+            </summary>
+            <param name="tradeBook">成交回报。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.InternalUpdatePositonDetailByTradeBook(USe.TradeDriver.Common.USeTradeBook)">
+            <summary>
+            更新持仓明细信息。
+            </summary>
+            <param name="tradeBook">成交回报。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.InternalUpdateFrozonOrderByTradeBook(USe.TradeDriver.Common.USeTradeBook)">
+            <summary>
+            更新持仓明细信息。
+            </summary>
+            <param name="tradeBook">成交回报。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.InternalCalculatePositionOpenAmount(USe.TradeDriver.Common.USeInstrument,USe.TradeDriver.Common.USeDirection,System.Int32)">
+            <summary>
+            根据建仓明细计算建仓金额。
+            </summary>
+            <param name="instrument">合约。</param>
+            <param name="direction">建仓方向。</param>
+            <param name="holdQty">持仓总手数(此参数无用，只用用来做校验，检查明细和持仓主表手数是否一致)。</param>
+            <returns>建仓金额。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetNextQueryInfo">
+            <summary>
+            获取下一个手续费查询合约。
+            </summary>
+            <returns>合约。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetInstrumnetByCode(System.String)">
+            <summary>
+            根据合约代码获取USeInstrument对象。
+            </summary>
+            <param name="instrumentCode">合约代码。</param>
+            <returns>USeInstrument对象。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetInstrumentDetail">
+            <summary>
+            获取所有合约明细信息。
+            </summary>
+            <returns>合约明细信息列表。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetInstrumentDetail(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            获取指定合约明细信息。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns>合约明细信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetInstrumentDetail(System.String)">
+            <summary>
+            获取指定合约明细信息。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns>合约明细信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetInstrumentDetailByVarieties(System.String)">
+            <summary>
+            查询指定品种合约明细。
+            </summary>
+            <param name="varieties">品种代码。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetProductDetail">
+            <summary>
+            获取品种明细信息。
+            </summary>
+            <returns>品种明细信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetProductDetail(System.String)">
+            <summary>
+            获取品种明细信息。
+            </summary>
+            <param name="productCode">产品代码。</param>
+            <returns>品种明细信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetOrderBook(USe.TradeDriver.Common.USeOrderNum)">
+            <summary>
+            获取指定委托单。
+            </summary>
+            <param name="orderNum">委托单号。</param>
+            <returns>委托单</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetTradeBook(USe.TradeDriver.Common.USeOrderNum,System.String)">
+            <summary>
+            获取指定成交单。
+            </summary>
+            <param name="orderNum">委托单号。</param>
+            <param name="tradeNum">成交编号。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetAllCheckedOrderBook">
+            <summary>
+            获取所有委托单(同成交回报校验后包含成交金额手续费信息的委托单)。
+            </summary>
+            <returns>委托回报列表。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetCheckedOrderBook(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            根据合约获取所有委托回报。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetTradeBook(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            根据合约获取所有成交回报。
+            </summary>
+            <param name="instrument"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetAllTradeBook">
+            <summary>
+            获取所有成交回报。
+            </summary>
+            <returns>成交回报列表。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetAllPosition">
+            <summary>
+            获取所有持仓信息。
+            </summary>
+            <returns>持仓信息列表。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetPosition(USe.TradeDriver.Common.USeInstrument,USe.TradeDriver.Common.USeDirection)">
+            <summary>
+            获取指定合约指定方向持仓。
+            </summary>
+            <param name="instrument">合约。</param>
+            <param name="direction">持仓方向。</param>
+            <returns>持仓信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetAllPositionDetail">
+            <summary>
+            获取所有持仓明细信息。
+            </summary>
+            <returns>持仓明细列表。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetPositionDetail(USe.TradeDriver.Common.USeInstrument,USe.TradeDriver.Common.USeDirection)">
+            <summary>
+            获取指定合约指定持仓方向持仓信息。
+            </summary>
+            <param name="instrument">合约信息。</param>
+            <param name="direction">持仓方向。</param>
+            <returns>持仓明细信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetFund">
+            <summary>
+            获取账户信息。
+            </summary>
+            <returns>账户信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetInvestorBaseInfo">
+            <summary>
+            获取投资者基本信息。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetVolumeMultiple(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            获取合约乘数。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns>合约乘数。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetFee(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            获取合约手续费。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns>手续费信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetMargin(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            获取合约保证金。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns>保证金信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetCheckedOrderBook(USe.TradeDriver.Common.USeOrderNum)">
+            <summary>
+            获取指定委托单号的委托回报
+            </summary>
+            <param name="orderNum">委托单号。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.InternalGetInstrumnetByCode(System.String)">
+            <summary>
+            根据合约代码获取USeInstrument对象。
+            </summary>
+            <param name="instrumentCode">合约代码。</param>
+            <returns>USeInstrument对象。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.InternalGetVolumeMultiple(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            从合约明细列表中读取合约乘数。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns>合约乘数。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.InternalGetFee(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            从手续费列表中读取手续费。
+            </summary>
+            <param name="instrument">合约名称。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.InternalGetMargin(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            从保证金列表中读取保证金。
+            </summary>
+            <param name="instrument"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.InternalGetCheckedOrderBook(USe.TradeDriver.Common.USeOrderNum)">
+            <summary>
+            获取指定委托单号的委托回报
+            </summary>
+            <param name="orderNum">委托单号。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.InternalGetFrozonQty(USe.TradeDriver.Common.USeInstrument,USe.TradeDriver.Common.USeDirection,System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            获取指定合约指定持仓方向冻结仓位。
+            </summary>
+            <param name="orderNum">委托单号。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.SortTradeFieldByTradeTimeAsc(CTPAPI.TradeField,CTPAPI.TradeField)">
+            <summary>
+            按成交时间正向排序。
+            </summary>
+            <param name="detail1"></param>
+            <param name="detail2"></param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.FrozonOrder">
+            <summary>
+            冻结持仓委托单。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.FrozonOrder.#ctor(USe.TradeDriver.Common.USeOrderNum,USe.TradeDriver.Common.USeInstrument,USe.TradeDriver.Common.USeDirection,USe.TradeDriver.Common.USeOffsetType)">
+            <summary>
+            构造FrozonOrder实例。
+            </summary>
+            <param name="orderNum">委托单号。</param>
+            <param name="instrument">合约。</param>
+            <param name="direction">持仓方向。</param>
+            <param name="offsetType">平仓方向。</param>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.FrozonOrder.OrderNum">
+            <summary>
+            委托单号。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.FrozonOrder.Instrument">
+            <summary>
+            合约。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.FrozonOrder.Direction">
+            <summary>
+            冻结仓位方向。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.FrozonOrder.OffsetType">
+            <summary>
+            开平方向。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.FrozonOrder.CloseQty">
+            <summary>
+            平仓量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.FrozonOrder.TradeQty">
+            <summary>
+            成交量。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.CalculateFee(USe.TradeDriver.Common.USeInstrument,USe.TradeDriver.Common.USeOffsetType,System.Int32,System.Decimal)">
+            <summary>
+            计算手续费。
+            </summary>
+            <param name="instrument"></param>
+            <param name="offsetType"></param>
+            <param name="qty"></param>
+            <param name="price"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpDataBuff.GetVarietiesName(System.String)">
+            <summary>
+            获取单品种中文名称。
+            </summary>
+            <param name="instrumentName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.ConnectServer">
+            <summary>
+            连接交易服务器。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.AuthorT(System.String,System.String,System.String,System.String)">
+            <summary>
+            期货公司认证
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.DisConnectServer">
+            <summary>
+            断开交易服务器。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.Login(System.String,System.String,System.String)">
+            <summary>
+            登录交易服务器。
+            </summary>
+            <param name="brokerId">经纪商ID。</param>
+            <param name="account">帐号。</param>
+            <param name="password">密码。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.Logout">
+            <summary>
+            登出交易服务器。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.SettlementInfoConfirm">
+            <summary>
+            结算单确认。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.GetSettlementInfo(System.String)">
+            <summary>
+            获取确认结算单。
+            </summary>
+            <returns>确认结算单信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryInvestorInfo">
+            <summary>
+            查询投资者基本信息。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryInstrumentDetail">
+            <summary>
+            查询所有期货合约详细信息。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryInstrumentDetail(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            查询指定合约详细信息。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns>合约详细信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryInstrumentDetail(System.String)">
+            <summary>
+            查询指定品种的所有合约详细信息。
+            </summary>
+            <param name="varieties">品种类型。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryProductDetails">
+            <summary>
+            查询所有产品信息。
+            </summary>
+            <returns>产品信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryProductDetail(System.String)">
+            <summary>
+            查询产品信息。
+            </summary>
+            <param name="productCode">产品代码。</param>
+            <returns>产品信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryProducts">
+            <summary>
+            查询所有产品信息。
+            </summary>
+            <returns>产品信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryProduct(System.String)">
+            <summary>
+            查询产品信息。
+            </summary>
+            <param name="productCode">产品代码。</param>
+            <returns>产品信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryInstrumentVolumeMultiple(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            查询合约的合约乘数。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns>合约乘数。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryInstrumentFee(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            查询合约手续费。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryInstrumentMargin(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            查询合约保证金。
+            </summary>
+            <param name="instrument"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryOrderBooks">
+            <summary>
+            查询当日所有委托回报。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryOrderBook(USe.TradeDriver.Common.USeOrderNum)">
+            <summary>
+            查询指定委托单号的委托回报。
+            </summary>
+            <param name="orderNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryTradeBooks">
+            <summary>
+            查询当日所有成交回报。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryPositions">
+            <summary>
+            查询当日所有持仓。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryPositions(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            查询某一合约当前持仓。
+            </summary>
+            <param name="product">产品。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryPositions(USe.TradeDriver.Common.USeInstrument,USe.TradeDriver.Common.USeDirection)">
+            <summary>
+            查询某一合约指定方向当前持仓。
+            </summary>
+            <param name="product"></param>
+            <param name="direction"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryPositionDetail">
+            <summary>
+            查询持仓明细。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryFundInfo">
+            <summary>
+            查询账户信息。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.QueryFundDetailInfo">
+            <summary>
+            查询帐户详细资金信息。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.PlaceOrder(USe.TradeDriver.Common.USeInstrument,System.Int32,System.Decimal,USe.TradeDriver.Common.USeOffsetType,USe.TradeDriver.Common.USeOrderSide,System.String@)">
+            <summary>
+            委托下单。
+            </summary>
+            <param name="instrument">委托产品。</param>
+            <param name="qty">委托量。</param>
+            <param name="price">委托价格。</param>
+            <param name="offsetType">开平仓方向。</param>
+            <param name="orderSide">买卖方向。</param>
+            <param name="error">[out]委托失败原因。</param>
+            <returns>委托单号。</returns>
+            <remarks>返回为null代表失败,否则为委托单号。</remarks>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CancelOrder(USe.TradeDriver.Common.USeOrderNum,USe.TradeDriver.Common.USeInstrument,System.String@)">
+            <summary>
+            撤单。
+            </summary>
+            <param name="orderNum">委托单号。</param>
+            <param name="product">委托产品。</param>
+            <param name="error">[out]撤单失败错误信息。</param>
+            <returns>撤单是否成功。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.ModifyPassword(System.String,System.String,System.String@)">
+            <summary>
+            修改密码。
+            </summary>
+            <param name="oldPasswrod">旧密码。</param>
+            <param name="newPassword">新密码。</param>
+            <returns>修改密码是否成功。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnFrontConnect">
+            <summary>
+            与前置机连接成功时的回调方法。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnFrontDisconnect(System.Int32)">
+            <summary>
+            与前置机连接中断时的回调方法。
+            </summary>
+            <param name="reason">连接中断的原因，参见CTP API文档。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnFrontHeartbeatWarning(System.Int32)">
+            <summary>
+            与前置机连接的心跳超时时的回调方法。
+            </summary>
+            <param name="elapsed">距离上次接收报文的间隔时间。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspError(System.Nullable{CTPAPI.RspInfoField}@,System.Int32,System.Boolean)">
+            <summary>
+            与指定编号的请求对应的报告错误应答。
+            </summary>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspAuthenticate(System.Nullable{CTPAPI.RspAuthenticateField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            客户端认证响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspUserLogin(System.Nullable{CTPAPI.RspUserLoginField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            登录请求响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspUserLogout(System.Nullable{CTPAPI.UserLogoutField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            登出请求响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspUserPasswordUpdate(System.Nullable{CTPAPI.UserPasswordUpdateField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            用户口令更新请求响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspTradingAccountPasswordUpdate(System.Nullable{CTPAPI.TradingAccountPasswordUpdateField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            资金账户口令更新请求响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspOrderInsert(System.Nullable{CTPAPI.InputOrderField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            报单录入请求响应(Thost报单拒绝)。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspOrderAction(System.Nullable{CTPAPI.InputOrderActionField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            报单操作请求响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspParkedOrderInsert(System.Nullable{CTPAPI.ParkedOrderField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            预埋单录入请求响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspParkedOrderAction(System.Nullable{CTPAPI.ParkedOrderActionField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            预埋撤单录入请求响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspRemoveParkedOrder(System.Nullable{CTPAPI.RemoveParkedOrderField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            删除预埋单响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspRemoveParkedOrderAction(System.Nullable{CTPAPI.RemoveParkedOrderActionField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            删除预埋撤单响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQueryMaxOrderVolume(System.Nullable{CTPAPI.QueryMaxOrderVolumeField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            查询最大报单数量响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspSettlementInfoConfirm(System.Nullable{CTPAPI.SettlementInfoConfirmField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            投资者结算结果确认响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryOrder(System.Nullable{CTPAPI.OrderField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询报单响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryTrade(System.Nullable{CTPAPI.TradeField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询成交响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryInvestorPosition(System.Nullable{CTPAPI.InvestorPositionField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询投资者持仓响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryTradingAccount(System.Nullable{CTPAPI.TradingAccountField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询资金账户响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryInvestor(System.Nullable{CTPAPI.InvestorField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询投资者响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryTradingCode(System.Nullable{CTPAPI.TradingCodeField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询交易编码响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryInstrumentMarginRate(System.Nullable{CTPAPI.InstrumentMarginRateField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询合约保证金率响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryInstrumentCommissionRate(System.Nullable{CTPAPI.InstrumentCommissionRateField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询合约手续费率响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryExchange(System.Nullable{CTPAPI.ExchangeField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询交易所响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryInstrument(System.Nullable{CTPAPI.InstrumentField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询合约响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryDepthMarketData(System.Nullable{CTPAPI.DepthMarketDataField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询行情响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQrySettlementInfo(System.Nullable{CTPAPI.SettlementInfoField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询投资者结算结果响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryTransferBank(System.Nullable{CTPAPI.TransferBankField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询转帐银行响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryInvestorPositionDetail(System.Nullable{CTPAPI.InvestorPositionDetailField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询投资者持仓明细响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryNotice(System.Nullable{CTPAPI.NoticeField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询客户通知。响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQrySettlementInfoConfirm(System.Nullable{CTPAPI.SettlementInfoConfirmField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询结算信息确认响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryInvestorPositionCombineDetail(System.Nullable{CTPAPI.InvestorPositionCombineDetailField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询投资者持仓明细响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryCFMMCTradingAccountKey(System.Nullable{CTPAPI.CFMMCTradingAccountKeyField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            查询保证金监管系统经纪公司资金账户密钥响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryEWarrantOffset(System.Nullable{CTPAPI.EWarrantOffsetField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询仓单折抵信息响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryTransferSerial(System.Nullable{CTPAPI.TransferSerialField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询转帐流水响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryAccountRegister(System.Nullable{CTPAPI.AccountRegisterField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询银期签约关系响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryContractBank(System.Nullable{CTPAPI.ContractBankField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询签约银行响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryParkedOrder(System.Nullable{CTPAPI.ParkedOrderField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询预埋单响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryParkedOrderAction(System.Nullable{CTPAPI.ParkedOrderActionField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询预埋撤单响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryTradingNotice(System.Nullable{CTPAPI.TradingNoticeField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询交易通知响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryBrokerTradingParams(System.Nullable{CTPAPI.BrokerTradingParamsField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询经纪公司交易参数响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQryBrokerTradingAlgos(System.Nullable{CTPAPI.BrokerTradingAlgosField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            请求查询经纪公司交易算法响应。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspFromBankToFutureByFuture(System.Nullable{CTPAPI.ReqTransferField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            期货发起银行资金转期货应答。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspFromFutureToBankByFuture(System.Nullable{CTPAPI.ReqTransferField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            期货发起期货资金转银行应答。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRspQueryBankAccountMoneyByFuture(System.Nullable{CTPAPI.ReqQueryAccountField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            期货发起查询银行余额应答。
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnOrder(System.Nullable{CTPAPI.OrderField}@)">
+            <summary>
+            报单通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnTrade(System.Nullable{CTPAPI.TradeField}@)">
+            <summary>
+            成交通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnErrRtnOrderInsert(System.Nullable{CTPAPI.InputOrderField}@,CTPAPI.RspInfoField@)">
+            <summary>
+            报单录入错误回报。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnErrRtnOrderAction(System.Nullable{CTPAPI.OrderActionField}@,CTPAPI.RspInfoField@)">
+            <summary>
+            报单操作错误回报。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnInstrumentStatus(System.Nullable{CTPAPI.InstrumentStatusField}@)">
+            <summary>
+            合约交易状态通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnTradingNotice(System.Nullable{CTPAPI.TradingNoticeInfoField}@)">
+            <summary>
+            交易通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnErrorConditionalOrder(System.Nullable{CTPAPI.ErrorConditionalOrderField}@)">
+            <summary>
+            提示条件单校验错误。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnFromBankToFutureByBank(System.Nullable{CTPAPI.RspTransferField}@)">
+            <summary>
+            银行发起银行资金转期货通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnFromFutureToBankByBank(System.Nullable{CTPAPI.RspTransferField}@)">
+            <summary>
+            银行发起期货资金转银行通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnRepealFromBankToFutureByBank(System.Nullable{CTPAPI.RspRepealField}@)">
+            <summary>
+            银行发起冲正银行转期货通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnRepealFromFutureToBankByBank(System.Nullable{CTPAPI.RspRepealField}@)">
+            <summary>
+            银行发起冲正期货转银行通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnFromBankToFutureByFuture(System.Nullable{CTPAPI.RspTransferField}@)">
+            <summary>
+            期货发起银行资金转期货通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnFromFutureToBankByFuture(System.Nullable{CTPAPI.RspTransferField}@)">
+            <summary>
+            期货发起期货资金转银行通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnRepealFromBankToFutureByFutureManual(System.Nullable{CTPAPI.RspRepealField}@)">
+            <summary>
+            系统运行时期货端手工发起冲正银行转期货请求，银行处理完毕后报盘发回的通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnRepealFromFutureToBankByFutureManual(System.Nullable{CTPAPI.RspRepealField}@)">
+            <summary>
+            系统运行时期货端手工发起冲正期货转银行请求，银行处理完毕后报盘发回的通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnQueryBankBalanceByFuture(System.Nullable{CTPAPI.NotifyQueryAccountField}@)">
+            <summary>
+            期货发起查询银行余额通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnErrRtnBankToFutureByFuture(System.Nullable{CTPAPI.ReqTransferField}@,CTPAPI.RspInfoField@)">
+            <summary>
+            期货发起银行资金转期货错误回报。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnErrRtnFutureToBankByFuture(System.Nullable{CTPAPI.ReqTransferField}@,CTPAPI.RspInfoField@)">
+            <summary>
+            期货发起期货资金转银行错误回报。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnErrRtnRepealBankToFutureByFutureManual(System.Nullable{CTPAPI.ReqRepealField}@,CTPAPI.RspInfoField@)">
+            <summary>
+            系统运行时期货端手工发起冲正银行转期货错误回报。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnErrRtnRepealFutureToBankByFutureManual(System.Nullable{CTPAPI.ReqRepealField}@,CTPAPI.RspInfoField@)">
+            <summary>
+            系统运行时期货端手工发起冲正期货转银行错误回报。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnErrRtnQueryBankBalanceByFuture(System.Nullable{CTPAPI.ReqQueryAccountField}@,CTPAPI.RspInfoField@)">
+            <summary>
+            期货发起查询银行余额错误回报。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnRepealFromBankToFutureByFuture(System.Nullable{CTPAPI.RspRepealField}@)">
+            <summary>
+            期货发起冲正银行转期货请求，银行处理完毕后报盘发回的通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnRepealFromFutureToBankByFuture(System.Nullable{CTPAPI.RspRepealField}@)">
+            <summary>
+            期货发起冲正期货转银行请求，银行处理完毕后报盘发回的通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnOpenAccountByBank(System.Nullable{CTPAPI.OpenAccountField}@)">
+            <summary>
+            银行发起银期开户通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnCancelAccountByBank(System.Nullable{CTPAPI.CancelAccountField}@)">
+            <summary>
+            银行发起银期销户通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.OnRtnChangeAccountByBank(System.Nullable{CTPAPI.ChangeAccountField}@)">
+            <summary>
+            银行发起变更银行账号通知。
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpInstrumentFieldToUSeInstrumentDetail(CTPAPI.InstrumentField)">
+            <summary>
+            CTP InstrumentField To USeInstrumentDetail。
+            </summary>
+            <param name="filed"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpOrderFieldToUSeOrderBook(CTPAPI.OrderField)">
+            <summary>
+            CTP OrderField To USeOrderBook。
+            </summary>
+            <param name="field"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpTradeFieldToUSeTradeBook(CTPAPI.TradeField)">
+            <summary>
+            CTP TradeField To USeTradeBook。
+            </summary>
+            <param name="field"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpInvestorPositonFieldToUSePosition(CTPAPI.InvestorPositionField)">
+            <summary>
+            CTP InvestorPositionField To USePosition。
+            </summary>
+            <param name="field"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpInvestorPositonFieldToUSePositionDetail(CTPAPI.InvestorPositionField)">
+            <summary>
+            CTP InvestorPositionField To USePositionDetail,
+            (注 :此方法只是针对有昨日持仓的持仓信息来构造USePositionDetail。
+            </summary>
+            <param name="field"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpTradingAccountFieldToUSeFund(CTPAPI.TradingAccountField)">
+            <summary>
+            CTP InvestorPositionField To USePosition。
+            </summary>
+            <param name="field"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpInvestorFieldToUSeInvestorBaseInfo(CTPAPI.InvestorField)">
+            <summary>
+            POS PosInvestor field To USeInvestorBaseInfo。
+            </summary>
+            <param name="field"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpTradingAccountFieldToUSeFundDetail(CTPAPI.TradingAccountField)">
+            <summary>
+            CTP InvestorPositionField To USeFundDetail。
+            </summary>
+            <param name="field"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpInstrumentCommissionRateFieldToUSeFeeInfo(CTPAPI.InstrumentCommissionRateField)">
+            <summary>
+            CTP InstrumentCommissionRateField To USeFee。
+            </summary>
+            <param name="field"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CtpMarginRateFieldToUSeProductMarginInfo(CTPAPI.InstrumentMarginRateField)">
+            <summary>
+            CTP InstrumentMarginRateField To USeMargin。
+            </summary>
+            <param name="field"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderDriver.CalculateMargin(USe.TradeDriver.Common.USeInstrument,USe.TradeDriver.Common.USeDirection,System.Int32,System.Decimal)">
+            <summary>
+            计算保证金。
+            </summary>
+            <param name="instrument">合约。</param>
+            <param name="direction">方向。</param>
+            <param name="qty">数量。</param>
+            <param name="price">价格。</param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpOrderNum">
+            <summary>
+            Ctp委托单号定义。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderNum.#ctor(System.Int32,System.Int32,System.String)">
+            <summary>
+            构造CtpOrderNum实例。
+            </summary>
+            <param name="frontID">前置编号。</param>
+            <param name="sessionID">会话编号。</param>
+            <param name="orderRef">报单引用。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderNum.#ctor(System.String,System.String)">
+            <summary>
+            构造CtpOrderNum实例。
+            </summary>
+            <param name="exchangeID">交易所代码。</param>
+            <param name="orderSysID">报单编号。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderNum.#ctor(System.Int32,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            构造CtpOrderNum实例。
+            </summary>
+            <param name="frontID">前置编号。</param>
+            <param name="sessionID">会话编号。</param>
+            <param name="orderRef">报单引用。</param>
+            <param name="exchangeID">交易所代码。</param>
+            <param name="orderSysID">报单编号。</param>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderNum.FrontID">
+            <summary>
+            前置编号。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderNum.SessionID">
+            <summary>
+            会话编号。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderNum.OrderRef">
+            <summary>
+            报单引用。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderNum.ExchangeID">
+            <summary>
+            交易所代码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderNum.OrderSysID">
+            <summary>
+            报单编号。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpOrderNum.OrderString">
+            <summary>
+            委托单字符串。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpOrderNum.Clone">
+            <summary>
+            克隆CtpOrderNum对象。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpOrderNumComparer">
+            <summary>
+            Ctp委托单号比较器。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpProtocol">
+            <summary>
+            CTP相关常数、公共方法等的定义。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpProtocol.FtdcExchangeToUSeMarket(System.String)">
+            <summary>
+            Ctp市场转换为USe市场。
+            </summary>
+            <param name="ctpExchange"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpProtocol.USeMarketToFtdcExchange(USe.TradeDriver.Common.USeMarket)">
+            <summary>
+            USe市场转换为Ctp市场。
+            </summary>
+            <param name="market"></param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpQueryInfo">
+            <summary>
+            Ctp查询信息。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQueryInfo.QueryType">
+            <summary>
+            查询数据类型。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpQueryMarginInfo">
+            <summary>
+            Ctp保证金查询。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQueryMarginInfo.InstrumentCode">
+            <summary>
+            合约代码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQueryMarginInfo.QueryType">
+            <summary>
+            查询数据类型。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpQueryFeeInfo">
+            <summary>
+            Ctp手续费查询。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQueryFeeInfo.InstrumentCode">
+            <summary>
+            合约代码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQueryFeeInfo.QueryType">
+            <summary>
+            查询数据类型。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpQueryFundInfo">
+            <summary>
+            Ctp查询。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQueryFundInfo.QueryType">
+            <summary>
+            查询数据类型。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpQueryType">
+            <summary>
+            查询数据类型。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Ctp.CtpQueryType.Fee">
+            <summary>
+            手续费。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Ctp.CtpQueryType.Margin">
+            <summary>
+            保证金。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Ctp.CtpQueryType.Fund">
+            <summary>
+            账户资金。
+            </summary>
+        </member>
+    </members>
+</doc>

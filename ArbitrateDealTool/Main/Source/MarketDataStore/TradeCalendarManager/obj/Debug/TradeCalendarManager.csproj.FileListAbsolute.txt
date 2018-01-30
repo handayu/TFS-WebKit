@@ -1,0 +1,11 @@
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeCalendarManager\bin\Debug\TradeCalendarManager.exe.config
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeCalendarManager\bin\Debug\TradeCalendarManager.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeCalendarManager\bin\Debug\TradeCalendarManager.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeCalendarManager\bin\Debug\MySql.Data.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeCalendarManager\bin\Debug\USe.Common.AppLogger.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeCalendarManager\bin\Debug\USe.Common.TradingDay.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeCalendarManager\bin\Debug\USe.Common.AppLogger.xml
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeCalendarManager\bin\Debug\USe.Common.TradingDay.xml
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeCalendarManager\obj\Debug\TradeCalendarManager.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeCalendarManager\obj\Debug\TradeCalendarManager.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TradeCalendarManager\obj\Debug\TradeCalendarManager.csprojResolveAssemblyReference.cache

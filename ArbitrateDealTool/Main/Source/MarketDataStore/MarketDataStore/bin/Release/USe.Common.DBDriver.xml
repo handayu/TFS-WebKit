@@ -1,0 +1,635 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>USe.Common.DBDriver</name>
+    </assembly>
+    <members>
+        <member name="T:USe.Common.DBDriver.AccessDriver">
+            <summary>
+            Access数据库访问类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessDriver.Connect">
+            <summary>
+            连接数据库。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessDriver.Command(System.String)">
+            <summary>
+            执行无返回信息的行的SQL，如insert,update,delete返回受影响的行数。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessDriver.ExeScalar(System.String)">
+            <summary>
+            执行带返回结果的SQL。
+            </summary>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessDriver.Query(System.String)">
+            <summary>
+            执行SQL语句进行查询，返回的行在本类中的reader中
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessDriver.QueryDataSet(System.String)">
+            <summary>
+            执行SQL将数据存入myDataSet
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessDriver.Commit">
+            <summary>
+            采用事务处理方式时，确定提交数据
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessDriver.Rollback">
+            <summary>
+            采用事务处理方式时，发生错误，进行数据回滚
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessDriver.Dispose">
+            <summary>
+            对SqlServerDriver类中的资源释放
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessDriver.GetTableFromDB(System.String,System.String)">
+            <summary>
+            查询数据。
+            </summary>
+            <param name="strConn"></param>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessDriver.GetDataFromDB(System.String,System.String)">
+            <summary>
+            查询数据。
+            </summary>
+            <param name="strConn"></param>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessDriver.UpdateDatabase(System.String,System.String)">
+            <summary>
+            更新数据库。
+            </summary>
+            <param name="strConn"></param>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessDriver.UpdateDatabaseWithResult(System.String,System.String)">
+            <summary>
+            更新数据库,并且有返回值。
+            </summary>
+            <param name="strConn"></param>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessDriver.ExcuteTransCommand(System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            事务执行命令集合。
+            </summary>
+            <param name="commond"></param>
+        </member>
+        <member name="T:USe.Common.DBDriver.DBField">
+            <summary>
+            数据库字段定义。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBField.#ctor(System.String,System.Int32)">
+            <summary>
+            构造函数。
+            </summary>
+            <param name="fieldName">字段名称。</param>
+            <param name="fieldValue">字段值。</param>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBField.#ctor(System.String,System.Int32,System.Boolean)">
+            <summary>
+            构造函数。
+            </summary>
+            <param name="fieldName">字段名称。</param>
+            <param name="fieldValue">字段值。</param>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBField.#ctor(System.String,System.Double)">
+            <summary>
+            构造函数。
+            </summary>
+            <param name="fieldName">字段名称。</param>
+            <param name="fieldValue">字段值。</param>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBField.#ctor(System.String,System.Double,System.Boolean)">
+            <summary>
+            构造函数。
+            </summary>
+            <param name="fieldName">字段名称。</param>
+            <param name="fieldValue">字段值。</param>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBField.#ctor(System.String,System.Single)">
+            <summary>
+            构造函数。
+            </summary>
+            <param name="fieldName">字段名称。</param>
+            <param name="fieldValue">字段值。</param>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBField.#ctor(System.String,System.Single,System.Boolean)">
+            <summary>
+            构造函数。
+            </summary>
+            <param name="fieldName">字段名称。</param>
+            <param name="fieldValue">字段值。</param>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBField.#ctor(System.String,System.Decimal)">
+            <summary>
+            构造函数。
+            </summary>
+            <param name="fieldName">字段名称。</param>
+            <param name="fieldValue">字段值。</param>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBField.#ctor(System.String,System.Decimal,System.Boolean)">
+            <summary>
+            构造函数。
+            </summary>
+            <param name="fieldName">字段名称。</param>
+            <param name="fieldValue">字段值。</param>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBField.#ctor(System.String,System.String)">
+            <summary>
+            构造函数。
+            </summary>
+            <param name="fieldName">字段名称。</param>
+            <param name="fieldValue">字段值。</param>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBField.#ctor(System.String,System.String,System.Boolean)">
+            <summary>
+            构造函数。
+            </summary>
+            <param name="fieldName">字段名称。</param>
+            <param name="fieldValue">字段值。</param>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBField.#ctor(System.String,System.DateTime,USe.Common.DBDriver.DatetimeType)">
+            <summary>
+            构造函数。
+            </summary>
+            <param name="fieldName">字段名称。</param>
+            <param name="fieldValue">字段值。</param>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBField.#ctor(System.String,System.DateTime,USe.Common.DBDriver.DatetimeType,System.Boolean)">
+            <summary>
+            构造函数。
+            </summary>
+            <param name="fieldName">字段名称。</param>
+            <param name="fieldValue">字段值。</param>
+        </member>
+        <member name="P:USe.Common.DBDriver.DBField.FieldName">
+            <summary>
+            字段名称。
+            </summary>
+        </member>
+        <member name="P:USe.Common.DBDriver.DBField.FieldValue">
+            <summary>
+            字段值。
+            </summary>
+        </member>
+        <member name="P:USe.Common.DBDriver.DBField.WithQuote">
+            <summary>
+            插入数据库是否带'。
+            </summary>
+        </member>
+        <member name="T:USe.Common.DBDriver.DatetimeType">
+            <summary>
+            日期字串类型。
+            </summary>
+        </member>
+        <member name="F:USe.Common.DBDriver.DatetimeType.Date">
+            <summary>
+            日期。
+            </summary>
+        </member>
+        <member name="F:USe.Common.DBDriver.DatetimeType.Time">
+            <summary>
+            日期+时间。
+            </summary>
+        </member>
+        <member name="F:USe.Common.DBDriver.DatetimeType.LongTime">
+            <summary>
+            带毫秒时间。
+            </summary>
+        </member>
+        <member name="T:USe.Common.DBDriver.DBSqlCreator">
+            <summary>
+            数据库SQL语句生成类。
+            </summary>
+        </member>
+        <member name="P:USe.Common.DBDriver.DBSqlCreator.CreatorName">
+            <summary>
+            Creator名称。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBSqlCreator.CreateInsertSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField})">
+            <summary>
+            创建Insert语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="insertFields">插入字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBSqlCreator.CreateInsertSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField},System.Boolean)">
+            <summary>
+            创建Insert语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="insertFields">插入字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBSqlCreator.CreateUpdateSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField},System.Collections.Generic.List{USe.Common.DBDriver.DBField})">
+            <summary>
+            创建Update语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="updateFields">更新字段。</param>
+            <param name="keyFields">关键字字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBSqlCreator.CreateDeleteSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField})">
+            <summary>
+            创建Delete语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="keyFields">关键字字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBSqlCreator.GetWhereConditionSql(System.Collections.Generic.List{System.String})">
+            <summary>
+            获取Where查询条件。
+            </summary>
+            <param name="queryFields"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.DBSqlCreator.CreateDBSqlCreator(System.String)">
+            <summary>
+            创建SQL语句创建者。
+            </summary>
+            <param name="creatorName">创建者名称。</param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.Common.DBDriver.AccessSqlCreator">
+            <summary>
+            Access数据库SQL语句生成类。
+            </summary>
+        </member>
+        <member name="P:USe.Common.DBDriver.AccessSqlCreator.CreatorName">
+            <summary>
+            创建者名称。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessSqlCreator.CreateInsertSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField})">
+            <summary>
+            创建Insert语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="insertFields">插入字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessSqlCreator.CreateInsertSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField},System.Boolean)">
+            <summary>
+            创建Insert语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="insertFields">插入字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessSqlCreator.CreateUpdateSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField},System.Collections.Generic.List{USe.Common.DBDriver.DBField})">
+            <summary>
+            创建Update语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="updateFields">更新字段。</param>
+            <param name="keyFields">关键字字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessSqlCreator.CreateDeleteSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField})">
+            <summary>
+            创建Delete语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="keyFields">关键字字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.AccessSqlCreator.GetWhereConditionSql(System.Collections.Generic.List{System.String})">
+            <summary>
+            获取Where查询条件。
+            </summary>
+            <param name="queryFields"></param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.Common.DBDriver.MySQLSqlCreator">
+            <summary>
+            SQLServer数据库SQL语句生成类。
+            </summary>
+        </member>
+        <member name="P:USe.Common.DBDriver.MySQLSqlCreator.CreatorName">
+            <summary>
+            创建者名称。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLSqlCreator.CreateInsertSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField})">
+            <summary>
+            创建Insert语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="insertFields">插入字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLSqlCreator.CreateInsertSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField},System.Boolean)">
+            <summary>
+            创建Insert语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="insertFields">插入字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLSqlCreator.CreateUpdateSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField},System.Collections.Generic.List{USe.Common.DBDriver.DBField})">
+            <summary>
+            创建Update语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="updateFields">更新字段。</param>
+            <param name="keyFields">关键字字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLSqlCreator.CreateDeleteSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField})">
+            <summary>
+            创建Delete语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="keyFields">关键字字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLSqlCreator.GetWhereConditionSql(System.Collections.Generic.List{System.String})">
+            <summary>
+            获取Where查询条件。
+            </summary>
+            <param name="queryFields"></param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.Common.DBDriver.SQLServerSqlCreator">
+            <summary>
+            SQLServer数据库SQL语句生成类。
+            </summary>
+        </member>
+        <member name="P:USe.Common.DBDriver.SQLServerSqlCreator.CreatorName">
+            <summary>
+            创建者名称。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerSqlCreator.CreateInsertSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField})">
+            <summary>
+            创建Insert语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="insertFields">插入字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerSqlCreator.CreateInsertSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField},System.Boolean)">
+            <summary>
+            创建Insert语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="insertFields">插入字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerSqlCreator.CreateUpdateSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField},System.Collections.Generic.List{USe.Common.DBDriver.DBField})">
+            <summary>
+            创建Update语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="updateFields">更新字段。</param>
+            <param name="keyFields">关键字字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerSqlCreator.CreateDeleteSql(System.String,System.String,System.Collections.Generic.List{USe.Common.DBDriver.DBField})">
+            <summary>
+            创建Delete语句。
+            </summary>
+            <param name="dbName">数据库名称。</param>
+            <param name="tableName">数据库表名。</param>
+            <param name="keyFields">关键字字段。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerSqlCreator.GetWhereConditionSql(System.Collections.Generic.List{System.String})">
+            <summary>
+            获取Where查询条件。
+            </summary>
+            <param name="queryFields"></param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.Common.DBDriver.DBTranType">
+            <summary>
+            事务处理方式。
+            </summary>
+        </member>
+        <member name="F:USe.Common.DBDriver.DBTranType.Transaction">
+            <summary>
+            事务方式。
+            </summary>
+        </member>
+        <member name="F:USe.Common.DBDriver.DBTranType.NoTransaction">
+            <summary>
+            非事务方式。
+            </summary>
+        </member>
+        <member name="T:USe.Common.DBDriver.MySQLDriver">
+            <summary>
+            MySql数据库访问类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLDriver.Connect">
+            <summary>
+            连接数据库。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLDriver.Command(System.String)">
+            <summary>
+            执行无返回信息的行的SQL，如insert,update,delete返回受影响的行数。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLDriver.Command(System.String,System.Collections.Generic.List{MySql.Data.MySqlClient.MySqlParameter})">
+            <summary>
+            执行无返回信息的行的SQL，如insert,update,delete返回受影响的行数。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLDriver.ExeScalar(System.String)">
+            <summary>
+            执行带返回结果的SQL。
+            </summary>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLDriver.Query(System.String)">
+            <summary>
+            执行SQL语句进行查询，返回的行在本类中的reader中
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLDriver.QueryDataSet(System.String)">
+            <summary>
+            执行SQL将数据存入myDataSet
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLDriver.Commit">
+            <summary>
+            采用事务处理方式时，确定提交数据
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLDriver.Rollback">
+            <summary>
+            采用事务处理方式时，发生错误，进行数据回滚
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLDriver.Dispose">
+            <summary>
+            对SqlServerDriver类中的资源释放
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLDriver.GetTableFromDB(System.String,System.String)">
+            <summary>
+            查询数据。
+            </summary>
+            <param name="strConn"></param>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLDriver.GetDataFromDB(System.String,System.String)">
+            <summary>
+            查询数据。
+            </summary>
+            <param name="strConn"></param>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLDriver.UpdateDatabase(System.String,System.String)">
+            <summary>
+            更新数据库。
+            </summary>
+            <param name="strConn"></param>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLDriver.UpdateDatabaseWithResult(System.String,System.String)">
+            <summary>
+            更新数据库,并且有返回值。
+            </summary>
+            <param name="strConn"></param>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.MySQLDriver.ExcuteTransCommand(System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            事务执行命令集合。
+            </summary>
+            <param name="commond"></param>
+        </member>
+        <member name="T:USe.Common.DBDriver.SQLServerDriver">
+            <summary>
+            SqlServer数据库访问类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerDriver.Connect">
+            <summary>
+            连接数据库。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerDriver.Command(System.String)">
+            <summary>
+            执行无返回信息的行的SQL，如insert,update,delete返回受影响的行数。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerDriver.Command(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+            <summary>
+            执行无返回信息的行的SQL，如insert,update,delete返回受影响的行数。
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerDriver.ExeScalar(System.String)">
+            <summary>
+            执行带返回结果的SQL。
+            </summary>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerDriver.Query(System.String)">
+            <summary>
+            执行SQL语句进行查询，返回的行在本类中的reader中
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerDriver.QueryDataSet(System.String)">
+            <summary>
+            执行SQL将数据存入myDataSet
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerDriver.Commit">
+            <summary>
+            采用事务处理方式时，确定提交数据
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerDriver.Rollback">
+            <summary>
+            采用事务处理方式时，发生错误，进行数据回滚
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerDriver.Dispose">
+            <summary>
+            对SqlServerDriver类中的资源释放
+            </summary>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerDriver.GetTableFromDB(System.String,System.String)">
+            <summary>
+            查询数据。
+            </summary>
+            <param name="strConn"></param>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerDriver.GetDataFromDB(System.String,System.String)">
+            <summary>
+            查询数据。
+            </summary>
+            <param name="strConn"></param>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerDriver.UpdateDatabase(System.String,System.String)">
+            <summary>
+            更新数据库。
+            </summary>
+            <param name="strConn"></param>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerDriver.UpdateDatabaseWithResult(System.String,System.String)">
+            <summary>
+            更新数据库,并且有返回值。
+            </summary>
+            <param name="strConn"></param>
+            <param name="strSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.DBDriver.SQLServerDriver.ExcuteTransCommand(System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            事务执行命令集合。
+            </summary>
+            <param name="commond"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>USe.Common.TradingDay</name>
+    </assembly>
+    <members>
+        <member name="T:USe.Common.TradingDay.TradeCalendar">
+            <summary>
+            交易日历。
+            </summary>
+        </member>
+        <member name="M:USe.Common.TradingDay.TradeCalendar.#ctor">
+            <summary>
+            交易日历。
+            </summary>
+        </member>
+        <member name="M:USe.Common.TradingDay.TradeCalendar.#ctor(System.DateTime,System.DateTime,System.DateTime,System.Boolean)">
+            <summary>
+            交易日历。
+            </summary>
+            <param name="today">当日。</param>
+            <param name="nextTradeDay">前一交易日。</param>
+            <param name="preTradeDay">下一交易日。</param>
+            <param name="isTradeDay">是否为交易日。</param>
+        </member>
+        <member name="P:USe.Common.TradingDay.TradeCalendar.Today">
+            <summary>
+            当前交易日。
+            </summary>
+        </member>
+        <member name="P:USe.Common.TradingDay.TradeCalendar.PreTradeDay">
+            <summary>
+            前一交易日。
+            </summary>
+        </member>
+        <member name="P:USe.Common.TradingDay.TradeCalendar.NextTradeDay">
+            <summary>
+            下一交易日。
+            </summary>
+        </member>
+        <member name="P:USe.Common.TradingDay.TradeCalendar.IsTradeDay">
+            <summary>
+            是否为交易日。
+            </summary>
+        </member>
+        <member name="T:USe.Common.TradingDay.TradeRangeItem">
+            <summary>
+            交易时间段。
+            </summary>
+        </member>
+        <member name="P:USe.Common.TradingDay.TradeRangeItem.BeginTime">
+            <summary>
+            开始时间。
+            </summary>
+        </member>
+        <member name="P:USe.Common.TradingDay.TradeRangeItem.EndTime">
+            <summary>
+            结束时间。
+            </summary>
+        </member>
+        <member name="P:USe.Common.TradingDay.TradeRangeItem.IsNight">
+            <summary>
+            是否为夜盘。
+            </summary>
+        </member>
+        <member name="M:USe.Common.TradingDay.TradeRangeItem.Contains(System.TimeSpan)">
+            <summary>
+            是否包含在区间内。
+            </summary>
+            <param name="time">指定时间。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.TradingDay.TradeRangeItem.IsBeginTime(System.TimeSpan)">
+            <summary>
+            是否为起始时段。
+            </summary>
+            <param name="time">指定时间。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.TradingDay.TradeRangeItem.IsEndTime(System.TimeSpan)">
+            <summary>
+            是否为截至时段。
+            </summary>
+            <param name="time">指定时间。</param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.Common.TradingDay.DayTradeRange">
+            <summary>
+            日交易区间。
+            </summary>
+        </member>
+        <member name="M:USe.Common.TradingDay.DayTradeRange.#ctor(System.Collections.Generic.List{USe.Common.TradingDay.TradeCalendar},System.Collections.Generic.List{USe.Common.TradingDay.TradeRangeItem})">
+            <summary>
+            交易区间。
+            </summary>
+            <param name="tradeCalendars">交易日历。</param>
+            <param name="rangeItems">交易区间。</param>
+        </member>
+        <member name="M:USe.Common.TradingDay.DayTradeRange.IsTradeTime(System.TimeSpan)">
+            <summary>
+            是否为交易时间。
+            </summary>
+            <param name="time">指定时间。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.TradingDay.DayTradeRange.IsBeginTime(System.TimeSpan)">
+            <summary>
+            是否为交易时段开始时间。
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.TradingDay.DayTradeRange.IsEndTime(System.TimeSpan)">
+            <summary>
+            是否为交易时段截至时间。
+            </summary>
+            <param name="time">指定时间。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.TradingDay.DayTradeRange.GetTradeDay(System.DateTime)">
+            <summary>
+            获取所属交易日(夜盘属于下一交易日)。
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.TradingDay.DayTradeRange.GetNextTradeDay(System.DateTime)">
+            <summary>
+            后去指定日下一交易日。
+            </summary>
+            <param name="date"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

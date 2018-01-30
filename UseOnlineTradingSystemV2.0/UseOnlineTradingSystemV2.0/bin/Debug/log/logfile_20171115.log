@@ -1,0 +1,359 @@
+[2017-11-15 09:36:23,631]  INFO - 画板初始化！
+[2017-11-15 09:36:23,737]  INFO - 初始化买入基价！
+[2017-11-15 09:36:23,738]  INFO - 初始化买入基价值！
+[2017-11-15 09:36:23,738]  INFO - 初始化卖出基价！
+[2017-11-15 09:36:23,738]  INFO - 初始化卖出基价值！
+[2017-11-15 09:36:23,744]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 09:36:25,389]  INFO - 创建MQTT对象开始
+[2017-11-15 09:36:25,403]  INFO - 创建开发环境MQTT对象
+[2017-11-15 09:36:25,403]  INFO - 创建MQTT对象结束
+[2017-11-15 13:41:36,930]  INFO - 画板初始化！
+[2017-11-15 13:41:36,978]  INFO - 初始化买入基价！
+[2017-11-15 13:41:36,979]  INFO - 初始化买入基价值！
+[2017-11-15 13:41:36,979]  INFO - 初始化卖出基价！
+[2017-11-15 13:41:36,979]  INFO - 初始化卖出基价值！
+[2017-11-15 13:41:36,986]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 13:41:38,539]  INFO - 创建MQTT对象开始
+[2017-11-15 13:41:38,559]  INFO - 创建开发环境MQTT对象
+[2017-11-15 13:41:38,559]  INFO - 创建MQTT对象结束
+[2017-11-15 13:41:39,987]  INFO - POST数据,链接：http://sso.test.1b2b.cn/api/user/login
+[2017-11-15 13:41:41,145]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-15 13:41:41,336]  INFO - 启动MQTT对象开始
+[2017-11-15 13:41:41,338]  INFO - 启动MQTT开始
+[2017-11-15 13:41:41,467]  INFO - MQTT连接成功
+[2017-11-15 13:41:41,475]  INFO - 启动MQTT结束
+[2017-11-15 13:41:41,475]  INFO - 启动MQTT对象结束
+[2017-11-15 13:41:41,479]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-15 13:41:41,691]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-15 13:41:41,697] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-15 13:41:41,715]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-15 13:41:41,727]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-15 13:41:41,732]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-15 13:41:41,740]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-15 13:41:41,744]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-15 13:41:41,755]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-15 13:41:41,777]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-15 13:41:41,845]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=13
+[2017-11-15 13:41:41,875]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-15 13:41:41,892]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-15 13:41:41,907]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-15 13:41:41,928]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-15 13:41:41,940]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-15 13:41:42,055]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-15 13:41:42,091]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-15 13:41:42,099]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=yqEsQDNEulOnBjcaZDvm1U6%2fo%2bsiCB45pVct1y5DcduLSQ9EkhI0Dk4y%2f9yp2%2bUQ3OtsRcaFXE03SzFEILBUKw%3d%3d
+[2017-11-15 13:41:42,260]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-15 13:41:42,294]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-15 13:41:42,309]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-15 13:44:38,245]  INFO - 画板初始化！
+[2017-11-15 13:44:38,329]  INFO - 初始化买入基价！
+[2017-11-15 13:44:38,330]  INFO - 初始化买入基价值！
+[2017-11-15 13:44:38,330]  INFO - 初始化卖出基价！
+[2017-11-15 13:44:38,330]  INFO - 初始化卖出基价值！
+[2017-11-15 13:44:38,337]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 13:44:39,904]  INFO - 创建MQTT对象开始
+[2017-11-15 13:44:39,926]  INFO - 创建开发环境MQTT对象
+[2017-11-15 13:44:39,926]  INFO - 创建MQTT对象结束
+[2017-11-15 13:44:57,919]  INFO - POST数据,链接：http://sso.test.1b2b.cn/api/user/login
+[2017-11-15 13:44:59,211]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-15 13:44:59,302]  INFO - 启动MQTT对象开始
+[2017-11-15 13:44:59,303]  INFO - 启动MQTT开始
+[2017-11-15 13:44:59,361]  INFO - MQTT连接成功
+[2017-11-15 13:44:59,371]  INFO - 启动MQTT结束
+[2017-11-15 13:44:59,371]  INFO - 启动MQTT对象结束
+[2017-11-15 13:44:59,375]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-15 13:44:59,471]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-15 13:44:59,492] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-15 13:44:59,494]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-15 13:44:59,499]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-15 13:44:59,504]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-15 13:44:59,511]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-15 13:44:59,516]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-15 13:44:59,526]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-15 13:44:59,550]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-15 13:44:59,617]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=13
+[2017-11-15 13:44:59,660]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-15 13:44:59,704]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-15 13:44:59,733]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-15 13:44:59,757]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-15 13:44:59,774]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-15 13:44:59,855]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-15 13:44:59,881]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-15 13:44:59,896]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=dI%2fc2bEeM2rmbBY3XVuiFzxc4JkMH2UcDwOwNPQwHEK7wN3K4tRhDBlMeZ0C9p8HLGss%2bvZLDCb%2fEDHmP5jeQw%3d%3d
+[2017-11-15 13:45:00,138]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-15 13:45:00,167]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-15 13:45:00,182]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-15 13:46:22,322]  INFO - GET数据,链接：http://172.16.88.152:8081/uc/logout
+[2017-11-15 13:46:22,453]  INFO - 停止MQTT对象开始
+[2017-11-15 13:46:22,454]  INFO - 停止MQTT对象结束
+[2017-11-15 13:46:22,454]  INFO - 启动MQTT对象开始
+[2017-11-15 13:46:22,454]  INFO - 启动MQTT开始
+[2017-11-15 13:46:22,582]  INFO - MQTT连接成功
+[2017-11-15 13:46:22,582]  INFO - 启动MQTT结束
+[2017-11-15 13:46:22,583]  INFO - 启动MQTT对象结束
+[2017-11-15 13:46:22,633] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-15 13:46:24,296]  INFO - POST数据,链接：http://sso.test.1b2b.cn/api/user/login
+[2017-11-15 13:46:24,760]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-15 13:46:24,817]  INFO - 启动MQTT对象开始
+[2017-11-15 13:46:24,817]  INFO - 启动MQTT开始
+[2017-11-15 13:46:24,880]  INFO - MQTT连接成功
+[2017-11-15 13:46:24,882]  INFO - 启动MQTT结束
+[2017-11-15 13:46:24,882]  INFO - 启动MQTT对象结束
+[2017-11-15 13:46:24,882]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-15 13:46:24,912] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-15 13:46:24,963]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-15 13:46:24,977]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-15 13:46:24,982]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-15 13:46:24,992]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-15 13:46:25,001]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-15 13:46:25,007]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-15 13:46:25,018]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-15 13:46:25,041]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-15 13:46:25,079]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=13
+[2017-11-15 13:46:25,102]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-15 13:46:25,121]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-15 13:46:25,133]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-15 13:46:25,147]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-15 13:46:25,151]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-15 13:46:25,179]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-15 13:46:25,210]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-15 13:46:25,216]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-15 13:46:25,229]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-15 13:46:25,243]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-15 14:00:21,516]  INFO - 画板初始化！
+[2017-11-15 14:00:21,556]  INFO - 初始化买入基价！
+[2017-11-15 14:00:21,556]  INFO - 初始化买入基价值！
+[2017-11-15 14:00:21,556]  INFO - 初始化卖出基价！
+[2017-11-15 14:00:21,556]  INFO - 初始化卖出基价值！
+[2017-11-15 14:00:21,564]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 14:00:22,789]  INFO - 创建MQTT对象开始
+[2017-11-15 14:00:22,801]  INFO - 创建开发环境MQTT对象
+[2017-11-15 14:00:22,801]  INFO - 创建MQTT对象结束
+[2017-11-15 14:06:55,105]  INFO - 画板初始化！
+[2017-11-15 14:06:55,146]  INFO - 初始化买入基价！
+[2017-11-15 14:06:55,146]  INFO - 初始化买入基价值！
+[2017-11-15 14:06:55,146]  INFO - 初始化卖出基价！
+[2017-11-15 14:06:55,146]  INFO - 初始化卖出基价值！
+[2017-11-15 14:06:55,150]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 14:06:56,355]  INFO - 创建MQTT对象开始
+[2017-11-15 14:06:56,373]  INFO - 创建开发环境MQTT对象
+[2017-11-15 14:06:56,373]  INFO - 创建MQTT对象结束
+[2017-11-15 14:29:06,276]  INFO - 画板初始化！
+[2017-11-15 14:29:06,333]  INFO - 初始化买入基价！
+[2017-11-15 14:29:06,333]  INFO - 初始化买入基价值！
+[2017-11-15 14:29:06,333]  INFO - 初始化卖出基价！
+[2017-11-15 14:29:06,333]  INFO - 初始化卖出基价值！
+[2017-11-15 14:29:06,338]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 14:29:07,848]  INFO - 创建MQTT对象开始
+[2017-11-15 14:29:07,868]  INFO - 创建开发环境MQTT对象
+[2017-11-15 14:29:07,868]  INFO - 创建MQTT对象结束
+[2017-11-15 14:30:46,700]  INFO - 画板初始化！
+[2017-11-15 14:30:46,763]  INFO - 初始化买入基价！
+[2017-11-15 14:30:46,763]  INFO - 初始化买入基价值！
+[2017-11-15 14:30:46,763]  INFO - 初始化卖出基价！
+[2017-11-15 14:30:46,763]  INFO - 初始化卖出基价值！
+[2017-11-15 14:30:46,770]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 14:30:48,427]  INFO - 创建MQTT对象开始
+[2017-11-15 14:30:48,489]  INFO - 创建开发环境MQTT对象
+[2017-11-15 14:30:48,489]  INFO - 创建MQTT对象结束
+[2017-11-15 14:33:15,307]  INFO - 画板初始化！
+[2017-11-15 14:33:15,350]  INFO - 初始化买入基价！
+[2017-11-15 14:33:15,351]  INFO - 初始化买入基价值！
+[2017-11-15 14:33:15,351]  INFO - 初始化卖出基价！
+[2017-11-15 14:33:15,351]  INFO - 初始化卖出基价值！
+[2017-11-15 14:33:15,358]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 14:33:16,987]  INFO - 创建MQTT对象开始
+[2017-11-15 14:33:16,999]  INFO - 创建开发环境MQTT对象
+[2017-11-15 14:33:17,000]  INFO - 创建MQTT对象结束
+[2017-11-15 14:39:11,570]  INFO - 画板初始化！
+[2017-11-15 14:39:11,634]  INFO - 初始化买入基价！
+[2017-11-15 14:39:11,635]  INFO - 初始化买入基价值！
+[2017-11-15 14:39:11,635]  INFO - 初始化卖出基价！
+[2017-11-15 14:39:11,635]  INFO - 初始化卖出基价值！
+[2017-11-15 14:39:11,641]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 14:39:13,523]  INFO - 创建MQTT对象开始
+[2017-11-15 14:39:13,535]  INFO - 创建开发环境MQTT对象
+[2017-11-15 14:39:13,535]  INFO - 创建MQTT对象结束
+[2017-11-15 14:48:25,081]  INFO - 画板初始化！
+[2017-11-15 14:48:25,124]  INFO - 初始化买入基价！
+[2017-11-15 14:48:25,125]  INFO - 初始化买入基价值！
+[2017-11-15 14:48:25,125]  INFO - 初始化卖出基价！
+[2017-11-15 14:48:25,125]  INFO - 初始化卖出基价值！
+[2017-11-15 14:48:25,131]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 14:48:26,531]  INFO - 创建MQTT对象开始
+[2017-11-15 14:48:26,570]  INFO - 创建开发环境MQTT对象
+[2017-11-15 14:48:26,570]  INFO - 创建MQTT对象结束
+[2017-11-15 14:53:06,486]  INFO - 画板初始化！
+[2017-11-15 14:53:06,531]  INFO - 初始化买入基价！
+[2017-11-15 14:53:06,531]  INFO - 初始化买入基价值！
+[2017-11-15 14:53:06,531]  INFO - 初始化卖出基价！
+[2017-11-15 14:53:06,531]  INFO - 初始化卖出基价值！
+[2017-11-15 14:53:06,537]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 14:53:08,382]  INFO - 创建MQTT对象开始
+[2017-11-15 14:53:08,568]  INFO - 创建开发环境MQTT对象
+[2017-11-15 14:53:08,568]  INFO - 创建MQTT对象结束
+[2017-11-15 14:54:35,966]  INFO - 画板初始化！
+[2017-11-15 14:54:36,020]  INFO - 初始化买入基价！
+[2017-11-15 14:54:36,021]  INFO - 初始化买入基价值！
+[2017-11-15 14:54:36,021]  INFO - 初始化卖出基价！
+[2017-11-15 14:54:36,021]  INFO - 初始化卖出基价值！
+[2017-11-15 14:54:36,028]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 14:54:37,565]  INFO - 创建MQTT对象开始
+[2017-11-15 14:54:37,597]  INFO - 创建开发环境MQTT对象
+[2017-11-15 14:54:37,597]  INFO - 创建MQTT对象结束
+[2017-11-15 15:13:05,213]  INFO - 画板初始化！
+[2017-11-15 15:13:05,259]  INFO - 初始化买入基价！
+[2017-11-15 15:13:05,259]  INFO - 初始化买入基价值！
+[2017-11-15 15:13:05,259]  INFO - 初始化卖出基价！
+[2017-11-15 15:13:05,259]  INFO - 初始化卖出基价值！
+[2017-11-15 15:13:05,266]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 15:13:06,589]  INFO - 创建MQTT对象开始
+[2017-11-15 15:13:06,605]  INFO - 创建开发环境MQTT对象
+[2017-11-15 15:13:06,605]  INFO - 创建MQTT对象结束
+[2017-11-15 15:14:27,488]  INFO - 画板初始化！
+[2017-11-15 15:14:27,607]  INFO - 初始化买入基价！
+[2017-11-15 15:14:27,608]  INFO - 初始化买入基价值！
+[2017-11-15 15:14:27,608]  INFO - 初始化卖出基价！
+[2017-11-15 15:14:27,608]  INFO - 初始化卖出基价值！
+[2017-11-15 15:14:27,616]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 15:14:29,233]  INFO - 创建MQTT对象开始
+[2017-11-15 15:14:29,278]  INFO - 创建开发环境MQTT对象
+[2017-11-15 15:14:29,278]  INFO - 创建MQTT对象结束
+[2017-11-15 15:15:18,164]  INFO - 画板初始化！
+[2017-11-15 15:15:18,212]  INFO - 初始化买入基价！
+[2017-11-15 15:15:18,212]  INFO - 初始化买入基价值！
+[2017-11-15 15:15:18,212]  INFO - 初始化卖出基价！
+[2017-11-15 15:15:18,212]  INFO - 初始化卖出基价值！
+[2017-11-15 15:15:18,218]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 15:15:19,466]  INFO - 创建MQTT对象开始
+[2017-11-15 15:15:19,478]  INFO - 创建开发环境MQTT对象
+[2017-11-15 15:15:19,478]  INFO - 创建MQTT对象结束
+[2017-11-15 15:16:08,154]  INFO - 画板初始化！
+[2017-11-15 15:16:08,247]  INFO - 初始化买入基价！
+[2017-11-15 15:16:08,248]  INFO - 初始化买入基价值！
+[2017-11-15 15:16:08,248]  INFO - 初始化卖出基价！
+[2017-11-15 15:16:08,248]  INFO - 初始化卖出基价值！
+[2017-11-15 15:16:08,254]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 15:16:10,198]  INFO - 创建MQTT对象开始
+[2017-11-15 15:16:10,211]  INFO - 创建开发环境MQTT对象
+[2017-11-15 15:16:10,211]  INFO - 创建MQTT对象结束
+[2017-11-15 15:19:06,348]  INFO - 画板初始化！
+[2017-11-15 15:19:06,560]  INFO - 初始化买入基价！
+[2017-11-15 15:19:06,561]  INFO - 初始化买入基价值！
+[2017-11-15 15:19:06,561]  INFO - 初始化卖出基价！
+[2017-11-15 15:19:06,561]  INFO - 初始化卖出基价值！
+[2017-11-15 15:19:06,601]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 15:19:09,126]  INFO - 创建MQTT对象开始
+[2017-11-15 15:19:09,149]  INFO - 创建开发环境MQTT对象
+[2017-11-15 15:19:09,149]  INFO - 创建MQTT对象结束
+[2017-11-15 15:22:27,335]  INFO - 画板初始化！
+[2017-11-15 15:22:27,374]  INFO - 初始化买入基价！
+[2017-11-15 15:22:27,374]  INFO - 初始化买入基价值！
+[2017-11-15 15:22:27,374]  INFO - 初始化卖出基价！
+[2017-11-15 15:22:27,374]  INFO - 初始化卖出基价值！
+[2017-11-15 15:22:27,381]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 15:22:28,711]  INFO - 创建MQTT对象开始
+[2017-11-15 15:22:28,722]  INFO - 创建开发环境MQTT对象
+[2017-11-15 15:22:28,723]  INFO - 创建MQTT对象结束
+[2017-11-15 15:45:36,691]  INFO - 画板初始化！
+[2017-11-15 15:45:36,744]  INFO - 初始化买入基价！
+[2017-11-15 15:45:36,745]  INFO - 初始化买入基价值！
+[2017-11-15 15:45:36,745]  INFO - 初始化卖出基价！
+[2017-11-15 15:45:36,745]  INFO - 初始化卖出基价值！
+[2017-11-15 15:45:36,761]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 15:45:38,334]  INFO - 创建MQTT对象开始
+[2017-11-15 15:45:38,349]  INFO - 创建开发环境MQTT对象
+[2017-11-15 15:45:38,349]  INFO - 创建MQTT对象结束
+[2017-11-15 16:17:15,934]  INFO - 画板初始化！
+[2017-11-15 16:17:15,987]  INFO - 初始化买入基价！
+[2017-11-15 16:17:15,988]  INFO - 初始化买入基价值！
+[2017-11-15 16:17:15,988]  INFO - 初始化卖出基价！
+[2017-11-15 16:17:15,988]  INFO - 初始化卖出基价值！
+[2017-11-15 16:17:15,994]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 16:17:18,131]  INFO - 创建MQTT对象开始
+[2017-11-15 16:17:18,150]  INFO - 创建开发环境MQTT对象
+[2017-11-15 16:17:18,150]  INFO - 创建MQTT对象结束
+[2017-11-15 16:22:47,279]  INFO - 画板初始化！
+[2017-11-15 16:22:47,352]  INFO - 初始化买入基价！
+[2017-11-15 16:22:47,353]  INFO - 初始化买入基价值！
+[2017-11-15 16:22:47,353]  INFO - 初始化卖出基价！
+[2017-11-15 16:22:47,353]  INFO - 初始化卖出基价值！
+[2017-11-15 16:22:47,363]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 16:22:48,750]  INFO - 创建MQTT对象开始
+[2017-11-15 16:22:48,763]  INFO - 创建开发环境MQTT对象
+[2017-11-15 16:22:48,763]  INFO - 创建MQTT对象结束
+[2017-11-15 16:25:04,440]  INFO - 画板初始化！
+[2017-11-15 16:25:04,485]  INFO - 初始化买入基价！
+[2017-11-15 16:25:04,486]  INFO - 初始化买入基价值！
+[2017-11-15 16:25:04,486]  INFO - 初始化卖出基价！
+[2017-11-15 16:25:04,486]  INFO - 初始化卖出基价值！
+[2017-11-15 16:25:04,493]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 16:25:06,098]  INFO - 创建MQTT对象开始
+[2017-11-15 16:25:06,108]  INFO - 创建开发环境MQTT对象
+[2017-11-15 16:25:06,108]  INFO - 创建MQTT对象结束
+[2017-11-15 16:28:33,601]  INFO - 画板初始化！
+[2017-11-15 16:28:33,843]  INFO - 初始化买入基价！
+[2017-11-15 16:28:33,846]  INFO - 初始化买入基价值！
+[2017-11-15 16:28:33,846]  INFO - 初始化卖出基价！
+[2017-11-15 16:28:33,846]  INFO - 初始化卖出基价值！
+[2017-11-15 16:28:33,854]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 16:28:35,609]  INFO - 创建MQTT对象开始
+[2017-11-15 16:28:35,621]  INFO - 创建开发环境MQTT对象
+[2017-11-15 16:28:35,621]  INFO - 创建MQTT对象结束
+[2017-11-15 17:10:10,458]  INFO - 画板初始化！
+[2017-11-15 17:10:10,523]  INFO - 初始化买入基价！
+[2017-11-15 17:10:10,523]  INFO - 初始化买入基价值！
+[2017-11-15 17:10:10,523]  INFO - 初始化卖出基价！
+[2017-11-15 17:10:10,523]  INFO - 初始化卖出基价值！
+[2017-11-15 17:10:10,529]  INFO - 初始化第二行快捷按钮！
+[2017-11-15 17:10:12,444]  INFO - 创建MQTT对象开始
+[2017-11-15 17:10:12,480]  INFO - 创建开发环境MQTT对象
+[2017-11-15 17:10:12,480]  INFO - 创建MQTT对象结束

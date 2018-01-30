@@ -1,0 +1,5 @@
+C:\USeClient\TFS\ArbitrateDealTool\Main\Bin\USe.TradeDriver.Common.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Bin\USe.TradeDriver.Common.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Bin\USe.TradeDriver.Common.XML
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeTraderDrvier\USe.TradeDriver.Common\obj\Debug\USe.TradeDriver.Common.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeTraderDrvier\USe.TradeDriver.Common\obj\Debug\USe.TradeDriver.Common.pdb

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9D9C25D1-139B-4B50-BBAA-371E2F292CFD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>USe.Common.AppLogger</RootNamespace>
+    <AssemblyName>USe.Common.AppLogger</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Main\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\Main\Bin\USe.Common.AppLogger.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppLogger.cs" />
+    <Compile Include="Configuration\AppLoggerElement.cs" />
+    <Compile Include="Configuration\AppLoggerElementCollection.cs" />
+    <Compile Include="Configuration\AppLoggerSectionGroup.cs" />
+    <Compile Include="Configuration\AppLoggersSection.cs" />
+    <Compile Include="Configuration\DecoratorElement.cs" />
+    <Compile Include="Configuration\DecoratorElementCollection.cs" />
+    <Compile Include="Configuration\ImplementationElement.cs" />
+    <Compile Include="Decorator\AbstractDecorator.cs" />
+    <Compile Include="Decorator\ConsoleDecorator.cs" />
+    <Compile Include="Decorator\EventTypeFilter.cs" />
+    <Compile Include="Decorator\LockDecorator.cs" />
+    <Compile Include="Decorator\MutexDecorator.cs" />
+    <Compile Include="Decorator\ReservedCharacterDecorator.cs" />
+    <Compile Include="Decorator\ReservedCharacterDecorator.Data.cs" />
+    <Compile Include="Diagnostics\AppLoggerTraceListener.cs" />
+    <Compile Include="EventFormatter\EventStringFormatter.cs" />
+    <Compile Include="EventFormatter\FriendlyEventStringFormatter.cs" />
+    <Compile Include="EventFormatter\IEventFormatter.cs" />
+    <Compile Include="EventFormatter\ReservedCharacterFormatter.cs" />
+    <Compile Include="IAppLogger.cs" />
+    <Compile Include="IAppLoggerImpl.cs" />
+    <Compile Include="Implementation\AbstractDailyFileLogger.cs" />
+    <Compile Include="Implementation\AbstratFileLogger.cs" />
+    <Compile Include="Implementation\ConsoleLogger.cs" />
+    <Compile Include="Implementation\DailyFileLogger.cs" />
+    <Compile Include="Implementation\DailyFileLogger2.cs" />
+    <Compile Include="Implementation\FileLogger.cs" />
+    <Compile Include="Implementation\FileLogger2.cs" />
+    <Compile Include="Implementation\NullLogger.cs" />
+    <Compile Include="LogEventType.cs" />
+    <Compile Include="LogLevels.cs" />
+    <Compile Include="LogMode.cs" />
+    <Compile Include="NullLogger.cs" />
+    <Compile Include="OSVersionHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

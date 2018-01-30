@@ -1,0 +1,521 @@
+[2017-11-08 09:36:50,888]  INFO - 初始化界面开始！
+[2017-11-08 09:36:50,906]  INFO - 画板初始化！
+[2017-11-08 09:36:51,031]  INFO - 初始化第一行背景！
+[2017-11-08 09:36:51,035]  INFO - 初始化第一行行情按钮！
+[2017-11-08 09:36:51,038]  INFO - 初始化第一行我的资金按钮！
+[2017-11-08 09:36:51,038]  INFO - 初始化第一行基础管理按钮！
+[2017-11-08 09:36:51,038]  INFO - 初始化第一行登录按钮！
+[2017-11-08 09:36:51,046]  INFO - 初始化第一行注册按钮！
+[2017-11-08 09:36:51,048]  INFO - 初始化第一行登录后状态！
+[2017-11-08 09:36:51,049]  INFO - 初始化第一行注销按钮！
+[2017-11-08 09:36:51,049]  INFO - 初始化第一行最小化按钮！
+[2017-11-08 09:36:51,050]  INFO - 初始化第一行最大化按钮！
+[2017-11-08 09:36:51,051]  INFO - 初始化第一行关闭按钮！
+[2017-11-08 09:36:51,052]  INFO - 初始化第一列行情！
+[2017-11-08 09:36:51,052]  INFO - 初始化第一列供需发布！
+[2017-11-08 09:36:51,052]  INFO - 初始化第一列K线图！
+[2017-11-08 09:36:51,052]  INFO - 初始化第一列资讯！
+[2017-11-08 09:36:51,052]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 09:36:51,052]  INFO - 初始化买入基价！
+[2017-11-08 09:36:51,053]  INFO - 初始化买入基价值！
+[2017-11-08 09:36:51,053]  INFO - 初始化卖出基价！
+[2017-11-08 09:36:51,053]  INFO - 初始化卖出基价值！
+[2017-11-08 09:36:51,057]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 09:36:51,104]  INFO - 初始化界面结束！
+[2017-11-08 09:36:51,820]  INFO - 初始化供需发布！
+[2017-11-08 09:36:52,084] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\DataManager.cs:行号 372
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\MQTTService.cs:行号 192
+[2017-11-08 09:36:52,715]  INFO - 创建登录界面！
+[2017-11-08 09:36:52,819]  INFO - 初始化内置浏览器！
+[2017-11-08 10:21:42,088]  INFO - 初始化界面开始！
+[2017-11-08 10:21:42,098]  INFO - 画板初始化！
+[2017-11-08 10:21:42,352]  INFO - 初始化第一行背景！
+[2017-11-08 10:21:42,354]  INFO - 初始化第一行行情按钮！
+[2017-11-08 10:21:42,355]  INFO - 初始化第一行我的资金按钮！
+[2017-11-08 10:21:42,355]  INFO - 初始化第一行基础管理按钮！
+[2017-11-08 10:21:42,355]  INFO - 初始化第一行登录按钮！
+[2017-11-08 10:21:42,380]  INFO - 初始化第一行注册按钮！
+[2017-11-08 10:21:42,382]  INFO - 初始化第一行登录后状态！
+[2017-11-08 10:21:42,383]  INFO - 初始化第一行注销按钮！
+[2017-11-08 10:21:42,383]  INFO - 初始化第一行最小化按钮！
+[2017-11-08 10:21:42,385]  INFO - 初始化第一行最大化按钮！
+[2017-11-08 10:21:42,386]  INFO - 初始化第一行关闭按钮！
+[2017-11-08 10:21:42,387]  INFO - 初始化第一列行情！
+[2017-11-08 10:21:42,388]  INFO - 初始化第一列供需发布！
+[2017-11-08 10:21:42,388]  INFO - 初始化第一列K线图！
+[2017-11-08 10:21:42,388]  INFO - 初始化第一列资讯！
+[2017-11-08 10:21:42,388]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 10:21:42,388]  INFO - 初始化买入基价！
+[2017-11-08 10:21:42,388]  INFO - 初始化买入基价值！
+[2017-11-08 10:21:42,388]  INFO - 初始化卖出基价！
+[2017-11-08 10:21:42,388]  INFO - 初始化卖出基价值！
+[2017-11-08 10:21:42,394]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 10:21:42,454]  INFO - 初始化界面结束！
+[2017-11-08 10:21:44,085]  INFO - 初始化供需发布！
+[2017-11-08 10:21:44,243] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\DataManager.cs:行号 372
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\MQTTService.cs:行号 192
+[2017-11-08 10:21:44,690]  INFO - 创建登录界面！
+[2017-11-08 10:21:45,133]  INFO - 初始化内置浏览器！
+[2017-11-08 10:35:55,078]  INFO - 初始化界面开始！
+[2017-11-08 10:35:55,127]  INFO - 画板初始化！
+[2017-11-08 10:35:55,268]  INFO - 初始化第一行背景！
+[2017-11-08 10:35:55,275]  INFO - 初始化第一行行情按钮！
+[2017-11-08 10:35:55,277]  INFO - 初始化第一行我的资金按钮！
+[2017-11-08 10:35:55,277]  INFO - 初始化第一行基础管理按钮！
+[2017-11-08 10:35:55,277]  INFO - 初始化第一行登录按钮！
+[2017-11-08 10:35:55,290]  INFO - 初始化第一行注册按钮！
+[2017-11-08 10:35:55,293]  INFO - 初始化第一行登录后状态！
+[2017-11-08 10:35:55,293]  INFO - 初始化第一行注销按钮！
+[2017-11-08 10:35:55,293]  INFO - 初始化第一行最小化按钮！
+[2017-11-08 10:35:55,295]  INFO - 初始化第一行最大化按钮！
+[2017-11-08 10:35:55,296]  INFO - 初始化第一行关闭按钮！
+[2017-11-08 10:35:55,298]  INFO - 初始化第一列行情！
+[2017-11-08 10:35:55,298]  INFO - 初始化第一列供需发布！
+[2017-11-08 10:35:55,298]  INFO - 初始化第一列K线图！
+[2017-11-08 10:35:55,298]  INFO - 初始化第一列资讯！
+[2017-11-08 10:35:55,298]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 10:35:55,298]  INFO - 初始化买入基价！
+[2017-11-08 10:35:55,298]  INFO - 初始化买入基价值！
+[2017-11-08 10:35:55,298]  INFO - 初始化卖出基价！
+[2017-11-08 10:35:55,298]  INFO - 初始化卖出基价值！
+[2017-11-08 10:35:55,308]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 10:35:55,380]  INFO - 初始化界面结束！
+[2017-11-08 10:35:56,085]  INFO - 初始化供需发布！
+[2017-11-08 10:35:56,243] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\DataManager.cs:行号 372
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\MQTTService.cs:行号 192
+[2017-11-08 10:35:56,540]  INFO - 创建登录界面！
+[2017-11-08 10:35:56,650]  INFO - 初始化内置浏览器！
+[2017-11-08 10:38:44,248]  INFO - 初始化界面开始！
+[2017-11-08 10:38:44,257]  INFO - 画板初始化！
+[2017-11-08 10:38:44,470]  INFO - 初始化第一行背景！
+[2017-11-08 10:38:44,472]  INFO - 初始化第一行行情按钮！
+[2017-11-08 10:38:44,473]  INFO - 初始化第一行我的资金按钮！
+[2017-11-08 10:38:44,473]  INFO - 初始化第一行基础管理按钮！
+[2017-11-08 10:38:44,473]  INFO - 初始化第一行登录按钮！
+[2017-11-08 10:38:44,483]  INFO - 初始化第一行注册按钮！
+[2017-11-08 10:38:44,485]  INFO - 初始化第一行登录后状态！
+[2017-11-08 10:38:44,485]  INFO - 初始化第一行注销按钮！
+[2017-11-08 10:38:44,485]  INFO - 初始化第一行最小化按钮！
+[2017-11-08 10:38:44,488]  INFO - 初始化第一行最大化按钮！
+[2017-11-08 10:38:44,490]  INFO - 初始化第一行关闭按钮！
+[2017-11-08 10:38:44,491]  INFO - 初始化第一列行情！
+[2017-11-08 10:38:44,491]  INFO - 初始化第一列供需发布！
+[2017-11-08 10:38:44,491]  INFO - 初始化第一列K线图！
+[2017-11-08 10:38:44,491]  INFO - 初始化第一列资讯！
+[2017-11-08 10:38:44,491]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 10:38:44,492]  INFO - 初始化买入基价！
+[2017-11-08 10:38:44,492]  INFO - 初始化买入基价值！
+[2017-11-08 10:38:44,492]  INFO - 初始化卖出基价！
+[2017-11-08 10:38:44,492]  INFO - 初始化卖出基价值！
+[2017-11-08 10:38:44,497]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 10:38:44,549]  INFO - 初始化界面结束！
+[2017-11-08 10:38:45,130]  INFO - 初始化供需发布！
+[2017-11-08 10:38:45,275] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\DataManager.cs:行号 372
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\MQTTService.cs:行号 192
+[2017-11-08 10:38:45,808]  INFO - 创建登录界面！
+[2017-11-08 10:38:45,963]  INFO - 初始化内置浏览器！
+[2017-11-08 10:52:35,208]  INFO - 初始化界面开始！
+[2017-11-08 10:52:35,230]  INFO - 画板初始化！
+[2017-11-08 10:52:35,429]  INFO - 初始化第一行背景！
+[2017-11-08 10:52:35,431]  INFO - 初始化第一行行情按钮！
+[2017-11-08 10:52:35,432]  INFO - 初始化第一行我的资金按钮！
+[2017-11-08 10:52:35,432]  INFO - 初始化第一行基础管理按钮！
+[2017-11-08 10:52:35,432]  INFO - 初始化第一行登录按钮！
+[2017-11-08 10:52:35,441]  INFO - 初始化第一行注册按钮！
+[2017-11-08 10:52:35,443]  INFO - 初始化第一行登录后状态！
+[2017-11-08 10:52:35,443]  INFO - 初始化第一行注销按钮！
+[2017-11-08 10:52:35,443]  INFO - 初始化第一行最小化按钮！
+[2017-11-08 10:52:35,445]  INFO - 初始化第一行最大化按钮！
+[2017-11-08 10:52:35,446]  INFO - 初始化第一行关闭按钮！
+[2017-11-08 10:52:35,449]  INFO - 初始化第一列行情！
+[2017-11-08 10:52:35,449]  INFO - 初始化第一列供需发布！
+[2017-11-08 10:52:35,449]  INFO - 初始化第一列K线图！
+[2017-11-08 10:52:35,449]  INFO - 初始化第一列资讯！
+[2017-11-08 10:52:35,449]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 10:52:35,449]  INFO - 初始化买入基价！
+[2017-11-08 10:52:35,449]  INFO - 初始化买入基价值！
+[2017-11-08 10:52:35,449]  INFO - 初始化卖出基价！
+[2017-11-08 10:52:35,449]  INFO - 初始化卖出基价值！
+[2017-11-08 10:52:35,455]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 10:52:35,509]  INFO - 初始化界面结束！
+[2017-11-08 10:52:36,398]  INFO - 初始化供需发布！
+[2017-11-08 10:52:36,826] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\DataManager.cs:行号 372
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\MQTTService.cs:行号 192
+[2017-11-08 10:52:36,845]  INFO - 创建登录界面！
+[2017-11-08 10:52:37,244]  INFO - 初始化内置浏览器！
+[2017-11-08 10:54:02,963]  INFO - 初始化界面开始！
+[2017-11-08 10:54:02,975]  INFO - 画板初始化！
+[2017-11-08 10:54:03,106]  INFO - 初始化第一行背景！
+[2017-11-08 10:54:03,107]  INFO - 初始化第一行行情按钮！
+[2017-11-08 10:54:03,108]  INFO - 初始化第一行我的资金按钮！
+[2017-11-08 10:54:03,108]  INFO - 初始化第一行基础管理按钮！
+[2017-11-08 10:54:03,108]  INFO - 初始化第一行登录按钮！
+[2017-11-08 10:54:03,121]  INFO - 初始化第一行注册按钮！
+[2017-11-08 10:54:03,123]  INFO - 初始化第一行登录后状态！
+[2017-11-08 10:54:03,123]  INFO - 初始化第一行注销按钮！
+[2017-11-08 10:54:03,123]  INFO - 初始化第一行最小化按钮！
+[2017-11-08 10:54:03,124]  INFO - 初始化第一行最大化按钮！
+[2017-11-08 10:54:03,126]  INFO - 初始化第一行关闭按钮！
+[2017-11-08 10:54:03,127]  INFO - 初始化第一列行情！
+[2017-11-08 10:54:03,127]  INFO - 初始化第一列供需发布！
+[2017-11-08 10:54:03,127]  INFO - 初始化第一列K线图！
+[2017-11-08 10:54:03,127]  INFO - 初始化第一列资讯！
+[2017-11-08 10:54:03,127]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 10:54:03,128]  INFO - 初始化买入基价！
+[2017-11-08 10:54:03,128]  INFO - 初始化买入基价值！
+[2017-11-08 10:54:03,128]  INFO - 初始化卖出基价！
+[2017-11-08 10:54:03,128]  INFO - 初始化卖出基价值！
+[2017-11-08 10:54:03,137]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 10:54:03,198]  INFO - 初始化界面结束！
+[2017-11-08 10:54:04,014]  INFO - 初始化供需发布！
+[2017-11-08 10:54:04,140] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\DataManager.cs:行号 372
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\MQTTService.cs:行号 192
+[2017-11-08 10:54:04,531]  INFO - 创建登录界面！
+[2017-11-08 10:54:04,650]  INFO - 初始化内置浏览器！
+[2017-11-08 11:04:30,154]  INFO - 初始化界面开始！
+[2017-11-08 11:04:30,248]  INFO - 画板初始化！
+[2017-11-08 11:04:30,545]  INFO - 初始化第一行背景！
+[2017-11-08 11:04:30,547]  INFO - 初始化第一行行情按钮！
+[2017-11-08 11:04:30,548]  INFO - 初始化第一行我的资金按钮！
+[2017-11-08 11:04:30,548]  INFO - 初始化第一行基础管理按钮！
+[2017-11-08 11:04:30,548]  INFO - 初始化第一行登录按钮！
+[2017-11-08 11:04:30,563]  INFO - 初始化第一行注册按钮！
+[2017-11-08 11:04:30,566]  INFO - 初始化第一行登录后状态！
+[2017-11-08 11:04:30,566]  INFO - 初始化第一行注销按钮！
+[2017-11-08 11:04:30,566]  INFO - 初始化第一行最小化按钮！
+[2017-11-08 11:04:30,568]  INFO - 初始化第一行最大化按钮！
+[2017-11-08 11:04:30,570]  INFO - 初始化第一行关闭按钮！
+[2017-11-08 11:04:30,571]  INFO - 初始化第一列行情！
+[2017-11-08 11:04:30,571]  INFO - 初始化第一列供需发布！
+[2017-11-08 11:04:30,571]  INFO - 初始化第一列K线图！
+[2017-11-08 11:04:30,571]  INFO - 初始化第一列资讯！
+[2017-11-08 11:04:30,571]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 11:04:30,572]  INFO - 初始化买入基价！
+[2017-11-08 11:04:30,572]  INFO - 初始化买入基价值！
+[2017-11-08 11:04:30,572]  INFO - 初始化卖出基价！
+[2017-11-08 11:04:30,572]  INFO - 初始化卖出基价值！
+[2017-11-08 11:04:30,578]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 11:04:30,653]  INFO - 初始化界面结束！
+[2017-11-08 11:04:31,458]  INFO - 初始化供需发布！
+[2017-11-08 11:04:31,638] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\DataManager.cs:行号 372
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\MQTTService.cs:行号 192
+[2017-11-08 11:04:31,979]  INFO - 创建登录界面！
+[2017-11-08 11:04:32,105]  INFO - 初始化内置浏览器！
+[2017-11-08 11:16:52,474]  INFO - 初始化界面开始！
+[2017-11-08 11:16:52,493]  INFO - 画板初始化！
+[2017-11-08 11:16:52,784]  INFO - 初始化第一行背景！
+[2017-11-08 11:16:52,786]  INFO - 初始化第一行行情按钮！
+[2017-11-08 11:16:52,793]  INFO - 初始化第一行我的资金按钮！
+[2017-11-08 11:16:52,794]  INFO - 初始化第一行基础管理按钮！
+[2017-11-08 11:16:52,794]  INFO - 初始化第一行登录按钮！
+[2017-11-08 11:16:52,844]  INFO - 初始化第一行注册按钮！
+[2017-11-08 11:16:52,846]  INFO - 初始化第一行登录后状态！
+[2017-11-08 11:16:52,847]  INFO - 初始化第一行注销按钮！
+[2017-11-08 11:16:52,847]  INFO - 初始化第一行最小化按钮！
+[2017-11-08 11:16:52,849]  INFO - 初始化第一行最大化按钮！
+[2017-11-08 11:16:52,850]  INFO - 初始化第一行关闭按钮！
+[2017-11-08 11:16:52,851]  INFO - 初始化第一列行情！
+[2017-11-08 11:16:52,852]  INFO - 初始化第一列供需发布！
+[2017-11-08 11:16:52,852]  INFO - 初始化第一列K线图！
+[2017-11-08 11:16:52,852]  INFO - 初始化第一列资讯！
+[2017-11-08 11:16:52,852]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 11:16:52,852]  INFO - 初始化买入基价！
+[2017-11-08 11:16:52,852]  INFO - 初始化买入基价值！
+[2017-11-08 11:16:52,852]  INFO - 初始化卖出基价！
+[2017-11-08 11:16:52,852]  INFO - 初始化卖出基价值！
+[2017-11-08 11:16:52,858]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 11:16:52,926]  INFO - 初始化界面结束！
+[2017-11-08 11:16:54,219]  INFO - 初始化供需发布！
+[2017-11-08 11:16:54,518] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\DataManager.cs:行号 372
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\MQTTService.cs:行号 192
+[2017-11-08 11:16:54,993]  INFO - 创建登录界面！
+[2017-11-08 11:16:55,115]  INFO - 初始化内置浏览器！
+[2017-11-08 11:18:20,984]  INFO - 初始化界面开始！
+[2017-11-08 11:18:21,001]  INFO - 画板初始化！
+[2017-11-08 11:18:21,193]  INFO - 初始化第一行背景！
+[2017-11-08 11:18:21,195]  INFO - 初始化第一行行情按钮！
+[2017-11-08 11:18:21,196]  INFO - 初始化第一行我的资金按钮！
+[2017-11-08 11:18:21,196]  INFO - 初始化第一行基础管理按钮！
+[2017-11-08 11:18:21,196]  INFO - 初始化第一行登录按钮！
+[2017-11-08 11:18:21,241]  INFO - 初始化第一行注册按钮！
+[2017-11-08 11:18:21,244]  INFO - 初始化第一行登录后状态！
+[2017-11-08 11:18:21,244]  INFO - 初始化第一行注销按钮！
+[2017-11-08 11:18:21,245]  INFO - 初始化第一行最小化按钮！
+[2017-11-08 11:18:21,246]  INFO - 初始化第一行最大化按钮！
+[2017-11-08 11:18:21,248]  INFO - 初始化第一行关闭按钮！
+[2017-11-08 11:18:21,249]  INFO - 初始化第一列行情！
+[2017-11-08 11:18:21,249]  INFO - 初始化第一列供需发布！
+[2017-11-08 11:18:21,249]  INFO - 初始化第一列K线图！
+[2017-11-08 11:18:21,249]  INFO - 初始化第一列资讯！
+[2017-11-08 11:18:21,249]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 11:18:21,250]  INFO - 初始化买入基价！
+[2017-11-08 11:18:21,250]  INFO - 初始化买入基价值！
+[2017-11-08 11:18:21,250]  INFO - 初始化卖出基价！
+[2017-11-08 11:18:21,250]  INFO - 初始化卖出基价值！
+[2017-11-08 11:18:21,259]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 11:18:21,361]  INFO - 初始化界面结束！
+[2017-11-08 11:18:23,309]  INFO - 初始化供需发布！
+[2017-11-08 11:18:23,459] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\DataManager.cs:行号 372
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\MQTTService.cs:行号 192
+[2017-11-08 11:18:23,862]  INFO - 创建登录界面！
+[2017-11-08 11:18:24,016]  INFO - 初始化内置浏览器！
+[2017-11-08 14:16:44,861]  INFO - 初始化界面开始！
+[2017-11-08 14:16:44,872]  INFO - 画板初始化！
+[2017-11-08 14:16:45,055]  INFO - 初始化第一行背景！
+[2017-11-08 14:16:45,056]  INFO - 初始化第一行行情按钮！
+[2017-11-08 14:16:45,057]  INFO - 初始化第一行我的资金按钮！
+[2017-11-08 14:16:45,057]  INFO - 初始化第一行基础管理按钮！
+[2017-11-08 14:16:45,057]  INFO - 初始化第一行登录按钮！
+[2017-11-08 14:16:45,067]  INFO - 初始化第一行注册按钮！
+[2017-11-08 14:16:45,069]  INFO - 初始化第一行登录后状态！
+[2017-11-08 14:16:45,069]  INFO - 初始化第一行注销按钮！
+[2017-11-08 14:16:45,070]  INFO - 初始化第一行最小化按钮！
+[2017-11-08 14:16:45,071]  INFO - 初始化第一行最大化按钮！
+[2017-11-08 14:16:45,072]  INFO - 初始化第一行关闭按钮！
+[2017-11-08 14:16:45,073]  INFO - 初始化第一列行情！
+[2017-11-08 14:16:45,074]  INFO - 初始化第一列供需发布！
+[2017-11-08 14:16:45,074]  INFO - 初始化第一列K线图！
+[2017-11-08 14:16:45,074]  INFO - 初始化第一列资讯！
+[2017-11-08 14:16:45,074]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 14:16:45,074]  INFO - 初始化买入基价！
+[2017-11-08 14:16:45,074]  INFO - 初始化买入基价值！
+[2017-11-08 14:16:45,074]  INFO - 初始化卖出基价！
+[2017-11-08 14:16:45,074]  INFO - 初始化卖出基价值！
+[2017-11-08 14:16:45,081]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 14:16:45,159]  INFO - 初始化界面结束！
+[2017-11-08 14:16:49,125]  INFO - 初始化供需发布！
+[2017-11-08 14:16:49,415] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\DataManager.cs:行号 372
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\MQTTService.cs:行号 192
+[2017-11-08 14:16:49,771]  INFO - 创建登录界面！
+[2017-11-08 14:16:50,058]  INFO - 初始化内置浏览器！
+[2017-11-08 14:47:54,348]  INFO - 初始化界面开始！
+[2017-11-08 14:47:54,372]  INFO - 画板初始化！
+[2017-11-08 14:47:54,805]  INFO - 初始化第一行背景！
+[2017-11-08 14:47:54,807]  INFO - 初始化第一行行情按钮！
+[2017-11-08 14:47:54,808]  INFO - 初始化第一行我的资金按钮！
+[2017-11-08 14:47:54,808]  INFO - 初始化第一行基础管理按钮！
+[2017-11-08 14:47:54,808]  INFO - 初始化第一行登录按钮！
+[2017-11-08 14:47:54,828]  INFO - 初始化第一行注册按钮！
+[2017-11-08 14:47:54,830]  INFO - 初始化第一行登录后状态！
+[2017-11-08 14:47:54,830]  INFO - 初始化第一行注销按钮！
+[2017-11-08 14:47:54,831]  INFO - 初始化第一行最小化按钮！
+[2017-11-08 14:47:54,832]  INFO - 初始化第一行最大化按钮！
+[2017-11-08 14:47:54,835]  INFO - 初始化第一行关闭按钮！
+[2017-11-08 14:47:54,839]  INFO - 初始化第一列行情！
+[2017-11-08 14:47:54,840]  INFO - 初始化第一列供需发布！
+[2017-11-08 14:47:54,840]  INFO - 初始化第一列K线图！
+[2017-11-08 14:47:54,840]  INFO - 初始化第一列资讯！
+[2017-11-08 14:47:54,840]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 14:47:54,840]  INFO - 初始化买入基价！
+[2017-11-08 14:47:54,840]  INFO - 初始化买入基价值！
+[2017-11-08 14:47:54,840]  INFO - 初始化卖出基价！
+[2017-11-08 14:47:54,840]  INFO - 初始化卖出基价值！
+[2017-11-08 14:47:54,847]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 14:47:54,943]  INFO - 初始化界面结束！
+[2017-11-08 14:47:56,284]  INFO - 初始化供需发布！
+[2017-11-08 14:47:56,447] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\DataManager.cs:行号 372
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\MQTTService.cs:行号 192
+[2017-11-08 14:47:56,706]  INFO - 创建登录界面！
+[2017-11-08 14:47:56,803]  INFO - 初始化内置浏览器！
+[2017-11-08 15:03:25,254]  INFO - 初始化界面开始！
+[2017-11-08 15:03:25,289]  INFO - 画板初始化！
+[2017-11-08 15:03:25,592]  INFO - 初始化第一行背景！
+[2017-11-08 15:03:25,596]  INFO - 初始化第一行行情按钮！
+[2017-11-08 15:03:25,597]  INFO - 初始化第一行我的资金按钮！
+[2017-11-08 15:03:25,597]  INFO - 初始化第一行基础管理按钮！
+[2017-11-08 15:03:25,597]  INFO - 初始化第一行登录按钮！
+[2017-11-08 15:03:25,609]  INFO - 初始化第一行注册按钮！
+[2017-11-08 15:03:25,611]  INFO - 初始化第一行登录后状态！
+[2017-11-08 15:03:25,612]  INFO - 初始化第一行注销按钮！
+[2017-11-08 15:03:25,612]  INFO - 初始化第一行最小化按钮！
+[2017-11-08 15:03:25,613]  INFO - 初始化第一行最大化按钮！
+[2017-11-08 15:03:25,615]  INFO - 初始化第一行关闭按钮！
+[2017-11-08 15:03:25,617]  INFO - 初始化第一列行情！
+[2017-11-08 15:03:25,617]  INFO - 初始化第一列供需发布！
+[2017-11-08 15:03:25,617]  INFO - 初始化第一列K线图！
+[2017-11-08 15:03:25,617]  INFO - 初始化第一列资讯！
+[2017-11-08 15:03:25,617]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 15:03:25,617]  INFO - 初始化买入基价！
+[2017-11-08 15:03:25,617]  INFO - 初始化买入基价值！
+[2017-11-08 15:03:25,617]  INFO - 初始化卖出基价！
+[2017-11-08 15:03:25,617]  INFO - 初始化卖出基价值！
+[2017-11-08 15:03:25,623]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 15:03:25,695]  INFO - 初始化界面结束！
+[2017-11-08 15:03:26,866]  INFO - 初始化供需发布！
+[2017-11-08 15:03:27,100] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\DataManager.cs:行号 372
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\MQTTService.cs:行号 192
+[2017-11-08 15:03:27,447]  INFO - 创建登录界面！
+[2017-11-08 15:03:27,576]  INFO - 初始化内置浏览器！
+[2017-11-08 16:08:38,541]  INFO - 初始化界面开始！
+[2017-11-08 16:08:38,550]  INFO - 画板初始化！
+[2017-11-08 16:08:38,799]  INFO - 初始化第一行背景！
+[2017-11-08 16:08:38,801]  INFO - 初始化第一行行情按钮！
+[2017-11-08 16:08:38,802]  INFO - 初始化第一行我的资金按钮！
+[2017-11-08 16:08:38,802]  INFO - 初始化第一行基础管理按钮！
+[2017-11-08 16:08:38,802]  INFO - 初始化第一行登录按钮！
+[2017-11-08 16:08:38,813]  INFO - 初始化第一行注册按钮！
+[2017-11-08 16:08:38,815]  INFO - 初始化第一行登录后状态！
+[2017-11-08 16:08:38,815]  INFO - 初始化第一行注销按钮！
+[2017-11-08 16:08:38,815]  INFO - 初始化第一行最小化按钮！
+[2017-11-08 16:08:38,817]  INFO - 初始化第一行最大化按钮！
+[2017-11-08 16:08:38,819]  INFO - 初始化第一行关闭按钮！
+[2017-11-08 16:08:38,820]  INFO - 初始化第一列行情！
+[2017-11-08 16:08:38,821]  INFO - 初始化第一列供需发布！
+[2017-11-08 16:08:38,821]  INFO - 初始化第一列K线图！
+[2017-11-08 16:08:38,821]  INFO - 初始化第一列资讯！
+[2017-11-08 16:08:38,821]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 16:08:38,821]  INFO - 初始化买入基价！
+[2017-11-08 16:08:38,821]  INFO - 初始化买入基价值！
+[2017-11-08 16:08:38,821]  INFO - 初始化卖出基价！
+[2017-11-08 16:08:38,821]  INFO - 初始化卖出基价值！
+[2017-11-08 16:08:38,826]  INFO - 初始化第二行快捷按钮！
+[2017-11-08 16:08:38,891]  INFO - 初始化界面结束！
+[2017-11-08 16:08:42,622]  INFO - 初始化供需发布！
+[2017-11-08 16:08:42,746] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\DataManager.cs:行号 372
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\MQTTService.cs:行号 192
+[2017-11-08 16:08:43,063]  INFO - 创建登录界面！
+[2017-11-08 16:08:43,461]  INFO - 初始化内置浏览器！
+[2017-11-08 17:22:07,510]  INFO - 退出程序!

@@ -1,0 +1,1122 @@
+[2017-10-24 09:13:56,589]  INFO - 初始化界面开始！
+[2017-10-24 09:13:56,598]  INFO - 画板初始化！
+[2017-10-24 09:13:56,851]  INFO - 初始化第一行背景！
+[2017-10-24 09:13:56,853]  INFO - 初始化第一行行情按钮！
+[2017-10-24 09:13:56,854]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 09:13:56,854]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 09:13:56,854]  INFO - 初始化第一行登录按钮！
+[2017-10-24 09:13:57,216]  INFO - 初始化第一行注册按钮！
+[2017-10-24 09:13:57,217]  INFO - 初始化第一行登录后状态！
+[2017-10-24 09:13:57,218]  INFO - 初始化第一行注销按钮！
+[2017-10-24 09:13:57,218]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 09:13:57,219]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 09:13:57,221]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 09:13:57,223]  INFO - 初始化第一列行情！
+[2017-10-24 09:13:57,223]  INFO - 初始化第一列供需发布！
+[2017-10-24 09:13:57,223]  INFO - 初始化第一列K线图！
+[2017-10-24 09:13:57,223]  INFO - 初始化第一列资讯！
+[2017-10-24 09:13:57,223]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 09:13:57,223]  INFO - 初始化买入基价！
+[2017-10-24 09:13:57,223]  INFO - 初始化买入基价值！
+[2017-10-24 09:13:57,223]  INFO - 初始化卖出基价！
+[2017-10-24 09:13:57,223]  INFO - 初始化卖出基价值！
+[2017-10-24 09:13:57,229]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 09:13:57,232]  INFO - 初始化供需发布！
+[2017-10-24 09:13:57,887]  INFO - 初始化界面结束！
+[2017-10-24 09:13:57,887]  INFO - 创建登录界面！
+[2017-10-24 09:13:58,014]  INFO - 初始化内置浏览器！
+[2017-10-24 09:14:01,483]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 09:14:20,744]  INFO - 收到Cookies消息,值为：SecurityToken=8kYb2UTCYqg/crIEBOH8y8JIkYH4+f0fHQp4yEshyx8Jv6kkVmeQo9/RMmWdf7GxLYu09RF4ww/m6+0e/LTO6g==; SecurityTicket=8kYb2UTCYqg/crIEBOH8y8JIkYH4+f0fHQp4yEshyx8Jv6kkVmeQo9/RMmWdf7GxLYu09RF4ww/m6+0e/LTO6g==
+[2017-10-24 09:18:17,991]  INFO - 初始化界面开始！
+[2017-10-24 09:18:18,001]  INFO - 画板初始化！
+[2017-10-24 09:18:18,327]  INFO - 初始化第一行背景！
+[2017-10-24 09:18:18,329]  INFO - 初始化第一行行情按钮！
+[2017-10-24 09:18:18,331]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 09:18:18,331]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 09:18:18,331]  INFO - 初始化第一行登录按钮！
+[2017-10-24 09:18:18,769]  INFO - 初始化第一行注册按钮！
+[2017-10-24 09:18:18,780]  INFO - 初始化第一行登录后状态！
+[2017-10-24 09:18:18,780]  INFO - 初始化第一行注销按钮！
+[2017-10-24 09:18:18,781]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 09:18:18,785]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 09:18:18,789]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 09:18:18,794]  INFO - 初始化第一列行情！
+[2017-10-24 09:18:18,794]  INFO - 初始化第一列供需发布！
+[2017-10-24 09:18:18,794]  INFO - 初始化第一列K线图！
+[2017-10-24 09:18:18,794]  INFO - 初始化第一列资讯！
+[2017-10-24 09:18:18,794]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 09:18:18,795]  INFO - 初始化买入基价！
+[2017-10-24 09:18:18,795]  INFO - 初始化买入基价值！
+[2017-10-24 09:18:18,795]  INFO - 初始化卖出基价！
+[2017-10-24 09:18:18,795]  INFO - 初始化卖出基价值！
+[2017-10-24 09:18:18,812]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 09:18:18,894]  INFO - 初始化界面结束！
+[2017-10-24 09:18:18,894]  INFO - 初始化供需发布！
+[2017-10-24 09:18:20,060]  INFO - 创建登录界面！
+[2017-10-24 09:18:20,336]  INFO - 初始化内置浏览器！
+[2017-10-24 09:18:23,379]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 09:18:42,437]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 09:18:42,935]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 09:18:44,567]  INFO - 收到Cookies消息,值为：SecurityTicket=SH9%2BuCrcJdkGuuhtkyz4k%2FWLjueYT7ZCNUS1rSG%2FpHS%2FP2vgwCYn2OhOtN3B4%2FC4lL%2FJYYhj%2BUO%2B%2BfC2SM%2B5ww%3D%3D; SecurityToken=SH9%2BuCrcJdkGuuhtkyz4k%2FWLjueYT7ZCNUS1rSG%2FpHS%2FP2vgwCYn2OhOtN3B4%2FC4lL%2FJYYhj%2BUO%2B%2BfC2SM%2B5ww%3D%3D
+[2017-10-24 09:18:45,638]  INFO - 收到Cookies消息,值为：SecurityTicket=SH9%2BuCrcJdkGuuhtkyz4k%2FWLjueYT7ZCNUS1rSG%2FpHS%2FP2vgwCYn2OhOtN3B4%2FC4lL%2FJYYhj%2BUO%2B%2BfC2SM%2B5ww%3D%3D; SecurityToken=SH9%2BuCrcJdkGuuhtkyz4k%2FWLjueYT7ZCNUS1rSG%2FpHS%2FP2vgwCYn2OhOtN3B4%2FC4lL%2FJYYhj%2BUO%2B%2BfC2SM%2B5ww%3D%3D
+[2017-10-24 09:18:46,664]  INFO - 收到Cookies消息,值为：SecurityTicket=SH9%2BuCrcJdkGuuhtkyz4k%2FWLjueYT7ZCNUS1rSG%2FpHS%2FP2vgwCYn2OhOtN3B4%2FC4lL%2FJYYhj%2BUO%2B%2BfC2SM%2B5ww%3D%3D; SecurityToken=SH9%2BuCrcJdkGuuhtkyz4k%2FWLjueYT7ZCNUS1rSG%2FpHS%2FP2vgwCYn2OhOtN3B4%2FC4lL%2FJYYhj%2BUO%2B%2BfC2SM%2B5ww%3D%3D
+[2017-10-24 09:19:39,839]  INFO - 初始化界面开始！
+[2017-10-24 09:19:39,846]  INFO - 画板初始化！
+[2017-10-24 09:19:40,141]  INFO - 初始化第一行背景！
+[2017-10-24 09:19:40,143]  INFO - 初始化第一行行情按钮！
+[2017-10-24 09:19:40,144]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 09:19:40,144]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 09:19:40,144]  INFO - 初始化第一行登录按钮！
+[2017-10-24 09:19:40,582]  INFO - 初始化第一行注册按钮！
+[2017-10-24 09:19:40,596]  INFO - 初始化第一行登录后状态！
+[2017-10-24 09:19:40,596]  INFO - 初始化第一行注销按钮！
+[2017-10-24 09:19:40,596]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 09:19:40,598]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 09:19:40,599]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 09:19:40,601]  INFO - 初始化第一列行情！
+[2017-10-24 09:19:40,601]  INFO - 初始化第一列供需发布！
+[2017-10-24 09:19:40,601]  INFO - 初始化第一列K线图！
+[2017-10-24 09:19:40,601]  INFO - 初始化第一列资讯！
+[2017-10-24 09:19:40,601]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 09:19:40,601]  INFO - 初始化买入基价！
+[2017-10-24 09:19:40,601]  INFO - 初始化买入基价值！
+[2017-10-24 09:19:40,601]  INFO - 初始化卖出基价！
+[2017-10-24 09:19:40,601]  INFO - 初始化卖出基价值！
+[2017-10-24 09:19:40,607]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 09:19:40,661]  INFO - 初始化界面结束！
+[2017-10-24 09:19:40,661]  INFO - 初始化供需发布！
+[2017-10-24 09:19:41,942]  INFO - 创建登录界面！
+[2017-10-24 09:19:42,276]  INFO - 初始化内置浏览器！
+[2017-10-24 09:19:45,456]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 09:19:52,122]  INFO - 收到帐号密码消息,值为：18016321103,123456
+[2017-10-24 09:19:52,694]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 09:19:54,390]  INFO - 收到Cookies消息,值为：SecurityTicket=t%2F92M2mPG5NLyIlIjz%2BnDOzRNZ6hgZpzzwKbtBa5gkkjIWZC1fF1qHJBQrM7HC%2F7l8A5OZcydaH410iBZCcUYQ%3D%3D; SecurityToken=t%2F92M2mPG5NLyIlIjz%2BnDOzRNZ6hgZpzzwKbtBa5gkkjIWZC1fF1qHJBQrM7HC%2F7l8A5OZcydaH410iBZCcUYQ%3D%3D
+[2017-10-24 09:19:55,463]  INFO - 收到Cookies消息,值为：SecurityTicket=t%2F92M2mPG5NLyIlIjz%2BnDOzRNZ6hgZpzzwKbtBa5gkkjIWZC1fF1qHJBQrM7HC%2F7l8A5OZcydaH410iBZCcUYQ%3D%3D; SecurityToken=t%2F92M2mPG5NLyIlIjz%2BnDOzRNZ6hgZpzzwKbtBa5gkkjIWZC1fF1qHJBQrM7HC%2F7l8A5OZcydaH410iBZCcUYQ%3D%3D
+[2017-10-24 09:19:56,514]  INFO - 收到Cookies消息,值为：SecurityTicket=t%2F92M2mPG5NLyIlIjz%2BnDOzRNZ6hgZpzzwKbtBa5gkkjIWZC1fF1qHJBQrM7HC%2F7l8A5OZcydaH410iBZCcUYQ%3D%3D; SecurityToken=t%2F92M2mPG5NLyIlIjz%2BnDOzRNZ6hgZpzzwKbtBa5gkkjIWZC1fF1qHJBQrM7HC%2F7l8A5OZcydaH410iBZCcUYQ%3D%3D
+[2017-10-24 09:19:57,610]  INFO - 收到Cookies消息,值为：SecurityTicket=t%2F92M2mPG5NLyIlIjz%2BnDOzRNZ6hgZpzzwKbtBa5gkkjIWZC1fF1qHJBQrM7HC%2F7l8A5OZcydaH410iBZCcUYQ%3D%3D; SecurityToken=t%2F92M2mPG5NLyIlIjz%2BnDOzRNZ6hgZpzzwKbtBa5gkkjIWZC1fF1qHJBQrM7HC%2F7l8A5OZcydaH410iBZCcUYQ%3D%3D
+[2017-10-24 09:28:00,421]  INFO - 初始化界面开始！
+[2017-10-24 09:28:00,435]  INFO - 画板初始化！
+[2017-10-24 09:28:00,832]  INFO - 初始化第一行背景！
+[2017-10-24 09:28:00,833]  INFO - 初始化第一行行情按钮！
+[2017-10-24 09:28:00,834]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 09:28:00,834]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 09:28:00,834]  INFO - 初始化第一行登录按钮！
+[2017-10-24 09:28:01,233]  INFO - 初始化第一行注册按钮！
+[2017-10-24 09:28:01,234]  INFO - 初始化第一行登录后状态！
+[2017-10-24 09:28:01,235]  INFO - 初始化第一行注销按钮！
+[2017-10-24 09:28:01,235]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 09:28:01,236]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 09:28:01,241]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 09:28:01,242]  INFO - 初始化第一列行情！
+[2017-10-24 09:28:01,243]  INFO - 初始化第一列供需发布！
+[2017-10-24 09:28:01,243]  INFO - 初始化第一列K线图！
+[2017-10-24 09:28:01,243]  INFO - 初始化第一列资讯！
+[2017-10-24 09:28:01,243]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 09:28:01,243]  INFO - 初始化买入基价！
+[2017-10-24 09:28:01,243]  INFO - 初始化买入基价值！
+[2017-10-24 09:28:01,243]  INFO - 初始化卖出基价！
+[2017-10-24 09:28:01,243]  INFO - 初始化卖出基价值！
+[2017-10-24 09:28:01,251]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 09:28:01,303]  INFO - 初始化界面结束！
+[2017-10-24 09:28:01,303]  INFO - 初始化供需发布！
+[2017-10-24 09:28:02,126]  INFO - 创建登录界面！
+[2017-10-24 09:28:02,359]  INFO - 初始化内置浏览器！
+[2017-10-24 09:28:05,614]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 09:28:14,210]  INFO - 收到帐号密码消息,值为：18016321103,123456
+[2017-10-24 09:28:14,924]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 09:28:16,514]  INFO - 收到Cookies消息,值为：SecurityTicket=4kB2teRqrMXE3DnipMhYqTWK0VCuMgRS57T%2B6xS6dRKWRr%2B5Emsd5KNJwVlcQw9rqD%2FbuWvqsoveA8Agl3lAeA%3D%3D; SecurityToken=4kB2teRqrMXE3DnipMhYqTWK0VCuMgRS57T%2B6xS6dRKWRr%2B5Emsd5KNJwVlcQw9rqD%2FbuWvqsoveA8Agl3lAeA%3D%3D
+[2017-10-24 09:28:17,568]  INFO - 收到Cookies消息,值为：SecurityTicket=4kB2teRqrMXE3DnipMhYqTWK0VCuMgRS57T%2B6xS6dRKWRr%2B5Emsd5KNJwVlcQw9rqD%2FbuWvqsoveA8Agl3lAeA%3D%3D; SecurityToken=4kB2teRqrMXE3DnipMhYqTWK0VCuMgRS57T%2B6xS6dRKWRr%2B5Emsd5KNJwVlcQw9rqD%2FbuWvqsoveA8Agl3lAeA%3D%3D
+[2017-10-24 09:28:18,605]  INFO - 收到Cookies消息,值为：SecurityTicket=4kB2teRqrMXE3DnipMhYqTWK0VCuMgRS57T%2B6xS6dRKWRr%2B5Emsd5KNJwVlcQw9rqD%2FbuWvqsoveA8Agl3lAeA%3D%3D; SecurityToken=4kB2teRqrMXE3DnipMhYqTWK0VCuMgRS57T%2B6xS6dRKWRr%2B5Emsd5KNJwVlcQw9rqD%2FbuWvqsoveA8Agl3lAeA%3D%3D
+[2017-10-24 09:32:54,194]  INFO - 初始化界面开始！
+[2017-10-24 09:32:54,204]  INFO - 画板初始化！
+[2017-10-24 09:32:54,426]  INFO - 初始化第一行背景！
+[2017-10-24 09:32:54,428]  INFO - 初始化第一行行情按钮！
+[2017-10-24 09:32:54,429]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 09:32:54,429]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 09:32:54,429]  INFO - 初始化第一行登录按钮！
+[2017-10-24 09:32:54,770]  INFO - 初始化第一行注册按钮！
+[2017-10-24 09:32:54,771]  INFO - 初始化第一行登录后状态！
+[2017-10-24 09:32:54,771]  INFO - 初始化第一行注销按钮！
+[2017-10-24 09:32:54,772]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 09:32:54,773]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 09:32:54,775]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 09:32:54,776]  INFO - 初始化第一列行情！
+[2017-10-24 09:32:54,776]  INFO - 初始化第一列供需发布！
+[2017-10-24 09:32:54,776]  INFO - 初始化第一列K线图！
+[2017-10-24 09:32:54,776]  INFO - 初始化第一列资讯！
+[2017-10-24 09:32:54,776]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 09:32:54,777]  INFO - 初始化买入基价！
+[2017-10-24 09:32:54,777]  INFO - 初始化买入基价值！
+[2017-10-24 09:32:54,777]  INFO - 初始化卖出基价！
+[2017-10-24 09:32:54,777]  INFO - 初始化卖出基价值！
+[2017-10-24 09:32:54,782]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 09:32:54,831]  INFO - 初始化界面结束！
+[2017-10-24 09:32:54,832]  INFO - 初始化供需发布！
+[2017-10-24 09:32:55,751]  INFO - 创建登录界面！
+[2017-10-24 09:32:55,973]  INFO - 初始化内置浏览器！
+[2017-10-24 09:32:59,062]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 09:34:04,829]  INFO - 收到帐号密码消息,值为：18016321103,123456
+[2017-10-24 09:34:05,450]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 09:34:07,066]  INFO - 收到Cookies消息,值为：SecurityTicket=WA4a5vwvZW0QwKASvoRZPZFCTa2pgYyUwMHaIrYT6QECnEhv4I7Z58rpt3X8Vm2WckV7s9WZyEETu5YT%2BmNQuA%3D%3D; SecurityToken=WA4a5vwvZW0QwKASvoRZPZFCTa2pgYyUwMHaIrYT6QECnEhv4I7Z58rpt3X8Vm2WckV7s9WZyEETu5YT%2BmNQuA%3D%3D
+[2017-10-24 09:34:08,378]  INFO - 收到Cookies消息,值为：SecurityTicket=WA4a5vwvZW0QwKASvoRZPZFCTa2pgYyUwMHaIrYT6QECnEhv4I7Z58rpt3X8Vm2WckV7s9WZyEETu5YT%2BmNQuA%3D%3D; SecurityToken=WA4a5vwvZW0QwKASvoRZPZFCTa2pgYyUwMHaIrYT6QECnEhv4I7Z58rpt3X8Vm2WckV7s9WZyEETu5YT%2BmNQuA%3D%3D
+[2017-10-24 09:34:09,146]  INFO - 收到Cookies消息,值为：SecurityTicket=WA4a5vwvZW0QwKASvoRZPZFCTa2pgYyUwMHaIrYT6QECnEhv4I7Z58rpt3X8Vm2WckV7s9WZyEETu5YT%2BmNQuA%3D%3D; SecurityToken=WA4a5vwvZW0QwKASvoRZPZFCTa2pgYyUwMHaIrYT6QECnEhv4I7Z58rpt3X8Vm2WckV7s9WZyEETu5YT%2BmNQuA%3D%3D
+[2017-10-24 09:34:17,726] ERROR - System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Generic.Dictionary`2.FindEntry(TKey key)
+   在 System.Collections.Generic.Dictionary`2.ContainsKey(TKey key)
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\DataManager.cs:行号 41
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\MQTTService\MQTTService.cs:行号 181
+[2017-10-24 11:18:17,120]  INFO - 初始化界面开始！
+[2017-10-24 11:18:17,131]  INFO - 画板初始化！
+[2017-10-24 11:18:17,374]  INFO - 初始化第一行背景！
+[2017-10-24 11:18:17,376]  INFO - 初始化第一行行情按钮！
+[2017-10-24 11:18:17,377]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 11:18:17,377]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 11:18:17,377]  INFO - 初始化第一行登录按钮！
+[2017-10-24 11:18:17,815]  INFO - 初始化第一行注册按钮！
+[2017-10-24 11:18:17,816]  INFO - 初始化第一行登录后状态！
+[2017-10-24 11:18:17,816]  INFO - 初始化第一行注销按钮！
+[2017-10-24 11:18:17,816]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 11:18:17,818]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 11:18:17,819]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 11:18:17,821]  INFO - 初始化第一列行情！
+[2017-10-24 11:18:17,822]  INFO - 初始化第一列供需发布！
+[2017-10-24 11:18:17,822]  INFO - 初始化第一列K线图！
+[2017-10-24 11:18:17,822]  INFO - 初始化第一列资讯！
+[2017-10-24 11:18:17,822]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 11:18:17,822]  INFO - 初始化买入基价！
+[2017-10-24 11:18:17,822]  INFO - 初始化买入基价值！
+[2017-10-24 11:18:17,822]  INFO - 初始化卖出基价！
+[2017-10-24 11:18:17,822]  INFO - 初始化卖出基价值！
+[2017-10-24 11:18:17,827]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 11:18:17,877]  INFO - 初始化界面结束！
+[2017-10-24 11:18:17,877]  INFO - 初始化供需发布！
+[2017-10-24 11:18:18,590]  INFO - 创建登录界面！
+[2017-10-24 11:18:18,855]  INFO - 初始化内置浏览器！
+[2017-10-24 11:18:23,394]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 11:18:30,857]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 11:18:31,453]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 11:18:33,162]  INFO - 收到Cookies消息,值为：SecurityTicket=d73iLG9QTxFz%2B8gPuKLkftVrdw%2BXppgFjz0s0Ukv7YL03TM4KT2uEEIua2hG0E6nVHt2PBoVOVeSncwCERalZA%3D%3D; SecurityToken=d73iLG9QTxFz%2B8gPuKLkftVrdw%2BXppgFjz0s0Ukv7YL03TM4KT2uEEIua2hG0E6nVHt2PBoVOVeSncwCERalZA%3D%3D
+[2017-10-24 11:18:34,303]  INFO - 收到Cookies消息,值为：SecurityTicket=d73iLG9QTxFz%2B8gPuKLkftVrdw%2BXppgFjz0s0Ukv7YL03TM4KT2uEEIua2hG0E6nVHt2PBoVOVeSncwCERalZA%3D%3D; SecurityToken=d73iLG9QTxFz%2B8gPuKLkftVrdw%2BXppgFjz0s0Ukv7YL03TM4KT2uEEIua2hG0E6nVHt2PBoVOVeSncwCERalZA%3D%3D
+[2017-10-24 11:18:35,345]  INFO - 收到Cookies消息,值为：SecurityTicket=d73iLG9QTxFz%2B8gPuKLkftVrdw%2BXppgFjz0s0Ukv7YL03TM4KT2uEEIua2hG0E6nVHt2PBoVOVeSncwCERalZA%3D%3D; SecurityToken=d73iLG9QTxFz%2B8gPuKLkftVrdw%2BXppgFjz0s0Ukv7YL03TM4KT2uEEIua2hG0E6nVHt2PBoVOVeSncwCERalZA%3D%3D
+[2017-10-24 11:19:53,135]  INFO - 初始化界面开始！
+[2017-10-24 11:19:53,147]  INFO - 画板初始化！
+[2017-10-24 11:19:53,460]  INFO - 初始化第一行背景！
+[2017-10-24 11:19:53,461]  INFO - 初始化第一行行情按钮！
+[2017-10-24 11:19:53,462]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 11:19:53,462]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 11:19:53,462]  INFO - 初始化第一行登录按钮！
+[2017-10-24 11:19:53,914]  INFO - 初始化第一行注册按钮！
+[2017-10-24 11:19:53,916]  INFO - 初始化第一行登录后状态！
+[2017-10-24 11:19:53,916]  INFO - 初始化第一行注销按钮！
+[2017-10-24 11:19:53,917]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 11:19:53,918]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 11:19:53,920]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 11:19:53,922]  INFO - 初始化第一列行情！
+[2017-10-24 11:19:53,922]  INFO - 初始化第一列供需发布！
+[2017-10-24 11:19:53,922]  INFO - 初始化第一列K线图！
+[2017-10-24 11:19:53,922]  INFO - 初始化第一列资讯！
+[2017-10-24 11:19:53,922]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 11:19:53,922]  INFO - 初始化买入基价！
+[2017-10-24 11:19:53,922]  INFO - 初始化买入基价值！
+[2017-10-24 11:19:53,922]  INFO - 初始化卖出基价！
+[2017-10-24 11:19:53,922]  INFO - 初始化卖出基价值！
+[2017-10-24 11:19:53,928]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 11:19:53,989]  INFO - 初始化界面结束！
+[2017-10-24 11:19:53,990]  INFO - 初始化供需发布！
+[2017-10-24 11:19:54,802]  INFO - 创建登录界面！
+[2017-10-24 11:19:54,865]  INFO - 初始化内置浏览器！
+[2017-10-24 11:19:58,885]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 11:20:06,030]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 11:20:06,639]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 11:20:08,279]  INFO - 收到Cookies消息,值为：SecurityTicket=m0g1rr758lStKKdCdk%2BKudD0DUo8gKqDmmLhuYMymTxkIPbyx2677%2B6QUT5kfz2ZF1t1%2FR%2FX3lkU45WThu4l0w%3D%3D; SecurityToken=m0g1rr758lStKKdCdk%2BKudD0DUo8gKqDmmLhuYMymTxkIPbyx2677%2B6QUT5kfz2ZF1t1%2FR%2FX3lkU45WThu4l0w%3D%3D
+[2017-10-24 11:20:09,366]  INFO - 收到Cookies消息,值为：SecurityTicket=m0g1rr758lStKKdCdk%2BKudD0DUo8gKqDmmLhuYMymTxkIPbyx2677%2B6QUT5kfz2ZF1t1%2FR%2FX3lkU45WThu4l0w%3D%3D; SecurityToken=m0g1rr758lStKKdCdk%2BKudD0DUo8gKqDmmLhuYMymTxkIPbyx2677%2B6QUT5kfz2ZF1t1%2FR%2FX3lkU45WThu4l0w%3D%3D
+[2017-10-24 11:20:10,406]  INFO - 收到Cookies消息,值为：SecurityTicket=m0g1rr758lStKKdCdk%2BKudD0DUo8gKqDmmLhuYMymTxkIPbyx2677%2B6QUT5kfz2ZF1t1%2FR%2FX3lkU45WThu4l0w%3D%3D; SecurityToken=m0g1rr758lStKKdCdk%2BKudD0DUo8gKqDmmLhuYMymTxkIPbyx2677%2B6QUT5kfz2ZF1t1%2FR%2FX3lkU45WThu4l0w%3D%3D
+[2017-10-24 11:25:58,690]  INFO - 初始化界面开始！
+[2017-10-24 11:25:58,702]  INFO - 画板初始化！
+[2017-10-24 11:25:58,961]  INFO - 初始化第一行背景！
+[2017-10-24 11:25:58,963]  INFO - 初始化第一行行情按钮！
+[2017-10-24 11:25:58,964]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 11:25:58,964]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 11:25:58,964]  INFO - 初始化第一行登录按钮！
+[2017-10-24 11:25:59,227]  INFO - 初始化第一行注册按钮！
+[2017-10-24 11:25:59,230]  INFO - 初始化第一行登录后状态！
+[2017-10-24 11:25:59,231]  INFO - 初始化第一行注销按钮！
+[2017-10-24 11:25:59,231]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 11:25:59,232]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 11:25:59,233]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 11:25:59,235]  INFO - 初始化第一列行情！
+[2017-10-24 11:25:59,235]  INFO - 初始化第一列供需发布！
+[2017-10-24 11:25:59,235]  INFO - 初始化第一列K线图！
+[2017-10-24 11:25:59,235]  INFO - 初始化第一列资讯！
+[2017-10-24 11:25:59,235]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 11:25:59,235]  INFO - 初始化买入基价！
+[2017-10-24 11:25:59,235]  INFO - 初始化买入基价值！
+[2017-10-24 11:25:59,235]  INFO - 初始化卖出基价！
+[2017-10-24 11:25:59,235]  INFO - 初始化卖出基价值！
+[2017-10-24 11:25:59,240]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 11:25:59,287]  INFO - 初始化界面结束！
+[2017-10-24 11:25:59,287]  INFO - 初始化供需发布！
+[2017-10-24 11:25:59,953]  INFO - 创建登录界面！
+[2017-10-24 11:26:00,179]  INFO - 初始化内置浏览器！
+[2017-10-24 11:26:02,798]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 11:26:11,689]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 11:26:12,218]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 11:26:13,817]  INFO - 收到Cookies消息,值为：SecurityTicket=f1tt9j0XCDTcEYASKNMHUkBPHo1U3F3fYfmDWBVg7MsJCdcxiDIoA6ZQPzyiijOsyYEEJc6%2FhHSMbKBK3adB4g%3D%3D; SecurityToken=f1tt9j0XCDTcEYASKNMHUkBPHo1U3F3fYfmDWBVg7MsJCdcxiDIoA6ZQPzyiijOsyYEEJc6%2FhHSMbKBK3adB4g%3D%3D
+[2017-10-24 11:28:20,029]  INFO - 收到Cookies消息,值为：SecurityTicket=f1tt9j0XCDTcEYASKNMHUkBPHo1U3F3fYfmDWBVg7MsJCdcxiDIoA6ZQPzyiijOsyYEEJc6%2FhHSMbKBK3adB4g%3D%3D; SecurityToken=f1tt9j0XCDTcEYASKNMHUkBPHo1U3F3fYfmDWBVg7MsJCdcxiDIoA6ZQPzyiijOsyYEEJc6%2FhHSMbKBK3adB4g%3D%3D
+[2017-10-24 11:28:20,042]  INFO - 收到Cookies消息,值为：SecurityTicket=f1tt9j0XCDTcEYASKNMHUkBPHo1U3F3fYfmDWBVg7MsJCdcxiDIoA6ZQPzyiijOsyYEEJc6%2FhHSMbKBK3adB4g%3D%3D; SecurityToken=f1tt9j0XCDTcEYASKNMHUkBPHo1U3F3fYfmDWBVg7MsJCdcxiDIoA6ZQPzyiijOsyYEEJc6%2FhHSMbKBK3adB4g%3D%3D
+[2017-10-24 11:56:11,518]  INFO - 收到帐号密码消息,值为：18016321103,123456
+[2017-10-24 11:56:12,015]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 11:56:13,706]  INFO - 收到Cookies消息,值为：SecurityTicket=8RHKhb2SWZ4Y0Gby%2BYp%2BfyT6eTtDDJ8hPb%2BHDk2PWoihRzlzkc4zI4S6q5SytJObLYSNqlxEQRdJcXwvn8JGSQ%3D%3D; SecurityToken=8RHKhb2SWZ4Y0Gby%2BYp%2BfyT6eTtDDJ8hPb%2BHDk2PWoihRzlzkc4zI4S6q5SytJObLYSNqlxEQRdJcXwvn8JGSQ%3D%3D
+[2017-10-24 11:56:14,835]  INFO - 收到Cookies消息,值为：SecurityTicket=8RHKhb2SWZ4Y0Gby%2BYp%2BfyT6eTtDDJ8hPb%2BHDk2PWoihRzlzkc4zI4S6q5SytJObLYSNqlxEQRdJcXwvn8JGSQ%3D%3D; SecurityToken=8RHKhb2SWZ4Y0Gby%2BYp%2BfyT6eTtDDJ8hPb%2BHDk2PWoihRzlzkc4zI4S6q5SytJObLYSNqlxEQRdJcXwvn8JGSQ%3D%3D
+[2017-10-24 13:49:40,879]  INFO - 初始化界面开始！
+[2017-10-24 13:49:40,888]  INFO - 画板初始化！
+[2017-10-24 13:49:41,301]  INFO - 初始化第一行背景！
+[2017-10-24 13:49:41,303]  INFO - 初始化第一行行情按钮！
+[2017-10-24 13:49:41,304]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 13:49:41,304]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 13:49:41,309]  INFO - 初始化第一行登录按钮！
+[2017-10-24 13:49:41,578]  INFO - 初始化第一行注册按钮！
+[2017-10-24 13:49:41,579]  INFO - 初始化第一行登录后状态！
+[2017-10-24 13:49:41,579]  INFO - 初始化第一行注销按钮！
+[2017-10-24 13:49:41,579]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 13:49:41,580]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 13:49:41,581]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 13:49:41,582]  INFO - 初始化第一列行情！
+[2017-10-24 13:49:41,582]  INFO - 初始化第一列供需发布！
+[2017-10-24 13:49:41,582]  INFO - 初始化第一列K线图！
+[2017-10-24 13:49:41,582]  INFO - 初始化第一列资讯！
+[2017-10-24 13:49:41,582]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 13:49:41,582]  INFO - 初始化买入基价！
+[2017-10-24 13:49:41,582]  INFO - 初始化买入基价值！
+[2017-10-24 13:49:41,582]  INFO - 初始化卖出基价！
+[2017-10-24 13:49:41,582]  INFO - 初始化卖出基价值！
+[2017-10-24 13:49:41,587]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 13:49:41,633]  INFO - 初始化界面结束！
+[2017-10-24 13:49:41,633]  INFO - 初始化供需发布！
+[2017-10-24 13:49:42,271]  INFO - 创建登录界面！
+[2017-10-24 13:49:42,490]  INFO - 初始化内置浏览器！
+[2017-10-24 13:49:45,367]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 13:49:51,928]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 13:49:52,558]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 13:49:54,129]  INFO - 收到Cookies消息,值为：SecurityTicket=pn5AWh52ssV5KAt4wkyfpKWmzq%2B46dVGIO0cGNhPMCct%2Fjm6RWnzv5XV6pjh9zhD0xyD2fDirH6jfkGyeXXtUg%3D%3D; SecurityToken=pn5AWh52ssV5KAt4wkyfpKWmzq%2B46dVGIO0cGNhPMCct%2Fjm6RWnzv5XV6pjh9zhD0xyD2fDirH6jfkGyeXXtUg%3D%3D
+[2017-10-24 13:49:55,221]  INFO - 收到Cookies消息,值为：SecurityTicket=pn5AWh52ssV5KAt4wkyfpKWmzq%2B46dVGIO0cGNhPMCct%2Fjm6RWnzv5XV6pjh9zhD0xyD2fDirH6jfkGyeXXtUg%3D%3D; SecurityToken=pn5AWh52ssV5KAt4wkyfpKWmzq%2B46dVGIO0cGNhPMCct%2Fjm6RWnzv5XV6pjh9zhD0xyD2fDirH6jfkGyeXXtUg%3D%3D
+[2017-10-24 13:49:56,262]  INFO - 收到Cookies消息,值为：SecurityTicket=pn5AWh52ssV5KAt4wkyfpKWmzq%2B46dVGIO0cGNhPMCct%2Fjm6RWnzv5XV6pjh9zhD0xyD2fDirH6jfkGyeXXtUg%3D%3D; SecurityToken=pn5AWh52ssV5KAt4wkyfpKWmzq%2B46dVGIO0cGNhPMCct%2Fjm6RWnzv5XV6pjh9zhD0xyD2fDirH6jfkGyeXXtUg%3D%3D
+[2017-10-24 13:54:50,227]  INFO - 初始化界面开始！
+[2017-10-24 13:54:50,233]  INFO - 画板初始化！
+[2017-10-24 13:54:50,387]  INFO - 初始化第一行背景！
+[2017-10-24 13:54:50,389]  INFO - 初始化第一行行情按钮！
+[2017-10-24 13:54:50,390]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 13:54:50,390]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 13:54:50,390]  INFO - 初始化第一行登录按钮！
+[2017-10-24 13:54:50,671]  INFO - 初始化第一行注册按钮！
+[2017-10-24 13:54:50,674]  INFO - 初始化第一行登录后状态！
+[2017-10-24 13:54:50,675]  INFO - 初始化第一行注销按钮！
+[2017-10-24 13:54:50,675]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 13:54:50,676]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 13:54:50,678]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 13:54:50,679]  INFO - 初始化第一列行情！
+[2017-10-24 13:54:50,681]  INFO - 初始化第一列供需发布！
+[2017-10-24 13:54:50,681]  INFO - 初始化第一列K线图！
+[2017-10-24 13:54:50,681]  INFO - 初始化第一列资讯！
+[2017-10-24 13:54:50,681]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 13:54:50,681]  INFO - 初始化买入基价！
+[2017-10-24 13:54:50,681]  INFO - 初始化买入基价值！
+[2017-10-24 13:54:50,681]  INFO - 初始化卖出基价！
+[2017-10-24 13:54:50,681]  INFO - 初始化卖出基价值！
+[2017-10-24 13:54:50,694]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 13:54:50,761]  INFO - 初始化界面结束！
+[2017-10-24 13:54:50,762]  INFO - 初始化供需发布！
+[2017-10-24 13:54:51,257]  INFO - 创建登录界面！
+[2017-10-24 13:54:51,464]  INFO - 初始化内置浏览器！
+[2017-10-24 13:54:55,062]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 13:55:34,028]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 13:55:34,678]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 13:55:36,245]  INFO - 收到Cookies消息,值为：SecurityTicket=32fxTbxNaoa%2FW4Ext02vgraCdhg09pSxgubeVc1MVN5d2n5eEeq37hwuIItnD%2BiEa9nNxRNWu9jh8yepGVn7VA%3D%3D; SecurityToken=32fxTbxNaoa%2FW4Ext02vgraCdhg09pSxgubeVc1MVN5d2n5eEeq37hwuIItnD%2BiEa9nNxRNWu9jh8yepGVn7VA%3D%3D
+[2017-10-24 13:55:37,374]  INFO - 收到Cookies消息,值为：SecurityTicket=32fxTbxNaoa%2FW4Ext02vgraCdhg09pSxgubeVc1MVN5d2n5eEeq37hwuIItnD%2BiEa9nNxRNWu9jh8yepGVn7VA%3D%3D; SecurityToken=32fxTbxNaoa%2FW4Ext02vgraCdhg09pSxgubeVc1MVN5d2n5eEeq37hwuIItnD%2BiEa9nNxRNWu9jh8yepGVn7VA%3D%3D
+[2017-10-24 13:55:38,431]  INFO - 收到Cookies消息,值为：SecurityTicket=32fxTbxNaoa%2FW4Ext02vgraCdhg09pSxgubeVc1MVN5d2n5eEeq37hwuIItnD%2BiEa9nNxRNWu9jh8yepGVn7VA%3D%3D; SecurityToken=32fxTbxNaoa%2FW4Ext02vgraCdhg09pSxgubeVc1MVN5d2n5eEeq37hwuIItnD%2BiEa9nNxRNWu9jh8yepGVn7VA%3D%3D
+[2017-10-24 14:08:13,767]  INFO - 初始化界面开始！
+[2017-10-24 14:08:13,783]  INFO - 画板初始化！
+[2017-10-24 14:08:14,065]  INFO - 初始化第一行背景！
+[2017-10-24 14:08:14,066]  INFO - 初始化第一行行情按钮！
+[2017-10-24 14:08:14,067]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 14:08:14,067]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 14:08:14,067]  INFO - 初始化第一行登录按钮！
+[2017-10-24 14:08:14,438]  INFO - 初始化第一行注册按钮！
+[2017-10-24 14:08:14,439]  INFO - 初始化第一行登录后状态！
+[2017-10-24 14:08:14,439]  INFO - 初始化第一行注销按钮！
+[2017-10-24 14:08:14,440]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 14:08:14,442]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 14:08:14,444]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 14:08:14,445]  INFO - 初始化第一列行情！
+[2017-10-24 14:08:14,445]  INFO - 初始化第一列供需发布！
+[2017-10-24 14:08:14,445]  INFO - 初始化第一列K线图！
+[2017-10-24 14:08:14,445]  INFO - 初始化第一列资讯！
+[2017-10-24 14:08:14,445]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 14:08:14,445]  INFO - 初始化买入基价！
+[2017-10-24 14:08:14,446]  INFO - 初始化买入基价值！
+[2017-10-24 14:08:14,446]  INFO - 初始化卖出基价！
+[2017-10-24 14:08:14,446]  INFO - 初始化卖出基价值！
+[2017-10-24 14:08:14,450]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 14:08:14,501]  INFO - 初始化界面结束！
+[2017-10-24 14:08:14,501]  INFO - 初始化供需发布！
+[2017-10-24 14:08:15,329]  INFO - 创建登录界面！
+[2017-10-24 14:08:15,599]  INFO - 初始化内置浏览器！
+[2017-10-24 14:08:18,332]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 14:08:25,141]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 14:08:25,701]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 14:08:27,258]  INFO - 收到Cookies消息,值为：SecurityTicket=IR705yvuoq0vf69m4XQX3vclXhmgDIAPj1Sug959PsUESDrrCypQxhmrJIpxVdvuOW1mQJ4NZnc9GLvsh8yQIw%3D%3D; SecurityToken=IR705yvuoq0vf69m4XQX3vclXhmgDIAPj1Sug959PsUESDrrCypQxhmrJIpxVdvuOW1mQJ4NZnc9GLvsh8yQIw%3D%3D
+[2017-10-24 14:08:28,326]  INFO - 收到Cookies消息,值为：SecurityTicket=IR705yvuoq0vf69m4XQX3vclXhmgDIAPj1Sug959PsUESDrrCypQxhmrJIpxVdvuOW1mQJ4NZnc9GLvsh8yQIw%3D%3D; SecurityToken=IR705yvuoq0vf69m4XQX3vclXhmgDIAPj1Sug959PsUESDrrCypQxhmrJIpxVdvuOW1mQJ4NZnc9GLvsh8yQIw%3D%3D
+[2017-10-24 14:09:15,769]  INFO - 收到Cookies消息,值为：SecurityTicket=IR705yvuoq0vf69m4XQX3vclXhmgDIAPj1Sug959PsUESDrrCypQxhmrJIpxVdvuOW1mQJ4NZnc9GLvsh8yQIw%3D%3D; SecurityToken=IR705yvuoq0vf69m4XQX3vclXhmgDIAPj1Sug959PsUESDrrCypQxhmrJIpxVdvuOW1mQJ4NZnc9GLvsh8yQIw%3D%3D
+[2017-10-24 14:30:57,817]  INFO - 初始化界面开始！
+[2017-10-24 14:30:57,835]  INFO - 画板初始化！
+[2017-10-24 14:30:58,125]  INFO - 初始化第一行背景！
+[2017-10-24 14:30:58,127]  INFO - 初始化第一行行情按钮！
+[2017-10-24 14:30:58,128]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 14:30:58,128]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 14:30:58,128]  INFO - 初始化第一行登录按钮！
+[2017-10-24 14:30:58,586]  INFO - 初始化第一行注册按钮！
+[2017-10-24 14:30:58,590]  INFO - 初始化第一行登录后状态！
+[2017-10-24 14:30:58,590]  INFO - 初始化第一行注销按钮！
+[2017-10-24 14:30:58,590]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 14:30:58,592]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 14:30:58,594]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 14:30:58,597]  INFO - 初始化第一列行情！
+[2017-10-24 14:30:58,597]  INFO - 初始化第一列供需发布！
+[2017-10-24 14:30:58,597]  INFO - 初始化第一列K线图！
+[2017-10-24 14:30:58,597]  INFO - 初始化第一列资讯！
+[2017-10-24 14:30:58,597]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 14:30:58,597]  INFO - 初始化买入基价！
+[2017-10-24 14:30:58,597]  INFO - 初始化买入基价值！
+[2017-10-24 14:30:58,597]  INFO - 初始化卖出基价！
+[2017-10-24 14:30:58,598]  INFO - 初始化卖出基价值！
+[2017-10-24 14:30:58,604]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 14:30:58,677]  INFO - 初始化界面结束！
+[2017-10-24 14:30:58,677]  INFO - 初始化供需发布！
+[2017-10-24 14:30:59,707]  INFO - 创建登录界面！
+[2017-10-24 14:31:00,025]  INFO - 初始化内置浏览器！
+[2017-10-24 14:31:03,153]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 14:31:11,176]  INFO - 收到帐号密码消息,值为：jinkaifeng,1234567
+[2017-10-24 14:31:12,404]  INFO - 收到帐号密码消息,值为：jinkaifeng,1234567
+[2017-10-24 14:31:15,138]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 14:31:15,749]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 14:31:17,405]  INFO - 收到Cookies消息,值为：SecurityTicket=KJzFF%2F1siKl%2B%2FljA4lWAPEIHxbEtSmhVKalBmu%2BzpDXGjpZ%2FPyeQ0tjujBrUqFJIZCDMZEAhsO12Ws9kcWuRyw%3D%3D; SecurityToken=KJzFF%2F1siKl%2B%2FljA4lWAPEIHxbEtSmhVKalBmu%2BzpDXGjpZ%2FPyeQ0tjujBrUqFJIZCDMZEAhsO12Ws9kcWuRyw%3D%3D
+[2017-10-24 14:31:18,507]  INFO - 收到Cookies消息,值为：SecurityTicket=KJzFF%2F1siKl%2B%2FljA4lWAPEIHxbEtSmhVKalBmu%2BzpDXGjpZ%2FPyeQ0tjujBrUqFJIZCDMZEAhsO12Ws9kcWuRyw%3D%3D; SecurityToken=KJzFF%2F1siKl%2B%2FljA4lWAPEIHxbEtSmhVKalBmu%2BzpDXGjpZ%2FPyeQ0tjujBrUqFJIZCDMZEAhsO12Ws9kcWuRyw%3D%3D
+[2017-10-24 14:31:19,542]  INFO - 收到Cookies消息,值为：SecurityTicket=KJzFF%2F1siKl%2B%2FljA4lWAPEIHxbEtSmhVKalBmu%2BzpDXGjpZ%2FPyeQ0tjujBrUqFJIZCDMZEAhsO12Ws9kcWuRyw%3D%3D; SecurityToken=KJzFF%2F1siKl%2B%2FljA4lWAPEIHxbEtSmhVKalBmu%2BzpDXGjpZ%2FPyeQ0tjujBrUqFJIZCDMZEAhsO12Ws9kcWuRyw%3D%3D
+[2017-10-24 14:42:39,043]  INFO - 初始化界面开始！
+[2017-10-24 14:42:39,054]  INFO - 画板初始化！
+[2017-10-24 14:42:39,347]  INFO - 初始化第一行背景！
+[2017-10-24 14:42:39,348]  INFO - 初始化第一行行情按钮！
+[2017-10-24 14:42:39,350]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 14:42:39,350]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 14:42:39,350]  INFO - 初始化第一行登录按钮！
+[2017-10-24 14:42:39,606]  INFO - 初始化第一行注册按钮！
+[2017-10-24 14:42:39,607]  INFO - 初始化第一行登录后状态！
+[2017-10-24 14:42:39,608]  INFO - 初始化第一行注销按钮！
+[2017-10-24 14:42:39,608]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 14:42:39,609]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 14:42:39,610]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 14:42:39,611]  INFO - 初始化第一列行情！
+[2017-10-24 14:42:39,611]  INFO - 初始化第一列供需发布！
+[2017-10-24 14:42:39,611]  INFO - 初始化第一列K线图！
+[2017-10-24 14:42:39,611]  INFO - 初始化第一列资讯！
+[2017-10-24 14:42:39,611]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 14:42:39,611]  INFO - 初始化买入基价！
+[2017-10-24 14:42:39,611]  INFO - 初始化买入基价值！
+[2017-10-24 14:42:39,611]  INFO - 初始化卖出基价！
+[2017-10-24 14:42:39,611]  INFO - 初始化卖出基价值！
+[2017-10-24 14:42:39,616]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 14:42:39,673]  INFO - 初始化界面结束！
+[2017-10-24 14:42:39,674]  INFO - 初始化供需发布！
+[2017-10-24 14:42:40,496]  INFO - 创建登录界面！
+[2017-10-24 14:42:40,766]  INFO - 初始化内置浏览器！
+[2017-10-24 14:42:43,109]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 14:42:50,946]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 14:42:51,546]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 14:42:53,156]  INFO - 收到Cookies消息,值为：SecurityTicket=bu%2FbXfieDLEsZ8ucUkDCA5Lr9L%2FAijcN5OBas%2Fd7aDpa7kr5zQSUS5JmCqgzUg2EtjEw4y05KMep%2FVL1BJCIGA%3D%3D; SecurityToken=bu%2FbXfieDLEsZ8ucUkDCA5Lr9L%2FAijcN5OBas%2Fd7aDpa7kr5zQSUS5JmCqgzUg2EtjEw4y05KMep%2FVL1BJCIGA%3D%3D
+[2017-10-24 14:43:05,995]  INFO - 收到Cookies消息,值为：SecurityTicket=bu%2FbXfieDLEsZ8ucUkDCA5Lr9L%2FAijcN5OBas%2Fd7aDpa7kr5zQSUS5JmCqgzUg2EtjEw4y05KMep%2FVL1BJCIGA%3D%3D; SecurityToken=bu%2FbXfieDLEsZ8ucUkDCA5Lr9L%2FAijcN5OBas%2Fd7aDpa7kr5zQSUS5JmCqgzUg2EtjEw4y05KMep%2FVL1BJCIGA%3D%3D
+[2017-10-24 14:43:06,015]  INFO - 收到Cookies消息,值为：SecurityTicket=bu%2FbXfieDLEsZ8ucUkDCA5Lr9L%2FAijcN5OBas%2Fd7aDpa7kr5zQSUS5JmCqgzUg2EtjEw4y05KMep%2FVL1BJCIGA%3D%3D; SecurityToken=bu%2FbXfieDLEsZ8ucUkDCA5Lr9L%2FAijcN5OBas%2Fd7aDpa7kr5zQSUS5JmCqgzUg2EtjEw4y05KMep%2FVL1BJCIGA%3D%3D
+[2017-10-24 14:44:07,137]  INFO - 初始化界面开始！
+[2017-10-24 14:44:07,146]  INFO - 画板初始化！
+[2017-10-24 14:44:07,383]  INFO - 初始化第一行背景！
+[2017-10-24 14:44:07,385]  INFO - 初始化第一行行情按钮！
+[2017-10-24 14:44:07,386]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 14:44:07,386]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 14:44:07,386]  INFO - 初始化第一行登录按钮！
+[2017-10-24 14:44:07,678]  INFO - 初始化第一行注册按钮！
+[2017-10-24 14:44:07,680]  INFO - 初始化第一行登录后状态！
+[2017-10-24 14:44:07,680]  INFO - 初始化第一行注销按钮！
+[2017-10-24 14:44:07,680]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 14:44:07,682]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 14:44:07,684]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 14:44:07,685]  INFO - 初始化第一列行情！
+[2017-10-24 14:44:07,685]  INFO - 初始化第一列供需发布！
+[2017-10-24 14:44:07,685]  INFO - 初始化第一列K线图！
+[2017-10-24 14:44:07,685]  INFO - 初始化第一列资讯！
+[2017-10-24 14:44:07,685]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 14:44:07,686]  INFO - 初始化买入基价！
+[2017-10-24 14:44:07,686]  INFO - 初始化买入基价值！
+[2017-10-24 14:44:07,686]  INFO - 初始化卖出基价！
+[2017-10-24 14:44:07,686]  INFO - 初始化卖出基价值！
+[2017-10-24 14:44:07,691]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 14:44:07,743]  INFO - 初始化界面结束！
+[2017-10-24 14:44:07,743]  INFO - 初始化供需发布！
+[2017-10-24 14:44:08,414]  INFO - 创建登录界面！
+[2017-10-24 14:44:08,677]  INFO - 初始化内置浏览器！
+[2017-10-24 14:44:10,972]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 14:44:18,151]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 14:44:18,814]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 14:45:07,518]  INFO - 收到Cookies消息,值为：SecurityTicket=cbdNvEGRntuHOMEhkx%2By4ciBLCzomsfWzMQY8UVhIybjqTkfqN0Vnth4zirK2RmdGVcl12PgoCb2ywyvveEMyw%3D%3D; SecurityToken=cbdNvEGRntuHOMEhkx%2By4ciBLCzomsfWzMQY8UVhIybjqTkfqN0Vnth4zirK2RmdGVcl12PgoCb2ywyvveEMyw%3D%3D
+[2017-10-24 14:45:07,548]  INFO - 收到Cookies消息,值为：SecurityTicket=cbdNvEGRntuHOMEhkx%2By4ciBLCzomsfWzMQY8UVhIybjqTkfqN0Vnth4zirK2RmdGVcl12PgoCb2ywyvveEMyw%3D%3D; SecurityToken=cbdNvEGRntuHOMEhkx%2By4ciBLCzomsfWzMQY8UVhIybjqTkfqN0Vnth4zirK2RmdGVcl12PgoCb2ywyvveEMyw%3D%3D
+[2017-10-24 14:45:08,776]  INFO - 收到Cookies消息,值为：SecurityTicket=cbdNvEGRntuHOMEhkx%2By4ciBLCzomsfWzMQY8UVhIybjqTkfqN0Vnth4zirK2RmdGVcl12PgoCb2ywyvveEMyw%3D%3D; SecurityToken=cbdNvEGRntuHOMEhkx%2By4ciBLCzomsfWzMQY8UVhIybjqTkfqN0Vnth4zirK2RmdGVcl12PgoCb2ywyvveEMyw%3D%3D
+[2017-10-24 14:45:09,804]  INFO - 收到Cookies消息,值为：SecurityTicket=cbdNvEGRntuHOMEhkx%2By4ciBLCzomsfWzMQY8UVhIybjqTkfqN0Vnth4zirK2RmdGVcl12PgoCb2ywyvveEMyw%3D%3D; SecurityToken=cbdNvEGRntuHOMEhkx%2By4ciBLCzomsfWzMQY8UVhIybjqTkfqN0Vnth4zirK2RmdGVcl12PgoCb2ywyvveEMyw%3D%3D
+[2017-10-24 15:06:14,084]  INFO - 初始化界面开始！
+[2017-10-24 15:06:14,093]  INFO - 画板初始化！
+[2017-10-24 15:06:14,570]  INFO - 初始化第一行背景！
+[2017-10-24 15:06:14,582]  INFO - 初始化第一行行情按钮！
+[2017-10-24 15:06:14,589]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 15:06:14,590]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 15:06:14,590]  INFO - 初始化第一行登录按钮！
+[2017-10-24 15:06:15,093]  INFO - 初始化第一行注册按钮！
+[2017-10-24 15:06:15,098]  INFO - 初始化第一行登录后状态！
+[2017-10-24 15:06:15,098]  INFO - 初始化第一行注销按钮！
+[2017-10-24 15:06:15,099]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 15:06:15,101]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 15:06:15,114]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 15:06:15,115]  INFO - 初始化第一列行情！
+[2017-10-24 15:06:15,115]  INFO - 初始化第一列供需发布！
+[2017-10-24 15:06:15,115]  INFO - 初始化第一列K线图！
+[2017-10-24 15:06:15,115]  INFO - 初始化第一列资讯！
+[2017-10-24 15:06:15,115]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 15:06:15,118]  INFO - 初始化买入基价！
+[2017-10-24 15:06:15,118]  INFO - 初始化买入基价值！
+[2017-10-24 15:06:15,119]  INFO - 初始化卖出基价！
+[2017-10-24 15:06:15,119]  INFO - 初始化卖出基价值！
+[2017-10-24 15:06:15,124]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 15:06:15,177]  INFO - 初始化界面结束！
+[2017-10-24 15:06:15,178]  INFO - 初始化供需发布！
+[2017-10-24 15:06:15,974]  INFO - 创建登录界面！
+[2017-10-24 15:06:16,251]  INFO - 初始化内置浏览器！
+[2017-10-24 15:06:19,142]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 15:06:24,562]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 15:06:27,958]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 15:06:29,250]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 15:07:02,601]  INFO - 收到Cookies消息,值为：SecurityTicket=TwQkIxmKyuJpFl6um1HHWq12vyWn2OxRDwwxsLpfE0K1BB%2Bama9XL7dWS1K2iZ7N0%2BjJ%2BAYQK%2BBenMiyEWnITw%3D%3D; SecurityToken=TwQkIxmKyuJpFl6um1HHWq12vyWn2OxRDwwxsLpfE0K1BB%2Bama9XL7dWS1K2iZ7N0%2BjJ%2BAYQK%2BBenMiyEWnITw%3D%3D
+[2017-10-24 15:07:02,629]  INFO - 收到Cookies消息,值为：SecurityTicket=TwQkIxmKyuJpFl6um1HHWq12vyWn2OxRDwwxsLpfE0K1BB%2Bama9XL7dWS1K2iZ7N0%2BjJ%2BAYQK%2BBenMiyEWnITw%3D%3D; SecurityToken=TwQkIxmKyuJpFl6um1HHWq12vyWn2OxRDwwxsLpfE0K1BB%2Bama9XL7dWS1K2iZ7N0%2BjJ%2BAYQK%2BBenMiyEWnITw%3D%3D
+[2017-10-24 15:07:03,599]  INFO - 收到Cookies消息,值为：SecurityTicket=TwQkIxmKyuJpFl6um1HHWq12vyWn2OxRDwwxsLpfE0K1BB%2Bama9XL7dWS1K2iZ7N0%2BjJ%2BAYQK%2BBenMiyEWnITw%3D%3D; SecurityToken=TwQkIxmKyuJpFl6um1HHWq12vyWn2OxRDwwxsLpfE0K1BB%2Bama9XL7dWS1K2iZ7N0%2BjJ%2BAYQK%2BBenMiyEWnITw%3D%3D
+[2017-10-24 15:07:03,953]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 15:07:04,658]  INFO - 收到Cookies消息,值为：SecurityTicket=TwQkIxmKyuJpFl6um1HHWq12vyWn2OxRDwwxsLpfE0K1BB%2Bama9XL7dWS1K2iZ7N0%2BjJ%2BAYQK%2BBenMiyEWnITw%3D%3D; SecurityToken=TwQkIxmKyuJpFl6um1HHWq12vyWn2OxRDwwxsLpfE0K1BB%2Bama9XL7dWS1K2iZ7N0%2BjJ%2BAYQK%2BBenMiyEWnITw%3D%3D
+[2017-10-24 15:54:47,833]  INFO - 初始化界面开始！
+[2017-10-24 15:54:47,848]  INFO - 画板初始化！
+[2017-10-24 15:54:48,282]  INFO - 初始化第一行背景！
+[2017-10-24 15:54:48,284]  INFO - 初始化第一行行情按钮！
+[2017-10-24 15:54:48,285]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 15:54:48,285]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 15:54:48,285]  INFO - 初始化第一行登录按钮！
+[2017-10-24 15:54:48,789]  INFO - 初始化第一行注册按钮！
+[2017-10-24 15:54:48,790]  INFO - 初始化第一行登录后状态！
+[2017-10-24 15:54:48,791]  INFO - 初始化第一行注销按钮！
+[2017-10-24 15:54:48,791]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 15:54:48,792]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 15:54:48,793]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 15:54:48,796]  INFO - 初始化第一列行情！
+[2017-10-24 15:54:48,796]  INFO - 初始化第一列供需发布！
+[2017-10-24 15:54:48,796]  INFO - 初始化第一列K线图！
+[2017-10-24 15:54:48,796]  INFO - 初始化第一列资讯！
+[2017-10-24 15:54:48,796]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 15:54:48,797]  INFO - 初始化买入基价！
+[2017-10-24 15:54:48,797]  INFO - 初始化买入基价值！
+[2017-10-24 15:54:48,797]  INFO - 初始化卖出基价！
+[2017-10-24 15:54:48,797]  INFO - 初始化卖出基价值！
+[2017-10-24 15:54:48,803]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 15:54:48,866]  INFO - 初始化界面结束！
+[2017-10-24 15:54:48,867]  INFO - 初始化供需发布！
+[2017-10-24 15:54:49,974]  INFO - 创建登录界面！
+[2017-10-24 15:54:50,304]  INFO - 初始化内置浏览器！
+[2017-10-24 15:54:53,287]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 15:55:00,113]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 15:55:02,341]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 15:55:04,469]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 15:55:09,724]  INFO - 收到Cookies消息,值为：SecurityTicket=dr5%2Bo716orxzDzPTtKQri0gItwLBFpHykd7wZ2ZLRPXZGBWGTTW0ImH2zFwHr%2BTdmjPpZFWgZTXa0eGpzORTgw%3D%3D; SecurityToken=dr5%2Bo716orxzDzPTtKQri0gItwLBFpHykd7wZ2ZLRPXZGBWGTTW0ImH2zFwHr%2BTdmjPpZFWgZTXa0eGpzORTgw%3D%3D
+[2017-10-24 15:55:10,899]  INFO - 收到Cookies消息,值为：SecurityTicket=dr5%2Bo716orxzDzPTtKQri0gItwLBFpHykd7wZ2ZLRPXZGBWGTTW0ImH2zFwHr%2BTdmjPpZFWgZTXa0eGpzORTgw%3D%3D; SecurityToken=dr5%2Bo716orxzDzPTtKQri0gItwLBFpHykd7wZ2ZLRPXZGBWGTTW0ImH2zFwHr%2BTdmjPpZFWgZTXa0eGpzORTgw%3D%3D
+[2017-10-24 15:55:11,924]  INFO - 收到Cookies消息,值为：SecurityTicket=dr5%2Bo716orxzDzPTtKQri0gItwLBFpHykd7wZ2ZLRPXZGBWGTTW0ImH2zFwHr%2BTdmjPpZFWgZTXa0eGpzORTgw%3D%3D; SecurityToken=dr5%2Bo716orxzDzPTtKQri0gItwLBFpHykd7wZ2ZLRPXZGBWGTTW0ImH2zFwHr%2BTdmjPpZFWgZTXa0eGpzORTgw%3D%3D
+[2017-10-24 16:00:43,876]  INFO - 初始化界面开始！
+[2017-10-24 16:00:43,889]  INFO - 画板初始化！
+[2017-10-24 16:00:44,232]  INFO - 初始化第一行背景！
+[2017-10-24 16:00:44,234]  INFO - 初始化第一行行情按钮！
+[2017-10-24 16:00:44,235]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 16:00:44,235]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 16:00:44,235]  INFO - 初始化第一行登录按钮！
+[2017-10-24 16:00:44,694]  INFO - 初始化第一行注册按钮！
+[2017-10-24 16:00:44,695]  INFO - 初始化第一行登录后状态！
+[2017-10-24 16:00:44,695]  INFO - 初始化第一行注销按钮！
+[2017-10-24 16:00:44,695]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 16:00:44,700]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 16:00:44,701]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 16:00:44,702]  INFO - 初始化第一列行情！
+[2017-10-24 16:00:44,702]  INFO - 初始化第一列供需发布！
+[2017-10-24 16:00:44,702]  INFO - 初始化第一列K线图！
+[2017-10-24 16:00:44,702]  INFO - 初始化第一列资讯！
+[2017-10-24 16:00:44,702]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:00:44,702]  INFO - 初始化买入基价！
+[2017-10-24 16:00:44,702]  INFO - 初始化买入基价值！
+[2017-10-24 16:00:44,702]  INFO - 初始化卖出基价！
+[2017-10-24 16:00:44,702]  INFO - 初始化卖出基价值！
+[2017-10-24 16:00:44,706]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:00:44,776]  INFO - 初始化界面结束！
+[2017-10-24 16:00:44,777]  INFO - 初始化供需发布！
+[2017-10-24 16:00:45,789]  INFO - 创建登录界面！
+[2017-10-24 16:00:46,079]  INFO - 初始化内置浏览器！
+[2017-10-24 16:00:48,924]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:00:53,147]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 16:00:53,833]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 16:00:55,529]  INFO - 收到Cookies消息,值为：SecurityTicket=MKoEPTOWm6X%2FE1AO2CiHXaZ5LobVdQZXiXNEJUzwvKwI99YjuYjnKVAjLfD5nyjmHamUutbn52QBAClIVvp2xQ%3D%3D; SecurityToken=MKoEPTOWm6X%2FE1AO2CiHXaZ5LobVdQZXiXNEJUzwvKwI99YjuYjnKVAjLfD5nyjmHamUutbn52QBAClIVvp2xQ%3D%3D
+[2017-10-24 16:00:58,743]  INFO - 收到Cookies消息,值为：SecurityTicket=MKoEPTOWm6X%2FE1AO2CiHXaZ5LobVdQZXiXNEJUzwvKwI99YjuYjnKVAjLfD5nyjmHamUutbn52QBAClIVvp2xQ%3D%3D; SecurityToken=MKoEPTOWm6X%2FE1AO2CiHXaZ5LobVdQZXiXNEJUzwvKwI99YjuYjnKVAjLfD5nyjmHamUutbn52QBAClIVvp2xQ%3D%3D
+[2017-10-24 16:00:59,720]  INFO - 收到Cookies消息,值为：SecurityTicket=MKoEPTOWm6X%2FE1AO2CiHXaZ5LobVdQZXiXNEJUzwvKwI99YjuYjnKVAjLfD5nyjmHamUutbn52QBAClIVvp2xQ%3D%3D; SecurityToken=MKoEPTOWm6X%2FE1AO2CiHXaZ5LobVdQZXiXNEJUzwvKwI99YjuYjnKVAjLfD5nyjmHamUutbn52QBAClIVvp2xQ%3D%3D
+[2017-10-24 16:03:01,529]  INFO - 收到帐号密码消息,值为：18016321103,123456
+[2017-10-24 16:03:06,161]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 16:03:07,797]  INFO - 收到Cookies消息,值为：SecurityTicket=KwMePnseFG00gIAd9urdA9uy%2FpLI0xq%2BjkbgufnJyhKkz8jYZH4CK1mTI%2FDigiwMNAv1SxypclDMteBWuMm9CA%3D%3D; SecurityToken=KwMePnseFG00gIAd9urdA9uy%2FpLI0xq%2BjkbgufnJyhKkz8jYZH4CK1mTI%2FDigiwMNAv1SxypclDMteBWuMm9CA%3D%3D
+[2017-10-24 16:03:09,996]  INFO - 收到Cookies消息,值为：SecurityTicket=KwMePnseFG00gIAd9urdA9uy%2FpLI0xq%2BjkbgufnJyhKkz8jYZH4CK1mTI%2FDigiwMNAv1SxypclDMteBWuMm9CA%3D%3D; SecurityToken=KwMePnseFG00gIAd9urdA9uy%2FpLI0xq%2BjkbgufnJyhKkz8jYZH4CK1mTI%2FDigiwMNAv1SxypclDMteBWuMm9CA%3D%3D
+[2017-10-24 16:03:10,993]  INFO - 收到Cookies消息,值为：SecurityTicket=KwMePnseFG00gIAd9urdA9uy%2FpLI0xq%2BjkbgufnJyhKkz8jYZH4CK1mTI%2FDigiwMNAv1SxypclDMteBWuMm9CA%3D%3D; SecurityToken=KwMePnseFG00gIAd9urdA9uy%2FpLI0xq%2BjkbgufnJyhKkz8jYZH4CK1mTI%2FDigiwMNAv1SxypclDMteBWuMm9CA%3D%3D
+[2017-10-24 16:05:24,349]  INFO - 初始化界面开始！
+[2017-10-24 16:05:24,370]  INFO - 画板初始化！
+[2017-10-24 16:05:24,622]  INFO - 初始化第一行背景！
+[2017-10-24 16:05:24,624]  INFO - 初始化第一行行情按钮！
+[2017-10-24 16:05:24,625]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 16:05:24,625]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 16:05:24,625]  INFO - 初始化第一行登录按钮！
+[2017-10-24 16:05:25,018]  INFO - 初始化第一行注册按钮！
+[2017-10-24 16:05:25,020]  INFO - 初始化第一行登录后状态！
+[2017-10-24 16:05:25,020]  INFO - 初始化第一行注销按钮！
+[2017-10-24 16:05:25,020]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 16:05:25,022]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 16:05:25,023]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 16:05:25,024]  INFO - 初始化第一列行情！
+[2017-10-24 16:05:25,024]  INFO - 初始化第一列供需发布！
+[2017-10-24 16:05:25,025]  INFO - 初始化第一列K线图！
+[2017-10-24 16:05:25,025]  INFO - 初始化第一列资讯！
+[2017-10-24 16:05:25,025]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:05:25,025]  INFO - 初始化买入基价！
+[2017-10-24 16:05:25,025]  INFO - 初始化买入基价值！
+[2017-10-24 16:05:25,025]  INFO - 初始化卖出基价！
+[2017-10-24 16:05:25,025]  INFO - 初始化卖出基价值！
+[2017-10-24 16:05:25,031]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:05:25,076]  INFO - 初始化界面结束！
+[2017-10-24 16:05:25,076]  INFO - 初始化供需发布！
+[2017-10-24 16:05:25,907]  INFO - 创建登录界面！
+[2017-10-24 16:05:26,170]  INFO - 初始化内置浏览器！
+[2017-10-24 16:05:28,552]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:05:35,188]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 16:05:35,772]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 16:05:37,355]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:05:40,941]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:05:41,910]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:05:42,943]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:05:43,993]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:05:45,022]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:06:24,984]  INFO - 初始化界面开始！
+[2017-10-24 16:06:24,999]  INFO - 画板初始化！
+[2017-10-24 16:06:25,331]  INFO - 初始化第一行背景！
+[2017-10-24 16:06:25,333]  INFO - 初始化第一行行情按钮！
+[2017-10-24 16:06:25,334]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 16:06:25,334]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 16:06:25,334]  INFO - 初始化第一行登录按钮！
+[2017-10-24 16:06:25,906]  INFO - 初始化第一行注册按钮！
+[2017-10-24 16:06:25,908]  INFO - 初始化第一行登录后状态！
+[2017-10-24 16:06:25,909]  INFO - 初始化第一行注销按钮！
+[2017-10-24 16:06:25,909]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 16:06:25,910]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 16:06:25,912]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 16:06:25,913]  INFO - 初始化第一列行情！
+[2017-10-24 16:06:25,913]  INFO - 初始化第一列供需发布！
+[2017-10-24 16:06:25,913]  INFO - 初始化第一列K线图！
+[2017-10-24 16:06:25,913]  INFO - 初始化第一列资讯！
+[2017-10-24 16:06:25,913]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:06:25,913]  INFO - 初始化买入基价！
+[2017-10-24 16:06:25,913]  INFO - 初始化买入基价值！
+[2017-10-24 16:06:25,913]  INFO - 初始化卖出基价！
+[2017-10-24 16:06:25,913]  INFO - 初始化卖出基价值！
+[2017-10-24 16:06:25,926]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:06:26,002]  INFO - 初始化界面结束！
+[2017-10-24 16:06:26,003]  INFO - 初始化供需发布！
+[2017-10-24 16:06:26,712]  INFO - 创建登录界面！
+[2017-10-24 16:06:27,009]  INFO - 初始化内置浏览器！
+[2017-10-24 16:06:29,597]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:06:36,281]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 16:06:36,855]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 16:06:38,438]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:06:39,473]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:06:40,499]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:06:42,887]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:06:43,887]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:06:44,936]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:06:45,989]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:06:47,022]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:27,303]  INFO - 初始化界面开始！
+[2017-10-24 16:07:27,311]  INFO - 画板初始化！
+[2017-10-24 16:07:27,534]  INFO - 初始化第一行背景！
+[2017-10-24 16:07:27,535]  INFO - 初始化第一行行情按钮！
+[2017-10-24 16:07:27,535]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 16:07:27,535]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 16:07:27,535]  INFO - 初始化第一行登录按钮！
+[2017-10-24 16:07:27,879]  INFO - 初始化第一行注册按钮！
+[2017-10-24 16:07:27,882]  INFO - 初始化第一行登录后状态！
+[2017-10-24 16:07:27,882]  INFO - 初始化第一行注销按钮！
+[2017-10-24 16:07:27,882]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 16:07:27,884]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 16:07:27,885]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 16:07:27,886]  INFO - 初始化第一列行情！
+[2017-10-24 16:07:27,886]  INFO - 初始化第一列供需发布！
+[2017-10-24 16:07:27,886]  INFO - 初始化第一列K线图！
+[2017-10-24 16:07:27,886]  INFO - 初始化第一列资讯！
+[2017-10-24 16:07:27,886]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:07:27,886]  INFO - 初始化买入基价！
+[2017-10-24 16:07:27,886]  INFO - 初始化买入基价值！
+[2017-10-24 16:07:27,886]  INFO - 初始化卖出基价！
+[2017-10-24 16:07:27,886]  INFO - 初始化卖出基价值！
+[2017-10-24 16:07:27,890]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:07:27,926]  INFO - 初始化界面结束！
+[2017-10-24 16:07:27,926]  INFO - 初始化供需发布！
+[2017-10-24 16:07:28,409]  INFO - 创建登录界面！
+[2017-10-24 16:07:28,640]  INFO - 初始化内置浏览器！
+[2017-10-24 16:07:32,632]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:41,391]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 16:07:41,948]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 16:07:43,566]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:44,651]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:45,681]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:46,718]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:47,754]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:48,796]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:49,832]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:50,871]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:51,906]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:52,935]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:54,002]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:55,040]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:56,099]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:57,122]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:58,154]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:07:59,187]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:00,211]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:01,269]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:02,295]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:03,349]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:04,424]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:05,461]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:19,935]  INFO - 初始化界面开始！
+[2017-10-24 16:08:19,951]  INFO - 画板初始化！
+[2017-10-24 16:08:20,353]  INFO - 初始化第一行背景！
+[2017-10-24 16:08:20,354]  INFO - 初始化第一行行情按钮！
+[2017-10-24 16:08:20,355]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 16:08:20,355]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 16:08:20,355]  INFO - 初始化第一行登录按钮！
+[2017-10-24 16:08:21,052]  INFO - 初始化第一行注册按钮！
+[2017-10-24 16:08:21,054]  INFO - 初始化第一行登录后状态！
+[2017-10-24 16:08:21,055]  INFO - 初始化第一行注销按钮！
+[2017-10-24 16:08:21,055]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 16:08:21,061]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 16:08:21,062]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 16:08:21,063]  INFO - 初始化第一列行情！
+[2017-10-24 16:08:21,064]  INFO - 初始化第一列供需发布！
+[2017-10-24 16:08:21,064]  INFO - 初始化第一列K线图！
+[2017-10-24 16:08:21,064]  INFO - 初始化第一列资讯！
+[2017-10-24 16:08:21,064]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:08:21,064]  INFO - 初始化买入基价！
+[2017-10-24 16:08:21,064]  INFO - 初始化买入基价值！
+[2017-10-24 16:08:21,064]  INFO - 初始化卖出基价！
+[2017-10-24 16:08:21,064]  INFO - 初始化卖出基价值！
+[2017-10-24 16:08:21,069]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:08:21,128]  INFO - 初始化界面结束！
+[2017-10-24 16:08:21,128]  INFO - 初始化供需发布！
+[2017-10-24 16:08:21,748]  INFO - 创建登录界面！
+[2017-10-24 16:08:22,119]  INFO - 初始化内置浏览器！
+[2017-10-24 16:08:32,401]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:32,403]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 16:08:33,889]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 16:08:35,454]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:36,482]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:37,519]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:38,554]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:39,587]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:40,617]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:41,664]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:42,691]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:43,745]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:44,775]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:45,849]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:46,884]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:47,923]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:48,954]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:49,992]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:51,031]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:52,060]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:53,103]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:54,127]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:55,171]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:56,193]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:57,242]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:58,270]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:08:59,302]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:00,342]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:01,388]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:02,417]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:03,460]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:04,484]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:05,496]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:06,497]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:07,523]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:08,578]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:09,635]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:10,666]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:11,688]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:12,736]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:13,773]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:14,808]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:15,864]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:16,921]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:17,957]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:18,984]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:20,021]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:21,041]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:22,065]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:23,136]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:24,165]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:25,210]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:26,248]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:27,667]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:28,671]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:32,754]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:33,790]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:34,830]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:35,867]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:36,895]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:37,929]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:38,962]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:40,006]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:41,075]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:42,073]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:43,136]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:44,220]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:45,254]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:46,288]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:47,318]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:48,344]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:49,374]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:50,398]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:51,433]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:52,520]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:53,567]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:54,617]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:55,680]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:56,710]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:57,740]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:09:58,770]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:00,411]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:01,405]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:02,434]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:03,473]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:04,506]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:05,541]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:06,580]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:07,642]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:08,640]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:09,666]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:10,715]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:11,774]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:12,804]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:13,826]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:14,904]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:15,938]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:16,971]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:17,997]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:19,036]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:20,065]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:21,195]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:22,228]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:23,270]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:24,380]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:25,489]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:26,559]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:27,630]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:28,702]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:29,780]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:30,774]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:10:32,113]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:25:17,117]  INFO - 初始化界面开始！
+[2017-10-24 16:25:17,132]  INFO - 画板初始化！
+[2017-10-24 16:25:17,565]  INFO - 初始化第一行背景！
+[2017-10-24 16:25:17,567]  INFO - 初始化第一行行情按钮！
+[2017-10-24 16:25:17,568]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 16:25:17,569]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 16:25:17,569]  INFO - 初始化第一行登录按钮！
+[2017-10-24 16:25:18,048]  INFO - 初始化第一行注册按钮！
+[2017-10-24 16:25:18,050]  INFO - 初始化第一行登录后状态！
+[2017-10-24 16:25:18,050]  INFO - 初始化第一行注销按钮！
+[2017-10-24 16:25:18,051]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 16:25:18,052]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 16:25:18,054]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 16:25:18,057]  INFO - 初始化第一列行情！
+[2017-10-24 16:25:18,058]  INFO - 初始化第一列供需发布！
+[2017-10-24 16:25:18,058]  INFO - 初始化第一列K线图！
+[2017-10-24 16:25:18,058]  INFO - 初始化第一列资讯！
+[2017-10-24 16:25:18,058]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:25:18,058]  INFO - 初始化买入基价！
+[2017-10-24 16:25:18,058]  INFO - 初始化买入基价值！
+[2017-10-24 16:25:18,058]  INFO - 初始化卖出基价！
+[2017-10-24 16:25:18,058]  INFO - 初始化卖出基价值！
+[2017-10-24 16:25:18,063]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:25:18,122]  INFO - 初始化界面结束！
+[2017-10-24 16:25:18,122]  INFO - 初始化供需发布！
+[2017-10-24 16:25:19,293]  INFO - 创建登录界面！
+[2017-10-24 16:25:19,682]  INFO - 初始化内置浏览器！
+[2017-10-24 16:25:24,378]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:25:52,289]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 16:25:52,927]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 16:25:54,532]  INFO - 收到Cookies消息,值为：SecurityTicket=7Nz1sSE8l6AeTrfipTpFsKvpXyFL78yppsOaDuubNtFufBZC30KNhmL401OmwaL0FEoJmexf0Ql0iMWtYifmRg%3D%3D; SecurityToken=7Nz1sSE8l6AeTrfipTpFsKvpXyFL78yppsOaDuubNtFufBZC30KNhmL401OmwaL0FEoJmexf0Ql0iMWtYifmRg%3D%3D
+[2017-10-24 16:25:55,601]  INFO - 收到Cookies消息,值为：SecurityTicket=7Nz1sSE8l6AeTrfipTpFsKvpXyFL78yppsOaDuubNtFufBZC30KNhmL401OmwaL0FEoJmexf0Ql0iMWtYifmRg%3D%3D; SecurityToken=7Nz1sSE8l6AeTrfipTpFsKvpXyFL78yppsOaDuubNtFufBZC30KNhmL401OmwaL0FEoJmexf0Ql0iMWtYifmRg%3D%3D
+[2017-10-24 16:25:56,647]  INFO - 收到Cookies消息,值为：SecurityTicket=7Nz1sSE8l6AeTrfipTpFsKvpXyFL78yppsOaDuubNtFufBZC30KNhmL401OmwaL0FEoJmexf0Ql0iMWtYifmRg%3D%3D; SecurityToken=7Nz1sSE8l6AeTrfipTpFsKvpXyFL78yppsOaDuubNtFufBZC30KNhmL401OmwaL0FEoJmexf0Ql0iMWtYifmRg%3D%3D
+[2017-10-24 16:28:32,882]  INFO - 初始化界面开始！
+[2017-10-24 16:28:32,894]  INFO - 画板初始化！
+[2017-10-24 16:28:33,208]  INFO - 初始化第一行背景！
+[2017-10-24 16:28:33,210]  INFO - 初始化第一行行情按钮！
+[2017-10-24 16:28:33,211]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 16:28:33,211]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 16:28:33,211]  INFO - 初始化第一行登录按钮！
+[2017-10-24 16:28:33,743]  INFO - 初始化第一行注册按钮！
+[2017-10-24 16:28:33,744]  INFO - 初始化第一行登录后状态！
+[2017-10-24 16:28:33,745]  INFO - 初始化第一行注销按钮！
+[2017-10-24 16:28:33,745]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 16:28:33,746]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 16:28:33,747]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 16:28:33,749]  INFO - 初始化第一列行情！
+[2017-10-24 16:28:33,749]  INFO - 初始化第一列供需发布！
+[2017-10-24 16:28:33,749]  INFO - 初始化第一列K线图！
+[2017-10-24 16:28:33,749]  INFO - 初始化第一列资讯！
+[2017-10-24 16:28:33,749]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:28:33,749]  INFO - 初始化买入基价！
+[2017-10-24 16:28:33,749]  INFO - 初始化买入基价值！
+[2017-10-24 16:28:33,749]  INFO - 初始化卖出基价！
+[2017-10-24 16:28:33,749]  INFO - 初始化卖出基价值！
+[2017-10-24 16:28:33,755]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:28:33,818]  INFO - 初始化界面结束！
+[2017-10-24 16:28:33,819]  INFO - 初始化供需发布！
+[2017-10-24 16:28:34,801]  INFO - 创建登录界面！
+[2017-10-24 16:28:35,102]  INFO - 初始化内置浏览器！
+[2017-10-24 16:28:37,254]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:28:57,072]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 16:28:57,646]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 16:28:59,238]  INFO - 收到Cookies消息,值为：SecurityTicket=yWOcLREm9Brl%2F4JoZE7DQLh2tcowpjNQY9pz4DJ6QpuKPC%2FSqXG7PTK%2FX5T6Itke5EWRQssZQbiSLdcbMRBQjQ%3D%3D; SecurityToken=yWOcLREm9Brl%2F4JoZE7DQLh2tcowpjNQY9pz4DJ6QpuKPC%2FSqXG7PTK%2FX5T6Itke5EWRQssZQbiSLdcbMRBQjQ%3D%3D
+[2017-10-24 16:29:00,285]  INFO - 收到Cookies消息,值为：SecurityTicket=yWOcLREm9Brl%2F4JoZE7DQLh2tcowpjNQY9pz4DJ6QpuKPC%2FSqXG7PTK%2FX5T6Itke5EWRQssZQbiSLdcbMRBQjQ%3D%3D; SecurityToken=yWOcLREm9Brl%2F4JoZE7DQLh2tcowpjNQY9pz4DJ6QpuKPC%2FSqXG7PTK%2FX5T6Itke5EWRQssZQbiSLdcbMRBQjQ%3D%3D
+[2017-10-24 16:29:01,357]  INFO - 收到Cookies消息,值为：SecurityTicket=yWOcLREm9Brl%2F4JoZE7DQLh2tcowpjNQY9pz4DJ6QpuKPC%2FSqXG7PTK%2FX5T6Itke5EWRQssZQbiSLdcbMRBQjQ%3D%3D; SecurityToken=yWOcLREm9Brl%2F4JoZE7DQLh2tcowpjNQY9pz4DJ6QpuKPC%2FSqXG7PTK%2FX5T6Itke5EWRQssZQbiSLdcbMRBQjQ%3D%3D
+[2017-10-24 16:47:37,365]  INFO - 初始化界面开始！
+[2017-10-24 16:47:37,375]  INFO - 画板初始化！
+[2017-10-24 16:47:37,617]  INFO - 初始化第一行背景！
+[2017-10-24 16:47:37,624]  INFO - 初始化第一行行情按钮！
+[2017-10-24 16:47:37,627]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 16:47:37,627]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 16:47:37,627]  INFO - 初始化第一行登录按钮！
+[2017-10-24 16:47:38,320]  INFO - 初始化第一行注册按钮！
+[2017-10-24 16:47:38,322]  INFO - 初始化第一行登录后状态！
+[2017-10-24 16:47:38,323]  INFO - 初始化第一行注销按钮！
+[2017-10-24 16:47:38,323]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 16:47:38,325]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 16:47:38,326]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 16:47:38,327]  INFO - 初始化第一列行情！
+[2017-10-24 16:47:38,328]  INFO - 初始化第一列供需发布！
+[2017-10-24 16:47:38,328]  INFO - 初始化第一列K线图！
+[2017-10-24 16:47:38,328]  INFO - 初始化第一列资讯！
+[2017-10-24 16:47:38,328]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:47:38,328]  INFO - 初始化买入基价！
+[2017-10-24 16:47:38,328]  INFO - 初始化买入基价值！
+[2017-10-24 16:47:38,328]  INFO - 初始化卖出基价！
+[2017-10-24 16:47:38,328]  INFO - 初始化卖出基价值！
+[2017-10-24 16:47:38,333]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 16:47:38,397]  INFO - 初始化界面结束！
+[2017-10-24 16:47:38,397]  INFO - 初始化供需发布！
+[2017-10-24 16:47:39,343]  INFO - 创建登录界面！
+[2017-10-24 16:47:39,924]  INFO - 初始化内置浏览器！
+[2017-10-24 16:47:43,955]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 16:47:51,449]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 16:47:52,006]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 16:47:53,587]  INFO - 收到Cookies消息,值为：SecurityTicket=EfrhF11QZ%2Bvn5lqZWBsvL1eBCEV4hZavf8uf3WnopNZu6f7zlg1pvYJFIro%2BKWbhbydyj%2FiB8ygnwAUBnxFIfg%3D%3D; SecurityToken=EfrhF11QZ%2Bvn5lqZWBsvL1eBCEV4hZavf8uf3WnopNZu6f7zlg1pvYJFIro%2BKWbhbydyj%2FiB8ygnwAUBnxFIfg%3D%3D
+[2017-10-24 16:47:54,652]  INFO - 收到Cookies消息,值为：SecurityTicket=EfrhF11QZ%2Bvn5lqZWBsvL1eBCEV4hZavf8uf3WnopNZu6f7zlg1pvYJFIro%2BKWbhbydyj%2FiB8ygnwAUBnxFIfg%3D%3D; SecurityToken=EfrhF11QZ%2Bvn5lqZWBsvL1eBCEV4hZavf8uf3WnopNZu6f7zlg1pvYJFIro%2BKWbhbydyj%2FiB8ygnwAUBnxFIfg%3D%3D
+[2017-10-24 16:47:55,699]  INFO - 收到Cookies消息,值为：SecurityTicket=EfrhF11QZ%2Bvn5lqZWBsvL1eBCEV4hZavf8uf3WnopNZu6f7zlg1pvYJFIro%2BKWbhbydyj%2FiB8ygnwAUBnxFIfg%3D%3D; SecurityToken=EfrhF11QZ%2Bvn5lqZWBsvL1eBCEV4hZavf8uf3WnopNZu6f7zlg1pvYJFIro%2BKWbhbydyj%2FiB8ygnwAUBnxFIfg%3D%3D
+[2017-10-24 17:48:57,607]  INFO - 初始化界面开始！
+[2017-10-24 17:48:57,631]  INFO - 画板初始化！
+[2017-10-24 17:48:58,062]  INFO - 初始化第一行背景！
+[2017-10-24 17:48:58,064]  INFO - 初始化第一行行情按钮！
+[2017-10-24 17:48:58,065]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 17:48:58,065]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 17:48:58,065]  INFO - 初始化第一行登录按钮！
+[2017-10-24 17:48:58,607]  INFO - 初始化第一行注册按钮！
+[2017-10-24 17:48:58,608]  INFO - 初始化第一行登录后状态！
+[2017-10-24 17:48:58,608]  INFO - 初始化第一行注销按钮！
+[2017-10-24 17:48:58,609]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 17:48:58,611]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 17:48:58,612]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 17:48:58,614]  INFO - 初始化第一列行情！
+[2017-10-24 17:48:58,614]  INFO - 初始化第一列供需发布！
+[2017-10-24 17:48:58,614]  INFO - 初始化第一列K线图！
+[2017-10-24 17:48:58,614]  INFO - 初始化第一列资讯！
+[2017-10-24 17:48:58,614]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 17:48:58,614]  INFO - 初始化买入基价！
+[2017-10-24 17:48:58,614]  INFO - 初始化买入基价值！
+[2017-10-24 17:48:58,614]  INFO - 初始化卖出基价！
+[2017-10-24 17:48:58,614]  INFO - 初始化卖出基价值！
+[2017-10-24 17:48:58,620]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 17:48:58,687]  INFO - 初始化界面结束！
+[2017-10-24 17:48:58,688]  INFO - 初始化供需发布！
+[2017-10-24 17:48:59,590]  INFO - 创建登录界面！
+[2017-10-24 17:48:59,674]  INFO - 初始化内置浏览器！
+[2017-10-24 17:49:04,129]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-24 17:49:50,233]  INFO - 收到帐号密码消息,值为：jinkaifeng,12345678
+[2017-10-24 17:49:50,904]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-24 17:49:52,474]  INFO - 收到Cookies消息,值为：SecurityTicket=ZS8Fa962Inywbh5ZXthLP4Ut8qrcStchkGONvBu4wXGnMcqfKcMYLzOdStTR5Jh9GWZUQWlmCBnxdp3cqTbS8g%3D%3D; SecurityToken=ZS8Fa962Inywbh5ZXthLP4Ut8qrcStchkGONvBu4wXGnMcqfKcMYLzOdStTR5Jh9GWZUQWlmCBnxdp3cqTbS8g%3D%3D
+[2017-10-24 17:49:53,602]  INFO - 收到Cookies消息,值为：SecurityTicket=ZS8Fa962Inywbh5ZXthLP4Ut8qrcStchkGONvBu4wXGnMcqfKcMYLzOdStTR5Jh9GWZUQWlmCBnxdp3cqTbS8g%3D%3D; SecurityToken=ZS8Fa962Inywbh5ZXthLP4Ut8qrcStchkGONvBu4wXGnMcqfKcMYLzOdStTR5Jh9GWZUQWlmCBnxdp3cqTbS8g%3D%3D
+[2017-10-24 17:49:54,679]  INFO - 收到Cookies消息,值为：SecurityTicket=ZS8Fa962Inywbh5ZXthLP4Ut8qrcStchkGONvBu4wXGnMcqfKcMYLzOdStTR5Jh9GWZUQWlmCBnxdp3cqTbS8g%3D%3D; SecurityToken=ZS8Fa962Inywbh5ZXthLP4Ut8qrcStchkGONvBu4wXGnMcqfKcMYLzOdStTR5Jh9GWZUQWlmCBnxdp3cqTbS8g%3D%3D
+[2017-10-24 17:49:55,707]  INFO - 收到Cookies消息,值为：SecurityTicket=ZS8Fa962Inywbh5ZXthLP4Ut8qrcStchkGONvBu4wXGnMcqfKcMYLzOdStTR5Jh9GWZUQWlmCBnxdp3cqTbS8g%3D%3D; SecurityToken=ZS8Fa962Inywbh5ZXthLP4Ut8qrcStchkGONvBu4wXGnMcqfKcMYLzOdStTR5Jh9GWZUQWlmCBnxdp3cqTbS8g%3D%3D
+[2017-10-24 17:56:37,929]  INFO - 初始化界面开始！
+[2017-10-24 17:56:37,942]  INFO - 画板初始化！
+[2017-10-24 17:56:38,237]  INFO - 初始化第一行背景！
+[2017-10-24 17:56:38,238]  INFO - 初始化第一行行情按钮！
+[2017-10-24 17:56:38,239]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 17:56:38,239]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 17:56:38,239]  INFO - 初始化第一行登录按钮！
+[2017-10-24 17:56:38,567]  INFO - 初始化第一行注册按钮！
+[2017-10-24 17:56:38,569]  INFO - 初始化第一行登录后状态！
+[2017-10-24 17:56:38,569]  INFO - 初始化第一行注销按钮！
+[2017-10-24 17:56:38,569]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 17:56:38,571]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 17:56:38,573]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 17:56:38,574]  INFO - 初始化第一列行情！
+[2017-10-24 17:56:38,574]  INFO - 初始化第一列供需发布！
+[2017-10-24 17:56:38,574]  INFO - 初始化第一列K线图！
+[2017-10-24 17:56:38,574]  INFO - 初始化第一列资讯！
+[2017-10-24 17:56:38,575]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 17:56:38,575]  INFO - 初始化买入基价！
+[2017-10-24 17:56:38,575]  INFO - 初始化买入基价值！
+[2017-10-24 17:56:38,575]  INFO - 初始化卖出基价！
+[2017-10-24 17:56:38,575]  INFO - 初始化卖出基价值！
+[2017-10-24 17:56:38,579]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 17:56:38,628]  INFO - 初始化界面结束！
+[2017-10-24 17:56:38,628]  INFO - 初始化供需发布！
+[2017-10-24 17:56:39,230]  INFO - 创建登录界面！
+[2017-10-24 17:56:39,497]  INFO - 初始化内置浏览器！
+[2017-10-24 18:00:20,985]  INFO - 初始化界面开始！
+[2017-10-24 18:00:20,992]  INFO - 画板初始化！
+[2017-10-24 18:00:21,217]  INFO - 初始化第一行背景！
+[2017-10-24 18:00:21,218]  INFO - 初始化第一行行情按钮！
+[2017-10-24 18:00:21,219]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 18:00:21,219]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 18:00:21,219]  INFO - 初始化第一行登录按钮！
+[2017-10-24 18:00:21,512]  INFO - 初始化第一行注册按钮！
+[2017-10-24 18:00:21,513]  INFO - 初始化第一行登录后状态！
+[2017-10-24 18:00:21,513]  INFO - 初始化第一行注销按钮！
+[2017-10-24 18:00:21,513]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 18:00:21,514]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 18:00:21,515]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 18:00:21,516]  INFO - 初始化第一列行情！
+[2017-10-24 18:00:21,516]  INFO - 初始化第一列供需发布！
+[2017-10-24 18:00:21,516]  INFO - 初始化第一列K线图！
+[2017-10-24 18:00:21,516]  INFO - 初始化第一列资讯！
+[2017-10-24 18:00:21,516]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 18:00:21,516]  INFO - 初始化买入基价！
+[2017-10-24 18:00:21,516]  INFO - 初始化买入基价值！
+[2017-10-24 18:00:21,516]  INFO - 初始化卖出基价！
+[2017-10-24 18:00:21,516]  INFO - 初始化卖出基价值！
+[2017-10-24 18:00:21,520]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 18:00:21,561]  INFO - 初始化界面结束！
+[2017-10-24 18:00:21,561]  INFO - 初始化供需发布！
+[2017-10-24 18:00:22,322]  INFO - 创建登录界面！
+[2017-10-24 18:00:22,546]  INFO - 初始化内置浏览器！
+[2017-10-24 18:00:33,188] ERROR - Newtonsoft.Json.JsonSerializationException: Error converting value "未登录，不能访问" to type 'UseOnlineTradingSystem.LoginInfo'. Path 'data', line 1, position 31. ---> System.ArgumentException: Could not cast or convert from System.String to UseOnlineTradingSystem.LoginInfo.
+   在 Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   在 Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 72
+   在 UseOnlineTradingSystem.HttpService.GetMine() 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\HttpService.cs:行号 302
+[2017-10-24 18:05:14,743]  INFO - 初始化界面开始！
+[2017-10-24 18:05:14,754]  INFO - 画板初始化！
+[2017-10-24 18:05:15,067]  INFO - 初始化第一行背景！
+[2017-10-24 18:05:15,069]  INFO - 初始化第一行行情按钮！
+[2017-10-24 18:05:15,070]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 18:05:15,070]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 18:05:15,070]  INFO - 初始化第一行登录按钮！
+[2017-10-24 18:05:15,515]  INFO - 初始化第一行注册按钮！
+[2017-10-24 18:05:15,517]  INFO - 初始化第一行登录后状态！
+[2017-10-24 18:05:15,517]  INFO - 初始化第一行注销按钮！
+[2017-10-24 18:05:15,517]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 18:05:15,519]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 18:05:15,520]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 18:05:15,521]  INFO - 初始化第一列行情！
+[2017-10-24 18:05:15,522]  INFO - 初始化第一列供需发布！
+[2017-10-24 18:05:15,522]  INFO - 初始化第一列K线图！
+[2017-10-24 18:05:15,522]  INFO - 初始化第一列资讯！
+[2017-10-24 18:05:15,522]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 18:05:15,522]  INFO - 初始化买入基价！
+[2017-10-24 18:05:15,522]  INFO - 初始化买入基价值！
+[2017-10-24 18:05:15,522]  INFO - 初始化卖出基价！
+[2017-10-24 18:05:15,522]  INFO - 初始化卖出基价值！
+[2017-10-24 18:05:15,527]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 18:05:15,582]  INFO - 初始化界面结束！
+[2017-10-24 18:05:15,583]  INFO - 初始化供需发布！
+[2017-10-24 18:05:17,545]  INFO - 创建登录界面！
+[2017-10-24 18:05:18,102]  INFO - 初始化内置浏览器！
+[2017-10-24 18:07:05,240] ERROR - Newtonsoft.Json.JsonSerializationException: Error converting value "未登录，不能访问" to type 'UseOnlineTradingSystem.LoginInfo'. Path 'data', line 1, position 31. ---> System.ArgumentException: Could not cast or convert from System.String to UseOnlineTradingSystem.LoginInfo.
+   在 Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   在 Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Helper.cs:行号 72
+   在 UseOnlineTradingSystem.HttpService.GetMine() 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\Communication\HttpService.cs:行号 302
+[2017-10-24 18:08:17,773]  INFO - 初始化界面开始！
+[2017-10-24 18:08:17,783]  INFO - 画板初始化！
+[2017-10-24 18:08:18,083]  INFO - 初始化第一行背景！
+[2017-10-24 18:08:18,085]  INFO - 初始化第一行行情按钮！
+[2017-10-24 18:08:18,086]  INFO - 初始化第一行我的资金按钮！
+[2017-10-24 18:08:18,086]  INFO - 初始化第一行基础管理按钮！
+[2017-10-24 18:08:18,086]  INFO - 初始化第一行登录按钮！
+[2017-10-24 18:08:18,427]  INFO - 初始化第一行注册按钮！
+[2017-10-24 18:08:18,429]  INFO - 初始化第一行登录后状态！
+[2017-10-24 18:08:18,429]  INFO - 初始化第一行注销按钮！
+[2017-10-24 18:08:18,429]  INFO - 初始化第一行最小化按钮！
+[2017-10-24 18:08:18,431]  INFO - 初始化第一行最大化按钮！
+[2017-10-24 18:08:18,432]  INFO - 初始化第一行关闭按钮！
+[2017-10-24 18:08:18,434]  INFO - 初始化第一列行情！
+[2017-10-24 18:08:18,434]  INFO - 初始化第一列供需发布！
+[2017-10-24 18:08:18,434]  INFO - 初始化第一列K线图！
+[2017-10-24 18:08:18,434]  INFO - 初始化第一列资讯！
+[2017-10-24 18:08:18,434]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 18:08:18,435]  INFO - 初始化买入基价！
+[2017-10-24 18:08:18,435]  INFO - 初始化买入基价值！
+[2017-10-24 18:08:18,435]  INFO - 初始化卖出基价！
+[2017-10-24 18:08:18,435]  INFO - 初始化卖出基价值！
+[2017-10-24 18:08:18,440]  INFO - 初始化第二行快捷按钮！
+[2017-10-24 18:08:18,486]  INFO - 初始化界面结束！
+[2017-10-24 18:08:18,486]  INFO - 初始化供需发布！
+[2017-10-24 18:08:19,205]  INFO - 创建登录界面！
+[2017-10-24 18:08:19,463]  INFO - 初始化内置浏览器！

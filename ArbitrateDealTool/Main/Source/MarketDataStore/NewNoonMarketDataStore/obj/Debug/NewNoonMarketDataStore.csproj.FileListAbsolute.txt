@@ -1,0 +1,10 @@
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\NewNoonMarketDataStore\bin\Debug\NewNoonMarketDataStore.exe.config
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\NewNoonMarketDataStore\bin\Debug\NewNoonMarketDataStore.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\NewNoonMarketDataStore\bin\Debug\NewNoonMarketDataStore.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\NewNoonMarketDataStore\obj\Debug\NewNoonMarketDataStore.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\NewNoonMarketDataStore\obj\Debug\NewNoonMarketDataStore.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\NewNoonMarketDataStore\bin\Debug\MySql.Data.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\NewNoonMarketDataStore\bin\Debug\Newtonsoft.Json.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\NewNoonMarketDataStore\bin\Debug\USe.Common.AppLogger.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\NewNoonMarketDataStore\bin\Debug\USe.Common.AppLogger.xml
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\NewNoonMarketDataStore\obj\Debug\NewNoonMarketDataStore.csprojResolveAssemblyReference.cache

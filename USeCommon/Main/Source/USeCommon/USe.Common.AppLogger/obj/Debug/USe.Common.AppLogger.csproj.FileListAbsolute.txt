@@ -1,0 +1,4 @@
+C:\USeClient\TFS\USeCommon\Main\Source\Main\Bin\USe.Common.AppLogger.dll
+C:\USeClient\TFS\USeCommon\Main\Source\Main\Bin\USe.Common.AppLogger.pdb
+C:\USeClient\TFS\USeCommon\Main\Source\USeCommon\USe.Common.AppLogger\obj\Debug\USe.Common.AppLogger.dll
+C:\USeClient\TFS\USeCommon\Main\Source\USeCommon\USe.Common.AppLogger\obj\Debug\USe.Common.AppLogger.pdb

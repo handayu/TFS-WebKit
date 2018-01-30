@@ -1,0 +1,6 @@
+C:\USeClient\TFS\ArbitrateDealTool\Main\Bin\USe.QuoteDriverBase.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Bin\USe.QuoteDriverBase.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Bin\USe.QuoteDriverBase.XML
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeTraderDrvier\USe.QuoteDriverBase\obj\Debug\USe.QuoteDriverBase.csprojResolveAssemblyReference.cache
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeTraderDrvier\USe.QuoteDriverBase\obj\Debug\USe.QuoteDriverBase.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeTraderDrvier\USe.QuoteDriverBase\obj\Debug\USe.QuoteDriverBase.pdb

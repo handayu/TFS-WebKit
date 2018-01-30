@@ -1,0 +1,8 @@
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeFuturesSpirit\USeUtility\bin\Debug\USeUtility.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeFuturesSpirit\USeUtility\bin\Debug\USeUtility.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeFuturesSpirit\USeUtility\obj\Debug\USeUtility.MainForm.resources
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeFuturesSpirit\USeUtility\obj\Debug\USeUtility.Properties.Resources.resources
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeFuturesSpirit\USeUtility\obj\Debug\USeUtility.csproj.GenerateResource.Cache
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeFuturesSpirit\USeUtility\obj\Debug\USeUtility.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeFuturesSpirit\USeUtility\obj\Debug\USeUtility.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeFuturesSpirit\USeUtility\obj\Debug\USeUtility.csprojResolveAssemblyReference.cache

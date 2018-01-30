@@ -1,0 +1,1998 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>USe.TradeDriver.Common</name>
+    </assembly>
+    <members>
+        <member name="T:USe.TradeDriver.Common.USeFee">
+            <summary>
+            合约手续费。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFee.Instrument">
+            <summary>
+            合约。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFee.OpenRatioByMoney">
+            <summary>
+            开仓手续费率。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFee.OpenRatioByVolume">
+            <summary>
+            开仓手续费。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFee.CloseRatioByMoney">
+            <summary>
+            平仓手续费率。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFee.CloseRatioByVolume">
+            <summary>
+            平仓手续费
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFee.CloseTodayRatioByMoney">
+            <summary>
+            平今仓手续费率
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFee.CloseTodayRatioByVolume">
+            <summary>
+            平今仓手续费。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFee.StrikeRatioByMoney">
+            <summary>
+            执行手续费率(期权特有)。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFee.StrikeRatioByVolume">
+            <summary>
+            执行手续费(期权特有)。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeFee.Clone">
+            <summary>
+            克隆USeFee对象。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeFund">
+            <summary>
+            资金账户信息。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFund.AccountID">
+            <summary>
+            账户。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFund.PreMortgage">
+            <summary>
+            上次质押金额。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFund.PreCredit">
+            <summary>
+            上次信用额度。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFund.PreBalance">
+            <summary>
+            上次结算准备金(上日结存)。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFund.Deposit">
+            <summary>
+            入金金额。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFund.WithDraw">
+            <summary>
+            出金金额。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFund.Mortgage">
+            <summary>
+            质押金额。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFund.DeliveryMargin">
+            <summary>
+            交割保证金。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeFund.Clone">
+            <summary>
+            克隆USeFund对象。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeFundDetail">
+            <summary>
+            资金明细信息。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.AccountID">
+            <summary>
+            投资者帐号。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.Available">
+            <summary>
+            可用金额。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.Deposit">
+            <summary>
+            今日入金。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.Mortgage">
+            <summary>
+            质押金额。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.PreBalance">
+            <summary>
+            上日结存。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.PreCredit">
+            <summary>
+            上次信用额度。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.PreMortgage">
+            <summary>
+            上次质押金额。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.WithDraw">
+            <summary>
+            今日出金。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.StaticBenefit">
+            <summary>
+            静态权益。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.CloseProfit">
+            <summary>
+            平仓盈亏。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.TradeFee">
+            <summary>
+            交易手续费。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.HoldProfit">
+            <summary>
+            持仓盈亏。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.HoldMargin">
+            <summary>
+            占用保证金。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.DynamicBenefit">
+            <summary>
+            动态权益。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.FrozonMargin">
+            <summary>
+            冻结保证金。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.FrozonFee">
+            <summary>
+            冻结手续费。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.Fronzon">
+            <summary>
+            下单冻结。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.Risk">
+            <summary>
+            风险度。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundDetail.PreferCash">
+            <summary>
+            可取资金。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeInstrument">
+            <summary>
+            USe产品定义。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeInstrument.#ctor">
+            <summary>
+            构造USeProduct实例。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeInstrument.#ctor(System.String,System.String,USe.TradeDriver.Common.USeMarket)">
+            <summary>
+            构造USeProduct实例。
+            </summary>
+            <param name="instrumentCode">合约代码。</param>
+            <param name="instrumentName">合约名称。</param>
+            <param name="market">所属市场。</param>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrument.InstrumentCode">
+            <summary>
+            产品代码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrument.InstrumentName">
+            <summary>
+            产品名称。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrument.Market">
+            <summary>
+            市场。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeInstrument.Clone">
+            <summary>
+            克隆USeProduct。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeInstrumentComparer">
+            <summary>
+            USe产品比较器。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeInstrumentDetail">
+            <summary>
+            USe合约详细信息。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.Instrument">
+            <summary>
+            合约。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.OpenDate">
+            <summary>
+            创建日期。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.ExpireDate">
+            <summary>
+            到期日。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.StartDelivDate">
+            <summary>
+            开始交割日。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.EndDelivDate">
+            <summary>
+            交割日。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.VolumeMultiple">
+            <summary>
+            合约乘数。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.IsTrading">
+            <summary>
+            是否允许交易。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.Varieties">
+            <summary>
+            品种代码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.PriceTick">
+            <summary>
+            最小变动价位。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.ExchangeLongMarginRatio">
+            <summary>
+            交易所多头保证金率。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.ExchangeShortMarginRatio">
+            <summary>
+            交易所空头保证金率。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.ProductClass">
+            <summary>
+            产品类型。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.UnderlyingInstrument">
+            <summary>
+            基础商品代码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.StrikePrice">
+            <summary>
+            期权执行价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.OptionsType">
+            <summary>
+            期权类型。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.InstrumentSerial">
+            <summary>
+            合约系列。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.MaxMarketOrderVolume">
+            <summary>
+            市价单最大下单量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.MinMarketOrderVolume">
+            <summary>
+            市价单最小下单量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.MaxLimitOrderVolume">
+            <summary>
+            限价单最大下单量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInstrumentDetail.MinLimitOrderVolume">
+            <summary>
+            限价单最小下单量。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeInstrumentDetail.Clone">
+            <summary>
+            克隆USeInstrumentDetail对象。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeInvestorBaseInfo">
+            <summary>
+            投资者帐户基本信息。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInvestorBaseInfo.Account">
+            <summary>
+            投资者帐号。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInvestorBaseInfo.BrokerID">
+            <summary>
+            经纪商ID。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInvestorBaseInfo.BrokerName">
+            <summary>
+            经纪商名称。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInvestorBaseInfo.IdCardType">
+            <summary>
+            身份证件类型。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInvestorBaseInfo.IdentifiedCardNo">
+            <summary>
+            身份证件号码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInvestorBaseInfo.OpenDate">
+            <summary>
+            开户日期。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInvestorBaseInfo.Mobile">
+            <summary>
+            手机。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeInvestorBaseInfo.RealName">
+            <summary>
+            真实姓名。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeKLine">
+            <summary>
+            市场K线数据定义
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.InstrumentCode">
+            <summary>
+            合约。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.Market">
+            <summary>
+            市场。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.Cycle">
+            <summary>
+            周期。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.DateTime">
+            <summary>
+            时间。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.Open">
+            <summary>
+            开盘价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.High">
+            <summary>
+            最高价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.Low">
+            <summary>
+            最低价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.Close">
+            <summary>
+            收盘价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.Volumn">
+            <summary>
+            累计成交量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.Turnover">
+            <summary>
+            累计成交金额。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.OpenInterest">
+            <summary>
+            累计持仓量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.SettlementPrice">
+            <summary>
+            结算价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.PreSettlementPrice">
+            <summary>
+            昨日结算价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.AskVolumn">
+            <summary>
+            内盘(主动性卖盘)。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.BidVolumn">
+            <summary>
+            外盘(主动行买盘)。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.SendimentaryMoney">
+            <summary>
+            沉淀资金
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.FlowFund">
+            <summary>
+            资金流入流出
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.AvgPrice">
+            <summary>
+            平均价
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeKLine.SpeculateRadio">
+            <summary>
+            投机度
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeKLine.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeKLine.Clone">
+            <summary>
+            克隆。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeMargin">
+            <summary>
+            合约保证金。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMargin.Instrument">
+            <summary>
+            合约。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMargin.ExchangeLongMarginRatio">
+            <summary>
+            交易所多头保证金率。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMargin.ExchangeShortMarginRatio">
+            <summary>
+            交易所空头保证金率。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMargin.BrokerLongMarginRatioByMoney">
+            <summary>
+            期货公司多头保证金率。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMargin.BrokerLongMarginRatioByVolume">
+            <summary>
+            期货公司多头保证金费
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMargin.BrokerShortMarginRatioByMoney">
+            <summary>
+            期货公司空头保证金率
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMargin.BrokerShortMarginRatioByVolume">
+            <summary>
+            期货公司空头保证金费
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeMargin.Clone">
+            <summary>
+            克隆USeMargin对象。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeMarketData">
+            <summary>
+            USe期货行情定义。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.Instrument">
+            <summary>
+            合约。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.AskPrice">
+            <summary>
+            申卖价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.AskSize">
+            <summary>
+            申卖量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.BidPrice">
+            <summary>
+            申买价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.BidSize">
+            <summary>
+            申买量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.OpenPrice">
+            <summary>
+            今开盘
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.HighPrice">
+            <summary>
+            最高价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.LowPrice">
+            <summary>
+            最低价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.LastPrice">
+            <summary>
+            最新价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.ClosePrice">
+            <summary>
+            今收盘。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.PreClosePrice">
+            <summary>
+            昨收盘价
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.UpperLimitPrice">
+            <summary>
+            涨停板价
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.LowerLimitPrice">
+            <summary>
+            跌停板价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.PreSettlementPrice">
+            <summary>
+            上次结算价
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.SettlementPrice">
+            <summary>
+            结算价
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.OpenInterest">
+            <summary>
+            持仓量
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.PreOpenInterest">
+            <summary>
+            昨日持仓量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.Volume">
+            <summary>
+            成交量
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.Turnover">
+            <summary>
+            成交金额
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.UpdateTime">
+            <summary>
+            更新时间。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.AvgPrice">
+            <summary>
+            平均价
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.SpeculateRadio">
+            <summary>
+            投机度
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.QuoteDay">
+            <summary>
+            行情日期。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData.QuoteTime">
+            <summary>
+            行情时间。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeMarketData2">
+            <summary>
+            USe行情定义。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.Instrument">
+            <summary>
+            合约。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.AskPrice1">
+            <summary>
+            申卖价1。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.AskSize1">
+            <summary>
+            申卖量1。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.BidPrice1">
+            <summary>
+            申买价1。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.BidSize1">
+            <summary>
+            申买量1。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.AskPrice2">
+            <summary>
+            申卖价2。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.AskSize2">
+            <summary>
+            申卖量2。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.BidPrice2">
+            <summary>
+            申买价2。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.BidSize2">
+            <summary>
+            申买量2。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.AskPrice3">
+            <summary>
+            申卖价3。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.AskSize3">
+            <summary>
+            申卖量3。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.BidPrice3">
+            <summary>
+            申买价3。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.BidSize3">
+            <summary>
+            申买量3。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.AskPrice4">
+            <summary>
+            申卖价4。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.AskSize4">
+            <summary>
+            申卖量4。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.BidPrice4">
+            <summary>
+            申买价4。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.BidSize4">
+            <summary>
+            申买量4。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.AskPrice5">
+            <summary>
+            申卖价5。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.AskSize5">
+            <summary>
+            申卖量5。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.BidPrice5">
+            <summary>
+            申买价5。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.BidSize5">
+            <summary>
+            申买量5。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.OpenPrice">
+            <summary>
+            今开盘
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.HighPrice">
+            <summary>
+            最高价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.LowPrice">
+            <summary>
+            最低价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.LastPrice">
+            <summary>
+            最新价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.ClosePrice">
+            <summary>
+            今收盘。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.PreClosePrice">
+            <summary>
+            昨收盘价
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.UpperLimitPrice">
+            <summary>
+            涨停板价
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.LowerLimitPrice">
+            <summary>
+            跌停板价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.PreSettlementPrice">
+            <summary>
+            上次结算价
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.SettlementPrice">
+            <summary>
+            结算价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.Volume">
+            <summary>
+            成交量
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.Turnover">
+            <summary>
+            成交金额
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketData2.UpdateTime">
+            <summary>
+            更新时间。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOptionTradeCost.Instrument">
+            <summary>
+            合约代码
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOptionTradeCost.FixedMargin">
+            <summary>
+            期权合约保证金不变部分
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOptionTradeCost.MiniMargin">
+            <summary>
+            期权合约最小保证金
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOrderBook">
+            <summary>
+            委托回报信息类。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.OrderNum">
+            <summary>
+            委托单号。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.Account">
+            <summary>
+            下单帐号。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.Instrument">
+            <summary>
+            合约。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.InstrumentCode">
+            <summary>
+            合约代码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.InstrumentName">
+            <summary>
+            合约名称。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.Market">
+            <summary>
+            市场。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.OrderQty">
+            <summary>
+            委托手数。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.OrderPrice">
+            <summary>
+            委托价格。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.TradeQty">
+            <summary>
+            成交手数。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.TradeAmount">
+            <summary>
+            成交金额。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.TradePrice">
+            <summary>
+            成交平均价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.TradeFee">
+            <summary>
+            交易手续费。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.OrderStatus">
+            <summary>
+            委托单状态。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.CancelQty">
+            <summary>
+            撤单量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.BlankQty">
+            <summary>
+            废单量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.OrderSide">
+            <summary>
+            买卖方向。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.OffsetType">
+            <summary>
+            开平方向。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.Memo">
+            <summary>
+            备注。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.OrderTime">
+            <summary>
+            委托时间。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBook.IsFinish">
+            <summary>
+            委托单是否为结束。
+            </summary>
+            <remarks>
+            全部成交,撤单,部撤,废单都标识委托单结束。
+            </remarks>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOrderNum">
+            <summary>
+            USe委托单号定义。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderNum.OrderString">
+            <summary>
+            委托单号字符串描述。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderNum.Clone">
+            <summary>
+            克隆USeOrderNum。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOrderNumComparer">
+            <summary>
+            USe委托单号比较器。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USePosition">
+            <summary>
+            USe持仓信息。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.Instrument">
+            <summary>
+            合约。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.InstrumentCode">
+            <summary>
+            合约代码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.InstrumentName">
+            <summary>
+            合约代码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.Market">
+            <summary>
+            市场。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.Direction">
+            <summary>
+            持仓多空方向。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.NewPosition">
+            <summary>
+            今日新仓量(实际持仓)。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.OldPosition">
+            <summary>
+            昨仓量(实际持仓)。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.NewFrozonPosition">
+            <summary>
+            今日新仓冻结量(平仓指令成交前)。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.NewAvaliablePosition">
+            <summary>
+            今日新仓可平量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.OldFrozonPosition">
+            <summary>
+            昨仓冻结量(平仓指令成交前)。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.OldAvaliablePosition">
+            <summary>
+            昨仓可平量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.YesterdayPosition">
+            <summary>
+            昨日持仓量(昨日结算后的持仓,当日不变)。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.TotalPosition">
+            <summary>
+            当前总持仓量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.AvaliablePosition">
+            <summary>
+            当前可平持仓量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.AvgPirce">
+            <summary>
+            持仓均价。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.Amount">
+            <summary>
+            持仓金额。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.OpenQty">
+            <summary>
+            开仓量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePosition.CloseQty">
+            <summary>
+            平仓量。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USePosition.Clone">
+            <summary>
+            克隆USePosition对象。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USePositionDetail">
+            <summary>
+            USe持仓明细信息定义。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePositionDetail.ID">
+            <summary>
+            每笔建仓生成一个ID。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePositionDetail.Instrument">
+            <summary>
+            合约。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePositionDetail.Direction">
+            <summary>
+            持仓多空方向。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePositionDetail.PositionType">
+            <summary>
+            持仓类型。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePositionDetail.OpenQty">
+            <summary>
+            建仓数量(昨日仓为所有留仓数量)。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePositionDetail.OpenPrice">
+            <summary>
+            建仓价格。
+            </summary>
+            <remarks>
+            今日开仓为开仓价格，昨日开仓为昨日结算价。
+            </remarks>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePositionDetail.OpenTime">
+            <summary>
+            建仓时间。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePositionDetail.CloseQty">
+            <summary>
+            平仓量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePositionDetail.RemainQty">
+            <summary>
+            剩余持仓量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePositionDetail.CloseAmount">
+            <summary>
+            平仓金额。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePositionDetail.ClosePrice">
+            <summary>
+            平仓平均价。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USePositionDetail.SortByOpenTimeAsc(USe.TradeDriver.Common.USePositionDetail,USe.TradeDriver.Common.USePositionDetail)">
+            <summary>
+            按建仓时间正向排序。
+            </summary>
+            <param name="detail1"></param>
+            <param name="detail2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USePositionDetail.Clone">
+            <summary>
+            克隆USePositionDetail对象。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeProductDetail">
+            <summary>
+            USe产品信息。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProductDetail.ProductCode">
+            <summary>
+            产品代码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProductDetail.Market">
+            <summary>
+            交易所。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProductDetail.ShortName">
+            <summary>
+            产品名称缩写。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProductDetail.LongName">
+            <summary>
+            产品名称全称。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProductDetail.ProductClass">
+            <summary>
+            产品类型
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProductDetail.VolumeMultiple">
+            <summary>
+            合约数量乘数
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProductDetail.PriceTick">
+            <summary>
+            最小变动价位
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProductDetail.MaxMarketOrderVolume">
+            <summary>
+            市价单最大下单量
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProductDetail.MinMarketOrderVolume">
+            <summary>
+            市价单最小下单量
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProductDetail.MaxLimitOrderVolume">
+            <summary>
+            限价单最大下单量
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProductDetail.MinLimitOrderVolume">
+            <summary>
+            限价单最小下单量
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeProductDetail.Clone">
+            <summary>
+            克隆USeProduct对象。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeProduct">
+            <summary>
+            USe产品信息。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProduct.ProductCode">
+            <summary>
+            产品代码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProduct.Market">
+            <summary>
+            交易所。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProduct.ShortName">
+            <summary>
+            产品简称。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProduct.LongName">
+            <summary>
+            产品名称。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProduct.VolumeMultiple">
+            <summary>
+            合约数量乘数
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeProduct.PriceTick">
+            <summary>
+            最小变动价位
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeProduct.Clone">
+            <summary>
+            克隆USeProduct对象。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeProductComparer">
+            <summary>
+            USe产品比较器。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeTradeBook">
+            <summary>
+            USe成交回报定义。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBook.TradeNum">
+            <summary>
+            成交编号。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBook.Instrument">
+            <summary>
+            合约。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBook.InstrumentCode">
+            <summary>
+            合约代码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBook.InstrumentName">
+            <summary>
+            合约名称。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBook.Market">
+            <summary>
+            市场。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBook.OrderNum">
+            <summary>
+            委托单号。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBook.OrderSide">
+            <summary>
+            买卖方向。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBook.OffsetType">
+            <summary>
+            开平标志。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBook.Price">
+            <summary>
+            成交价格。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBook.Qty">
+            <summary>
+            成交数量。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBook.Amount">
+            <summary>
+            成交金额(成交金额 = 成交价格 * 成交量 * 每点价值。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBook.Fee">
+            <summary>
+            手续费。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBook.TradeTime">
+            <summary>
+            成交时间。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeActiveSide">
+            <summary>
+            内外盘方向。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeActiveSide.None">
+            <summary>
+            无。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeActiveSide.Ask">
+            <summary>
+            内盘(主动性卖盘)。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeActiveSide.Bid">
+            <summary>
+            外盘(主动行买盘)。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeActiveSideExtend">
+            <summary>
+            内外盘方向扩展类。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeActiveSideExtend.ToDescription(USe.TradeDriver.Common.USeActiveSide)">
+            <summary>
+            内外盘方向描述。
+            </summary>
+            <param name="side"></param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeCycleType">
+            <summary>
+            周期类型
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeCycleType.Unknown">
+            <summary>
+            未知。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeCycleType.Real">
+            <summary>
+            Tick数据。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeCycleType.Min1">
+            <summary>
+            1分钟数据。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeCycleType.Min2">
+            <summary>
+            2分钟数据。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeCycleType.Min3">
+            <summary>
+            3分钟数据。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeCycleType.Min4">
+            <summary>
+            4分钟数据。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeCycleType.Min5">
+            <summary>
+            5分钟数据。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeCycleType.Min15">
+            <summary>
+            15分钟数据。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeCycleType.Min30">
+            <summary>
+            30分钟数据。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeCycleType.Min60">
+            <summary>
+            60分钟数据。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeCycleType.Day">
+            <summary>
+            日线数据。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeCycleType.Week">
+            <summary>
+            周线数据。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeCycleType.Month">
+            <summary>
+            月线数据。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeCycleType.Year">
+            <summary>
+            年线数据。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeDirection">
+            <summary>
+            多空方向枚举定义。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeDirection.Long">
+            <summary>
+            做多。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeDirection.Short">
+            <summary>
+            做空。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeDirectionExtend">
+            <summary>
+            多空方向枚举扩展类。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeDirectionExtend.ToDescription(USe.TradeDriver.Common.USeDirection)">
+            <summary>
+            多空方向描述。
+            </summary>
+            <param name="direction">多空方向。</param>
+            <returns>描述字符串。</returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeFeeType">
+            <summary>
+            产品手续费收费类型枚举定义。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeFeeType.ByMoney">
+            <summary>
+            按金额。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeFeeType.ByVolume">
+            <summary>
+            按交易量。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeIDCardType">
+            <summary>
+            投资者身份证件类型枚举。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeIDCardType.OrganizationCode">
+            <summary>
+            组织机构代码。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeIDCardType.IDCard">
+            <summary>
+            身份证。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeIDCardType.MilitaryOfficer">
+            <summary>
+            军官证。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeIDCardType.PoliceOfficer">
+            <summary>
+            警官证。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeIDCardType.Soldier">
+            <summary>
+            士兵证。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeIDCardType.HouseholdRegister">
+            <summary>
+            户口本。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeIDCardType.Passport">
+            <summary>
+            护照。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeIDCardType.MTPs">
+            <summary>
+            台胞证。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeIDCardType.HVPs">
+            <summary>
+            回乡证。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeIDCardType.BusinessLicense">
+            <summary>
+            营业执照。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeIDCardType.Other">
+            <summary>
+            其它证件。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeMarginType">
+            <summary>
+            产品保证金比例类型枚举定义。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeMarginType.ByMoney">
+            <summary>
+            按金额。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeMarginType.ByVolume">
+            <summary>
+            按交易量。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeMarket">
+            <summary>
+            市场枚举定义。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeMarket.Unknown">
+            <summary>
+            未知。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeMarket.CFFEX">
+            <summary>
+            中国金融交易所。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeMarket.DCE">
+            <summary>
+            大连商品交易所。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeMarket.SHFE">
+            <summary>
+            上海期货交易所。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeMarket.CZCE">
+            <summary>
+            郑州商品交易所。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeMarket.INE">
+            <summary>
+            上海能源交易中心。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeMarket.SH">
+            <summary>
+            上海证券交易所。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeMarket.SZ">
+            <summary>
+            深证证券交易所。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeMarket.LME">
+            <summary>
+            伦敦金属交易所。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeMarket.COMEX">
+            <summary>
+            纽约商业交易所。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeMarket.TOCOM">
+            <summary>
+            东京商品交易所。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeMarket.SGX">
+            <summary>
+            新加坡商品交易所。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeMarketExtend">
+            <summary>
+            USeMarket扩展类。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeMarketExtend.ToDescription(USe.TradeDriver.Common.USeMarket)">
+            <summary>
+            市场中文描述。
+            </summary>
+            <param name="market"></param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOffsetType">
+            <summary>
+            开平仓方向枚举定义。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOffsetType.Open">
+            <summary>
+            开仓。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOffsetType.CloseHistory">
+            <summary>
+            平昨仓。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOffsetType.CloseToday">
+            <summary>
+            平今仓。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOffsetType.Close">
+            <summary>
+            平仓。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOffsetTypeExtend">
+            <summary>
+            开平仓方向枚举扩展类。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOffsetTypeExtend.ToDescription(USe.TradeDriver.Common.USeOffsetType)">
+            <summary>
+            开平仓方向描述。
+            </summary>
+            <param name="offsetType">开平仓方向。</param>
+            <returns>描述字符串。</returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOptionsType">
+            <summary>
+            期权类型枚举定义。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOptionsType.None">
+            <summary>
+            None
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOptionsType.Call">
+            <summary>
+            Call
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOptionsType.Put">
+            <summary>
+            Put
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOrderPriceType">
+            <summary>
+            USe下单价格类型枚举定义。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderPriceType.Unknown">
+            <summary>
+            未知。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderPriceType.LimitPrice">
+            <summary>
+            限价单。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderPriceType.MarketPrice">
+            <summary>
+            市价单。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOrderSide">
+            <summary>
+            买卖方向枚举定义。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderSide.Buy">
+            <summary>
+            买入。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderSide.Sell">
+            <summary>
+            卖出。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOrderSideExtend">
+            <summary>
+            买卖方向枚举扩展类。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderSideExtend.ToDescription(USe.TradeDriver.Common.USeOrderSide)">
+            <summary>
+            买卖方向描述。
+            </summary>
+            <param name="orderSide">买卖方向。</param>
+            <returns>描述字符串。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderSideExtend.GetOppositeOrderSide(USe.TradeDriver.Common.USeOrderSide)">
+            <summary>
+            买卖方向反向方向。
+            </summary>
+            <param name="orderSide">买卖方向。</param>
+            <returns>反向买卖方向。</returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOrderStatus">
+            <summary>
+            委托单状态枚举定义。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderStatus.Unknown">
+            <summary>
+            未知。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderStatus.NoTraded">
+            <summary>
+            未成交。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderStatus.PartCanceled">
+            <summary>
+            部分撤单。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderStatus.AllCanceled">
+            <summary>
+            全部已撤。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderStatus.PartTraded">
+            <summary>
+            部分成交。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderStatus.AllTraded">
+            <summary>
+            全部已成交。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderStatus.BlankOrder">
+            <summary>
+            废单。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOrderStatusExtend">
+            <summary>
+            委托单状态枚举扩展类。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderStatusExtend.ToDescription(USe.TradeDriver.Common.USeOrderStatus)">
+            <summary>
+            委托单状态描述。
+            </summary>
+            <param name="orderStatus">委托状态。</param>
+            <returns>描述字符串。</returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USePositionType">
+            <summary>
+            持仓类型枚举定义。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USePositionType.Today">
+            <summary>
+            今仓。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USePositionType.Yestorday">
+            <summary>
+            昨仓。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USePositionTypeExtend">
+            <summary>
+            持仓类型枚举扩展类。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USePositionTypeExtend.ToDescription(USe.TradeDriver.Common.USePositionType)">
+            <summary>
+            今昨仓描述。
+            </summary>
+            <param name="USePositionType">今昨。</param>
+            <returns>描述字符串。</returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeProductClass">
+            <summary>
+            USe产品类型枚举定义。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeProductClass.Unknown">
+            <summary>
+            未知。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeProductClass.Futures">
+            <summary>
+            期货
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeProductClass.Options">
+            <summary>
+            期货期权
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeProductClass.Combination">
+            <summary>
+            组合
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeProductClass.Spot">
+            <summary>
+            即期
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeProductClass.EFP">
+            <summary>
+            期转现
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeProductClass.SpotOption">
+            <summary>
+            现货期权
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeResetEvent">
+            <summary>
+            自定义ResetEvent。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeResetEvent.#ctor">
+            <summary>
+            构造USeResetEvent实例。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeResetEvent.#ctor(System.Int32)">
+            <summary>
+            构造USeResetEvent实例。
+            </summary>
+            <param name="eventID">Event ID。</param>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeResetEvent.EventID">
+            <summary>
+            Event ID。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeResetEvent.Tag">
+            <summary>
+            Tag。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeResetEvent.IsFinish">
+            <summary>
+            是否结束。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeResetEvent.IsError">
+            <summary>
+            是否有错。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeTraderProtocol">
+            <summary>
+            USe交易协议。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeTraderProtocol.GetVarieties(System.String)">
+            <summary>
+            根据合约名称获取品种代码。
+            </summary>
+            <param name="instrumentCode">合约名称</param>
+            <returns>品种代码。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeTraderProtocol.GetMainContractCode(USe.TradeDriver.Common.USeProduct)">
+            <summary>
+            获取USe主力合约编码。
+            </summary>
+            <param name="product">品种。</param>
+            <returns>主力合约编码。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeTraderProtocol.GetMainContractCode(System.String,USe.TradeDriver.Common.USeMarket)">
+            <summary>
+            获取USe主力合约编码。
+            </summary>
+            <param name="varieties">品种。</param>
+            <param name="exchange">市场。</param>
+            <returns>主力合约编码。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeTraderProtocol.GetVarietiesIndexCode(USe.TradeDriver.Common.USeProduct)">
+            <summary>
+            获取USe品种指数编码。
+            </summary>
+            <param name="product">品种。</param>
+            <returns>品种指数编码。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeTraderProtocol.GetVarietiesIndexCode(System.String,USe.TradeDriver.Common.USeMarket)">
+            <summary>
+            获取USe品种指数编码。
+            </summary>
+            <param name="varieties">品种。</param>
+            <param name="exchange">市场。</param>
+            <returns>品种指数编码。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeTraderProtocol.GetInternalFutureMarket">
+            <summary>
+            获取国内交易市场。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeTraderProtocol.GetInternalFutureMarketSqlString">
+            <summary>
+            获取国内交易市场Sql字符串。
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

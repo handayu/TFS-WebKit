@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>USe.CTPQuoteDriver</name>
+    </assembly>
+    <members>
+        <member name="T:USe.TradeDriver.Ctp.CtpQuoteDriverElement">
+            <summary>
+            Ctp行情服务器端配置元素定义。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQuoteDriverElement.Name">
+            <summary>
+            获取或设置配置元素属性name。
+            </summary>
+            <value>
+            name属性值。
+            </value>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQuoteDriverElement.Address">
+            <summary>
+            获取或设置配置元素属性address。
+            </summary>       
+            <value>
+            address属性值。
+            </value>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQuoteDriverElement.Port">
+            <summary>
+            获取或设置配置元素属性port。
+            </summary>
+            <value>
+            port属性值。
+            </value>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQuoteDriverElement.ConnectTimeOut">
+            <summary>
+            获取或设置连接超时时间connectTimeOut。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQuoteDriverElement.QueryTimeOut">
+            <summary>
+            获取或设置查询超时时间queryTimeOut。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQuoteDriverElement.StreamPath">
+            <summary>
+            获取或设置文件流路径streamPath。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpQuoteDriverElementCollection">
+            <summary>
+            CtpQuoteDriver配置元素集合。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQuoteDriverElementCollection.ElementName">
+            <summary>
+            配置元素名称, 只读。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQuoteDriverElementCollection.Item(System.Int32)">
+            <summary>
+            整型索引器。
+            </summary>
+            <param name="index">索引。</param>
+            <returns>CtpQuoteDriver配置元素。</returns>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQuoteDriverElementCollection.Item(System.String)">
+            <summary>
+            字符串名称索引器。
+            </summary>
+            <param name="name">名称。</param>
+            <returns>CtpQuoteDriver配置元素。</returns>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQuoteDriverElementCollection.CollectionType">
+            <summary>
+            集合类型, 只读。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriverElementCollection.CreateNewElement">
+            <summary>
+            创建CtpQuoteDriver配置元素对象。
+            </summary>
+            <returns>CtpQuoteDirver配置元素对象。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriverElementCollection.GetElementKey(System.Configuration.ConfigurationElement)">
+            <summary>
+            获取指定CtpQuoteDriver配置元素的键值。
+            </summary>
+            <param name="element">配置元素。</param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpQuoteSection">
+            <summary>
+            Ctp行情服务器配置节定义。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Ctp.CtpQuoteSection.CtpQuoteDrivers">
+            <summary>
+            CtpQuoteDrivers配置节集合, 只读。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteSection.GetSection">
+            <summary>
+            获取系统默认配置文件里面的CtpQuoteDriver配置节集合。
+            </summary>
+            <returns>CtpQuoteDriver配置节。</returns>
+        </member>
+        <member name="T:USe.TradeDriver.Ctp.CtpQuoteDriver">
+            <summary>
+            CTP行情驱动类
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            构造CtpQuoteDriver实例。
+            </summary>
+            <param name="address">行情服务器地址。</param>
+            <param name="port">行情服务器端口。</param>
+            <param name="connectTimeOut">服务器连接超时时间。</param>
+            <param name="queryTimeOut">查询超时时间。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.#ctor(USe.TradeDriver.Ctp.CtpQuoteSection)">
+            <summary>
+            构造CtpQuoteDriver实例。
+            </summary>
+            <param name="section">CtpQuoteSection配置节。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.ConnectServer">
+            <summary>
+            连接行情服务器
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.DisConnectServer">
+            <summary>
+            断开行情服务器
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.Login(System.String,System.String,System.String)">
+            <summary>
+            登录行情服务器
+            </summary>
+            <param name="account">账号</param>
+            <param name="password">密码</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.Logout">
+            <summary>
+            登出行情服务器
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.Query(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            查询产品行情
+            </summary>
+            <param name="product">被查询产品</param>
+            <returns>被查询产品行情信息</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.QuickQuery(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            查询产品行情
+            </summary>
+            <param name="product">被查询产品</param>
+            <returns>被查询产品行情信息</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.Subscribe(System.Collections.Generic.List{USe.TradeDriver.Common.USeInstrument})">
+            <summary>
+            订阅行情
+            </summary>
+            <param name="products">订阅产品列表</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.Subscribe(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            订阅行情
+            </summary>
+            <param name="products">订阅产品</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.Unsubscribe(System.Collections.Generic.List{USe.TradeDriver.Common.USeInstrument})">
+            <summary>
+            退订行情
+            </summary>
+            <param name="products">退订产品列表</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.Unsubscribe(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            退订行情
+            </summary>
+            <param name="instrument">退订产品</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.OnFrontConnect">
+            <summary>
+            与前置机连接成功时的回调方法。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.OnFrontDisconnect(System.Int32)">
+            <summary>
+            与前置机连接中断时的回调方法。
+            </summary>
+            <param name="reason">连接中断的原因，参见CTP API文档。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.OnFrontHeartbeatWarning(System.Int32)">
+            <summary>
+            与前置机连接的心跳超时时的回调方法。
+            </summary>
+            <param name="elapsed">距离上次接收报文的间隔时间。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.OnRspError(CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            与指定编号的请求对应的报告错误应答。
+            </summary>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.OnRspSubMarketData(System.Nullable{CTPAPI.SpecificInstrumentField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            行情订阅响应
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.OnRspUnsubMarketData(System.Nullable{CTPAPI.SpecificInstrumentField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            行情退订响应
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.OnRspUserLogin(System.Nullable{CTPAPI.RspUserLoginField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            登录响应
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.OnRspUserLogout(System.Nullable{CTPAPI.UserLogoutField}@,CTPAPI.RspInfoField@,System.Int32,System.Boolean)">
+            <summary>
+            登出响应
+            </summary>
+            <param name="replyField">与请求对应的应答信息数据结构。</param>
+            <param name="resultField">请求的执行结果信息数据结构。</param>
+            <param name="requestId">标识请求的请求编号。</param>
+            <param name="isLast">最后一个应答标志。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.OnRtnDepthMarketData(System.Nullable{CTPAPI.DepthMarketDataField}@)">
+            <summary>
+            行情变更通知    
+            </summary>
+            <param name="reportField">回报信息数据结构。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.FtdcExchangeToUSeMarket(System.String)">
+            <summary>
+            Ctp市场转换为USe市场。
+            </summary>
+            <param name="ctpExchange">Ctp市场字符串</param>
+            <returns>USeMarket对象</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Ctp.CtpQuoteDriver.USeMarketToFtdcExchange(USe.TradeDriver.Common.USeMarket)">
+            <summary>
+            USe市场转换为Ctp市场。
+            </summary>
+            <param name="market">USeMarket对象</param>
+            <returns>Ctp市场字符串</returns>
+        </member>
+    </members>
+</doc>

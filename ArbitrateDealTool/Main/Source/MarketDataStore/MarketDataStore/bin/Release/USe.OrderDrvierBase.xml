@@ -1,0 +1,593 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>USe.OrderDrvierBase</name>
+    </assembly>
+    <members>
+        <member name="T:USe.TradeDriver.Common.USeDriverType">
+            <summary>
+            USe交易驱动类型枚举。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeDriverType.Unknown">
+            <summary>
+            未知。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeDriverType.Real">
+            <summary>
+            正式环境。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeDriverType.Simulate">
+            <summary>
+            模拟环境。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeDriverType.Imitation">
+            <summary>
+            仿真环境。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOrderDriverState">
+            <summary>
+            交易驱动类状态枚举定义。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderDriverState.Inactive">
+            <summary>
+            无效状态。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderDriverState.DisConnected">
+            <summary>
+            已断开。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderDriverState.Connecting">
+            <summary>
+            连接中。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderDriverState.Connected">
+            <summary>
+            已连接。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderDriverState.LoggingOn">
+            <summary>
+            登录中。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderDriverState.LoggedOn">
+            <summary>
+            已登录
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderDriverState.Loading">
+            <summary>
+            加载中。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderDriverState.Ready">
+            <summary>
+            可用。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderDriverState.LoggingOut">
+            <summary>
+            登出中。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeOrderDriverState.LoggedOut">
+            <summary>
+            已登出。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOrderDriverStateExtend">
+            <summary>
+            交易驱动类状态枚举扩展类。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriverStateExtend.ToDescription(USe.TradeDriver.Common.USeOrderDriverState)">
+            <summary>
+            交易驱动状态描述。
+            </summary>
+            <param name="state">交易驱动状态。</param>
+            <returns>描述字符串。</returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeFundChangedEventArgs">
+            <summary>
+            账户信息变更。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeFundChangedEventArgs.#ctor(USe.TradeDriver.Common.USeFund)">
+            <summary>
+            构造TradingAccountChangedEventArgs实例。
+            </summary>
+            <param name="fundInfo">账户信息。</param>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeFundChangedEventArgs.FundInfo">
+            <summary>
+            账户资金信息。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeLoginReportEventArgs">
+            <summary>
+            登录状态报告。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeLoginReportEventArgs.#ctor(System.Double,System.String)">
+            <summary>
+            构造USeLoginReportEventArgs实例。
+            </summary>
+            <param name="percent">登录进度。</param>
+            <param name="message">登录消息。</param>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeLoginReportEventArgs.LoginPercent">
+            <summary>
+            登录进度。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeLoginReportEventArgs.Message">
+            <summary>
+            登录消息。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOrderBookChangedEventArgs">
+            <summary>
+            委托回报变更事件。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderBookChangedEventArgs.#ctor(USe.TradeDriver.Common.USeOrderBook)">
+            <summary>
+            构造OrderBookEventArgs实例。
+            </summary>
+            <param name="orderBook">委托回报。</param>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderBookChangedEventArgs.OrderBook">
+            <summary>
+            委托回报数据。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOrderDriverStateChangedEventArgs">
+            <summary>
+            交易驱动类状态变更。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriverStateChangedEventArgs.#ctor(System.String,USe.TradeDriver.Common.USeOrderDriverState,USe.TradeDriver.Common.USeOrderDriverState,System.String)">
+            <summary>
+            构造USeOrderDriverStateChangedEventArgs实例。
+            </summary>
+            <param name="account">交易账户。</param>
+            <param name="oldState">前一状态。</param>
+            <param name="newState">当前状态。</param>
+            <param name="reason">变更原因。</param>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderDriverStateChangedEventArgs.Account">
+            <summary>
+            交易帐号。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderDriverStateChangedEventArgs.OldState">
+            <summary>
+            前一状态。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderDriverStateChangedEventArgs.NewState">
+            <summary>
+            当前状态。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderDriverStateChangedEventArgs.Reason">
+            <summary>
+            状态变更原因。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USePositionChangedEventArgs">
+            <summary>
+            持仓变更。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USePositionChangedEventArgs.#ctor(USe.TradeDriver.Common.USePosition)">
+            <summary>
+            持仓变更。
+            </summary>
+            <param name="position"></param>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePositionChangedEventArgs.Position">
+            <summary>
+            持仓。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USePositionDetailChangedEventArgs">
+            <summary>
+            持仓明细变更。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USePositionDetailChangedEventArgs.#ctor(USe.TradeDriver.Common.USePositionDetail)">
+            <summary>
+            持仓变更。
+            </summary>
+            <param name="position"></param>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USePositionDetailChangedEventArgs.PositionDetail">
+            <summary>
+            持仓明细。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeTradeBookChangedEventArgs">
+            <summary>
+            成交回报变更(新增)。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeTradeBookChangedEventArgs.#ctor(USe.TradeDriver.Common.USeTradeBook,System.Boolean)">
+            <summary>
+            构造USeTradeBookChangedEventArgs实例。
+            </summary>
+            <param name="tradeBook">成交回报。</param>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBookChangedEventArgs.TradeBook">
+            <summary>
+            成交回报。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeTradeBookChangedEventArgs.IsNew">
+            <summary>
+            是否为新成交回报。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeOrderDriver">
+            <summary>
+            USe交易驱动抽象类。
+            </summary>
+        </member>
+        <member name="E:USe.TradeDriver.Common.USeOrderDriver.OnLoginReport">
+            <summary>
+            登录进度事件。
+            </summary>
+        </member>
+        <member name="E:USe.TradeDriver.Common.USeOrderDriver.OnDriverStateChanged">
+            <summary>
+            状态变更事件。
+            </summary>
+        </member>
+        <member name="E:USe.TradeDriver.Common.USeOrderDriver.OnOrderBookChanged">
+            <summary>
+            委托回报新增或变更。
+            </summary>
+        </member>
+        <member name="E:USe.TradeDriver.Common.USeOrderDriver.OnTradeBookChanged">
+            <summary>
+            成交回报新增或变更。
+            </summary>
+        </member>
+        <member name="E:USe.TradeDriver.Common.USeOrderDriver.OnPositionChanged">
+            <summary>
+            持仓变更。
+            </summary>
+        </member>
+        <member name="E:USe.TradeDriver.Common.USeOrderDriver.OnPositionDetailChanged">
+            <summary>
+            持仓变更。
+            </summary>
+        </member>
+        <member name="E:USe.TradeDriver.Common.USeOrderDriver.OnFundChanged">
+            <summary>
+            账户资金变更(由于下单产生的变更,由于行情触发的变更不通知)。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderDriver.DriverState">
+            <summary>
+            交易服务状态。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderDriver.DriverName">
+            <summary>
+            驱动名称。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderDriver.BrokerId">
+            <summary>
+            当前登录交易帐号所属经纪商。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderDriver.Account">
+            <summary>
+            当前登录交易帐号。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderDriver.Password">
+            <summary>
+            当前登录交易帐号密码。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderDriver.DriverType">
+            <summary>
+            驱动类型。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeOrderDriver.NeedSettlementConfirm">
+            <summary>
+            是否需要结算确认。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.FireLoginReport(System.Double,System.String)">
+            <summary>
+            触发登录进度报告事件。
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.FireOrderDriverStateChanged(USe.TradeDriver.Common.USeOrderDriverState,System.String)">
+            <summary>
+            触发状态变更事件。
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.FireOrderBookChanged(USe.TradeDriver.Common.USeOrderBook)">
+            <summary>
+            触发委托回报变更事件。
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.FireTradeBookChanged(USe.TradeDriver.Common.USeTradeBook,System.Boolean)">
+            <summary>
+            触发成交回报变更事件。
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.FirePositionChanged(USe.TradeDriver.Common.USePosition)">
+            <summary>
+            触发持仓变更事件。
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.FirePositionDetailChanged(USe.TradeDriver.Common.USePositionDetail)">
+            <summary>
+            触发持仓明细变更事件。
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.FireFundChanged(USe.TradeDriver.Common.USeFund)">
+            <summary>
+            触发账户资金变更事件。
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.SetAppLogger(USe.Common.AppLogger.IAppLogger)">
+            <summary>
+            设置日志。
+            </summary>
+            <param name="appLogger"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.ConnectServer">
+            <summary>
+            连接交易服务器。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.DisConnectServer">
+            <summary>
+            断开交易服务器。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.Login(System.String,System.String,System.String)">
+            <summary>
+            登录交易服务器。
+            </summary>
+            <param name="brokerId">经纪商ID。</param>
+            <param name="account">帐号。</param>
+            <param name="password">密码。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.Logout">
+            <summary>
+            登出交易服务器。 
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.SettlementInfoConfirm">
+            <summary>
+            结算单确认。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.GetSettlementInfo">
+            <summary>
+            获取确认结算单。
+            </summary>
+            <returns>确认结算单信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryInvestorInfo">
+            <summary>
+            查询投资者基本信息。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryInstrumentDetail">
+            <summary>
+            查询所有期货合约详细信息。
+            </summary>
+            <returns>合约详细信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryInstrumentDetail(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            查询指定合约详细信息。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns>合约详细信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryInstrumentDetail(System.String)">
+            <summary>
+            查询指定品种的所有合约详细信息。
+            </summary>
+            <param name="varieties">品种类型。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryProductDetails">
+            <summary>
+            查询所有产品信息。
+            </summary>
+            <returns>产品信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryProductDetail(System.String)">
+            <summary>
+            查询产品信息。
+            </summary>
+            <param name="productCode">产品代码。</param>
+            <returns>产品信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryProducts">
+            <summary>
+            查询所有产品信息。
+            </summary>
+            <returns>产品信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryProduct(System.String)">
+            <summary>
+            查询产品信息。
+            </summary>
+            <param name="productCode">产品代码。</param>
+            <returns>产品信息。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryInstrumentVolumeMultiple(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            查询合约的合约乘数。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns>合约乘数。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryInstrumentFee(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            查询合约手续费。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns>合约手续费。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryInstrumentMargin(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            查询合约保证金。
+            </summary>
+            <param name="instrument"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryOptionTradeCost(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            查询期权合约交易成本信息。
+            </summary>
+            <param name="instrument"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryOrderBooks">
+            <summary>
+            查询当日所有委托回报。
+            </summary>
+            <returns>委托回报。 </returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryOrderBook(USe.TradeDriver.Common.USeOrderNum)">
+            <summary>
+            查询指定委托单号的委托回报。
+            </summary>
+            <param name="orderNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryTradeBooks">
+            <summary>
+            查询当日所有成交回报。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryPositions">
+            <summary>
+            查询当日所有持仓。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryPositions(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            查询某一合约当前持仓。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryPositions(USe.TradeDriver.Common.USeInstrument,USe.TradeDriver.Common.USeDirection)">
+            <summary>
+            查询某一合约指定方向当前持仓。
+            </summary>
+            <param name="instrument">合约。</param>
+            <param name="direction">持仓方向。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryPositionDetail">
+            <summary>
+            查询持仓明细。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryFundInfo">
+            <summary>
+            查询账户资金信息。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.QueryFundDetailInfo">
+            <summary>
+            查询帐户详细资金信息。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.PlaceOrder(USe.TradeDriver.Common.USeInstrument,System.Int32,System.Decimal,USe.TradeDriver.Common.USeOffsetType,USe.TradeDriver.Common.USeOrderSide,System.String@)">
+            <summary>
+            委托下单。
+            </summary>
+            <param name="product">委托产品。</param>
+            <param name="qty">委托量。</param>
+            <param name="price">委托价格。</param>
+            <param name="offsetType">开平仓方向。</param>
+            <param name="orderSide">买卖方向。</param>
+            <param name="error">[out]委托失败原因。</param>
+            <returns>委托单号。</returns>
+            <remarks>返回为null代表失败,否则为委托单号。</remarks>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.CancelOrder(USe.TradeDriver.Common.USeOrderNum,USe.TradeDriver.Common.USeInstrument,System.String@)">
+            <summary>
+            撤单。
+            </summary>
+            <param name="orderNum">委托单号。</param>
+            <param name="product">委托产品。</param>
+            <param name="error">[out]撤单失败错误信息。</param>
+            <returns>撤单是否成功。</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeOrderDriver.ModifyPassword(System.String,System.String,System.String@)">
+            <summary>
+            修改密码。
+            </summary>
+            <param name="oldPasswrod">旧密码。</param>
+            <param name="newPassword">新密码。</param>
+            <returns>修改密码是否成功。</returns>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeSimpleOrderNum">
+            <summary>
+            USe简易委托单号定义。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeSimpleOrderNum.#ctor(System.String)">
+            <summary>
+            构造USeSimpleOrderNum实例。
+            </summary>
+            <param name="orderNum">委托单号。</param>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeSimpleOrderNum.OrderNum">
+            <summary>
+            委托单号。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeSimpleOrderNum.OrderString">
+            <summary>
+            委托单字符串。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeSimpleOrderNum.Clone">
+            <summary>
+            克隆USeSimpleOrderNum。
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

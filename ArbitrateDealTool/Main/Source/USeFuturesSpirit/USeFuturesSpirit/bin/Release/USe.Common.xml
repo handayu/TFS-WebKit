@@ -1,0 +1,1230 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>USe.Common</name>
+    </assembly>
+    <members>
+        <member name="T:USe.Common.CommonIdCreator">
+            <summary>
+            普通号码创建者类
+            </summary>
+        </member>
+        <member name="M:USe.Common.CommonIdCreator.Next">
+            <summary>
+            获取下一个ID号码
+            </summary>
+            <returns>新的ID号码</returns>
+        </member>
+        <member name="M:USe.Common.CommonIdCreator.Match(System.Int32)">
+            <summary>
+            判断某个ID号码是否由本类对象生成
+            </summary>
+            <param name="value">待判断的ID号码</param>
+            <returns>似乎匹配</returns>
+        </member>
+        <member name="M:USe.Common.CommonIdCreator.Set(System.Int32)">
+            <summary>
+            将当前Creator当前ID设置为指定值。
+            </summary>
+            <param name="currentID"></param>
+        </member>
+        <member name="T:USe.Common.HttpJson.HttpHeader">
+            <summary>
+            Http请求头。
+            </summary>
+        </member>
+        <member name="P:USe.Common.HttpJson.HttpHeader.Accept">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:USe.Common.HttpJson.HttpHeader.UserAgent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:USe.Common.HttpJson.HttpJsonDataVistor">
+            <summary>
+            Http Json数据访问器。
+            </summary>
+        </member>
+        <member name="M:USe.Common.HttpJson.HttpJsonDataVistor.GetJsonData(System.String)">
+            <summary>
+            获取Html数据。
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.HttpJson.HttpJsonDataVistor.POSTJsonData(System.String)">
+            <summary>
+            获取Html数据。
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.HttpJson.HttpJsonDataVistor.GetJsonData(System.String,USe.Common.HttpJson.HttpHeader)">
+            <summary>
+            获取网页数据
+            </summary>
+            <param name="url">网站地址</param>
+            <param name="encoding">编码</param>
+            <param name="method">发送方法</param>        
+        </member>
+        <member name="M:USe.Common.HttpJson.HttpJsonDataVistor.GetJsonData(System.String,USe.Common.HttpJson.HttpHeader,System.Collections.Generic.List{USe.Common.HttpJson.RequestHeader})">
+            <summary>
+            获取网页数据
+            </summary>
+            <param name="url">网站地址</param>
+            <param name="encoding">编码</param>
+            <param name="method">发送方法</param>        
+        </member>
+        <member name="T:USe.Common.InteropServices.DllLoadAttribute">
+            <summary>
+            指示该属性化委托类型成员由非托管动态链接库中指定的静态入口点公开。
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.DllLoadAttribute.EntryPoint">
+            <summary>
+            函数入口点名称或序号。
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.DllLoadAttribute.DelegateType">
+            <summary>
+            委托类型。
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.DllLoadAttribute.IsRequired">
+            <summary>
+            当前函数是否必须存在标志，默认为True。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.DllLoadAttribute.#ctor">
+            <summary>
+            初始化DllLoadAttribute类的新实例。
+            </summary>
+            <remarks>
+            注：入口点名称将使用默认规则赋值，规则：被属性所标记的委托类型成员的名字。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.DllLoadAttribute.#ctor(System.String)">
+            <summary>
+            使用指定的函数入口点名称初始化DllLoadAttribute类的新实例。
+            </summary>
+            <param name="entryPoint">函数入口点名称或序号。</param>
+        </member>
+        <member name="M:USe.Common.InteropServices.DllLoadAttribute.#ctor(System.String,System.Boolean)">
+            <summary>
+            使用指定的函数入口点名称和必须标志初始化DllLoadAttribute类的新实例。
+            </summary>
+            <param name="entryPoint">函数入口点名称或序号。</param>
+            <param name="isRequired">当前函数是否必须存在标志。</param>
+        </member>
+        <member name="M:USe.Common.InteropServices.DllLoadAttribute.ToString">
+            <summary>
+            返回当前DllLoadAttribute类对象的描述字符串。
+            </summary>
+            <returns>表示当前DllLoadAttribute类对象的描述字符串。</returns>
+        </member>
+        <member name="M:USe.Common.InteropServices.DllLoadAttribute.Initialize(System.Reflection.FieldInfo)">
+            <summary>
+            使用指定的字段信息初始化本实例中还未初始化的成员。
+            </summary>
+            <param name="fieldInfo">字段信息对象。</param>
+        </member>
+        <member name="T:USe.Common.InteropServices.DllLoader">
+            <summary>
+            Win32 DLL动态装载基类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.DllLoader.#ctor">
+            <summary>
+            初始化DllLoader类的新实例。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.DllLoader.Finalize">
+            <summary>
+            DllLoader类的析构方法。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.DllLoader.Dispose">
+            <summary>
+            释放由DllLoader占用的所有资源。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.DllLoader.Dispose(System.Boolean)">
+            <summary>
+            释放由DllLoader占用的资源。
+            </summary>
+            <param name="disposing">资源释放标志，为True释放所有资源；为False则仅释放非受控资源。</param>
+        </member>
+        <member name="P:USe.Common.InteropServices.DllLoader.DllName">
+            <summary>
+            已装载的动态链接库的文件名称。
+            </summary>
+            <remarks>
+            注：动态链接库还未装载时返回空。
+            </remarks>
+        </member>
+        <member name="P:USe.Common.InteropServices.DllLoader.IsLoaded">
+            <summary>
+            动态链接库已装载标志。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.DllLoader.Load(System.String)">
+            <summary>
+            装载动态链接库。
+            </summary>
+            <param name="dllName">装载动态链接库的文件名称。</param>
+        </member>
+        <member name="M:USe.Common.InteropServices.DllLoader.GetAllProcAddress(System.IntPtr)">
+            <summary>
+            从指定的动态链接库获取所有需导入的函数指针。
+            </summary>
+            <param name="dllHandle">动态链接库的句柄。</param>
+        </member>
+        <member name="M:USe.Common.InteropServices.DllLoader.GetProcAddress(System.IntPtr,System.String,System.Boolean)">
+            <summary>
+            按照指定Win32动态链接库句柄和函数名称获取函数指针。
+            </summary>
+            <param name="dllHandle">Win32动态链接库句柄。</param>
+            <param name="procName">函数名称。</param>
+            <param name="isRequired">指定的函数是否必须存在标志。</param>
+            <returns>
+            Win32函数指针。
+            </returns>
+        </member>
+        <member name="T:USe.Common.InteropServices.FileMapping">
+            <summary>
+            Win32文件映射类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.FileMapping.#ctor">
+            <summary>
+            初始化FileMapping类的新实例。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.FileMapping.Finalize">
+            <summary>
+            FileMapping类的析构方法。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.FileMapping.Dispose(System.Boolean)">
+            <summary>
+            释放FileMapping所使用的资源。
+            </summary>
+            <param name="disposing">资源释放标志，True: 释放所有资源；False: 仅释放非受控资源。</param>
+        </member>
+        <member name="M:USe.Common.InteropServices.FileMapping.ToString">
+            <summary>
+            返回表示当前FileMapping类对象的字符串。
+            </summary>
+            <returns>表示当前FileMapping类对象的字符串。</returns>
+        </member>
+        <member name="M:USe.Common.InteropServices.FileMapping.Create(System.String,System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.UInt64,System.UInt32)">
+            <summary>
+            创建文件映射。
+            </summary>
+            <param name="mappingName">文件映射的名称。</param>
+            <param name="filePath">被映射文件的全路径名称。</param>
+            <param name="creationMode">文件创建/打开模式。</param>
+            <param name="accessRights">文件访问权限。</param>
+            <param name="shareMode">文件共享模式。</param>
+            <param name="mappingOffset">文件映射的偏移量(起始位置)。</param>
+            <param name="viewSize">文件映射的视图大小，等于0时表示按文件实际大小取值。</param>
+            <exception cref="T:System.ComponentModel.Win32Exception">创建/打开文件失败时。</exception>
+        </member>
+        <member name="M:USe.Common.InteropServices.FileMapping.CreateMapping(System.String,USe.Common.InteropServices.WIN32_API.PageAccess,USe.Common.InteropServices.WIN32_API.FileMappingAccess,System.UInt64,System.UInt32@)">
+            <summary>
+            创建文件映射。
+            </summary>
+            <param name="mappingName">文件映射对象的名称。</param>
+            <param name="pageAccessRights">页面访问权限。</param>
+            <param name="mappingAccessRights">文件映射的访问权限。</param>
+            <param name="mappingOffset">文件映射的偏移量(起始位置)。</param>
+            <param name="viewSize">[in, out]文件映射的视图大小，等于0时表示按文件实际大小取值。</param>
+            <exception cref="T:System.ComponentModel.Win32Exception">创建文件映射失败时。</exception>
+        </member>
+        <member name="T:USe.Common.InteropServices.SafeFileMappingHandle">
+            <summary>
+            Win32 API文件映射句柄类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.SafeFileMappingHandle.#ctor">
+            <summary>
+            初始化SafeFileMappingHandle类的新实例。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.SafeFileMappingHandle.#ctor(System.IntPtr,System.Boolean)">
+            <summary>
+            初始化SafeFileMappingHandle类的新实例。
+            </summary>
+            <param name="handle">文件映射句柄的指针类型值。</param>
+            <param name="ownsHandle">拥有句柄标志。</param>
+        </member>
+        <member name="M:USe.Common.InteropServices.SafeFileMappingHandle.ReleaseHandle">
+            <summary>
+            释放文件映射句柄。
+            </summary>
+            <returns>
+            释放文件映射句柄成功与否标志。
+            </returns>
+        </member>
+        <member name="T:USe.Common.InteropServices.SafeViewOfFileHandle">
+            <summary>
+            Win32 API文件映射视图句柄类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.SafeViewOfFileHandle.#ctor">
+            <summary>
+            初始化SafeViewOfFileHandle类的新实例。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.SafeViewOfFileHandle.#ctor(System.IntPtr,System.Boolean)">
+            <summary>
+            初始化SafeViewOfFileHandle类的新实例。
+            </summary>
+            <param name="handle">文件映射视图句柄的指针类型值。</param>
+            <param name="ownsHandle">拥有句柄标志。</param>
+        </member>
+        <member name="M:USe.Common.InteropServices.SafeViewOfFileHandle.ReleaseHandle">
+            <summary>
+            释放文件映射视图句柄。
+            </summary>
+            <returns>
+            释放文件映射视图句柄成功与否标志。
+            </returns>
+        </member>
+        <member name="T:USe.Common.InteropServices.SharedMemory">
+            <summary>
+            Win32共享内存类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.#ctor">
+            <summary>
+            初始化SharedMemory类的新实例。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Finalize">
+            <summary>
+            SharedMemory类的析构方法。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Dispose">
+            <summary>
+            释放资源。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Dispose(System.Boolean)">
+            <summary>
+            释放SharedMemory所使用的资源。
+            </summary>
+            <param name="disposing">资源释放标志，True: 释放所有资源；False: 仅释放非受控资源。</param>
+        </member>
+        <member name="P:USe.Common.InteropServices.SharedMemory.MappingName">
+            <summary>
+            获取共享内存的文件映射名称，可能为null/empty。
+            </summary>
+        </member>
+        <member name="P:USe.Common.InteropServices.SharedMemory.MappingOffset">
+            <summary>
+            获取共享内存的文件映射的偏移量，单位：字节。
+            </summary>
+        </member>
+        <member name="P:USe.Common.InteropServices.SharedMemory.ViewSize">
+            <summary>
+            获取共享内存的视图大小，单位：字节。
+            </summary>
+        </member>
+        <member name="P:USe.Common.InteropServices.SharedMemory.ViewBase">
+            <summary>
+            获取共享内存的视图基地址。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.ToString">
+            <summary>
+            返回表示当前SharedMemory类对象的字符串。
+            </summary>
+            <returns>表示当前SharedMemory类对象的字符串。</returns>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Create(System.String,USe.Common.InteropServices.WIN32_API.PageAccess,USe.Common.InteropServices.WIN32_API.FileMappingAccess,System.UInt32)">
+            <summary>
+            创建文件映射对象，并映射视图。
+            </summary>
+            <param name="mappingName">文件映射对象的名称，可为null/empty。</param>
+            <param name="pageAccessRights">内存页面访问权限。</param>
+            <param name="mappingAccessRights">文件映射的访问权限。</param>
+            <param name="viewSize">文件映射的视图大小，单位：字节。</param>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.InternalCreate(System.String,USe.Common.InteropServices.WIN32_API.PageAccess,USe.Common.InteropServices.WIN32_API.FileMappingAccess,System.UInt64,System.UInt32)">
+            <summary>
+            创建文件映射对象，并映射(内存)视图。
+            </summary>
+            <param name="mappingName">文件映射对象的名称，可为null/empty。</param>
+            <param name="pageAccessRights">内存页面访问权限。</param>
+            <param name="mappingAccessRights">文件映射的访问权限。</param>
+            <param name="mappingOffset">文件映射的偏移量(起始位置)。</param>
+            <param name="viewSize">文件映射的视图大小，单位：字节。</param>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.CreateMapping(System.String,USe.Common.InteropServices.WIN32_API.PageAccess,USe.Common.InteropServices.WIN32_API.FileMappingAccess,System.UInt64,System.UInt32@)">
+            <summary>
+            创建文件映射。
+            </summary>
+            <param name="mappingName">文件映射对象的名称。</param>
+            <param name="pageAccessRights">页面访问权限。</param>
+            <param name="mappingAccessRights">文件映射的访问权限。</param>
+            <param name="mappingOffset">文件映射的偏移量(起始位置)。</param>
+            <param name="viewSize">文件映射的视图大小。</param>
+            <exception cref="T:System.ComponentModel.Win32Exception">创建文件映射失败时。</exception>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.GetViewAddressAt(System.UInt32)">
+            <summary>
+            按指定的偏移量获取其在文件映射视图内的地址。
+            </summary>
+            <param name="offset">相对于文件映射视图基地址的偏移量，单位：字节。</param>
+            <returns>
+            文件映射视图内的地址。
+            </returns>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Read(System.IntPtr,System.Int32)">
+            <summary>
+            按指定地址读取指定数量的字节序列。
+            </summary>
+            <param name="address">文件映射视图的地址。</param>
+            <param name="count">字节数量。</param>
+            <returns>
+            读取的字节序列。
+            </returns>
+            <remarks>
+            未做地址的合法性检查。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Read(System.IntPtr,System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            按指定地址读取指定数量的字节序列。
+            </summary>
+            <param name="address">文件映射视图的地址。</param>
+            <param name="bytes">字节序列的数组。</param>
+            <param name="startIndex">字节序列的起始位置。</param>
+            <param name="count">字节数量。</param>
+            <remarks>
+            未做地址的合法性检查。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Read(System.UInt32,System.Int32)">
+            <summary>
+            按指定地址读取指定数量的字节序列。
+            </summary>
+            <param name="offset">相对ViewBase的偏移量，单位：字节。</param>
+            <param name="count">字节数量。</param>
+            <returns>
+            读取的字节序列。
+            </returns>
+            <remarks>
+            未做地址的合法性检查。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Read(System.UInt32,System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            按指定地址读取指定数量的字节序列。
+            </summary>
+            <param name="offset">相对ViewBase的偏移量，单位：字节。</param>
+            <param name="bytes">字节序列的数组。</param>
+            <param name="startIndex">字节序列的起始位置。</param>
+            <param name="count">字节数量。</param>
+            <remarks>
+            未做地址的合法性检查。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Write(System.IntPtr,System.Byte[])">
+            <summary>
+            按指定地址写入指定数量的字节序列。
+            </summary>
+            <param name="address">文件映射视图的地址。</param>
+            <param name="bytes">字节序列。</param>
+            <remarks>
+            未做地址的合法性检查。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Write(System.IntPtr,System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            按指定地址写入指定数量的字节序列。
+            </summary>
+            <param name="address">文件映射视图的地址。</param>
+            <param name="bytes">字节序列的数组。</param>
+            <param name="startIndex">字节序列的起始位置。</param>
+            <param name="count">字节数量。</param>
+            <remarks>
+            未做地址的合法性检查。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Write(System.UInt32,System.Byte[])">
+            <summary>
+            按指定地址写入指定数量的字节序列。
+            </summary>
+            <param name="offset">相对ViewBase的偏移量，单位：字节。</param>
+            <param name="bytes">字节序列。</param>
+            <remarks>
+            未做地址的合法性检查。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Write(System.UInt32,System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            按指定地址写入指定数量的字节序列。
+            </summary>
+            <param name="offset">相对ViewBase的偏移量，单位：字节。</param>
+            <param name="bytes">字节序列的数组。</param>
+            <param name="startIndex">字节序列的起始位置。</param>
+            <param name="count">字节数量。</param>
+            <remarks>
+            未做地址的合法性检查。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Read``1(System.IntPtr)">
+            <summary>
+            按指定地址读取指定结构类型的值。
+            </summary>
+            <typeparam name="T">结构类型。</typeparam>
+            <param name="address">文件映射视图的地址。</param>
+            <returns>
+            读取的结构类型的值。
+            </returns>
+            <remarks>
+            未做地址的合法性检查。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Read``1(System.UInt32)">
+            <summary>
+            按指定的相对ViewBase的偏移量读取指定结构类型的值。
+            </summary>
+            <typeparam name="T">结构类型。</typeparam>
+            <param name="offset">相对ViewBase的偏移量，单位：字节。</param>
+            <returns>
+            读取的结构类型的值。
+            </returns>
+            <remarks>
+            未做地址的合法性检查。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Read``1(System.IntPtr,``0@)">
+            <summary>
+            按指定地址读取指定结构类型的值。
+            </summary>
+            <typeparam name="T">结构类型。</typeparam>
+            <param name="address">文件映射视图的地址。</param>
+            <param name="result">[out] 读取的结构类型的值。</param>
+            <remarks>
+            未做地址的合法性检查。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Read``1(System.UInt32,``0@)">
+            <summary>
+            按指定的相对ViewBase的偏移量读取指定结构类型的值。
+            </summary>
+            <typeparam name="T">结构类型。</typeparam>
+            <param name="offset">相对ViewBase的偏移量，单位：字节。</param>
+            <param name="result">[out] 读取的结构类型的值。</param>
+            <remarks>
+            未做地址的合法性检查。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Write``1(System.IntPtr,``0@)">
+            <summary>
+            按指定地址写入指定结构类型的值。
+            </summary>
+            <typeparam name="T">结构类型。</typeparam>
+            <param name="address">文件映射视图的地址。</param>
+            <param name="value">结构类型的值</param>
+            <remarks>
+            未做地址的合法性检查。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.SharedMemory.Write``1(System.UInt32,``0@)">
+            <summary>
+            按的相对ViewBase的偏移量写入指定结构类型的值。
+            </summary>
+            <typeparam name="T">结构类型。</typeparam>
+            <param name="offset">相对ViewBase的偏移量，单位：字节。</param>
+            <param name="value">结构类型的值</param>
+            <remarks>
+            未做地址的合法性检查。
+            </remarks>
+        </member>
+        <member name="T:USe.Common.InteropServices.WIN32_API">
+            <summary>
+            Win32 API定义。
+            </summary>
+        </member>
+        <member name="T:USe.Common.InteropServices.WIN32_API.GenericRight">
+            <summary>
+            These are the generic rights.
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.GenericRight.GENERIC_READ">
+            <summary>
+            #define GENERIC_READ (0x80000000L)
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.GenericRight.GENERIC_WRITE">
+            <summary>
+            #define GENERIC_WRITE (0x40000000L)
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.GenericRight.GENERIC_EXECUTE">
+            <summary>
+            #define GENERIC_EXECUTE (0x20000000L)
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.GenericRight.GENERIC_ALL">
+            <summary>
+            #define GENERIC_ALL (0x10000000L)
+            </summary>
+        </member>
+        <member name="T:USe.Common.InteropServices.WIN32_API.PageAccess">
+            <summary>
+            Page access rights.
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.PAGE_NOACCESS">
+            <summary>
+            #define PAGE_NOACCESS 0x01
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.PAGE_READONLY">
+            <summary>
+            #define PAGE_READONLY 0x02
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.PAGE_READWRITE">
+            <summary>
+            #define PAGE_READWRITE 0x04
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.PAGE_WRITECOPY">
+            <summary>
+            #define PAGE_WRITECOPY 0x08
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.PAGE_EXECUTE">
+            <summary>
+            #define PAGE_EXECUTE 0x10
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.PAGE_EXECUTE_READ">
+            <summary>
+            #define PAGE_EXECUTE_READ 0x20
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.PAGE_EXECUTE_READWRITE">
+            <summary>
+            #define PAGE_EXECUTE_READWRITE 0x40
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.PAGE_EXECUTE_WRITECOPY">
+            <summary>
+            #define PAGE_EXECUTE_WRITECOPY 0x80
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.PAGE_GUARD">
+            <summary>
+            #define PAGE_GUARD 0x100
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.PAGE_NOCACHE">
+            <summary>
+            #define PAGE_NOCACHE 0x200
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.PAGE_WRITECOMBINE">
+            <summary>
+            #define PAGE_WRITECOMBINE 0x400
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.MEM_COMMIT">
+            <summary>
+            #define MEM_COMMIT 0x1000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.MEM_RESERVE">
+            <summary>
+            #define MEM_RESERVE 0x2000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.MEM_DECOMMIT">
+            <summary>
+            #define MEM_DECOMMIT 0x4000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.MEM_RELEASE">
+            <summary>
+            #define MEM_RELEASE 0x8000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.MEM_FREE">
+            <summary>
+            #define MEM_FREE 0x10000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.MEM_PRIVATE">
+            <summary>
+            #define MEM_PRIVATE 0x20000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.MEM_MAPPED">
+            <summary>
+            #define MEM_MAPPED 0x40000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.MEM_RESET">
+            <summary>
+            #define MEM_RESET 0x80000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.MEM_TOP_DOWN">
+            <summary>
+            #define MEM_TOP_DOWN 0x100000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.MEM_WRITE_WATCH">
+            <summary>
+            #define MEM_WRITE_WATCH 0x200000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.MEM_PHYSICAL">
+            <summary>
+            #define MEM_PHYSICAL 0x400000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.MEM_LARGE_PAGES">
+            <summary>
+            #define MEM_LARGE_PAGES 0x20000000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.MEM_4MB_PAGES">
+            <summary>
+            #define MEM_4MB_PAGES 0x80000000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.SEC_FILE">
+            <summary>
+            #define SEC_FILE 0x800000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.SEC_IMAGE">
+            <summary>
+            #define SEC_IMAGE 0x1000000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.SEC_RESERVE">
+            <summary>
+            #define SEC_RESERVE 0x4000000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.SEC_COMMIT">
+            <summary>
+            #define SEC_COMMIT 0x8000000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.SEC_NOCACHE">
+            <summary>
+            #define SEC_NOCACHE 0x10000000
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.MEM_IMAGE">
+            <summary>
+            #define MEM_IMAGE SEC_IMAGE
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.PageAccess.WRITE_WATCH_FLAG_RESET">
+            <summary>
+            #define WRITE_WATCH_FLAG_RESET 0x01
+            </summary>
+        </member>
+        <member name="T:USe.Common.InteropServices.WIN32_API.FileMappingAccess">
+            <summary>
+            File Mapping Security and Access Rights.
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.FileMappingAccess.FILE_MAP_COPY">
+            <summary>
+            #define FILE_MAP_COPY SECTION_QUERY<br/>
+            #define SECTION_QUERY 0x0001
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.FileMappingAccess.FILE_MAP_WRITE">
+            <summary>
+            #define FILE_MAP_WRITE SECTION_MAP_WRITE<br/>
+            #define SECTION_MAP_WRITE 0x0002
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.FileMappingAccess.FILE_MAP_READ">
+            <summary>
+            #define FILE_MAP_READ SECTION_MAP_READ<br/>
+            #define SECTION_MAP_READ 0x0004
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.FileMappingAccess.FILE_MAP_ALL_ACCESS">
+            <summary>
+            #define FILE_MAP_ALL_ACCESS SECTION_ALL_ACCESS<br/>
+            #define STANDARD_RIGHTS_REQUIRED (0x000F0000L)<br/>
+            #define SECTION_MAP_EXECUTE 0x0008<br/>
+            #define SECTION_EXTEND_SIZE 0x0010<br/>
+            #define SECTION_ALL_ACCESS (STANDARD_RIGHTS_REQUIRED | SECTION_QUERY | SECTION_MAP_WRITE | SECTION_MAP_READ | SECTION_MAP_EXECUTE | SECTION_EXTEND_SIZE)
+            </summary>
+        </member>
+        <member name="F:USe.Common.InteropServices.WIN32_API.InvalidHandleValue">
+            <summary>
+            无效的文件句柄值，#define INVALID_HANDLE_VALUE  ((HANDLE)((LONG_PTR)-1))。
+            </summary>
+        </member>
+        <member name="M:USe.Common.InteropServices.WIN32_API.LoadLibrary(System.String)">
+            <summary>
+            Maps the specified executable module into the address space of the calling process.
+            </summary>
+            <param name="fileName">The name of the executable module (either a .dll or .exe file). The name specified is the file name of the module and is not related to the name stored in the library module itself, as specified by the LIBRARY keyword in the module-definition (.def) file. </param>
+            <returns>
+            If the function succeeds, the return value is a handle to the module.<br/>
+            If the function fails, the return value is NULL. To get extended error information, call GetLastError.
+            </returns>
+            <remarks>
+            HMODULE WINAPI LoadLibraryA(LPCSTR lpFileName);<br/>
+            HMODULE WINAPI LoadLibraryW(LPCWSTR lpFileName);
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.WIN32_API.FreeLibrary(System.IntPtr)">
+            <summary>
+            Decrements the reference count of the loaded dynamic-link library (DLL). When the reference count reaches zero, the module is unmapped from the address space of the calling process and the handle is no longer valid.
+            </summary>
+            <param name="moduleHandle">A handle to the loaded DLL module. The LoadLibrary or GetModuleHandle function returns this handle.</param>
+            <returns>
+            If the function succeeds, the return value is nonzero.<br/>
+            If the function fails, the return value is zero. To get extended error information, call GetLastError.
+            </returns>
+            <remarks>
+            BOOL WINAPI FreeLibrary(HMODULE hModule);
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.WIN32_API.GetProcAddress(System.IntPtr,System.String)">
+            <summary>
+            Retrieves the address of an exported function or variable from the specified dynamic-link library (DLL).
+            </summary>
+            <param name="moduleHandle">A handle to the DLL module that contains the function or variable. The LoadLibrary or GetModuleHandle function returns this handle.</param>
+            <param name="procName">The function or variable name, or the function's ordinal value. If this parameter is an ordinal value, it must be in the low-order word; the high-order word must be zero.</param>
+            <returns>
+            If the function succeeds, the return value is the address of the exported function or variable.<br/>
+            If the function fails, the return value is NULL. To get extended error information, call GetLastError.
+            </returns>
+            <remarks>
+            FARPROC WINAPI GetProcAddress(HMODULE hModule, LPCSTR lpProcName);
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.WIN32_API.CloseHandle(System.IntPtr)">
+            <summary>
+            Closes an open object handle.
+            </summary>
+            <param name="handle">A valid handle to an open object.</param>
+            <returns>
+            If the function succeeds, the return value is nonzero.<br/>
+            If the function fails, the return value is zero. To get extended error information, call GetLastError.
+            </returns>
+            <remarks>
+            BOOL WINAPI CloseHandle(HANDLE hObject);
+            </remarks>
+        </member>
+        <member name="M:USe.Common.InteropServices.WIN32_API.CreateFile(System.String,USe.Common.InteropServices.WIN32_API.GenericRight,System.IO.FileShare,System.IntPtr,System.IO.FileMode,System.IO.FileAttributes,System.IntPtr)">
+            <summary>
+            Creates or opens a file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, or named pipe. The function returns a handle that can be used to access the object.
+            </summary>
+            <param name="lpFileName">The name of the object to be created or opened.</param>
+            <param name="dwDesiredAccess">The access to the object, which can be read, write, or both.</param>
+            <param name="dwShareMode">The sharing mode of an object, which can be read, write, both, or none.</param>
+            <param name="lpSecurityAttributes">A pointer to a SECURITY_ATTRIBUTES structure that determines whether or not the returned handle can be inherited by child processes.</param>
+            <param name="dwCreationDisposition">An action to take on files that exist and do not exist.</param>
+            <param name="dwFlagsAndAttributes">The file attributes and flags.</param>
+            <param name="hTemplateFile">A handle to a template file with the GENERIC_READ access right. The template file supplies file attributes and extended attributes for the file that is being created. This parameter can be NULL.</param>
+            <returns>
+            If the function succeeds, the return value is an open handle to a specified file. If a specified file exists before the function call and dwCreationDisposition is CREATE_ALWAYS or OPEN_ALWAYS, a call to GetLastError returns ERROR_ALREADY_EXISTS, even when the function succeeds. If a file does not exist before the call, GetLastError returns zero (0).<br/>
+            If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call GetLastError.
+            </returns>
+        </member>
+        <member name="M:USe.Common.InteropServices.WIN32_API.GetFileSize(Microsoft.Win32.SafeHandles.SafeFileHandle,System.UInt32@)">
+            <summary>
+            Retrieves the size of the specified file. The file size that can be reported by this function is limited to a DWORD value.
+            </summary>
+            <param name="hFile">A handle to the file.</param>
+            <param name="lpdwFileSizeHigh">A pointer to the variable where the high-order doubleword of the file size is returned. This parameter can be NULL if the application does not require the high-order doubleword.</param>
+            <returns>
+            If the function succeeds, the return value is the low-order doubleword of the file size, and, if lpFileSizeHigh is non-NULL, the function puts the high-order doubleword of the file size into the variable pointed to by that parameter.<br/>
+            If the function fails and lpFileSizeHigh is NULL, the return value is INVALID_FILE_SIZE. To get extended error information, call GetLastError. When lpFileSizeHigh is NULL, the results returned for large files are ambiguous, and you will not be able to determine the actual size of the file. It is recommended that you use GetFileSizeEx instead.<br/>
+            If the function fails and lpFileSizeHigh is non-NULL, the return value is INVALID_FILE_SIZE and GetLastError will return a value other than NO_ERROR.
+            </returns>
+        </member>
+        <member name="M:USe.Common.InteropServices.WIN32_API.CreateFileMapping(Microsoft.Win32.SafeHandles.SafeFileHandle,System.IntPtr,USe.Common.InteropServices.WIN32_API.PageAccess,System.UInt32,System.UInt32,System.String)">
+            <summary>
+            Creates or opens a named or unnamed file mapping object for a specified file.
+            </summary>
+            <param name="hFile">A handle to the file from which to create a file mapping object. </param>
+            <param name="lpAttributes">A pointer to a SECURITY_ATTRIBUTES structure that determines whether a returned handle can be inherited by child processes. </param>
+            <param name="flProtect">The protection for the file view, when the file is mapped. </param>
+            <param name="dwMaximumSizeHigh">The high-order DWORD of the maximum size of the file mapping object.</param>
+            <param name="dwMaximumSizeLow">The low-order DWORD of the maximum size of the file mapping object. </param>
+            <param name="lpName">The name of the file mapping object. </param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.InteropServices.WIN32_API.OpenFileMapping(USe.Common.InteropServices.WIN32_API.FileMappingAccess,System.Boolean,System.String)">
+            <summary>
+            Opens a named file mapping object.
+            </summary>
+            <param name="dwDesiredAccess">The access to the file mapping object. This access is checked against any security descriptor on the target file mapping object.</param>
+            <param name="bInheritHandle">If this parameter is TRUE, a process created by the CreateProcess function can inherit the handle; otherwise, the handle cannot be inherited.</param>
+            <param name="lpName">The name of the file mapping object to be opened. If there is an open handle to a file mapping object by this name and the security descriptor on the mapping object does not conflict with the dwDesiredAccess parameter, the open operation succeeds. </param>
+            <returns>
+            If the function succeeds, the return value is an open handle to the specified file mapping object.<br/>
+            If the function fails, the return value is NULL. To get extended error information, call GetLastError.
+            </returns>
+        </member>
+        <member name="M:USe.Common.InteropServices.WIN32_API.MapViewOfFile(USe.Common.InteropServices.SafeFileMappingHandle,USe.Common.InteropServices.WIN32_API.FileMappingAccess,System.UInt32,System.UInt32,System.UInt32)">
+            <summary>
+            Maps a view of a file mapping into the address space of a calling process.
+            </summary>
+            <param name="hFileMappingObject">A handle to a file mapping object. The CreateFileMapping and OpenFileMapping functions return this handle.</param>
+            <param name="dwDesiredAccess">The type of access to a file mapping object, which ensures the protection of the pages.</param>
+            <param name="dwFileOffsetHigh">A high-order DWORD of the file offset where the view begins.</param>
+            <param name="dwFileOffsetLow">A low-order DWORD of the file offset where the view is to begin. </param>
+            <param name="dwNumberOfBytesToMap">The number of bytes of a file mapping to map to the view. All bytes must be within the maximum size specified by CreateFileMapping. If this parameter is 0 (zero), the mapping extends from the specified offset to the end of the file mapping.</param>
+            <returns>
+            If the function succeeds, the return value is the starting address of the mapped view.<br/>
+            If the function fails, the return value is NULL. To get extended error information, call GetLastError.
+            </returns>
+        </member>
+        <member name="M:USe.Common.InteropServices.WIN32_API.UnmapViewOfFile(System.IntPtr)">
+            <summary>
+            Unmaps a mapped view of a file from the calling process's address space.
+            </summary>
+            <param name="lpBaseAddress">A pointer to the base address of the mapped view of a file that is to be unmapped. This value must be identical to the value returned by a previous call to the MapViewOfFile or MapViewOfFileEx function.</param>
+            <returns>
+            If the function succeeds, the return value is nonzero, and all dirty pages within the specified range are written "lazily" to disk.<br/>
+            If the function fails, the return value is zero. To get extended error information, call GetLastError.
+            </returns>
+        </member>
+        <member name="T:USe.Common.IUSeNotifier">
+            <summary>
+            USe通知事件接口。
+            </summary>
+        </member>
+        <member name="E:USe.Common.IUSeNotifier.Notify">
+            <summary>
+            通知事件。
+            </summary>
+        </member>
+        <member name="T:USe.Common.IUSeNotifySourceNameProvider">
+            <summary>
+            USe通知事件来源者名称提供者接口。
+            </summary>
+        </member>
+        <member name="T:USe.Common.IUSeSourceNameProvider">
+            <summary>
+            USe来源者名称提供者接口。
+            </summary>
+        </member>
+        <member name="P:USe.Common.IUSeSourceNameProvider.SourceName">
+            <summary>
+            获取来源者的名称字符串。
+            </summary>
+        </member>
+        <member name="T:USe.Common.USeNotifyEventArgs">
+            <summary>
+            USe通知事件数据类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.USeNotifyEventArgs.#ctor(USe.Common.USeNotifyLevel,System.String)">
+            <summary>
+            使用指定的参数初始化USeNotifyEventArgs类的新实例。
+            </summary>
+            <param name="level">通知事件的级别。</param>
+            <param name="message">通知事件的描述信息。</param>
+        </member>
+        <member name="M:USe.Common.USeNotifyEventArgs.#ctor(USe.Common.USeNotifyLevel,System.String,System.Object,System.Int32)">
+            <summary>
+            使用指定的参数初始化USeNotifyEventArgs类的新实例。
+            </summary>
+            <param name="level">通知事件的级别。</param>
+            <param name="message">通知事件的描述信息。</param>
+            <param name="source">通知事件的来源。</param>
+            <param name="eventId">通知事件的ID(编号)。</param>
+        </member>
+        <member name="M:USe.Common.USeNotifyEventArgs.#ctor(USe.Common.USeNotifyLevel,System.String,System.Object,System.Int32,System.DateTime)">
+            <summary>
+            使用指定的参数初始化USeNotifyEventArgs类的新实例。
+            </summary>
+            <param name="level">通知事件的级别。</param>
+            <param name="message">通知事件的描述信息。</param>
+            <param name="source">通知事件的来源。</param>
+            <param name="eventId">通知事件的ID(编号)。</param>
+            <param name="time">通知事件的时间。</param>
+        </member>
+        <member name="P:USe.Common.USeNotifyEventArgs.Level">
+            <summary>
+            获取/设置通知事件的级别。
+            </summary>
+        </member>
+        <member name="P:USe.Common.USeNotifyEventArgs.Message">
+            <summary>
+            获取/设置通知事件的描述信息。
+            </summary>
+        </member>
+        <member name="P:USe.Common.USeNotifyEventArgs.Time">
+            <summary>
+            获取/设置通知事件的时间。
+            </summary>
+        </member>
+        <member name="P:USe.Common.USeNotifyEventArgs.Source">
+            <summary>
+            获取/设置通知事件的来源。
+            </summary>
+        </member>
+        <member name="P:USe.Common.USeNotifyEventArgs.SourceName">
+            <summary>
+            获取通知事件来源者的名称字符串。
+            </summary>
+        </member>
+        <member name="P:USe.Common.USeNotifyEventArgs.EventId">
+            <summary>
+            获取/设置通知事件的ID(编号)。
+            </summary>
+        </member>
+        <member name="T:USe.Common.USeNotifyLevel">
+            <summary>
+            USe通知事件级别枚举类型定义。
+            </summary>
+        </member>
+        <member name="F:USe.Common.USeNotifyLevel.Critical">
+            <summary>
+            关键性错误或应用程序崩溃信息。
+            </summary>
+        </member>
+        <member name="F:USe.Common.USeNotifyLevel.Error">
+            <summary>
+            可恢复的错误信息。
+            </summary>
+        </member>
+        <member name="F:USe.Common.USeNotifyLevel.Warning">
+            <summary>
+            警告(非关键性问题)信息。
+            </summary>
+        </member>
+        <member name="F:USe.Common.USeNotifyLevel.Information">
+            <summary>
+            一般性信息。
+            </summary>
+        </member>
+        <member name="F:USe.Common.USeNotifyLevel.Verbose">
+            <summary>
+            调试跟踪信息。
+            </summary>
+        </member>
+        <member name="T:USe.Common.ObjectExtend">
+            <summary>
+            Object类型转换数值扩展类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.Divide(System.Decimal,System.Decimal)">
+            <summary>
+            两数相除a/b。
+            </summary>
+            <param name="a">被除数。</param>
+            <param name="b">除数。</param>
+            <remarks>除数为0返回0。 </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToInt(System.Object)">
+            <summary>
+            转换为Int32类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <returns></returns>
+            <remarks>
+            若转换无效则返回0。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToIntNull(System.Object)">
+            <summary>
+            转换为int?类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <returns></returns>
+            <remarks>
+            若转换无效则返回Null。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToInt16(System.Object)">
+            <summary>
+            转换为Int16类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <returns></returns>
+            <remarks>
+            若转换无效则返回0。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToInt16Null(System.Object)">
+            <summary>
+            转换为Int16?类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <returns></returns>
+            <remarks>
+            若转换无效则返回Null。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToDouble(System.Object)">
+            <summary>
+            转换为Double类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <returns></returns>
+            <remarks>
+            若转换无效则返回0。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToDoubleNull(System.Object)">
+            <summary>
+            转换为Double?类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <returns></returns>
+            <remarks>
+            若转换无效则返回Null。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToFloat(System.Object)">
+            <summary>
+            转换为Float类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <returns></returns>
+            <remarks>
+            若转换无效则返回0f。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToFloatNull(System.Object)">
+            <summary>
+            转换为Float?类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <returns></returns>
+            <remarks>
+            若转换无效则返回Null。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToDecimal(System.Object)">
+            <summary>
+            转换为Decimal类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <returns></returns>
+            <remarks>
+            若转换无效则返回0m。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToDecimalNull(System.Object)">
+            <summary>
+            转换为Decimal?类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <returns></returns>
+            <remarks>
+            若转换无效则返回Null。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToDecimal(System.Object,System.Int32)">
+            <summary>
+            转换为Decimal类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <param name="decimals">小数位数。</param>
+            <returns>转换的值。</returns>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToDecimalNull(System.Object,System.Int32)">
+            <summary>
+            转换为Decimal类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <param name="decimals">小数位数。</param>
+            <returns>转换的值。</returns>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToDateTime(System.Object)">
+            <summary>
+            转换为DateTime类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <returns></returns>
+            <remarks>
+            若转换无效则返回DateTime.MinValue。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToDateTimeNull(System.Object)">
+            <summary>
+            转换为DateTime?类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <returns></returns>
+            <remarks>
+            若转换无效则返回Null
+            </remarks>
+        </member>
+        <member name="M:USe.Common.ObjectExtend.ToBoolean(System.Object)">
+            <summary>
+            转换为Boolean类型。
+            </summary>
+            <param name="obj">包含要转换的object。</param>
+            <returns></returns>
+            <remarks>
+            若转换无效则返回false。
+            </remarks>
+        </member>
+        <member name="T:USe.Common.USeBaseViewModel">
+            <summary>
+            属性改变监听类。
+            </summary>
+        </member>
+        <member name="T:USe.Common.USeXmlSerializer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:USe.Common.USeXmlSerializer.SaveToXml(System.String,System.Object)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="filePath"></param>
+            <param name="sourceObj"></param>
+        </member>
+        <member name="M:USe.Common.USeXmlSerializer.SaveToXml(System.String,System.Object,System.Xml.Serialization.XmlAttributeOverrides)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="filePath"></param>
+            <param name="sourceObj"></param>
+            <param name="overrides"></param>
+        </member>
+        <member name="M:USe.Common.USeXmlSerializer.LoadFromXml``1(System.String)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.USeXmlSerializer.LoadFromXml``1(System.String,System.Xml.Serialization.XmlAttributeOverrides)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="filePath"></param>
+            <param name="overrides"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

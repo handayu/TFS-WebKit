@@ -1,0 +1,67 @@
+
+I 20170808 095740186 KLineÊý¾Ý´æ´¢ started.
+I 20170808 095741323 MarketDataStore.USeManager Create MarketDataStore.TradeRangeManager OK.
+I 20170808 095741343 MarketDataStore.USeManager Create USe.Common.Manager.USeProductManager OK.
+I 20170808 095741349 MarketDataStore.USeManager Create USe.Common.Manager.AlphaDBVistor OK.
+I 20170808 095741396 MarketDataStore.USeManager Create USe.Common.Manager.USeTradingInstrumentManager OK.
+I 20170808 095741467 MarketDataStore.USeManager Create MarketDataStore.MainContractManager OK.
+I 20170808 095741481 MarketDataStore.USeManager Create MarketDataStore.FileMarketDataStorage OK.
+I 20170808 095741489 MarketDataStore.USeManager Create MarketDataStore.MQTTMarketDataStoreage OK.
+I 20170808 095741520 MarketDataStore.USeManager Create MarketDataProcessor OK.
+I 20170808 095741531 MarketDataStore.USeManager Create CTPMarketDataReceiver OK.
+
+I 20170809 095801944 KLineÊý¾Ý´æ´¢ started.
+I 20170809 095802310 MarketDataStore.USeManager Create MarketDataStore.TradeRangeManager OK.
+I 20170809 095802329 MarketDataStore.USeManager Create USe.Common.Manager.USeProductManager OK.
+I 20170809 095802334 MarketDataStore.USeManager Create USe.Common.Manager.AlphaDBVistor OK.
+I 20170809 095802377 MarketDataStore.USeManager Create USe.Common.Manager.USeTradingInstrumentManager OK.
+I 20170809 095802399 MarketDataStore.USeManager Create MarketDataStore.MainContractManager OK.
+I 20170809 095802410 MarketDataStore.USeManager Create MarketDataStore.FileMarketDataStorage OK.
+I 20170809 095802416 MarketDataStore.USeManager Create MarketDataStore.MQTTMarketDataStoreage OK.
+I 20170809 095802436 MarketDataStore.USeManager Create MarketDataProcessor OK.
+I 20170809 095802445 MarketDataStore.USeManager Create CTPMarketDataReceiver OK.
+I 20170809 115305033 KLineÊý¾Ý´æ´¢ shutdown.
+
+I 20170811 135243929 KLineÊý¾Ý´æ´¢ started.
+I 20170811 135244228 MarketDataStore.USeManager Create MarketDataStore.TradeRangeManager OK.
+I 20170811 135244241 MarketDataStore.USeManager Create USe.Common.Manager.USeProductManager OK.
+I 20170811 135244244 MarketDataStore.USeManager Create USe.Common.Manager.AlphaDBVistor OK.
+I 20170811 135244291 MarketDataStore.USeManager Create USe.Common.Manager.USeTradingInstrumentManager OK.
+I 20170811 135244362 MarketDataStore.USeManager Create MarketDataStore.MainContractManager OK.
+I 20170811 135244367 MarketDataStore.USeManager Create MarketDataStore.FileMarketDataStorage OK.
+I 20170811 135244370 MarketDataStore.USeManager Create MarketDataStore.MQTTMarketDataStoreage OK.
+I 20170811 135244379 MarketDataStore.USeManager Create MarketDataProcessor OK.
+I 20170811 135244384 MarketDataStore.USeManager Create CTPMarketDataReceiver OK.
+I 20170811 151602184 KLineÊý¾Ý´æ´¢ shutdown.
+
+I 20170815 172226743 KLineÊý¾Ý´æ´¢ started.
+I 20170815 172227904 MarketDataStore.USeManager Create MarketDataStore.TradeRangeManager OK.
+I 20170815 172227951 MarketDataStore.USeManager Create USe.Common.Manager.USeProductManager OK.
+I 20170815 172227963 MarketDataStore.USeManager Create USe.Common.Manager.AlphaDBVistor OK.
+I 20170815 172228017 MarketDataStore.USeManager Create USe.Common.Manager.USeTradingInstrumentManager OK.
+I 20170815 172228113 MarketDataStore.USeManager Create MarketDataStore.MainContractManager OK.
+I 20170815 172228121 MarketDataStore.USeManager Create MarketDataStore.FileMarketDataStorage OK.
+I 20170815 172228127 MarketDataStore.USeManager Create MarketDataStore.MQTTMarketDataStoreage OK.
+I 20170815 172228146 MarketDataStore.USeManager Create MySQL_43 OK.
+I 20170815 172228166 MarketDataStore.USeManager Create MarketDataProcessor OK.
+I 20170815 172228194 MarketDataStore.USeManager Create CTPMarketDataReceiver OK.
+I 20170815 172228221 MarketDataStore.USeManager Create HttpMarketDataReceiver OK.
+I 20170815 172228957 Æô¶¯KÏß´æ´¢Æ÷MySQL_43³É¹¦
+E 20170815 172238382 [YM]MarketDataStore.HttpDayKLineFactory receive different data,Code:LZNS,KLindDate:2017-08-15 17:22:33,MarketData:2017-08-15 17:22:00
+E 20170815 172243380 [YM]MarketDataStore.HttpDayKLineFactory receive different data,Code:LCPS,KLindDate:2017-08-15 17:22:38,MarketData:2017-08-15 17:21:00
+E 20170815 172243386 [YM]MarketDataStore.HttpDayKLineFactory receive different data,Code:LZNS,KLindDate:2017-08-15 17:22:38,MarketData:2017-08-15 17:22:00
+
+I 20170828 161138056 KLineÊý¾Ý´æ´¢ started.
+I 20170828 161138349 MarketDataStore.USeManager Create MarketDataStore.TradeRangeManager OK.
+I 20170828 161138360 MarketDataStore.USeManager Create USe.Common.Manager.USeProductManager OK.
+I 20170828 161138362 MarketDataStore.USeManager Create USe.Common.Manager.AlphaDBVistor OK.
+I 20170828 161138414 MarketDataStore.USeManager Create USe.Common.Manager.USeTradingInstrumentManager OK.
+I 20170828 161138498 MarketDataStore.USeManager Create MarketDataStore.MainContractManager OK.
+I 20170828 161138501 MarketDataStore.USeManager Create MarketDataStore.FileMarketDataStorage OK.
+I 20170828 161138503 MarketDataStore.USeManager Create MarketDataStore.MQTTMarketDataStoreage OK.
+I 20170828 161138511 MarketDataStore.USeManager Create MySQL_43 OK.
+I 20170828 161138513 MarketDataStore.USeManager Create MarketDataProcessor OK.
+I 20170828 161138517 MarketDataStore.USeManager Create CTPMarketDataReceiver OK.
+I 20170828 161138525 MarketDataStore.USeManager Create HttpMarketDataReceiver OK.
+I 20170828 161138852 Æô¶¯KÏß´æ´¢Æ÷MySQL_43³É¹¦
+I 20170828 164632453 KLineÊý¾Ý´æ´¢ shutdown.

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RadDock Padding="0, 0, 0, 0" SplitterWidth="2" ShowDocumentCloseButton="True" IsCleanUpTarget="True" Orientation="Horizontal" Text="radDock1" CausesValidation="False" TabIndex="3" TabStop="False">
+  <DocumentManager DocumentCloseActivation="FirstInZOrder" />
+  <SerializableAutoHideContainer>
+    <LeftAutoHideGroups>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 200" DockWindowName="toolWindow1" DockWindowText="资金分布" PreviousDockState="Docked" Location="0, 0" Font="宋体, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 200" DockWindowName="toolWindow2" DockWindowText="合约持仓" PreviousDockState="Docked" Location="0, 0" Font="宋体, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 200" DockWindowName="toolWindow3" DockWindowText="券商持仓" PreviousDockState="Docked" Location="0, 0" Font="宋体, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 200" DockWindowName="toolWindow4" DockWindowText="天气数据" PreviousDockState="Docked" Location="0, 0" Font="宋体, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 200" DockWindowName="toolWindow5" DockWindowText="汇率" PreviousDockState="Docked" Location="0, 0" Font="宋体, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 200" DockWindowName="toolWindow6" DockWindowText="投资日历" PreviousDockState="Docked" Location="0, 0" Font="宋体, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+    </LeftAutoHideGroups>
+    <RightAutoHideGroups>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 200" DockWindowName="toolWindow7" DockWindowText="导读" PreviousDockState="Docked" Location="0, 0" Font="宋体, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 200" DockWindowName="toolWindow8" DockWindowText="资讯直播" PreviousDockState="Docked" Location="0, 0" Font="宋体, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 200" DockWindowName="toolWindow9" DockWindowText="资讯快递" PreviousDockState="Docked" Location="0, 0" Font="宋体, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 200" DockWindowName="toolWindow10" DockWindowText="资讯数据" PreviousDockState="Docked" Location="0, 0" Font="宋体, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+    </RightAutoHideGroups>
+    <BottomAutoHideGroups>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 323" DockWindowName="PublishForm" DockWindowText="供需发布" PreviousDockState="Docked" Location="0, 0" Font="宋体, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+    </BottomAutoHideGroups>
+  </SerializableAutoHideContainer>
+  <Controls>
+    <Telerik.WinControls.UI.RadSplitContainer IsCleanUpTarget="True" Orientation="Vertical" SplitterWidth="2" ThemeName="VisualStudio2012Dark" CausesValidation="False" Location="28, 0" Name="" Size="1850, 1035" TabIndex="0" TabStop="False">
+      <SizeInfo SplitterCorrection="0, -123" AutoSizeScale="0, 0" AbsoluteSize="200, 738" />
+      <Controls>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" CanUpdateChildIndex="True" Size="167, 177" Location="0, 0" ThemeName="VisualStudio2012Dark" Name="DockTabStrip7" TabIndex="6" TabStop="False">
+          <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          <Controls>
+            <UseOnlineTradingSystem.ToolWindowBrower Caption="" DefaultFloatingSize="1000, 500" PreviousDockState="Docked" Name="toolWindow6" Size="189, 1007" Location="4, 24" Font="宋体, 9pt" Text="投资日历" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" CanUpdateChildIndex="True" Size="167, 177" Location="169, 0" ThemeName="VisualStudio2012Dark" Name="DockTabStrip6" TabIndex="5" TabStop="False">
+          <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          <Controls>
+            <UseOnlineTradingSystem.ToolWindowBrower Caption="" DefaultFloatingSize="1000, 500" PreviousDockState="Docked" Name="toolWindow5" Size="189, 1007" Location="4, 24" Font="宋体, 9pt" Text="汇率" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" CanUpdateChildIndex="True" Size="167, 177" Location="338, 0" ThemeName="VisualStudio2012Dark" Name="DockTabStrip5" TabIndex="4" TabStop="False">
+          <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          <Controls>
+            <UseOnlineTradingSystem.ToolWindowBrower Caption="" DefaultFloatingSize="1000, 500" PreviousDockState="Docked" Name="toolWindow4" Size="189, 1007" Location="4, 24" Font="宋体, 9pt" Text="天气数据" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" CanUpdateChildIndex="True" Size="167, 177" Location="507, 0" ThemeName="VisualStudio2012Dark" Name="DockTabStrip4" TabIndex="3" TabStop="False">
+          <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          <Controls>
+            <UseOnlineTradingSystem.ToolWindowBrower Caption="" DefaultFloatingSize="1000, 500" PreviousDockState="Docked" Name="toolWindow3" Size="189, 1007" Location="4, 24" Font="宋体, 9pt" Text="券商持仓" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" CanUpdateChildIndex="True" Size="167, 177" Location="676, 0" ThemeName="VisualStudio2012Dark" Name="DockTabStrip3" TabIndex="2" TabStop="False">
+          <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          <Controls>
+            <UseOnlineTradingSystem.ToolWindowBrower Caption="" DefaultFloatingSize="1000, 500" PreviousDockState="Docked" Name="toolWindow2" Size="189, 1007" Location="4, 24" Font="宋体, 9pt" Text="合约持仓" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" CanUpdateChildIndex="True" Size="167, 177" Location="845, 0" ThemeName="VisualStudio2012Dark" Name="DockTabStrip2" TabIndex="1" TabStop="False">
+          <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          <Controls>
+            <UseOnlineTradingSystem.ToolWindowBrower Caption="" DefaultFloatingSize="1000, 500" PreviousDockState="Docked" Name="toolWindow1" Size="189, 1007" Location="4, 24" Font="宋体, 9pt" Text="资金分布" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        <Telerik.WinControls.UI.Docking.DocumentContainer IsMainDocumentContainer="True" Padding="0, 0, 0, 0" SplitterWidth="2" Orientation="Vertical" ThemeName="VisualStudio2012Dark" CausesValidation="False" Name="documentContainer1" RightToLeft="No">
+          <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" SizeMode="Fill" />
+          <Controls>
+            <Telerik.WinControls.UI.Docking.DocumentTabStrip SelectedIndex="0" ShowItemCloseButton="True" CanUpdateChildIndex="True" Size="1302, 1035" Location="0, 0" ThemeName="VisualStudio2012Dark" CausesValidation="False" Name="DockTabStrip13" TabIndex="0" TabStop="False">
+              <SizeInfo SplitterCorrection="378, 0" AutoSizeScale="0.204545438, 0" />
+              <Controls>
+                <UseOnlineTradingSystem.MUseMainForm IsPinned="False" DefaultFloatingSize="1000, 800" PreviousDockState="TabbedDocument" Name="documentWindow4" Size="1294, 1002" Location="4, 29" Font="宋体, 9pt" Text="行情" />
+                <UseOnlineTradingSystem.FormBrowser IsPinned="False" PreviousDockState="TabbedDocument" Name="documentWindow3" Size="1683, 290" Location="4, 4" Font="宋体, 9pt" Text="基础管理" />
+                <UseOnlineTradingSystem.FormBrowser IsPinned="False" PreviousDockState="TabbedDocument" Name="documentWindow2" Size="991, 1002" Location="4, 29" Font="宋体, 9pt" Text="资金管理" />
+              </Controls>
+            </Telerik.WinControls.UI.Docking.DocumentTabStrip>
+            <Telerik.WinControls.UI.Docking.DocumentTabStrip SelectedIndex="0" ShowItemCloseButton="True" CanUpdateChildIndex="True" Size="546, 1035" Location="1304, 0" ThemeName="VisualStudio2012Dark" Name="DockTabStrip3" TabIndex="1" TabStop="False">
+              <SizeInfo SplitterCorrection="-378, 0" AutoSizeScale="-0.204545468, 0" />
+              <Controls>
+                <UseOnlineTradingSystem.FormKLine IsPinned="False" DefaultFloatingSize="1000, 800" PreviousDockState="TabbedDocument" Name="documentWindow1" Size="538, 1002" Location="4, 29" Font="宋体, 9pt" Text="000002.SZ" />
+              </Controls>
+            </Telerik.WinControls.UI.Docking.DocumentTabStrip>
+          </Controls>
+        </Telerik.WinControls.UI.Docking.DocumentContainer>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" CanUpdateChildIndex="True" Size="167, 177" Location="1016, 0" ThemeName="VisualStudio2012Dark" Name="DockTabStrip8" TabIndex="7" TabStop="False">
+          <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          <Controls>
+            <UseOnlineTradingSystem.ToolWindowBrower Caption="" DefaultFloatingSize="1000, 500" PreviousDockState="Docked" Name="toolWindow7" Size="189, 1007" Location="7, 24" Font="宋体, 9pt" Text="导读" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" CanUpdateChildIndex="True" Size="167, 177" Location="1185, 0" ThemeName="VisualStudio2012Dark" Name="DockTabStrip9" TabIndex="8" TabStop="False">
+          <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          <Controls>
+            <UseOnlineTradingSystem.ToolWindowBrower Caption="" DefaultFloatingSize="1000, 500" PreviousDockState="Docked" Name="toolWindow8" Size="189, 1007" Location="7, 24" Font="宋体, 9pt" Text="资讯直播" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" CanUpdateChildIndex="True" Size="167, 177" Location="1354, 0" ThemeName="VisualStudio2012Dark" Name="DockTabStrip10" TabIndex="9" TabStop="False">
+          <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          <Controls>
+            <UseOnlineTradingSystem.ToolWindowBrower Caption="" DefaultFloatingSize="1000, 500" PreviousDockState="Docked" Name="toolWindow9" Size="189, 1007" Location="7, 24" Font="宋体, 9pt" Text="资讯快递" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" CanUpdateChildIndex="True" Size="168, 177" Location="1523, 0" ThemeName="VisualStudio2012Dark" Name="DockTabStrip11" TabIndex="10" TabStop="False">
+          <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          <Controls>
+            <UseOnlineTradingSystem.ToolWindowBrower Caption="" DefaultFloatingSize="1000, 500" PreviousDockState="Docked" Name="toolWindow10" Size="189, 1007" Location="7, 24" Font="宋体, 9pt" Text="资讯数据" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+      </Controls>
+    </Telerik.WinControls.UI.RadSplitContainer>
+    <Telerik.WinControls.UI.Docking.ToolTabStrip CanUpdateChildIndex="True" Size="1850, 323" Location="28, 712" ThemeName="VisualStudio2012Dark" Name="DockTabStrip12" TabIndex="1" TabStop="False">
+      <SizeInfo SplitterCorrection="0, 123" AutoSizeScale="0, 0" AbsoluteSize="200, 323" />
+      <Controls>
+        <UseOnlineTradingSystem.PublishForm CloseAction="Close" Caption="" DefaultFloatingSize="1250, 325" BackColor="192, 192, 255" PreviousDockState="Docked" Name="PublishForm" Size="1842, 292" Location="4, 27" Font="宋体, 9pt" Text="供需发布" />
+      </Controls>
+    </Telerik.WinControls.UI.Docking.ToolTabStrip>
+  </Controls>
+</RadDock>

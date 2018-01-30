@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CA6F8853-D12B-41B3-ACD3-E14994D72F3B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MarketDataStore</RootNamespace>
+    <AssemblyName>MarketDataStore</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CTPCommon">
+      <HintPath>..\..\..\Reference\CTP_YM\CTPCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="CTPFeed">
+      <HintPath>..\..\..\Reference\CTP_YM\CTPFeed.dll</HintPath>
+    </Reference>
+    <Reference Include="CTPUser">
+      <HintPath>..\..\..\Reference\CTP_YM\CTPUser.dll</HintPath>
+    </Reference>
+    <Reference Include="DataStoreCommon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DataStoreCommon\bin\Debug\DataStoreCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="HttpServer">
+      <HintPath>..\..\..\Reference\HttpServer.v.1.1\HttpServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="M2Mqtt.Net">
+      <HintPath>..\..\..\Reference\M2Mqtt.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\Reference\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Reference\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RabbitMQ.Client">
+      <HintPath>..\..\..\Reference\RabbitMQ4.5\RabbitMQ.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="RabbitMQ.ServiceModel">
+      <HintPath>..\..\..\Reference\RabbitMQ4.5\RabbitMQ.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="StriderMqtt, Version=1.0.6443.30456, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Reference\StriderMqtt.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="USe.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Reference\USe.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.Common.AppLogger, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Reference\USe.Common.AppLogger.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.Common.DBDriver">
+      <HintPath>..\..\..\Reference\USe.Common.DBDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.Common.TradingDay">
+      <HintPath>..\..\..\Reference\USe.Common.TradingDay.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.CTPOrderDriver">
+      <HintPath>..\..\..\Bin\USe.CTPOrderDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.CTPQuoteDriver">
+      <HintPath>..\..\..\Bin\USe.CTPQuoteDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.OrderDrvierBase">
+      <HintPath>..\..\..\Bin\USe.OrderDrvierBase.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.QuoteDriverBase">
+      <HintPath>..\..\..\Bin\USe.QuoteDriverBase.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.TradeDriver.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Bin\USe.TradeDriver.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config\RocketMQKLineStorageElement.cs" />
+    <Compile Include="Config\RocketMQKLineStorageElementCollection.cs" />
+    <Compile Include="Config\MySqlKLineStorageElement.cs" />
+    <Compile Include="Config\RabbitMQKLineStorageElement.cs" />
+    <Compile Include="Config\FileKLineStorageElement.cs" />
+    <Compile Include="Config\MySqlKLineStorageElementCollection.cs" />
+    <Compile Include="Config\RabbitMQKLineStorageElementCollection.cs" />
+    <Compile Include="Config\FileKLineStorageElementCollection.cs" />
+    <Compile Include="Config\KLineStorageSection.cs" />
+    <Compile Include="Config\CtpReceiverSection.cs" />
+    <Compile Include="Config\CtpQuoteDriverElement.cs" />
+    <Compile Include="Config\CtpTradeDriverElement.cs" />
+    <Compile Include="DataProcess\IndexDayKLineFactory.cs" />
+    <Compile Include="DataProcess\ITradeRangeManager.cs" />
+    <Compile Include="DataProcess\IndexMinKLineFactory.cs" />
+    <Compile Include="DataReceiver\CTPMarketDataReceiver.cs" />
+    <Compile Include="DataProcess\DayKLineFactory.cs" />
+    <Compile Include="DataProcess\IKLinePublisher.cs" />
+    <Compile Include="DataProcess\KLineFactory.cs" />
+    <Compile Include="DataProcess\KLinePublisher.cs" />
+    <Compile Include="DataProcess\MinKLineFactory.cs" />
+    <Compile Include="DataProcess\KLineProcessor.cs" />
+    <Compile Include="DataStore\FileStorer.cs" />
+    <Compile Include="DataStore\IKLineDataListener.cs" />
+    <Compile Include="DataStore\FileKLineStoreage.cs" />
+    <Compile Include="DataStore\RabbitMQKLineStoreage.cs" />
+    <Compile Include="DataStore\RocketMQKLineStoreage.cs" />
+    <Compile Include="DataStore\MySqlKLineStoreage.cs" />
+    <Compile Include="DataStore\KLineDataNullStore.cs" />
+    <Compile Include="DataStore\KLineStoreage.cs" />
+    <Compile Include="DataStore\RocketMQMessage.cs" />
+    <Compile Include="DataStore\RocketMQReply.cs" />
+    <Compile Include="DayNightType.cs" />
+    <Compile Include="KLineStoreStateViewModel.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="MainContractManager.cs" />
+    <Compile Include="StoreContext.cs" />
+    <Compile Include="TradeRangeManager.cs" />
+    <Compile Include="UserControl\ErrorNoticeViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ErrorNoticeViewControl.Designer.cs">
+      <DependentUpon>ErrorNoticeViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ErrorNoticeViewModel.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="USeManager.cs" />
+    <EmbeddedResource Include="UserControl\ErrorNoticeViewControl.resx">
+      <DependentUpon>ErrorNoticeViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\USe.Common.Manager\USe.Common.Manager.csproj">
+      <Project>{ad61a7de-fa32-49d6-b1d8-a3c3f754ca62}</Project>
+      <Name>USe.Common.Manager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entity\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

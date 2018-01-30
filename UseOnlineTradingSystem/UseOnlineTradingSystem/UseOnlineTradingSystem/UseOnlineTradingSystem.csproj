@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{218E2328-4307-4195-B560-4C14725B762A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UseOnlineTradingSystem</RootNamespace>
+    <AssemblyName>UseOnlineTradingSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\wen\Desktop\pc\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>zh-Hans</TargetCulture>
+    <ProductName>有色在线-PC</ProductName>
+    <PublisherName>有色在线</PublisherName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>bitbug_favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F9A36B6051B9CA7548F16F97F6C275A9FC9ADE39</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>UseOnlineTradingSystem_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HttpServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d7063c47c583695a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\HttpServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib2\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="M2Mqtt, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\M2Mqtt.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2017.2.502.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2017.2.502.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Aqua, Version=2017.2.502.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Breeze, Version=2017.2.502.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Office2007Black, Version=2017.2.502.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Office2007Silver, Version=2017.2.502.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.VisualStudio2012Dark, Version=2017.2.502.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2017.2.502.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="TelerikCommon, Version=2017.2.502.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Xilium.CefGlue, Version=59.1.1.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Xilium.CefGlue.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BS\BsCefApp.cs" />
+    <Compile Include="BS\BsClient.cs" />
+    <Compile Include="BS\BsContextMenuHandler.cs" />
+    <Compile Include="BS\BsCtl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BS\BsLifeSpanHandler.cs" />
+    <Compile Include="BS\BsLoadHandler.cs" />
+    <Compile Include="BS\JS\BsRenderProcessHandler.cs" />
+    <Compile Include="BS\JS\BsAv8Handler.cs" />
+    <Compile Include="FormHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHouse.Designer.cs">
+      <DependentUpon>FormHouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USeCommon\BussinessStruct\UseCancelOrder.cs" />
+    <Compile Include="USeCommon\BussinessStruct\UseBase.cs" />
+    <Compile Include="USeCommon\BussinessStruct\UseBlackAndWhite.cs" />
+    <Compile Include="USeCommon\BussinessStruct\UseContract.cs" />
+    <Compile Include="USeCommon\BussinessStruct\UseDelisting.cs" />
+    <Compile Include="USeCommon\BussinessStruct\UseWriteOff.cs" />
+    <Compile Include="USeCommon\BussinessStruct\UseTransaction.cs" />
+    <Compile Include="USeCommon\BussinessStruct\UseCreditQuota.cs" />
+    <Compile Include="USeCommon\BussinessStruct\UseFunds.cs" />
+    <Compile Include="USeCommon\BussinessStruct\UseLevelBrand.cs" />
+    <Compile Include="USeCommon\BussinessStruct\UseLogin.cs" />
+    <Compile Include="USeCommon\BussinessStruct\UseMaginRadio.cs" />
+    <Compile Include="USeCommon\BussinessStruct\UseListed.cs" />
+    <Compile Include="USeCommon\BussinessStruct\UseWareHouse.cs" />
+    <Compile Include="USeCommon\Communication\InterProcessService.cs" />
+    <Compile Include="USeCommon\DataManager.cs" />
+    <Compile Include="USeCommon\Helper.cs" />
+    <Compile Include="USeCommon\Communication\MQTTService.cs" />
+    <Compile Include="USeCommon\USeManager.cs" />
+    <Compile Include="USeCommon\ViewModel\USeBaseViewModel.cs" />
+    <Compile Include="USeCommon\WinAPI.cs" />
+    <Compile Include="USeCommon\Logger.cs" />
+    <Compile Include="USeCommon\Communication\HttpService.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\HttpHelper.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\HttpItem.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\HttpResult.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.BaseBll\HttpHelperBll.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Base\HttphelperBase.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Enum\AType.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Enum\PostDataType.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Enum\ResultCookieType.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Enum\ResultType.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Helper\Base64Helper.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Helper\EncodingHelper.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Helper\ExecJsHelper.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Helper\HtmlHelper.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Helper\HttpCookieHelper.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Helper\HttpUrlHelper.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Helper\ImageHelper.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Helper\JsonHelper.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Helper\MD5Helper.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Item\AItem.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Item\ImgItem.cs" />
+    <Compile Include="USeCommon\Communication\UseHttpHelper\UseHttpHelper.Static\RegexString.cs" />
+    <Compile Include="UserControl\ImformationTips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl\ImformationTips.Designer.cs">
+      <DependentUpon>ImformationTips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\MenuStrip\UseMenuTrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\MenuStrip\UseMenuTrip.Designer.cs" />
+    <Compile Include="UserControl\mGDI\GdiPaint.cs" />
+    <Compile Include="UserControl\mGDI\GdiPlusPaint.cs" />
+    <Compile Include="UserControl\mGDI\MBorad.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\mGDI\MButton.cs" />
+    <Compile Include="UserControl\mGDI\MButtons.cs" />
+    <Compile Include="UserControl\mGDI\MCommon.cs" />
+    <Compile Include="UserControl\mGDI\MCommonData.cs" />
+    <Compile Include="UserControl\mGDI\MControlBase.cs" />
+    <Compile Include="UserControl\mGDI\MEvent.cs" />
+    <Compile Include="UserControl\mGDI\MImage.cs" />
+    <Compile Include="UserControl\mGDI\MLabel.cs" />
+    <Compile Include="UserControl\mGDI\MLabels.cs" />
+    <Compile Include="UserControl\mGDI\MLine.cs" />
+    <Compile Include="UserControl\mGDI\MLineButton.cs" />
+    <Compile Include="UserControl\mGDI\MPaint.cs" />
+    <Compile Include="UserControl\mGDI\MPolygonButton.cs" />
+    <Compile Include="UserControl\mGDI\MRectangle.cs" />
+    <Compile Include="UserControl\mGDI\MSelect.cs" />
+    <Compile Include="UserControl\mGDI\MUseMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl\mGDI\MUseTable.cs" />
+    <Compile Include="UserControl\mGDI\MVScrollBar.cs" />
+    <Compile Include="UserControl\SupplyDemandPublishControl\DelistBrandForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl\SupplyDemandPublishControl\DelistBrandForm.Designer.cs">
+      <DependentUpon>DelistBrandForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\SupplyDemandPublishControl\InputTradingPriceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl\SupplyDemandPublishControl\InputTradingPriceForm.Designer.cs">
+      <DependentUpon>InputTradingPriceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\SupplyDemandPublishControl\PublishControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\SupplyDemandPublishControl\PublishControl.Designer.cs">
+      <DependentUpon>PublishControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\SupplyDemandPublishControl\PublishForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl\SupplyDemandPublishControl\PublishForm.Designer.cs">
+      <DependentUpon>PublishForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\SupplyDemandPublishControl\SupplyDemandPubishControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\SupplyDemandPublishControl\SupplyDemandPubishControl.Designer.cs">
+      <DependentUpon>SupplyDemandPubishControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\SupplyDemandPublishControl\TradingInfoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\SupplyDemandPublishControl\TradingInfoControl.Designer.cs">
+      <DependentUpon>TradingInfoControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormHouse.resx">
+      <DependentUpon>FormHouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ImformationTips.resx">
+      <DependentUpon>ImformationTips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\mGDI\MUseMainForm.resx">
+      <DependentUpon>MUseMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\SupplyDemandPublishControl\DelistBrandForm.resx">
+      <DependentUpon>DelistBrandForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\SupplyDemandPublishControl\InputTradingPriceForm.resx">
+      <DependentUpon>InputTradingPriceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\SupplyDemandPublishControl\PublishControl.resx">
+      <DependentUpon>PublishControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\SupplyDemandPublishControl\PublishForm.resx">
+      <DependentUpon>PublishForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\SupplyDemandPublishControl\SupplyDemandPubishControl.resx">
+      <DependentUpon>SupplyDemandPubishControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\SupplyDemandPublishControl\TradingInfoControl.resx">
+      <DependentUpon>TradingInfoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="lib\cef.pak" />
+    <None Include="lib\cef_100_percent.pak" />
+    <None Include="lib\cef_200_percent.pak" />
+    <None Include="lib\cef_extensions.pak" />
+    <None Include="lib\devtools_resources.pak" />
+    <None Include="lib\icudtl.dat" />
+    <None Include="lib\locales\am.pak" />
+    <None Include="lib\locales\ar.pak" />
+    <None Include="lib\locales\bg.pak" />
+    <None Include="lib\locales\bn.pak" />
+    <None Include="lib\locales\ca.pak" />
+    <None Include="lib\locales\cs.pak" />
+    <None Include="lib\locales\da.pak" />
+    <None Include="lib\locales\de.pak" />
+    <None Include="lib\locales\el.pak" />
+    <None Include="lib\locales\en-GB.pak" />
+    <None Include="lib\locales\en-US.pak" />
+    <None Include="lib\locales\es-419.pak" />
+    <None Include="lib\locales\es.pak" />
+    <None Include="lib\locales\et.pak" />
+    <None Include="lib\locales\fa.pak" />
+    <None Include="lib\locales\fi.pak" />
+    <None Include="lib\locales\fil.pak" />
+    <None Include="lib\locales\fr.pak" />
+    <None Include="lib\locales\gu.pak" />
+    <None Include="lib\locales\he.pak" />
+    <None Include="lib\locales\hi.pak" />
+    <None Include="lib\locales\hr.pak" />
+    <None Include="lib\locales\hu.pak" />
+    <None Include="lib\locales\id.pak" />
+    <None Include="lib\locales\it.pak" />
+    <None Include="lib\locales\ja.pak" />
+    <None Include="lib\locales\kn.pak" />
+    <None Include="lib\locales\ko.pak" />
+    <None Include="lib\locales\lt.pak" />
+    <None Include="lib\locales\lv.pak" />
+    <None Include="lib\locales\ml.pak" />
+    <None Include="lib\locales\mr.pak" />
+    <None Include="lib\locales\ms.pak" />
+    <None Include="lib\locales\nb.pak" />
+    <None Include="lib\locales\nl.pak" />
+    <None Include="lib\locales\pl.pak" />
+    <None Include="lib\locales\pt-BR.pak" />
+    <None Include="lib\locales\pt-PT.pak" />
+    <None Include="lib\locales\ro.pak" />
+    <None Include="lib\locales\ru.pak" />
+    <None Include="lib\locales\sk.pak" />
+    <None Include="lib\locales\sl.pak" />
+    <None Include="lib\locales\sr.pak" />
+    <None Include="lib\locales\sv.pak" />
+    <None Include="lib\locales\sw.pak" />
+    <None Include="lib\locales\ta.pak" />
+    <None Include="lib\locales\te.pak" />
+    <None Include="lib\locales\th.pak" />
+    <None Include="lib\locales\tr.pak" />
+    <None Include="lib\locales\uk.pak" />
+    <None Include="lib\locales\vi.pak" />
+    <None Include="lib\locales\zh-CN.pak" />
+    <None Include="lib\locales\zh-TW.pak" />
+    <None Include="lib\natives_blob.bin" />
+    <None Include="lib\snapshot_blob.bin" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="UseOnlineTradingSystem_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bitbug_favicon.ico" />
+    <Content Include="image\icons8_Delete.ico" />
+    <Content Include="image\icons8_Delete_32.png" />
+    <Content Include="image\icons8_Expand_Arrow_16.png" />
+    <Content Include="image\icons8_Expand_Arrow_32.png" />
+    <Content Include="image\icon_black.png" />
+    <Content Include="image\icon_close.png" />
+    <Content Include="image\icon_close_hover.png" />
+    <Content Include="image\icon_login.png" />
+    <Content Include="image\icon_login_hover.png" />
+    <Content Include="image\icon_max.png" />
+    <Content Include="image\icon_max_hover.png" />
+    <Content Include="image\icon_mini.png" />
+    <Content Include="image\icon_mini_hover.png" />
+    <Content Include="image\icon_new.png" />
+    <Content Include="image\icon_publish.png" />
+    <Content Include="image\icon_registered.png" />
+    <Content Include="image\icon_registered_hover.png" />
+    <Content Include="image\icon_white.png" />
+    <Content Include="image\mark.png" />
+    <None Include="image\select_normal.png" />
+    <None Include="image\select_press.png" />
+    <None Include="image\tips.png" />
+    <Content Include="image\useonline.png" />
+    <Content Include="lib\chrome_elf.dll" />
+    <Content Include="lib\d3dcompiler_43.dll" />
+    <Content Include="lib\d3dcompiler_47.dll" />
+    <Content Include="lib\HttpServer.dll" />
+    <Content Include="lib\libcef.dll" />
+    <Content Include="lib\libEGL.dll" />
+    <Content Include="lib\libGLESv2.dll" />
+    <Content Include="lib\log4net.dll" />
+    <Content Include="lib\M2Mqtt.dll" />
+    <Content Include="lib\Newtonsoft.Json.dll" />
+    <Content Include="lib\widevinecdmadapter.dll" />
+    <Content Include="lib\Xilium.CefGlue.dll" />
+    <Content Include="lib\Xilium.CefGlue.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

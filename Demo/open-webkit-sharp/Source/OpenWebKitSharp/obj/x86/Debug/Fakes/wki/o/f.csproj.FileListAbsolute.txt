@@ -1,0 +1,8 @@
+C:\OpenWebKitSharp\Source\OpenWebKitSharp\obj\x86\Debug\Fakes\wki\b\WebKit.Interop.536.0.0.0.Fakes.xml
+C:\OpenWebKitSharp\Source\OpenWebKitSharp\obj\x86\Debug\Fakes\wki\b\WebKit.Interop.536.0.0.0.Fakes.dll
+C:\OpenWebKitSharp\Source\OpenWebKitSharp\obj\x86\Debug\Fakes\wki\b\WebKit.Interop.536.0.0.0.Fakes.pdb
+C:\OpenWebKitSharp\Source\OpenWebKitSharp\obj\x86\Debug\Fakes\wki\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\OpenWebKitSharp\Source\OpenWebKitSharp\obj\x86\Debug\Fakes\wki\b\WebKit.Interop.dll
+C:\OpenWebKitSharp\Source\OpenWebKitSharp\obj\x86\Debug\Fakes\wki\o\f.csprojResolveAssemblyReference.cache
+C:\OpenWebKitSharp\Source\OpenWebKitSharp\obj\x86\Debug\Fakes\wki\o\WebKit.Interop.536.0.0.0.Fakes.dll
+C:\OpenWebKitSharp\Source\OpenWebKitSharp\obj\x86\Debug\Fakes\wki\o\WebKit.Interop.536.0.0.0.Fakes.pdb

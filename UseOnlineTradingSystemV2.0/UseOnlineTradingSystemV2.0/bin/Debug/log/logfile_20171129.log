@@ -1,0 +1,1384 @@
+[2017-11-29 09:36:40,602]  INFO - 画板初始化！
+[2017-11-29 09:36:40,629]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 09:36:40,658]  INFO - 创建MQTT对象开始
+[2017-11-29 09:36:40,669]  INFO - 创建开发环境MQTT对象
+[2017-11-29 09:36:40,670]  INFO - 创建MQTT对象结束
+[2017-11-29 09:36:41,070]  INFO - 画板初始化！
+[2017-11-29 09:36:41,090]  INFO - 初始化买入基价！
+[2017-11-29 09:36:41,091]  INFO - 初始化买入基价值！
+[2017-11-29 09:36:41,091]  INFO - 初始化卖出基价！
+[2017-11-29 09:36:41,091]  INFO - 初始化卖出基价值！
+[2017-11-29 09:36:41,097]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 09:36:42,967]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 09:36:43,672]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 09:36:43,932]  INFO - 启动MQTT对象开始
+[2017-11-29 09:36:43,933]  INFO - 启动MQTT开始
+[2017-11-29 09:36:44,273]  INFO - MQTT连接成功
+[2017-11-29 09:36:44,275]  INFO - 启动MQTT结束
+[2017-11-29 09:36:44,275]  INFO - 启动MQTT对象结束
+[2017-11-29 09:36:44,278]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 09:36:44,348]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 09:36:44,526]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 09:36:44,558]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 09:36:44,568] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 09:36:44,587]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 09:36:44,644]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 09:36:44,687]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 09:36:44,702]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 09:36:44,735]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 09:36:44,968]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 09:36:45,038]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 09:36:45,071]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 09:36:45,122]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 09:36:45,169]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 09:36:45,193]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 09:36:45,233]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 09:36:45,356]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 09:36:45,522]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:36:45,551]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:36:45,568]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 09:36:51,604]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=IhoJXlpseZ%2bEeW9Jjw8G0eyAcRCyL41eO6YtpZdE2JTJQ1I4bK7abuoWmbY6UwxM657fgoo0Q8mCyub0usGdig%3d%3d
+[2017-11-29 09:36:51,718]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=IhoJXlpseZ%2bEeW9Jjw8G0eyAcRCyL41eO6YtpZdE2JTJQ1I4bK7abuoWmbY6UwxM657fgoo0Q8mCyub0usGdig%3d%3d
+[2017-11-29 09:36:51,784]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=IhoJXlpseZ%2bEeW9Jjw8G0eyAcRCyL41eO6YtpZdE2JTJQ1I4bK7abuoWmbY6UwxM657fgoo0Q8mCyub0usGdig%3d%3d
+[2017-11-29 09:36:53,494]  INFO - HTTP挂牌请求
+[2017-11-29 09:36:53,502]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 09:36:53,761]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 09:37:43,750]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=IhoJXlpseZ%2bEeW9Jjw8G0eyAcRCyL41eO6YtpZdE2JTJQ1I4bK7abuoWmbY6UwxM657fgoo0Q8mCyub0usGdig%3d%3d
+[2017-11-29 09:37:43,843]  INFO - GET数据,链接：http://172.16.88.152:8089/account/fund/balance
+[2017-11-29 09:37:44,040]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 09:37:44,140]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 09:37:45,161]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:37:48,598]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=IhoJXlpseZ%2bEeW9Jjw8G0eyAcRCyL41eO6YtpZdE2JTJQ1I4bK7abuoWmbY6UwxM657fgoo0Q8mCyub0usGdig%3d%3d
+[2017-11-29 09:37:48,655]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=IhoJXlpseZ%2bEeW9Jjw8G0eyAcRCyL41eO6YtpZdE2JTJQ1I4bK7abuoWmbY6UwxM657fgoo0Q8mCyub0usGdig%3d%3d
+[2017-11-29 09:37:48,756]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=IhoJXlpseZ%2bEeW9Jjw8G0eyAcRCyL41eO6YtpZdE2JTJQ1I4bK7abuoWmbY6UwxM657fgoo0Q8mCyub0usGdig%3d%3d
+[2017-11-29 09:37:51,860]  INFO - HTTP挂牌请求
+[2017-11-29 09:37:51,860]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 09:37:52,199]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 09:37:55,401]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=IhoJXlpseZ%2bEeW9Jjw8G0eyAcRCyL41eO6YtpZdE2JTJQ1I4bK7abuoWmbY6UwxM657fgoo0Q8mCyub0usGdig%3d%3d
+[2017-11-29 09:37:55,469]  INFO - GET数据,链接：http://172.16.88.152:8089/account/fund/balance
+[2017-11-29 09:37:55,524]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 09:37:55,600]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 09:37:55,616]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 09:37:57,148]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:37:58,678]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:37:59,081]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 09:37:59,389]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:00,236]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:38:18,896]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/companyCredit/queryCreditInfo?compId=106
+[2017-11-29 09:38:18,921]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 09:38:18,951]  INFO - GET数据,链接：http://172.16.88.152:8089/account/fund/balance
+[2017-11-29 09:38:38,283]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:38,635]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 09:38:39,104]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:39,942]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:38:40,327]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:40,650]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 09:38:41,082]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:41,324]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:38:42,357]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:43,068]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 09:38:43,463]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:44,538]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:38:45,072]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:45,794]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 09:38:46,350]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:47,037]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:38:47,651]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:48,265]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 09:38:48,617]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:48,998]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:38:49,493]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:49,849]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:38:50,180]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:50,678]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 09:38:51,036]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:51,347]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:38:51,727]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:52,238]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 09:38:52,561]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:52,902]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:38:53,300]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:38:53,613]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 09:40:03,046]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:40:03,509]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:41:22,463]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:41:22,763]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:41:23,194]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 09:41:23,567]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:41:24,240]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:41:24,697]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:41:25,062]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 09:48:26,945]  INFO - 画板初始化！
+[2017-11-29 09:48:26,948]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 09:48:26,964]  INFO - 创建MQTT对象开始
+[2017-11-29 09:48:26,973]  INFO - 创建开发环境MQTT对象
+[2017-11-29 09:48:26,973]  INFO - 创建MQTT对象结束
+[2017-11-29 09:48:27,360]  INFO - 画板初始化！
+[2017-11-29 09:48:27,374]  INFO - 初始化买入基价！
+[2017-11-29 09:48:27,374]  INFO - 初始化买入基价值！
+[2017-11-29 09:48:27,374]  INFO - 初始化卖出基价！
+[2017-11-29 09:48:27,374]  INFO - 初始化卖出基价值！
+[2017-11-29 09:48:27,379]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 09:48:29,209]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 09:48:29,750]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 09:48:29,828]  INFO - 启动MQTT对象开始
+[2017-11-29 09:48:29,829]  INFO - 启动MQTT开始
+[2017-11-29 09:48:29,960]  INFO - MQTT连接成功
+[2017-11-29 09:48:29,963]  INFO - 启动MQTT结束
+[2017-11-29 09:48:29,963]  INFO - 启动MQTT对象结束
+[2017-11-29 09:48:29,966]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 09:48:30,108]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 09:48:30,137] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 09:48:30,151]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 09:48:30,192]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 09:48:30,218]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 09:48:30,243]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 09:48:30,262]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 09:48:30,297]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 09:48:30,362]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 09:48:30,629]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 09:48:30,709]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 09:48:30,732]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 09:48:30,760]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 09:48:30,777]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 09:48:30,795]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 09:48:30,819]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 09:48:30,830]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 09:48:30,862]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 09:48:30,903]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 09:48:31,058]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:48:31,128]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 09:48:31,148]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 09:48:42,795]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=THq3O7z07DjwPUZLOg%2bqT%2b7ojWRNVffCYwmrT6eG6jMtrnmO4IGq5QyzxULIj%2fj1SZgeFG2A1NPN9TF9iI0cZw%3d%3d
+[2017-11-29 09:48:42,875]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=THq3O7z07DjwPUZLOg%2bqT%2b7ojWRNVffCYwmrT6eG6jMtrnmO4IGq5QyzxULIj%2fj1SZgeFG2A1NPN9TF9iI0cZw%3d%3d
+[2017-11-29 09:48:42,976]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=THq3O7z07DjwPUZLOg%2bqT%2b7ojWRNVffCYwmrT6eG6jMtrnmO4IGq5QyzxULIj%2fj1SZgeFG2A1NPN9TF9iI0cZw%3d%3d
+[2017-11-29 09:48:44,823]  INFO - HTTP挂牌请求
+[2017-11-29 09:48:44,835]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 09:48:45,154]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 09:56:51,462]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=THq3O7z07DjwPUZLOg%2bqT%2b7ojWRNVffCYwmrT6eG6jMtrnmO4IGq5QyzxULIj%2fj1SZgeFG2A1NPN9TF9iI0cZw%3d%3d
+[2017-11-29 09:56:51,562]  INFO - GET数据,链接：http://172.16.88.152:8089/account/fund/balance
+[2017-11-29 09:56:51,622]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 09:56:51,706]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 09:56:51,734]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 09:56:51,758]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 09:56:53,065]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 09:58:58,609]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=THq3O7z07DjwPUZLOg%2bqT%2b7ojWRNVffCYwmrT6eG6jMtrnmO4IGq5QyzxULIj%2fj1SZgeFG2A1NPN9TF9iI0cZw%3d%3d
+[2017-11-29 09:58:58,690]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=THq3O7z07DjwPUZLOg%2bqT%2b7ojWRNVffCYwmrT6eG6jMtrnmO4IGq5QyzxULIj%2fj1SZgeFG2A1NPN9TF9iI0cZw%3d%3d
+[2017-11-29 09:58:58,790]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=THq3O7z07DjwPUZLOg%2bqT%2b7ojWRNVffCYwmrT6eG6jMtrnmO4IGq5QyzxULIj%2fj1SZgeFG2A1NPN9TF9iI0cZw%3d%3d
+[2017-11-29 09:59:00,737]  INFO - HTTP挂牌请求
+[2017-11-29 09:59:00,737]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 10:08:55,712]  INFO - 画板初始化！
+[2017-11-29 10:08:55,716]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 10:08:55,731]  INFO - 创建MQTT对象开始
+[2017-11-29 10:08:55,736]  INFO - 创建开发环境MQTT对象
+[2017-11-29 10:08:55,736]  INFO - 创建MQTT对象结束
+[2017-11-29 10:08:56,085]  INFO - 画板初始化！
+[2017-11-29 10:08:56,108]  INFO - 初始化买入基价！
+[2017-11-29 10:08:56,110]  INFO - 初始化买入基价值！
+[2017-11-29 10:08:56,110]  INFO - 初始化卖出基价！
+[2017-11-29 10:08:56,110]  INFO - 初始化卖出基价值！
+[2017-11-29 10:08:56,117]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 10:08:59,991]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 10:09:00,809]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 10:09:00,887]  INFO - 启动MQTT对象开始
+[2017-11-29 10:09:00,888]  INFO - 启动MQTT开始
+[2017-11-29 10:09:01,109]  INFO - MQTT连接成功
+[2017-11-29 10:09:01,116]  INFO - 启动MQTT结束
+[2017-11-29 10:09:01,116]  INFO - 启动MQTT对象结束
+[2017-11-29 10:09:01,118]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 10:09:01,260]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 10:09:01,270] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 10:09:01,296]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 10:09:01,326]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 10:09:01,342]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 10:09:01,357]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 10:09:01,377]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 10:09:01,393]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 10:09:01,424]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 10:09:01,618]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 10:09:01,736]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:09:01,759]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:09:01,777]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:09:01,795]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:09:01,820]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 10:09:01,855]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 10:09:01,873]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 10:09:01,902]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 10:09:01,913]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 10:09:01,946]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 10:09:01,982]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 10:09:02,100]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 10:09:02,197]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 10:09:02,215]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 10:09:07,073]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=Fe2aKFHdr4L0wlb0N1INb4ZaQr5fAOtyMFuxBGj1lOwJ6QzlzBVHRpLzRfLBxOKBR7pr98xgw5fzavwaJmYANA%3d%3d
+[2017-11-29 10:09:07,175]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=Fe2aKFHdr4L0wlb0N1INb4ZaQr5fAOtyMFuxBGj1lOwJ6QzlzBVHRpLzRfLBxOKBR7pr98xgw5fzavwaJmYANA%3d%3d
+[2017-11-29 10:09:07,301]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=Fe2aKFHdr4L0wlb0N1INb4ZaQr5fAOtyMFuxBGj1lOwJ6QzlzBVHRpLzRfLBxOKBR7pr98xgw5fzavwaJmYANA%3d%3d
+[2017-11-29 10:09:09,133]  INFO - HTTP挂牌请求
+[2017-11-29 10:09:09,147]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 10:09:09,371]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:11:10,846]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=Fe2aKFHdr4L0wlb0N1INb4ZaQr5fAOtyMFuxBGj1lOwJ6QzlzBVHRpLzRfLBxOKBR7pr98xgw5fzavwaJmYANA%3d%3d
+[2017-11-29 10:11:10,900]  INFO - GET数据,链接：http://172.16.88.152:8089/account/fund/balance
+[2017-11-29 10:11:10,938]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 10:11:11,049]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:11:11,069]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:11:11,087]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:11:11,104]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:11:11,124]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:11:12,322]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 10:11:14,660]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=Fe2aKFHdr4L0wlb0N1INb4ZaQr5fAOtyMFuxBGj1lOwJ6QzlzBVHRpLzRfLBxOKBR7pr98xgw5fzavwaJmYANA%3d%3d
+[2017-11-29 10:11:14,731]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=Fe2aKFHdr4L0wlb0N1INb4ZaQr5fAOtyMFuxBGj1lOwJ6QzlzBVHRpLzRfLBxOKBR7pr98xgw5fzavwaJmYANA%3d%3d
+[2017-11-29 10:11:14,849]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=Fe2aKFHdr4L0wlb0N1INb4ZaQr5fAOtyMFuxBGj1lOwJ6QzlzBVHRpLzRfLBxOKBR7pr98xgw5fzavwaJmYANA%3d%3d
+[2017-11-29 10:11:16,927]  INFO - HTTP挂牌请求
+[2017-11-29 10:11:16,927]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 10:11:17,128]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:25:12,399]  INFO - 画板初始化！
+[2017-11-29 10:25:12,405]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 10:25:22,826]  INFO - 创建MQTT对象开始
+[2017-11-29 10:25:22,845]  INFO - 创建开发环境MQTT对象
+[2017-11-29 10:25:22,845]  INFO - 创建MQTT对象结束
+[2017-11-29 10:25:23,215]  INFO - 画板初始化！
+[2017-11-29 10:25:23,230]  INFO - 初始化买入基价！
+[2017-11-29 10:25:23,230]  INFO - 初始化买入基价值！
+[2017-11-29 10:25:23,230]  INFO - 初始化卖出基价！
+[2017-11-29 10:25:23,230]  INFO - 初始化卖出基价值！
+[2017-11-29 10:25:23,237]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 10:25:28,710]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 10:25:29,489]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 10:25:29,595]  INFO - 启动MQTT对象开始
+[2017-11-29 10:25:29,596]  INFO - 启动MQTT开始
+[2017-11-29 10:25:29,840]  INFO - MQTT连接成功
+[2017-11-29 10:25:29,884]  INFO - 启动MQTT结束
+[2017-11-29 10:25:29,884]  INFO - 启动MQTT对象结束
+[2017-11-29 10:25:29,886]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 10:25:30,116] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 10:25:30,380]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 10:25:30,421]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 10:25:30,443]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 10:25:30,465]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 10:25:30,491]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 10:25:30,507]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 10:25:30,521]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 10:25:30,622]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 10:25:30,848]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 10:25:30,987]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:25:31,015]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:25:31,031]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:25:31,049]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:25:31,067]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:25:31,137]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:25:31,209]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 10:25:31,224]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 10:25:31,237]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 10:25:31,271]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 10:25:31,281]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 10:25:31,328]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 10:25:31,364]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 10:25:31,483]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 10:25:31,591]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 10:25:31,616]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 10:25:37,105]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=%2b11yaggzHakky3TLJc1BvMgZcrWtgc24y2CAzWVCp4ngYGTWKeFUWsAM0dAZAo3AuzT3Q%2brSEzs2YtReQEtpAA%3d%3d
+[2017-11-29 10:25:37,207]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=%2b11yaggzHakky3TLJc1BvMgZcrWtgc24y2CAzWVCp4ngYGTWKeFUWsAM0dAZAo3AuzT3Q%2brSEzs2YtReQEtpAA%3d%3d
+[2017-11-29 10:25:37,396]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=%2b11yaggzHakky3TLJc1BvMgZcrWtgc24y2CAzWVCp4ngYGTWKeFUWsAM0dAZAo3AuzT3Q%2brSEzs2YtReQEtpAA%3d%3d
+[2017-11-29 10:25:39,251]  INFO - HTTP挂牌请求
+[2017-11-29 10:25:39,265]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 10:25:39,495]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:35:05,251]  INFO - 画板初始化！
+[2017-11-29 10:35:05,257]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 10:35:05,285]  INFO - 创建MQTT对象开始
+[2017-11-29 10:35:05,295]  INFO - 创建开发环境MQTT对象
+[2017-11-29 10:35:05,295]  INFO - 创建MQTT对象结束
+[2017-11-29 10:35:05,699]  INFO - 画板初始化！
+[2017-11-29 10:35:05,718]  INFO - 初始化买入基价！
+[2017-11-29 10:35:05,718]  INFO - 初始化买入基价值！
+[2017-11-29 10:35:05,718]  INFO - 初始化卖出基价！
+[2017-11-29 10:35:05,718]  INFO - 初始化卖出基价值！
+[2017-11-29 10:35:05,724]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 10:35:07,726]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 10:35:08,946]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 10:35:09,427]  INFO - 启动MQTT对象开始
+[2017-11-29 10:35:09,428]  INFO - 启动MQTT开始
+[2017-11-29 10:35:09,689]  INFO - MQTT连接成功
+[2017-11-29 10:35:09,693]  INFO - 启动MQTT结束
+[2017-11-29 10:35:09,693]  INFO - 启动MQTT对象结束
+[2017-11-29 10:35:09,694]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 10:35:10,318]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 10:35:10,620]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 10:35:10,731]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 10:35:10,915]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 10:35:11,058]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 10:35:11,147] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 10:35:11,658]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 10:35:11,745]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 10:35:11,850]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 10:35:13,172]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 10:35:13,442]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:35:13,474]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:35:13,539]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:35:13,558]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:35:13,585]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:35:13,606]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:35:13,642]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:35:13,673]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 10:35:13,704]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 10:35:13,722]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 10:35:13,846]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 10:35:14,081]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 10:35:14,615]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 10:35:14,716]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 10:35:14,827]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 10:35:14,982]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 10:35:15,037]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 10:35:21,191]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=1yK9dEfTuazG1jE%2bxTUlK3ED2OlOfdPAgsK9xi1iHFOzijAYjIbiS4%2b1edzZF4pgJetcyab3%2fTxJ2lq9ltMkmQ%3d%3d
+[2017-11-29 10:35:21,339]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=1yK9dEfTuazG1jE%2bxTUlK3ED2OlOfdPAgsK9xi1iHFOzijAYjIbiS4%2b1edzZF4pgJetcyab3%2fTxJ2lq9ltMkmQ%3d%3d
+[2017-11-29 10:35:21,574]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=1yK9dEfTuazG1jE%2bxTUlK3ED2OlOfdPAgsK9xi1iHFOzijAYjIbiS4%2b1edzZF4pgJetcyab3%2fTxJ2lq9ltMkmQ%3d%3d
+[2017-11-29 10:35:24,540]  INFO - HTTP挂牌请求
+[2017-11-29 10:35:24,551]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 10:35:24,920]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:44:35,483]  INFO - 画板初始化！
+[2017-11-29 10:44:35,488]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 10:44:37,179]  INFO - 创建MQTT对象开始
+[2017-11-29 10:44:37,189]  INFO - 创建开发环境MQTT对象
+[2017-11-29 10:44:37,189]  INFO - 创建MQTT对象结束
+[2017-11-29 10:44:37,680]  INFO - 画板初始化！
+[2017-11-29 10:44:37,693]  INFO - 初始化买入基价！
+[2017-11-29 10:44:37,693]  INFO - 初始化买入基价值！
+[2017-11-29 10:44:37,693]  INFO - 初始化卖出基价！
+[2017-11-29 10:44:37,693]  INFO - 初始化卖出基价值！
+[2017-11-29 10:44:37,701]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 10:44:49,042]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 10:44:49,946]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 10:44:50,137]  INFO - 启动MQTT对象开始
+[2017-11-29 10:44:50,137]  INFO - 启动MQTT开始
+[2017-11-29 10:44:50,413]  INFO - MQTT连接成功
+[2017-11-29 10:44:50,423]  INFO - 启动MQTT结束
+[2017-11-29 10:44:50,423]  INFO - 启动MQTT对象结束
+[2017-11-29 10:44:50,427]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 10:44:50,706] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 10:44:50,778]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 10:44:51,017]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 10:44:51,142]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 10:44:51,217]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 10:44:51,339]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 10:44:51,990]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 10:44:52,064]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 10:44:52,134]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 10:44:52,520]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 10:44:52,893]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:44:53,487]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:44:53,572]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:44:53,610]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:44:53,671]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:44:53,720]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:44:53,768]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:44:53,860]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:44:53,950]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 10:44:54,061]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 10:44:54,133]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 10:44:54,242]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 10:44:54,367]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 10:44:54,503]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 10:44:54,570]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 10:44:54,722]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 10:44:54,942]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 10:44:55,035]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 10:45:01,342]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=%2f1bXXgvyXXBisPlmj94%2fzNNadDj4frru3Jk2ArOcLt4%2fGq723F5MZiDaF0H1QmWulsxKEwIx1D%2b7zgkhlH2FtA%3d%3d
+[2017-11-29 10:45:01,596]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=%2f1bXXgvyXXBisPlmj94%2fzNNadDj4frru3Jk2ArOcLt4%2fGq723F5MZiDaF0H1QmWulsxKEwIx1D%2b7zgkhlH2FtA%3d%3d
+[2017-11-29 10:45:01,711]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=%2f1bXXgvyXXBisPlmj94%2fzNNadDj4frru3Jk2ArOcLt4%2fGq723F5MZiDaF0H1QmWulsxKEwIx1D%2b7zgkhlH2FtA%3d%3d
+[2017-11-29 10:45:03,971]  INFO - HTTP挂牌请求
+[2017-11-29 10:45:03,995]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 10:45:05,276]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:45:24,157]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=%2f1bXXgvyXXBisPlmj94%2fzNNadDj4frru3Jk2ArOcLt4%2fGq723F5MZiDaF0H1QmWulsxKEwIx1D%2b7zgkhlH2FtA%3d%3d
+[2017-11-29 10:45:24,261]  INFO - GET数据,链接：http://172.16.88.152:8089/account/fund/balance
+[2017-11-29 10:45:24,601]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 10:45:24,855]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:45:24,895]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:45:24,942]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:45:25,016]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:45:25,173]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:45:25,463]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:45:25,997]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:45:26,089]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:45:26,254]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:45:27,986]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 10:47:51,709]  INFO - 画板初始化！
+[2017-11-29 10:47:51,715]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 10:47:53,462]  INFO - 创建MQTT对象开始
+[2017-11-29 10:47:53,631]  INFO - 创建开发环境MQTT对象
+[2017-11-29 10:47:53,631]  INFO - 创建MQTT对象结束
+[2017-11-29 10:47:54,418]  INFO - 画板初始化！
+[2017-11-29 10:47:54,772]  INFO - 初始化买入基价！
+[2017-11-29 10:47:54,772]  INFO - 初始化买入基价值！
+[2017-11-29 10:47:54,772]  INFO - 初始化卖出基价！
+[2017-11-29 10:47:54,772]  INFO - 初始化卖出基价值！
+[2017-11-29 10:47:54,778]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 10:48:01,422]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 10:48:02,478]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 10:48:02,587]  INFO - 启动MQTT对象开始
+[2017-11-29 10:48:02,589]  INFO - 启动MQTT开始
+[2017-11-29 10:48:03,003]  INFO - MQTT连接成功
+[2017-11-29 10:48:03,027]  INFO - 启动MQTT结束
+[2017-11-29 10:48:03,027]  INFO - 启动MQTT对象结束
+[2017-11-29 10:48:03,032]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 10:48:04,767] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 10:48:04,863]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 10:48:05,872]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 10:48:06,068]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 10:48:06,254]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 10:48:06,471]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 10:48:06,579]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 10:48:06,775]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 10:48:09,215]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 10:48:14,224]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 10:48:14,511]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:48:14,963]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:48:14,997]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:48:15,034]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:48:15,086]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:48:15,115]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:48:15,166]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:48:15,202]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:48:15,287]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:48:15,333]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 10:48:15,573]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 10:48:15,595]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 10:48:15,641]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 10:48:15,674]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 10:48:15,855]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 10:48:16,097]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 10:48:16,323]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 10:48:16,633]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 10:48:16,701]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 10:48:22,323]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=SJPclRnUMS0pnDh7eaHnrsNsCix6pHpovR5cedIA2K2nMV7KvYR40%2fSdy2ozbJV0hgvmCBW35rwzR6ZhyN4IeA%3d%3d
+[2017-11-29 10:48:22,599]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=SJPclRnUMS0pnDh7eaHnrsNsCix6pHpovR5cedIA2K2nMV7KvYR40%2fSdy2ozbJV0hgvmCBW35rwzR6ZhyN4IeA%3d%3d
+[2017-11-29 10:48:22,714]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=SJPclRnUMS0pnDh7eaHnrsNsCix6pHpovR5cedIA2K2nMV7KvYR40%2fSdy2ozbJV0hgvmCBW35rwzR6ZhyN4IeA%3d%3d
+[2017-11-29 10:48:25,235]  INFO - HTTP挂牌请求
+[2017-11-29 10:48:25,244]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 10:53:32,269]  INFO - 画板初始化！
+[2017-11-29 10:53:32,273]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 10:53:32,296]  INFO - 创建MQTT对象开始
+[2017-11-29 10:53:32,304]  INFO - 创建开发环境MQTT对象
+[2017-11-29 10:53:32,304]  INFO - 创建MQTT对象结束
+[2017-11-29 10:53:32,630]  INFO - 画板初始化！
+[2017-11-29 10:53:32,640]  INFO - 初始化买入基价！
+[2017-11-29 10:53:32,641]  INFO - 初始化买入基价值！
+[2017-11-29 10:53:32,641]  INFO - 初始化卖出基价！
+[2017-11-29 10:53:32,641]  INFO - 初始化卖出基价值！
+[2017-11-29 10:53:32,645]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 10:53:34,379]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 10:53:35,022]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 10:53:35,104]  INFO - 启动MQTT对象开始
+[2017-11-29 10:53:35,105]  INFO - 启动MQTT开始
+[2017-11-29 10:53:35,228]  INFO - MQTT连接成功
+[2017-11-29 10:53:35,232]  INFO - 启动MQTT结束
+[2017-11-29 10:53:35,232]  INFO - 启动MQTT对象结束
+[2017-11-29 10:53:35,234]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 10:53:35,556] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 10:53:35,561]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 10:53:36,468]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 10:53:36,564]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 10:53:36,596]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 10:53:36,617]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 10:53:36,648]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 10:53:36,699]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 10:53:36,750]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 10:53:37,006]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 10:53:37,251]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:53:37,277]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:53:37,319]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:53:37,353]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:53:37,402]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:53:37,419]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:53:37,450]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:53:37,474]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:53:37,515]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:53:37,539]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:53:37,571]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 10:53:37,602]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 10:53:37,640]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 10:53:37,697]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 10:53:37,837]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 10:53:37,896]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 10:53:37,943]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 10:53:38,077]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 10:53:38,299]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 10:53:38,462]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 10:53:43,419]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=wzO5Hh8YNd5DJWaf%2bNA7CstxCKeRFqZUc5e2v2O2kLJAdMxwq30Pr1izDRJrd8rIFPAHbVKRuv6NN4MrD1Dp5Q%3d%3d
+[2017-11-29 10:53:43,523]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=wzO5Hh8YNd5DJWaf%2bNA7CstxCKeRFqZUc5e2v2O2kLJAdMxwq30Pr1izDRJrd8rIFPAHbVKRuv6NN4MrD1Dp5Q%3d%3d
+[2017-11-29 10:53:43,576]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=wzO5Hh8YNd5DJWaf%2bNA7CstxCKeRFqZUc5e2v2O2kLJAdMxwq30Pr1izDRJrd8rIFPAHbVKRuv6NN4MrD1Dp5Q%3d%3d
+[2017-11-29 10:53:45,156]  INFO - HTTP挂牌请求
+[2017-11-29 10:53:45,163]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 10:53:47,132]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:56:23,876]  INFO - 画板初始化！
+[2017-11-29 10:56:23,880]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 10:56:23,898]  INFO - 创建MQTT对象开始
+[2017-11-29 10:56:23,906]  INFO - 创建开发环境MQTT对象
+[2017-11-29 10:56:23,906]  INFO - 创建MQTT对象结束
+[2017-11-29 10:56:24,207]  INFO - 画板初始化！
+[2017-11-29 10:56:24,221]  INFO - 初始化买入基价！
+[2017-11-29 10:56:24,222]  INFO - 初始化买入基价值！
+[2017-11-29 10:56:24,222]  INFO - 初始化卖出基价！
+[2017-11-29 10:56:24,222]  INFO - 初始化卖出基价值！
+[2017-11-29 10:56:24,227]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 10:56:31,345]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 10:56:31,941]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 10:56:32,061]  INFO - 启动MQTT对象开始
+[2017-11-29 10:56:32,062]  INFO - 启动MQTT开始
+[2017-11-29 10:56:32,115]  INFO - MQTT连接成功
+[2017-11-29 10:56:32,121]  INFO - 启动MQTT结束
+[2017-11-29 10:56:32,121]  INFO - 启动MQTT对象结束
+[2017-11-29 10:56:32,124]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 10:56:32,213] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 10:56:32,220]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 10:56:32,275]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 10:56:32,298]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 10:56:32,321]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 10:56:32,352]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 10:56:32,374]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 10:56:32,396]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 10:56:32,423]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 10:56:32,573]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 10:56:32,786]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:56:32,811]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:56:32,827]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:56:32,863]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:56:32,886]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:56:32,913]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:56:32,933]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:56:32,952]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:56:32,977]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:56:32,996]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:56:33,027]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 10:56:33,054]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 10:56:33,085]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 10:56:33,138]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 10:56:33,195]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 10:56:33,255]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 10:56:33,330]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 10:56:33,399]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 10:56:33,513]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 10:56:33,775]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 10:56:33,843]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 10:56:39,454]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=JYLuJC%2bFRq4quc6L5X4JXGbqdErTO1HGmFK3ET8aOKPQjAeDmFA168GSFgeVrxOipJJlwLMlWMjfifleB%2bDVHg%3d%3d
+[2017-11-29 10:56:39,529]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=JYLuJC%2bFRq4quc6L5X4JXGbqdErTO1HGmFK3ET8aOKPQjAeDmFA168GSFgeVrxOipJJlwLMlWMjfifleB%2bDVHg%3d%3d
+[2017-11-29 10:56:39,642]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=JYLuJC%2bFRq4quc6L5X4JXGbqdErTO1HGmFK3ET8aOKPQjAeDmFA168GSFgeVrxOipJJlwLMlWMjfifleB%2bDVHg%3d%3d
+[2017-11-29 10:56:45,868]  INFO - HTTP挂牌请求
+[2017-11-29 10:56:45,875]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 10:56:46,114]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:02:49,848]  INFO - 画板初始化！
+[2017-11-29 11:02:49,856]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 11:02:49,888]  INFO - 创建MQTT对象开始
+[2017-11-29 11:02:50,010]  INFO - 创建开发环境MQTT对象
+[2017-11-29 11:02:50,010]  INFO - 创建MQTT对象结束
+[2017-11-29 11:02:50,425]  INFO - 画板初始化！
+[2017-11-29 11:02:50,436]  INFO - 初始化买入基价！
+[2017-11-29 11:02:50,437]  INFO - 初始化买入基价值！
+[2017-11-29 11:02:50,437]  INFO - 初始化卖出基价！
+[2017-11-29 11:02:50,437]  INFO - 初始化卖出基价值！
+[2017-11-29 11:02:50,443]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 11:02:57,418]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 11:03:02,055]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 11:03:02,109]  INFO - 启动MQTT对象开始
+[2017-11-29 11:03:02,110]  INFO - 启动MQTT开始
+[2017-11-29 11:03:02,128]  INFO - MQTT连接成功
+[2017-11-29 11:03:02,131]  INFO - 启动MQTT结束
+[2017-11-29 11:03:02,131]  INFO - 启动MQTT对象结束
+[2017-11-29 11:03:02,132]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 11:03:02,188] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 11:03:02,193]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 11:03:02,297]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 11:03:02,328]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 11:03:02,352]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 11:03:02,370]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 11:03:02,403]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 11:03:02,423]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 11:03:02,448]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 11:03:02,592]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 11:03:02,846]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:03:02,865]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:03:02,882]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:03:02,896]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:03:02,922]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:03:02,938]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:03:02,958]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:03:02,985]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:03:03,005]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:03:03,034]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:03:03,062]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:03:03,082]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:03:03,117]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 11:03:03,132]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 11:03:03,145]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 11:03:03,179]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 11:03:03,192]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 11:03:03,227]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 11:03:03,258]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 11:03:03,418]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 11:03:03,621]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 11:03:03,639]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 11:03:09,200]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=x3jIUsdukfZ8lU43Zt477p6H32xSBg%2fWv2oPc8mJiOuDLpjgDPpBtl0ZsRPFin5%2bQLOZQdbQl2oRpJXCEkkSfw%3d%3d
+[2017-11-29 11:03:09,270]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=x3jIUsdukfZ8lU43Zt477p6H32xSBg%2fWv2oPc8mJiOuDLpjgDPpBtl0ZsRPFin5%2bQLOZQdbQl2oRpJXCEkkSfw%3d%3d
+[2017-11-29 11:03:09,405]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=x3jIUsdukfZ8lU43Zt477p6H32xSBg%2fWv2oPc8mJiOuDLpjgDPpBtl0ZsRPFin5%2bQLOZQdbQl2oRpJXCEkkSfw%3d%3d
+[2017-11-29 11:03:11,329]  INFO - HTTP挂牌请求
+[2017-11-29 11:03:11,337]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 11:03:11,676]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:06:47,475]  INFO - 画板初始化！
+[2017-11-29 11:06:47,480]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 11:06:47,503]  INFO - 创建MQTT对象开始
+[2017-11-29 11:06:47,512]  INFO - 创建开发环境MQTT对象
+[2017-11-29 11:06:47,512]  INFO - 创建MQTT对象结束
+[2017-11-29 11:06:47,791]  INFO - 画板初始化！
+[2017-11-29 11:06:47,814]  INFO - 初始化买入基价！
+[2017-11-29 11:06:47,815]  INFO - 初始化买入基价值！
+[2017-11-29 11:06:47,815]  INFO - 初始化卖出基价！
+[2017-11-29 11:06:47,815]  INFO - 初始化卖出基价值！
+[2017-11-29 11:06:47,821]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 11:06:50,147]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 11:06:50,790]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 11:06:50,969]  INFO - 启动MQTT对象开始
+[2017-11-29 11:06:50,970]  INFO - 启动MQTT开始
+[2017-11-29 11:06:51,117]  INFO - MQTT连接成功
+[2017-11-29 11:06:51,143]  INFO - 启动MQTT结束
+[2017-11-29 11:06:51,143]  INFO - 启动MQTT对象结束
+[2017-11-29 11:06:51,145]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 11:06:51,272] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 11:06:51,279]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 11:06:51,331]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 11:06:51,373]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 11:06:51,415]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 11:06:51,430]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 11:06:51,445]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 11:06:51,459]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 11:06:51,482]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 11:06:51,876]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 11:06:52,246]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:06:52,284]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:06:52,300]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:06:52,315]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:06:52,333]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:06:52,381]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:06:52,398]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:06:52,426]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:06:52,453]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:06:52,487]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:06:52,510]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:06:52,532]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:06:52,557]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:06:52,599]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 11:06:52,619]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 11:06:52,637]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 11:06:52,702]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 11:06:52,713]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 11:06:52,747]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 11:06:52,790]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 11:06:52,930]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 11:06:53,152]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 11:06:53,167]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 11:06:58,156]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=iF0oe%2bLX%2bn7Q28hCwtFGooIzJwWyxpmtFoWtPvbMBwE0jI5kYc8Q49Y60czQGVUX08e3Bk7FOiHlM1SuTykFeg%3d%3d
+[2017-11-29 11:06:58,253]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=iF0oe%2bLX%2bn7Q28hCwtFGooIzJwWyxpmtFoWtPvbMBwE0jI5kYc8Q49Y60czQGVUX08e3Bk7FOiHlM1SuTykFeg%3d%3d
+[2017-11-29 11:06:58,345]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=iF0oe%2bLX%2bn7Q28hCwtFGooIzJwWyxpmtFoWtPvbMBwE0jI5kYc8Q49Y60czQGVUX08e3Bk7FOiHlM1SuTykFeg%3d%3d
+[2017-11-29 11:07:01,923]  INFO - HTTP挂牌请求
+[2017-11-29 11:07:01,929]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 11:07:02,151]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:03,808]  INFO - 画板初始化！
+[2017-11-29 11:21:03,819]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 11:21:03,840]  INFO - 创建MQTT对象开始
+[2017-11-29 11:21:03,847]  INFO - 创建开发环境MQTT对象
+[2017-11-29 11:21:03,847]  INFO - 创建MQTT对象结束
+[2017-11-29 11:21:04,247]  INFO - 画板初始化！
+[2017-11-29 11:21:04,276]  INFO - 初始化买入基价！
+[2017-11-29 11:21:04,276]  INFO - 初始化买入基价值！
+[2017-11-29 11:21:04,276]  INFO - 初始化卖出基价！
+[2017-11-29 11:21:04,276]  INFO - 初始化卖出基价值！
+[2017-11-29 11:21:04,282]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 11:21:06,231]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 11:21:08,132]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 11:21:08,524]  INFO - 启动MQTT对象开始
+[2017-11-29 11:21:08,525]  INFO - 启动MQTT开始
+[2017-11-29 11:21:10,054]  INFO - MQTT连接成功
+[2017-11-29 11:21:10,058]  INFO - 启动MQTT结束
+[2017-11-29 11:21:10,058]  INFO - 启动MQTT对象结束
+[2017-11-29 11:21:10,061]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 11:21:10,231]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 11:21:10,308]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 11:21:10,345] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 11:21:10,354]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 11:21:10,425]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 11:21:10,525]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 11:21:10,838]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 11:21:10,918]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 11:21:10,970]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 11:21:11,195]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 11:21:11,586]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:11,702]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:11,898]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:11,943]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:12,087]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:12,135]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:12,180]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:12,297]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:12,382]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:12,438]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:12,665]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:12,887]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:13,003]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:13,182]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:21:13,302]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 11:21:13,396]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 11:21:13,446]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 11:21:13,509]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 11:21:13,582]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 11:21:13,651]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 11:21:13,794]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 11:21:13,983]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 11:21:14,242]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 11:21:14,652]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 11:21:19,147]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=23jV66yFZCh8cO4Ah2eZHgoXISJm4PqQeyVrpFY2tObIZfb96T29iWWHdRd0sYgU%2bl7GV%2bv4Joe57PIZyEswpQ%3d%3d
+[2017-11-29 11:21:19,396]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=23jV66yFZCh8cO4Ah2eZHgoXISJm4PqQeyVrpFY2tObIZfb96T29iWWHdRd0sYgU%2bl7GV%2bv4Joe57PIZyEswpQ%3d%3d
+[2017-11-29 11:21:19,507]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=23jV66yFZCh8cO4Ah2eZHgoXISJm4PqQeyVrpFY2tObIZfb96T29iWWHdRd0sYgU%2bl7GV%2bv4Joe57PIZyEswpQ%3d%3d
+[2017-11-29 11:21:20,864]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 11:21:21,082]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 11:21:21,179]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 11:21:21,270]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 11:21:21,528]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 11:21:21,733]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 11:21:21,843]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 11:21:21,898]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 11:21:22,055]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 11:21:22,387] ERROR - System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Telerik.WinControls.RadElement.Arrange(RectangleF finalRect)
+   在 Telerik.WinControls.Layout.WrapLayoutPanel.ArrangeLine(Single VPosition, Single lineV, Int32 start, Int32 end, Boolean useItemU, Single itemU, Single totalU)
+   在 Telerik.WinControls.Layout.WrapLayoutPanel.ArrangeOverride(SizeF finalSize)
+   在 Telerik.WinControls.RadElement.ArrangeCore(RectangleF finalRect)
+   在 Telerik.WinControls.RadElement.Arrange(RectangleF finalRect)
+   在 Telerik.WinControls.RadElement.ArrangeOverride(SizeF finalSize)
+   在 Telerik.WinControls.UI.RadMenuElement.ArrangeOverride(SizeF finalSize)
+   在 Telerik.WinControls.RadElement.ArrangeCore(RectangleF finalRect)
+   在 Telerik.WinControls.RadElement.Arrange(RectangleF finalRect)
+   在 Telerik.WinControls.RootRadElement.ArrangeOverride(SizeF finalSize)
+   在 Telerik.WinControls.RootRadElement.ArrangeCore(RectangleF finalRect)
+   在 Telerik.WinControls.RadElement.Arrange(RectangleF finalRect)
+   在 Telerik.WinControls.Layouts.ContextLayoutManager.UpdateLayout()
+   在 Telerik.WinControls.Layouts.ContextLayoutManager.UpdateLayoutCallback(ILayoutManager manager)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Delegate.DynamicInvokeImpl(Object[] args)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 Telerik.WinControls.RadControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.Run(Form mainForm)
+   在 UseOnlineTradingSystem.Program.Main() 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\Program.cs:行号 60
+[2017-11-29 11:21:22,388]  INFO - 退出程序!
+[2017-11-29 11:21:22,388]  INFO - 停止MQTT对象开始
+[2017-11-29 11:21:22,389]  INFO - 停止MQTT对象结束
+[2017-11-29 11:21:37,581]  INFO - 画板初始化！
+[2017-11-29 11:21:37,584]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 11:21:37,606]  INFO - 创建MQTT对象开始
+[2017-11-29 11:21:37,616]  INFO - 创建开发环境MQTT对象
+[2017-11-29 11:21:37,616]  INFO - 创建MQTT对象结束
+[2017-11-29 11:21:38,041]  INFO - 画板初始化！
+[2017-11-29 11:21:38,054]  INFO - 初始化买入基价！
+[2017-11-29 11:21:38,055]  INFO - 初始化买入基价值！
+[2017-11-29 11:21:38,055]  INFO - 初始化卖出基价！
+[2017-11-29 11:21:38,055]  INFO - 初始化卖出基价值！
+[2017-11-29 11:21:38,059]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 11:21:40,073]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 11:21:41,413]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 11:21:41,598]  INFO - 启动MQTT对象开始
+[2017-11-29 11:21:41,598]  INFO - 启动MQTT开始
+[2017-11-29 11:21:41,792]  INFO - MQTT连接成功
+[2017-11-29 11:21:41,795]  INFO - 启动MQTT结束
+[2017-11-29 11:21:41,795]  INFO - 启动MQTT对象结束
+[2017-11-29 11:21:41,797]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 11:21:42,661] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 11:21:45,821]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 11:21:56,527]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 11:21:56,800]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 11:21:56,921]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 11:21:57,039]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 11:22:06,746]  INFO - 画板初始化！
+[2017-11-29 11:22:06,751]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 11:22:06,766]  INFO - 创建MQTT对象开始
+[2017-11-29 11:22:06,771]  INFO - 创建开发环境MQTT对象
+[2017-11-29 11:22:06,771]  INFO - 创建MQTT对象结束
+[2017-11-29 11:22:07,143]  INFO - 画板初始化！
+[2017-11-29 11:22:07,164]  INFO - 初始化买入基价！
+[2017-11-29 11:22:07,164]  INFO - 初始化买入基价值！
+[2017-11-29 11:22:07,164]  INFO - 初始化卖出基价！
+[2017-11-29 11:22:07,164]  INFO - 初始化卖出基价值！
+[2017-11-29 11:22:07,168]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 11:22:13,599]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 11:22:14,516]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 11:22:15,897]  INFO - 启动MQTT对象开始
+[2017-11-29 11:22:15,898]  INFO - 启动MQTT开始
+[2017-11-29 11:22:16,068]  INFO - MQTT连接成功
+[2017-11-29 11:22:16,072]  INFO - 启动MQTT结束
+[2017-11-29 11:22:16,072]  INFO - 启动MQTT对象结束
+[2017-11-29 11:22:16,074]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 11:22:16,373]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 11:22:16,496] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 11:22:17,830]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 11:22:17,854]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 11:22:17,877]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 11:22:17,895]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 11:22:17,919]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 11:22:17,944]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 11:22:17,990]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 11:22:18,119]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 11:22:18,406]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:22:18,460]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:22:18,524]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:22:18,581]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:22:18,743]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:22:18,804]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:22:18,830]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:22:18,859]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:22:18,896]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:22:18,927]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:22:18,947]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:22:18,973]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:22:18,995]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:22:19,024]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:22:19,058]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 11:22:19,079]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 11:22:19,107]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 11:22:19,147]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 11:22:19,157]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 11:22:19,190]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 11:22:19,260]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 11:22:19,345]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 11:22:19,572]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 11:22:19,637]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 11:22:25,400]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=Tv7%2fi0M2LcFzkYcRjFsTo6%2f70GU2Bslcw89h5L0yaAPGagHzTSh1J8EAahcwRkJx89XktyrPnbhLNn0zf9vs7Q%3d%3d
+[2017-11-29 11:22:25,507]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=Tv7%2fi0M2LcFzkYcRjFsTo6%2f70GU2Bslcw89h5L0yaAPGagHzTSh1J8EAahcwRkJx89XktyrPnbhLNn0zf9vs7Q%3d%3d
+[2017-11-29 11:22:25,587]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=Tv7%2fi0M2LcFzkYcRjFsTo6%2f70GU2Bslcw89h5L0yaAPGagHzTSh1J8EAahcwRkJx89XktyrPnbhLNn0zf9vs7Q%3d%3d
+[2017-11-29 11:22:28,364]  INFO - HTTP挂牌请求
+[2017-11-29 11:22:28,369]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 11:22:28,839]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:39,145]  INFO - 画板初始化！
+[2017-11-29 11:26:39,149]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 11:26:39,163]  INFO - 创建MQTT对象开始
+[2017-11-29 11:26:39,168]  INFO - 创建开发环境MQTT对象
+[2017-11-29 11:26:39,168]  INFO - 创建MQTT对象结束
+[2017-11-29 11:26:39,459]  INFO - 画板初始化！
+[2017-11-29 11:26:39,479]  INFO - 初始化买入基价！
+[2017-11-29 11:26:39,479]  INFO - 初始化买入基价值！
+[2017-11-29 11:26:39,479]  INFO - 初始化卖出基价！
+[2017-11-29 11:26:39,479]  INFO - 初始化卖出基价值！
+[2017-11-29 11:26:39,486]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 11:26:41,364]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 11:26:42,199]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 11:26:42,302]  INFO - 启动MQTT对象开始
+[2017-11-29 11:26:42,302]  INFO - 启动MQTT开始
+[2017-11-29 11:26:42,523]  INFO - MQTT连接成功
+[2017-11-29 11:26:42,527]  INFO - 启动MQTT结束
+[2017-11-29 11:26:42,527]  INFO - 启动MQTT对象结束
+[2017-11-29 11:26:42,529]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 11:26:42,616]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 11:26:42,702]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 11:26:42,738]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 11:26:42,741] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 11:26:42,760]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 11:26:42,775]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 11:26:42,794]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 11:26:42,809]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 11:26:42,838]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 11:26:43,126]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 11:26:43,467]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,614]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,631]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,649]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,667]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,687]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,705]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,742]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,759]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,781]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,797]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,815]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,838]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,862]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,909]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:26:43,942]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 11:26:43,958]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 11:26:43,970]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 11:26:44,006]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 11:26:44,029]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 11:26:44,059]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 11:26:44,097]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 11:26:44,281]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 11:26:44,812]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 11:26:44,966]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 11:26:50,399]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=KoXns2ONBq5CzOtmE1GvCk2irmIyKZS0bHZs5%2fRnMJy1iv2mgfdS2%2bdA3XECvvTVhb%2ffsBJ5x%2f4RRQE5tTKhzQ%3d%3d
+[2017-11-29 11:26:50,584]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=KoXns2ONBq5CzOtmE1GvCk2irmIyKZS0bHZs5%2fRnMJy1iv2mgfdS2%2bdA3XECvvTVhb%2ffsBJ5x%2f4RRQE5tTKhzQ%3d%3d
+[2017-11-29 11:26:50,639]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=KoXns2ONBq5CzOtmE1GvCk2irmIyKZS0bHZs5%2fRnMJy1iv2mgfdS2%2bdA3XECvvTVhb%2ffsBJ5x%2f4RRQE5tTKhzQ%3d%3d
+[2017-11-29 11:26:52,879]  INFO - HTTP挂牌请求
+[2017-11-29 11:26:52,891]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 11:26:53,349]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:01,654]  INFO - 画板初始化！
+[2017-11-29 11:28:01,660]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 11:28:01,682]  INFO - 创建MQTT对象开始
+[2017-11-29 11:28:01,691]  INFO - 创建开发环境MQTT对象
+[2017-11-29 11:28:01,691]  INFO - 创建MQTT对象结束
+[2017-11-29 11:28:02,057]  INFO - 画板初始化！
+[2017-11-29 11:28:02,076]  INFO - 初始化买入基价！
+[2017-11-29 11:28:02,077]  INFO - 初始化买入基价值！
+[2017-11-29 11:28:02,077]  INFO - 初始化卖出基价！
+[2017-11-29 11:28:02,077]  INFO - 初始化卖出基价值！
+[2017-11-29 11:28:02,082]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 11:28:03,633]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 11:28:04,175]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 11:28:04,275]  INFO - 启动MQTT对象开始
+[2017-11-29 11:28:04,277]  INFO - 启动MQTT开始
+[2017-11-29 11:28:04,537]  INFO - MQTT连接成功
+[2017-11-29 11:28:04,543]  INFO - 启动MQTT结束
+[2017-11-29 11:28:04,543]  INFO - 启动MQTT对象结束
+[2017-11-29 11:28:04,545]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 11:28:04,632] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 11:28:04,693]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 11:28:04,800]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 11:28:04,851]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 11:28:04,921]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 11:28:04,951]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 11:28:04,984]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 11:28:05,002]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 11:28:05,031]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=cu1712
+[2017-11-29 11:28:05,312]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/list
+[2017-11-29 11:28:05,616]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:05,642]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:05,716]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:05,734]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:05,751]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:05,774]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:05,801]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:05,819]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:05,834]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:05,894]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:05,926]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:06,015]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:06,053]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:06,078]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:06,156]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:06,262]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 11:28:06,358]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/1
+[2017-11-29 11:28:06,376]  INFO - GET数据,链接：http://172.16.88.152:8081/blackwhitelist/status/0
+[2017-11-29 11:28:06,397]  INFO - GET数据,链接：http://172.16.88.152:8081/page/blackwhitelist
+[2017-11-29 11:28:06,441]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?
+[2017-11-29 11:28:06,489]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?
+[2017-11-29 11:28:06,534]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/levelBrandInfo/list?cid=1
+[2017-11-29 11:28:06,584]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 11:28:06,695]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/commlist?categoryId=1
+[2017-11-29 11:28:06,935]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=1&categoryId=1
+[2017-11-29 11:28:06,984]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/orderInfo/orderlist?status=2&categoryId=1
+[2017-11-29 11:28:14,114]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=l3HEgEaUAAMFbVtXD8n546T9f3V60oPNrNVUOaBlLPTeOlvlJxeWn4V%2fbAhCVdppfOoZDmIgX1KVL%2bAxAzYEZw%3d%3d
+[2017-11-29 11:28:14,193]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=l3HEgEaUAAMFbVtXD8n546T9f3V60oPNrNVUOaBlLPTeOlvlJxeWn4V%2fbAhCVdppfOoZDmIgX1KVL%2bAxAzYEZw%3d%3d
+[2017-11-29 11:28:14,327]  INFO - GET数据,链接：http://172.16.88.152:8081/v1/depositscale/1?Security-Token=l3HEgEaUAAMFbVtXD8n546T9f3V60oPNrNVUOaBlLPTeOlvlJxeWn4V%2fbAhCVdppfOoZDmIgX1KVL%2bAxAzYEZw%3d%3d
+[2017-11-29 11:28:15,987]  INFO - HTTP挂牌请求
+[2017-11-29 11:28:16,007]  INFO - POST数据,链接：http://172.16.88.152:9242/v1/commodityInfo/listing
+[2017-11-29 11:28:16,257]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/commodityInfo/judgeBlackList?publisherId=106
+[2017-11-29 15:29:05,972]  INFO - 画板初始化！
+[2017-11-29 15:29:05,975]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 15:29:05,993]  INFO - 创建MQTT对象开始
+[2017-11-29 15:29:06,006]  INFO - 创建开发环境MQTT对象
+[2017-11-29 15:29:06,006]  INFO - 创建MQTT对象结束
+[2017-11-29 15:29:06,510]  INFO - 画板初始化！
+[2017-11-29 15:29:06,537]  INFO - 初始化买入基价！
+[2017-11-29 15:29:06,538]  INFO - 初始化买入基价值！
+[2017-11-29 15:29:06,538]  INFO - 初始化卖出基价！
+[2017-11-29 15:29:06,538]  INFO - 初始化卖出基价值！
+[2017-11-29 15:29:06,545]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 15:29:26,813]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 15:29:27,375]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 15:29:27,450]  INFO - 启动MQTT对象开始
+[2017-11-29 15:29:27,451]  INFO - 启动MQTT开始
+[2017-11-29 15:29:27,524]  INFO - MQTT连接成功
+[2017-11-29 15:29:27,531]  INFO - 启动MQTT结束
+[2017-11-29 15:29:27,531]  INFO - 启动MQTT对象结束
+[2017-11-29 15:29:27,535]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 15:29:27,606]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 15:29:27,616] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 15:29:27,635]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 15:29:27,657]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 15:29:27,674]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 15:29:27,690]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 15:29:27,710]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 15:29:27,731]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 15:29:27,780]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=有色在线铜
+[2017-11-29 15:31:55,800]  INFO - 画板初始化！
+[2017-11-29 15:31:55,805]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 15:31:55,832]  INFO - 创建MQTT对象开始
+[2017-11-29 15:31:55,839]  INFO - 创建开发环境MQTT对象
+[2017-11-29 15:31:55,839]  INFO - 创建MQTT对象结束
+[2017-11-29 15:31:56,224]  INFO - 画板初始化！
+[2017-11-29 15:31:56,254]  INFO - 初始化买入基价！
+[2017-11-29 15:31:56,254]  INFO - 初始化买入基价值！
+[2017-11-29 15:31:56,254]  INFO - 初始化卖出基价！
+[2017-11-29 15:31:56,254]  INFO - 初始化卖出基价值！
+[2017-11-29 15:31:56,260]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 15:31:58,344]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 15:31:58,932]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 15:31:59,013]  INFO - 启动MQTT对象开始
+[2017-11-29 15:31:59,014]  INFO - 启动MQTT开始
+[2017-11-29 15:31:59,194]  INFO - MQTT连接成功
+[2017-11-29 15:31:59,203]  INFO - 启动MQTT结束
+[2017-11-29 15:31:59,203]  INFO - 启动MQTT对象结束
+[2017-11-29 15:31:59,205]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 15:31:59,299]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 15:31:59,435]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 15:31:59,447] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 15:31:59,469]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 15:31:59,507]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 15:31:59,572]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 15:32:00,040]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 15:32:00,057]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 15:32:00,085]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=有色在线铜
+[2017-11-29 15:37:05,919]  INFO - 画板初始化！
+[2017-11-29 15:37:05,925]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 15:37:05,951]  INFO - 创建MQTT对象开始
+[2017-11-29 15:37:05,962]  INFO - 创建开发环境MQTT对象
+[2017-11-29 15:37:05,962]  INFO - 创建MQTT对象结束
+[2017-11-29 15:37:06,496]  INFO - 画板初始化！
+[2017-11-29 15:37:06,534]  INFO - 初始化买入基价！
+[2017-11-29 15:37:06,534]  INFO - 初始化买入基价值！
+[2017-11-29 15:37:06,534]  INFO - 初始化卖出基价！
+[2017-11-29 15:37:06,534]  INFO - 初始化卖出基价值！
+[2017-11-29 15:37:06,540]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 15:38:57,573]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 15:38:58,180]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 15:38:58,297]  INFO - 启动MQTT对象开始
+[2017-11-29 15:38:58,298]  INFO - 启动MQTT开始
+[2017-11-29 15:38:58,339]  INFO - MQTT连接成功
+[2017-11-29 15:38:58,346]  INFO - 启动MQTT结束
+[2017-11-29 15:38:58,346]  INFO - 启动MQTT对象结束
+[2017-11-29 15:38:58,348]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 15:38:58,436]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 15:38:58,443] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 15:38:58,518]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 15:38:58,572]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 15:38:58,595]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 15:38:58,626]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 15:38:58,657]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 15:38:58,683]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 15:38:58,710]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=有色在线铜
+[2017-11-29 15:50:48,799]  INFO - 画板初始化！
+[2017-11-29 15:50:48,804]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 15:50:48,833]  INFO - 创建MQTT对象开始
+[2017-11-29 15:50:48,863]  INFO - 创建开发环境MQTT对象
+[2017-11-29 15:50:48,863]  INFO - 创建MQTT对象结束
+[2017-11-29 15:50:49,437]  INFO - 画板初始化！
+[2017-11-29 15:50:49,467]  INFO - 初始化买入基价！
+[2017-11-29 15:50:49,467]  INFO - 初始化买入基价值！
+[2017-11-29 15:50:49,467]  INFO - 初始化卖出基价！
+[2017-11-29 15:50:49,467]  INFO - 初始化卖出基价值！
+[2017-11-29 15:50:49,473]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 15:51:32,794]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 15:51:33,365]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 15:51:33,417]  INFO - 启动MQTT对象开始
+[2017-11-29 15:51:33,418]  INFO - 启动MQTT开始
+[2017-11-29 15:51:33,476]  INFO - MQTT连接成功
+[2017-11-29 15:51:33,481]  INFO - 启动MQTT结束
+[2017-11-29 15:51:33,481]  INFO - 启动MQTT对象结束
+[2017-11-29 15:51:33,483]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 15:51:33,605]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 15:51:33,618] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 15:51:33,646]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 15:51:33,669]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 15:51:33,685]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 15:51:33,700]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 15:51:33,716]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 15:51:33,733]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 15:51:33,794]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=有色在线铜
+[2017-11-29 16:52:57,490]  INFO - 画板初始化！
+[2017-11-29 16:52:57,494]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 16:52:57,510]  INFO - 创建MQTT对象开始
+[2017-11-29 16:52:57,517]  INFO - 创建开发环境MQTT对象
+[2017-11-29 16:52:57,517]  INFO - 创建MQTT对象结束
+[2017-11-29 16:52:57,858]  INFO - 画板初始化！
+[2017-11-29 16:52:57,869]  INFO - 初始化买入基价！
+[2017-11-29 16:52:57,869]  INFO - 初始化买入基价值！
+[2017-11-29 16:52:57,869]  INFO - 初始化卖出基价！
+[2017-11-29 16:52:57,869]  INFO - 初始化卖出基价值！
+[2017-11-29 16:52:57,875]  INFO - 初始化第二行快捷按钮！
+[2017-11-29 16:53:00,430]  INFO - POST数据,链接：http://172.16.88.152:8081/uc/login
+[2017-11-29 16:53:01,228]  INFO - GET数据,链接：http://172.16.88.152:8081/user/me
+[2017-11-29 16:53:01,346]  INFO - 启动MQTT对象开始
+[2017-11-29 16:53:01,347]  INFO - 启动MQTT开始
+[2017-11-29 16:53:01,478]  INFO - MQTT连接成功
+[2017-11-29 16:53:01,488]  INFO - 启动MQTT结束
+[2017-11-29 16:53:01,488]  INFO - 启动MQTT对象结束
+[2017-11-29 16:53:01,490]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/base
+[2017-11-29 16:53:01,609]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=1
+[2017-11-29 16:53:01,609] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.Helper.Deserialize[T](String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Helper.cs:行号 75
+   在 UseOnlineTradingSystem.DataManager.MQTTService_UpdataEvent(String obj) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\DataManager.cs:行号 371
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystemV2.0\UseOnlineTradingSystemV2.0\USeCommon\Communication\MQTTService.cs:行号 195
+[2017-11-29 16:53:01,651]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=2
+[2017-11-29 16:53:01,670]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=3
+[2017-11-29 16:53:01,686]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=4
+[2017-11-29 16:53:01,700]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=5
+[2017-11-29 16:53:01,715]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=6
+[2017-11-29 16:53:01,730]  INFO - GET数据,链接：http://172.16.88.152:9242/v1/warehouseInfo/list?cid=7
+[2017-11-29 16:53:01,760]  INFO - GET数据,链接：http://172.16.88.152:8088/futuredata/data/daykline?category=有色在线铜

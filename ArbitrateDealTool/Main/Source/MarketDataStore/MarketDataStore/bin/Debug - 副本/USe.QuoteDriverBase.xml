@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>USe.QuoteDriverBase</name>
+    </assembly>
+    <members>
+        <member name="T:USe.TradeDriver.Common.USeQuoteDriverState">
+            <summary>
+            行情驱动状态枚举
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeQuoteDriverState.Inactive">
+            <summary>
+            无效状态。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeQuoteDriverState.DisConnected">
+            <summary>
+            已断开。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeQuoteDriverState.Connecting">
+            <summary>
+            连接中。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeQuoteDriverState.Connected">
+            <summary>
+            已连接。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeQuoteDriverState.LoggingOn">
+            <summary>
+            登录中。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeQuoteDriverState.LoggedOn">
+            <summary>
+            已登录
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeQuoteDriverState.Loading">
+            <summary>
+            加载中。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeQuoteDriverState.Ready">
+            <summary>
+            可用。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeQuoteDriverState.LoggingOut">
+            <summary>
+            登出中。
+            </summary>
+        </member>
+        <member name="F:USe.TradeDriver.Common.USeQuoteDriverState.LoggedOut">
+            <summary>
+            已登出。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeErrorMessageArgs">
+            <summary>
+            发送错误信息事件参数类
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeErrorMessageArgs.#ctor(System.String)">
+            <summary>
+            构造USeErrorMessageArgs实例。
+            </summary>
+            <param name="future">错误信息。</param>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeErrorMessageArgs.ErrorMessage">
+            <summary>
+            错误信息。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeMarketDataChangedEventArgs">
+            <summary>
+            行情变更事件参数类。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeMarketDataChangedEventArgs.#ctor(USe.TradeDriver.Common.USeMarketData)">
+            <summary>
+            构造USeMarketDataChangedEventArgs实例。
+            </summary>
+            <param name="future">期货行情信息。</param>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeMarketDataChangedEventArgs.MarketData">
+            <summary>
+            行情信息。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeQuoteDriverStateChangedEventArgs">
+            <summary>
+            状态变更事件参数类
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeQuoteDriverStateChangedEventArgs.#ctor(System.String,USe.TradeDriver.Common.USeQuoteDriverState,USe.TradeDriver.Common.USeQuoteDriverState,System.String)">
+            <summary>
+            构造USeQuoteDriverStateChangedEventArgs实例。
+            </summary>
+            <param name="account">帐号。</param>
+            <param name="oldState">上一状态。</param>
+            <param name="newState">当前状态。</param>
+            <param name="reason">状态变更原因。</param>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeQuoteDriverStateChangedEventArgs.Account">
+            <summary>
+            帐号。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeQuoteDriverStateChangedEventArgs.OldState">
+            <summary>
+            上一状态。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeQuoteDriverStateChangedEventArgs.NewState">
+            <summary>
+            当前状态。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeQuoteDriverStateChangedEventArgs.Reason">
+            <summary>
+            状态变更原因。
+            </summary>
+        </member>
+        <member name="T:USe.TradeDriver.Common.USeQuoteDriver">
+            <summary>
+            USe行情驱动抽象类。
+            </summary>
+        </member>
+        <member name="E:USe.TradeDriver.Common.USeQuoteDriver.OnMarketDataChanged">
+            <summary>
+            行情变更事件。
+            </summary>
+        </member>
+        <member name="E:USe.TradeDriver.Common.USeQuoteDriver.OnDriverStateChanged">
+            <summary>
+            状态变更事件。
+            </summary>
+        </member>
+        <member name="E:USe.TradeDriver.Common.USeQuoteDriver.SendErrorMessage">
+            <summary>
+            发送错误信息事件。
+            </summary>
+        </member>
+        <member name="P:USe.TradeDriver.Common.USeQuoteDriver.DriverState">
+            <summary>
+            行情服务状态。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeQuoteDriver.FireOnMarketDataChanged(USe.TradeDriver.Common.USeMarketData)">
+            <summary>
+            触发行情变更事件。
+            </summary>
+            <param name="marketData">行情数据。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeQuoteDriver.FireDriverStateChanged(USe.TradeDriver.Common.USeQuoteDriverState,System.String)">
+            <summary>
+            触发状态变更事件。
+            </summary>
+            <param name="newState">新状态。</param>
+            <param name="reason">变更原因。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeQuoteDriver.SetAppLogger(USe.Common.AppLogger.IAppLogger)">
+            <summary>
+            设置日志。
+            </summary>
+            <param name="appLogger"></param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeQuoteDriver.ConnectServer">
+            <summary>
+            连接行情服务器。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeQuoteDriver.DisConnectServer">
+            <summary>
+            断开行情服务器。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeQuoteDriver.Login(System.String,System.String,System.String)">
+            <summary>
+            登录行情服务器。
+            </summary>
+            <param name="brokerId">经纪商ID。</param>
+            <param name="investorId">投资者ID。</param>
+            <param name="password">密码</param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeQuoteDriver.Logout">
+            <summary>
+            登出行情服务器。
+            </summary>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeQuoteDriver.Subscribe(System.Collections.Generic.List{USe.TradeDriver.Common.USeInstrument})">
+            <summary>
+            订阅行情。
+            </summary>
+            <param name="instruments">合约列表</param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeQuoteDriver.Subscribe(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            订阅行情。
+            </summary>
+            <param name="instrument">合约。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeQuoteDriver.Unsubscribe(System.Collections.Generic.List{USe.TradeDriver.Common.USeInstrument})">
+            <summary>
+            退订行情。
+            </summary>
+            <param name="instruments">合约列表</param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeQuoteDriver.Unsubscribe(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            退订行情。
+            </summary>
+            <param name="instrument">合约。</param>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeQuoteDriver.Query(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            查询行情。
+            </summary>
+            <param name="instrument">合约。</param>
+            <returns>行情信息</returns>
+        </member>
+        <member name="M:USe.TradeDriver.Common.USeQuoteDriver.QuickQuery(USe.TradeDriver.Common.USeInstrument)">
+            <summary>
+            快速查询行情(无缓存直接返回空行情)。
+            </summary>
+            <param name="instrument"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

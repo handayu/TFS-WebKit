@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A16BCD7-F016-4C46-A937-E623BDA99EB1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>USe.TradeDriver.Ctp</RootNamespace>
+    <AssemblyName>USe.CTPQuoteDriver</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\Main\bin\USe.CTPQuoteDriver.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\Main\bin\USe.CTPQuoteDriver.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CTPCommon">
+      <HintPath>..\..\..\Reference\CTP_YM\CTPCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="CTPFeed">
+      <HintPath>..\..\..\Reference\CTP_YM\CTPFeed.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="USe.Common">
+      <HintPath>..\..\..\Reference\USe.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="USe.Common.AppLogger">
+      <HintPath>..\..\Reference\USe.Common.AppLogger.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config\CtpQuoteDriverElement.cs" />
+    <Compile Include="Config\CtpQuoteDriverElementCollection.cs" />
+    <Compile Include="Config\CtpQuoteSection.cs" />
+    <Compile Include="CtpQuoteDriver.cs" />
+    <Compile Include="CtpQuoteDriver.USeQuoteDriver.cs" />
+    <Compile Include="CtpQuoteDriver.ICtpFeedApplication.cs" />
+    <Compile Include="CtpQuoteDriver.Utility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\USe.QuoteDriverBase\USe.QuoteDriverBase.csproj">
+      <Project>{a3d301ce-d732-4775-a477-26b30f26bbc7}</Project>
+      <Name>USe.QuoteDriverBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\USe.TradeDriver.Common\USe.TradeDriver.Common.csproj">
+      <Project>{b032a665-919f-4450-9a49-5878d4781277}</Project>
+      <Name>USe.TradeDriver.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

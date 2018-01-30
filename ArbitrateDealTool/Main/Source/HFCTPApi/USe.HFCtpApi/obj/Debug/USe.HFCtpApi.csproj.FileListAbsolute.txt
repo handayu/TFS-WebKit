@@ -1,0 +1,5 @@
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\HFCTPApi\USe.HFCtpApi\bin\Debug\USe.HFCtpApi.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\HFCTPApi\USe.HFCtpApi\bin\Debug\USe.HFCtpApi.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\HFCTPApi\USe.HFCtpApi\obj\Debug\USe.HFCtpApi.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\HFCTPApi\USe.HFCtpApi\obj\Debug\USe.HFCtpApi.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\HFCTPApi\USe.HFCtpApi\obj\Debug\USe.HFCtpApi.csprojResolveAssemblyReference.cache

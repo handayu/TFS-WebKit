@@ -1,0 +1,8 @@
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\bin\Debug\TDXDataConvert.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\bin\Debug\TDXDataConvert.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\bin\Debug\USe.Common.DBDriver.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\bin\Debug\MySql.Data.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\bin\Debug\USe.Common.DBDriver.xml
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\obj\Debug\TDXDataConvert.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\obj\Debug\TDXDataConvert.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\obj\Debug\TDXDataConvert.csprojResolveAssemblyReference.cache

@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USe.CTPOrderDriver", "USe.CTPOrderDriver\USe.CTPOrderDriver.csproj", "{A6782254-F43B-47A2-8726-A90E6C9B2E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USe.CTPQuoteDriver", "USe.CTPQuoteDriver\USe.CTPQuoteDriver.csproj", "{5A16BCD7-F016-4C46-A937-E623BDA99EB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USe.TradeDriver.Common", "USe.TradeDriver.Common\USe.TradeDriver.Common.csproj", "{B032A665-919F-4450-9A49-5878D4781277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USe.OrderDrvierBase", "USe.OrderDrvierBase\USe.OrderDrvierBase.csproj", "{DE12EA7A-E6F6-4BAD-8320-35131DBAB10B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USe.QuoteDriverBase", "USe.QuoteDriverBase\USe.QuoteDriverBase.csproj", "{A3D301CE-D732-4775-A477-26B30F26BBC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USe.HFCtpApi", "..\HFCTPApi\USe.HFCtpApi\USe.HFCtpApi.csproj", "{9389BD80-EFDB-4B09-80A8-CADEA5372B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USe.TestOrderDriver", "USe.TestOrderDriver\USe.TestOrderDriver.csproj", "{C6DA762A-B685-48BC-B7B8-2FB96539BCA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USe.TestQuoteDriver", "USe.TestQuoteDriver\USe.TestQuoteDriver.csproj", "{9D249ED2-9E36-4C7E-B890-E8B9A525BC9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6782254-F43B-47A2-8726-A90E6C9B2E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6782254-F43B-47A2-8726-A90E6C9B2E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6782254-F43B-47A2-8726-A90E6C9B2E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6782254-F43B-47A2-8726-A90E6C9B2E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A16BCD7-F016-4C46-A937-E623BDA99EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A16BCD7-F016-4C46-A937-E623BDA99EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A16BCD7-F016-4C46-A937-E623BDA99EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A16BCD7-F016-4C46-A937-E623BDA99EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B032A665-919F-4450-9A49-5878D4781277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B032A665-919F-4450-9A49-5878D4781277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B032A665-919F-4450-9A49-5878D4781277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B032A665-919F-4450-9A49-5878D4781277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE12EA7A-E6F6-4BAD-8320-35131DBAB10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE12EA7A-E6F6-4BAD-8320-35131DBAB10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE12EA7A-E6F6-4BAD-8320-35131DBAB10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE12EA7A-E6F6-4BAD-8320-35131DBAB10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3D301CE-D732-4775-A477-26B30F26BBC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3D301CE-D732-4775-A477-26B30F26BBC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3D301CE-D732-4775-A477-26B30F26BBC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3D301CE-D732-4775-A477-26B30F26BBC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9389BD80-EFDB-4B09-80A8-CADEA5372B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9389BD80-EFDB-4B09-80A8-CADEA5372B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9389BD80-EFDB-4B09-80A8-CADEA5372B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9389BD80-EFDB-4B09-80A8-CADEA5372B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6DA762A-B685-48BC-B7B8-2FB96539BCA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6DA762A-B685-48BC-B7B8-2FB96539BCA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6DA762A-B685-48BC-B7B8-2FB96539BCA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6DA762A-B685-48BC-B7B8-2FB96539BCA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D249ED2-9E36-4C7E-B890-E8B9A525BC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D249ED2-9E36-4C7E-B890-E8B9A525BC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D249ED2-9E36-4C7E-B890-E8B9A525BC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D249ED2-9E36-4C7E-B890-E8B9A525BC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.16.88.11:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\HFCTPApi\\USe.HFCtpApi\\USe.HFCtpApi.csproj
+		SccProjectName1 = ../HFCTPApi/USe.HFCtpApi
+		SccLocalPath1 = ..\\HFCTPApi\\USe.HFCtpApi
+		SccProjectUniqueName2 = USe.CTPOrderDriver\\USe.CTPOrderDriver.csproj
+		SccProjectName2 = USe.CTPOrderDriver
+		SccLocalPath2 = USe.CTPOrderDriver
+		SccProjectUniqueName3 = USe.CTPQuoteDriver\\USe.CTPQuoteDriver.csproj
+		SccProjectName3 = USe.CTPQuoteDriver
+		SccLocalPath3 = USe.CTPQuoteDriver
+		SccProjectUniqueName4 = USe.OrderDrvierBase\\USe.OrderDrvierBase.csproj
+		SccProjectName4 = USe.OrderDrvierBase
+		SccLocalPath4 = USe.OrderDrvierBase
+		SccProjectUniqueName5 = USe.QuoteDriverBase\\USe.QuoteDriverBase.csproj
+		SccProjectName5 = USe.QuoteDriverBase
+		SccLocalPath5 = USe.QuoteDriverBase
+		SccProjectUniqueName6 = USe.TradeDriver.Common\\USe.TradeDriver.Common.csproj
+		SccProjectName6 = USe.TradeDriver.Common
+		SccLocalPath6 = USe.TradeDriver.Common
+		SccProjectUniqueName7 = USe.TestOrderDriver\\USe.TestOrderDriver.csproj
+		SccProjectName7 = USe.TestOrderDriver
+		SccLocalPath7 = USe.TestOrderDriver
+		SccProjectUniqueName8 = USe.TestQuoteDriver\\USe.TestQuoteDriver.csproj
+		SccProjectName8 = USe.TestQuoteDriver
+		SccLocalPath8 = USe.TestQuoteDriver
+	EndGlobalSection
+EndGlobal

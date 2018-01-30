@@ -1,0 +1,6 @@
+C:\USeClient\TFS\USeCommon\Main\Bin\USe.Common.DBDriver.XML
+C:\USeClient\TFS\USeCommon\Main\Bin\USe.Common.DBDriver.dll
+C:\USeClient\TFS\USeCommon\Main\Bin\USe.Common.DBDriver.pdb
+C:\USeClient\TFS\USeCommon\Main\Source\USeCommon\USe.Common.DBDriver\obj\Debug\USe.Common.DBDriver.csprojResolveAssemblyReference.cache
+C:\USeClient\TFS\USeCommon\Main\Source\USeCommon\USe.Common.DBDriver\obj\Debug\USe.Common.DBDriver.dll
+C:\USeClient\TFS\USeCommon\Main\Source\USeCommon\USe.Common.DBDriver\obj\Debug\USe.Common.DBDriver.pdb

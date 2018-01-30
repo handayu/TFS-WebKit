@@ -1,0 +1,2481 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>USe.Common.AppLogger</name>
+    </assembly>
+    <members>
+        <member name="T:USe.Common.AppLogger.AppLogger">
+            <summary>
+            应用程序日志类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.#ctor(USe.Common.AppLogger.IAppLoggerImpl)">
+            <summary>
+            初始化AppLogger类的新实例。
+            </summary>
+            <param name="innerImpl">内部实现类对象。</param>
+            <exception cref="T:System.ArgumentNullException">innerImpl参数为null时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.Finalize">
+            <summary>
+            AppLogger类对象的析构方法。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.Dispose">
+            <summary>
+            释放AppLogger类对象所占用的资源。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.Dispose(System.Boolean)">
+            <summary>
+            释放AppLogger类对象所占用的非托管资源，也可以根据需要释放托管资源。
+            </summary>
+            <param name="disposing">资源释放标志，为true则释放托管资源和非托管资源；为false则仅释放非托管资源。</param>
+        </member>
+        <member name="P:USe.Common.AppLogger.AppLogger.SingleInstance">
+            <summary>
+            获取AppLogger类的Singleton实例对象。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.AppLogger.Name">
+            <summary>
+            获取AppLogger类对象的名称。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.AppLogger.Encoding">
+            <summary>
+            获取AppLogger类对象的编码格式。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.AppLogger.IsThreadSafe">
+            <summary>
+            获取AppLogger类对象的线程安全标志。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.Flush">
+            <summary>
+            清空AppLogger类对象的日志输出缓冲区。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.LineFeed">
+            <summary>
+            AppLogger类对象写入回车换行。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteEvent(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            AppLogger类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteEvent(USe.Common.AppLogger.LogEventType,System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            AppLogger类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="bytes">日志事件记录的字节序列缓冲区。</param>
+            <param name="startIndex">日志事件记录在字节序列缓冲区里的起始索引。</param>
+            <param name="count">日志事件记录的字节数量。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteCritical(System.String)">
+            <summary>
+            AppLogger类对象写入一条Critical类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteError(System.String)">
+            <summary>
+            AppLogger类对象写入一条Error类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteWarning(System.String)">
+            <summary>
+            AppLogger类对象写入一条Warning类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteInformation(System.String)">
+            <summary>
+            AppLogger类对象写入一条Information类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteVerbose(System.String)">
+            <summary>
+            AppLogger类对象写入一条Verbose类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteNotice(System.String)">
+            <summary>
+            AppLogger类对象写入一条Notice类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteInbound(System.String)">
+            <summary>
+             AppLogger类对象写入一条Inbound类型事件信息。
+            </summary>
+            <param name="message">入站消息字符串。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteInbound(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            AppLogger类对象写入一条Inbound类型事件信息。
+            </summary>
+            <param name="bytes">待写入的日志信息字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteOutbound(System.String)">
+            <summary>
+             AppLogger类对象写入一条Outbound类型事件信息。
+            </summary>
+            <param name="message">出站消息字符串。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteOutbound(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            AppLogger类对象写入一条Outbound类型事件信息。
+            </summary>
+            <param name="bytes">待写入的日志信息字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteMessage(System.String)">
+            <summary>
+            AppLogger类对象写入一条Message类型事件信息。
+            </summary>
+            <param name="message">消息字符串。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            AppLogger类对象写入一条Message类型事件信息。
+            </summary>
+            <param name="bytes">待写入的日志信息字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteAudit(System.String)">
+            <summary>
+            应用程序日志写入一条Audit类型事件信息。
+            </summary>
+            <param name="message">消息字符串。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.WriteAudit(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            应用程序日志写入一条Audit类型事件信息。
+            </summary>
+            <param name="bytes">待写入的日志信息字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.CreateInstance(System.String)">
+            <summary>
+            按指定的配置元素名称创建应用程序日志对象。
+            </summary>
+            <param name="elementName">配置元素名称。</param>
+            <returns>日志对象。</returns>
+            <remarks>
+            1. 配置元素：USe.Common.AppLogger/appLoggers/appLogger。<br/>
+            2. 辅助的IAppLogger对象创建方法，与Singleton模式的静态实例变量无关。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.CreateInstance(USe.Common.AppLogger.Configuration.AppLoggerElement)">
+            <summary>
+            使用指定的配置元素对象创建应用程序日志对象。
+            </summary>
+            <param name="config">配置元素对象。</param>
+            <returns>
+            应用程序日志对象。
+            </returns>
+            <remarks>
+            辅助的IAppLogger对象创建方法，与Singleton模式的静态实例变量无关。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.InitInstance">
+            <summary>
+            初始化IAppLogger应用程序日志对象。
+            </summary>
+            <returns>日志对象。</returns>
+            <remarks>
+            Singleton模式的静态实例变量的创建方法。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.ClearInstance">
+            <summary>
+            释放静态的Singleton实例。
+            </summary>
+            <remarks>
+            与InitInstance对应。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.FormatFileName(System.String)">
+            <summary>
+            格式化文件名称，相对路径转换为绝对路径。
+            </summary>
+            <param name="fileName">文件名称。</param>
+            <returns>格式化后的文件名称。</returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.CreateImplementationObject(USe.Common.AppLogger.Configuration.ImplementationElement)">
+            <summary>
+            按配置元素创建IAppLoggerImpl日志实现类对象。
+            </summary>
+            <param name="element">配置元素。</param>
+            <returns>日志实现类对象。</returns>
+            <remarks>
+            配置元素：USe.Common.AppLogger/appLoggers/appLogger/implementation。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.AppLogger.AppLogger.CreateDecoratorObject(USe.Common.AppLogger.Configuration.DecoratorElement,USe.Common.AppLogger.IAppLoggerImpl)">
+            <summary>
+            按配置元素创建IAppLoggerImpl日志装饰类对象。
+            </summary>
+            <param name="element">配置元素。</param>
+            <param name="innerImpl">内部日志对象。</param>
+            <returns>日志装饰类对象。</returns>
+            <remarks>
+            配置元素：USe.Common.AppLogger/appLoggers/appLogger/decorators/decorator。
+            </remarks>
+        </member>
+        <member name="T:USe.Common.AppLogger.Configuration.AppLoggerElement">
+            <summary>
+            AppLogger配置元素。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.AppLoggerElement.Name">
+            <summary>
+            AppLogger配置元素名称
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.AppLoggerElement.LoggerType">
+            <summary>
+            日志类的类型
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.AppLoggerElement.Decorators">
+            <summary>
+            Decorator配置节集合
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.AppLoggerElement.Implementation">
+            <summary>
+            IAppLoggerImpl日志实现类配置元素
+            </summary>
+        </member>
+        <member name="T:USe.Common.AppLogger.Configuration.AppLoggerElementCollection">
+            <summary>
+            AppLogger配置元素集合。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.AppLoggerElementCollection.ElementName">
+            <summary>
+            配置元素名称, 只读
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.AppLoggerElementCollection.Item(System.Int32)">
+            <summary>
+            整型索引器
+            </summary>
+            <param name="index">索引</param>
+            <returns>AppLogger配置元素</returns>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.AppLoggerElementCollection.Item(System.String)">
+            <summary>
+            字符串名称索引器
+            </summary>
+            <param name="name">名称</param>
+            <returns>AppLogger配置元素</returns>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.AppLoggerElementCollection.CollectionType">
+            <summary>
+            集合类型, 只读
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.AppLoggerElementCollection.CreateNewElement">
+            <summary>
+            创建AppLogger配置元素对象
+            </summary>
+            <returns>AppLogger配置元素对象</returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.AppLoggerElementCollection.GetElementKey(System.Configuration.ConfigurationElement)">
+            <summary>
+            获取指定AppLogger配置元素的键值
+            </summary>
+            <param name="element">配置元素</param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Configuration.AppLoggerSectionGroup">
+            <summary>
+            AppLogger配置节组。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.AppLoggerSectionGroup.AppLoggers">
+            <summary>
+            AppLogger集合配置节，只读。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.AppLoggerSectionGroup.GetSectionGroup">
+            <summary>
+            从应用程序缺省的配置获取AppLogger配置组对象。
+            </summary>
+            <returns>
+            AppLogger配置组对象，不会为null。
+            </returns>
+            <exception cref="T:System.ApplicationException">未找到应用程序缺省的配置时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.AppLoggerSectionGroup.GetSectionGroup(System.Configuration.Configuration)">
+            <summary>
+            从指定的配置对象获取AppLogger配置组对象
+            </summary>
+            <param name="config">配置对象，不能为null。</param>
+            <returns>
+            AppLogger配置组对象，不会为null。
+            </returns>
+            <exception cref="T:System.ArgumentNullException">config对象为null。</exception>
+            <exception cref="T:System.ArgumentException">config中未找到对应的配置组节点。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.AppLoggerSectionGroup.FindAppLoggerElement(System.String)">
+            <summary>
+            使用指定的配置元素名称查找对应的应用程序日志配置参数对象。
+            </summary>
+            <param name="elementName">配置元素名称，大小写敏感。</param>
+            <returns>
+            应用程序日志配置参数对象，未找到时返回null。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.AppLoggerSectionGroup.FindAppLoggerElement(System.Configuration.Configuration,System.String)">
+            <summary>
+            使用指定的配置元素名称查找对应的应用程序日志配置参数对象。
+            </summary>
+            <param name="config">配置对象，不能为null。</param>
+            <param name="elementName">配置元素名称，大小写敏感。</param>
+            <returns>
+            应用程序日志配置参数对象，未找到时返回null。
+            </returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Configuration.AppLoggersSection">
+            <summary>
+            AppLoggers配置节。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.AppLoggersSection.AppLoggers">
+            <summary>
+            AppLogger配置节集合, 只读
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.AppLoggersSection.GetSection">
+            <summary>
+            获取系统默认配置文件里面的AppLogger配置节集合。
+            </summary>
+            <returns>AppLogger配置节集合</returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Configuration.DecoratorElement">
+            <summary>
+            IAppLoggerImpl日志装饰类配置元素
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.DecoratorElement.LoggerType">
+            <summary>
+            日志装饰类的类型
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.DecoratorElement.GetCustomAttribute(System.String)">
+            <summary>
+            获取配置元素自定义属性值
+            </summary>
+            <param name="name">属性名称</param>
+            <returns>属性值</returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.DecoratorElement.SetCustomAttribute(System.String,System.Object)">
+            <summary>
+            设置配置元素自定义属性值
+            </summary>
+            <param name="name">属性名称。</param>
+            <param name="value">属性值。</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.DecoratorElement.OnDeserializeUnrecognizedAttribute(System.String,System.String)">
+            <summary>
+            未定义配置元素属性处理方法, 添加自定义属性
+            </summary>
+            <param name="name">属性名称</param>
+            <param name="value">属性值</param>
+            <returns>处理与否标志</returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Configuration.DecoratorElementCollection">
+            <summary>
+            Decorator配置元素集合
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.DecoratorElementCollection.ElementName">
+            <summary>
+            配置元素名称, 只读
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.DecoratorElementCollection.Item(System.Int32)">
+            <summary>
+            整型索引器
+            </summary>
+            <param name="index">索引</param>
+            <returns>Decorator配置元素</returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.DecoratorElementCollection.Add(USe.Common.AppLogger.Configuration.DecoratorElement)">
+            <summary>
+            添加Decorator配置元素对象。
+            </summary>
+            <param name="element">Decorator配置元素对象。</param>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.DecoratorElementCollection.CollectionType">
+            <summary>
+            集合类型, 只读
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.DecoratorElementCollection.CreateNewElement">
+            <summary>
+            创建Decorator配置元素对象
+            </summary>
+            <returns>Decorator配置元素对象</returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.DecoratorElementCollection.GetElementKey(System.Configuration.ConfigurationElement)">
+            <summary>
+            获取指定Decorator配置元素的键值
+            </summary>
+            <param name="element">配置元素</param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Configuration.ImplementationElement">
+            <summary>
+            IAppLoggerImpl日志实现类配置元素
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.ImplementationElement.LoggerType">
+            <summary>
+            日志实现类的类型
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.ImplementationElement.EncodingName">
+            <summary>
+            日志信息编码类型名称
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.ImplementationElement.Encoding">
+            <summary>
+            日志信息编码类型
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.ImplementationElement.IsCheckUAC">
+            <summary>
+            用于文件日志确定默认文件路径的是否检查UAC标志。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Configuration.ImplementationElement.EventFormatter">
+            <summary>
+            日志实现类的事件消息格式化器
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.ImplementationElement.GetCustomAttribute(System.String)">
+            <summary>
+            获取配置元素自定义属性值
+            </summary>
+            <param name="name">属性名称</param>
+            <returns>属性值</returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.ImplementationElement.SetCustomAttribute(System.String,System.Object)">
+            <summary>
+            设置配置元素自定义属性值
+            </summary>
+            <param name="name">属性名称。</param>
+            <param name="value">属性值。</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Configuration.ImplementationElement.OnDeserializeUnrecognizedAttribute(System.String,System.String)">
+            <summary>
+            未定义配置元素属性处理方法, 添加自定义属性
+            </summary>
+            <param name="name">属性名称</param>
+            <param name="value">属性值</param>
+            <returns>处理与否标志</returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Decorator.AbstractDecorator">
+            <summary>
+            实现Decorator模式的抽象基类。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.Decorator.AbstractDecorator.m_innerImpl">
+            <summary>
+            >内部实现类(IAppLoggerImpl)对象。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.AbstractDecorator.#ctor(USe.Common.AppLogger.IAppLoggerImpl)">
+            <summary>
+            初始化AbstractDecorator类的新实例。
+            </summary>
+            <param name="innerImpl">内部实现类(IAppLoggerImpl)对象。</param>
+            <exception cref="T:System.ArgumentNullException">innerImpl参数为null时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.AbstractDecorator.Finalize">
+            <summary>
+            AbstractDecorator类对象的析构方法。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.AbstractDecorator.Dispose">
+            <summary>
+            释放AbstractDecorator类对象所占用的资源。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.AbstractDecorator.Dispose(System.Boolean)">
+            <summary>
+            释放AbstractDecorator类对象所占用的非托管资源，也可以根据需要释放托管资源。
+            </summary>
+            <param name="disposing">资源释放标志，为true则释放托管资源和非托管资源；为false则仅释放非托管资源。</param>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.AbstractDecorator.Name">
+            <summary>
+            获取AbstractDecorator类对象的名称。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.AbstractDecorator.Encoding">
+            <summary>
+            获取AbstractDecorator类对象的编码格式。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.AbstractDecorator.IsThreadSafe">
+            <summary>
+            获取AbstractDecorator类对象的线程安全标志。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.AbstractDecorator.Flush">
+            <summary>
+            清空AbstractDecorator类对象的日志输出缓冲区。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.AbstractDecorator.LineFeed">
+            <summary>
+            AbstractDecorator类对象写入回车换行。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.AbstractDecorator.WriteEvent(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            AbstractDecorator类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.AbstractDecorator.WriteEvent(USe.Common.AppLogger.LogEventType,System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            AbstractDecorator类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="bytes">日志事件记录的字节序列缓冲区。</param>
+            <param name="startIndex">日志事件记录在字节序列缓冲区里的起始索引。</param>
+            <param name="count">日志事件记录的字节数量。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Decorator.ConsoleDecorator">
+            <summary>
+            日志对象的控制台装饰类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ConsoleDecorator.#ctor(USe.Common.AppLogger.IAppLoggerImpl)">
+            <summary>
+            初始化ConsoleDecorator类的新实例。
+            </summary>
+            <param name="innerImpl">内部实现类(IAppLoggerImpl)对象。</param>
+            <exception cref="T:System.ArgumentNullException">innerImpl参数为null时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ConsoleDecorator.Flush">
+            <summary>
+            清空AbstractDecorator类对象的日志输出缓冲区。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ConsoleDecorator.LineFeed">
+            <summary>
+            写入回车换行。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ConsoleDecorator.WriteEvent(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ConsoleDecorator.WriteEvent(USe.Common.AppLogger.LogEventType,System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="bytes">日志事件记录的字节序列缓冲区。</param>
+            <param name="startIndex">日志事件记录在字节序列缓冲区里的起始索引。</param>
+            <param name="count">日志事件记录的字节数量。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Decorator.EventTypeFilter">
+            <summary>
+            日志信息过滤装饰类，按日志事件级别(类型)过滤。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.EventTypeFilter.#ctor(USe.Common.AppLogger.LogLevels,USe.Common.AppLogger.IAppLoggerImpl)">
+            <summary>
+            初始化EventTypeFilter类的新实例。
+            </summary>
+            <param name="logLevel">过滤日志信息的级别。</param>
+            <param name="innerImpl">内部实现类(IAppLoggerImpl)对象。</param>
+            <exception cref="T:System.ArgumentNullException">innerImpl参数为null时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.EventTypeFilter.WriteEvent(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            EventTypeFilter类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.EventTypeFilter.WriteEvent(USe.Common.AppLogger.LogEventType,System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            EventTypeFilter类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="bytes">日志事件记录的字节序列缓冲区。</param>
+            <param name="startIndex">日志事件记录在字节序列缓冲区里的起始索引。</param>
+            <param name="count">日志事件记录的字节数量。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Decorator.LockDecorator">
+            <summary>
+            日志锁定同步类，以lock实现同步控制。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.LockDecorator.#ctor(USe.Common.AppLogger.IAppLoggerImpl)">
+            <summary>
+            初始化LockDecorator类的新实例。
+            </summary>
+            <param name="innerImpl">内部实现类(IAppLoggerImpl)对象。</param>
+            <exception cref="T:System.ArgumentNullException">innerImpl参数为null时。</exception>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.LockDecorator.Name">
+            <summary>
+            获取LockDecorator类对象的名称。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.LockDecorator.Encoding">
+            <summary>
+            获取LockDecorator类对象的编码格式。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.LockDecorator.IsThreadSafe">
+            <summary>
+            获取LockDecorator类对象的线程安全标志。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.LockDecorator.Flush">
+            <summary>
+            清空LockDecorator类对象的日志输出缓冲区。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.LockDecorator.LineFeed">
+            <summary>
+            LockDecorator类对象写入回车换行。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.LockDecorator.WriteEvent(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            LockDecorator类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.LockDecorator.WriteEvent(USe.Common.AppLogger.LogEventType,System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            LockDecorator类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="bytes">日志事件记录的字节序列缓冲区。</param>
+            <param name="startIndex">日志事件记录在字节序列缓冲区里的起始索引。</param>
+            <param name="count">日志事件记录的字节数量。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Decorator.MutexDecorator">
+            <summary>
+            日志互斥同步类，以Mutex实现同步控制。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.MutexDecorator.#ctor(System.String,USe.Common.AppLogger.IAppLoggerImpl)">
+            <summary>
+            初始化LockDecorator类的新实例。
+            </summary>
+            <param name="mutexName">Mutex对象名称。</param>
+            <param name="innerImpl">内部实现类(IAppLoggerImpl)对象。</param>
+            <exception cref="T:System.ArgumentNullException">mutexName或innerImpl参数为null或empty时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.MutexDecorator.Finalize">
+            <summary>
+            MutexDecorator类对象的析构方法。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.MutexDecorator.Dispose">
+            <summary>
+            释放MutexDecorator类对象所占用的资源。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.MutexDecorator.Dispose(System.Boolean)">
+            <summary>
+            释放MutexDecorator类对象所占用的非托管资源，也可以根据需要释放托管资源。
+            </summary>
+            <param name="disposing">资源释放标志，为true则释放托管资源和非托管资源；为false则仅释放非托管资源。</param>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.MutexDecorator.Name">
+            <summary>
+            获取MutexDecorator类对象的名称。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.MutexDecorator.Encoding">
+            <summary>
+            获取MutexDecorator类对象的编码格式。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.MutexDecorator.IsThreadSafe">
+            <summary>
+            获取MutexDecorator类对象的线程安全标志。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.MutexDecorator.Flush">
+            <summary>
+            清空MutexDecorator类对象的日志输出缓冲区。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.MutexDecorator.LineFeed">
+            <summary>
+            MutexDecorator类对象写入回车换行。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.MutexDecorator.WriteEvent(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            MutexDecorator类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.MutexDecorator.WriteEvent(USe.Common.AppLogger.LogEventType,System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            MutexDecorator类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="bytes">日志事件记录的字节序列缓冲区。</param>
+            <param name="startIndex">日志事件记录在字节序列缓冲区里的起始索引。</param>
+            <param name="count">日志事件记录的字节数量。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.MutexDecorator.FormatMutexName(System.String)">
+            <summary>
+            转换成规定的Mutex对象名名称
+            </summary>
+            <param name="name">Mutex对象名称，不允许为null/Empty</param>
+            <returns>Mutex对象名称</returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator">
+            <summary>
+            保留字符替换类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.#ctor(USe.Common.AppLogger.IAppLoggerImpl)">
+            <summary>
+            初始化ReservedCharacterDecorator类的新实例。
+            </summary>
+            <param name="innerImpl">内部实现类(IAppLoggerImpl)对象。</param>
+            <exception cref="T:System.ArgumentNullException">innerImpl参数为null时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.WriteEvent(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            ReservedCharacterDecorator类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.WriteEvent(USe.Common.AppLogger.LogEventType,System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            ReservedCharacterDecorator类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="bytes">日志事件记录的字节序列缓冲区。</param>
+            <param name="startIndex">日志事件记录在字节序列缓冲区里的起始索引。</param>
+            <param name="count">日志事件记录的字节数量。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacter">
+            <summary>
+            保留字符替换信息类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacter.#ctor(System.Byte,System.Char,System.String)">
+            <summary>
+            构造保留字符替换实例。
+            </summary>
+            <param name="sourceByte">源字节。</param>
+            <param name="sourceChar">源字符。</param>
+            <param name="replaceString">替换字符串。</param>
+            <remarks>
+            替换字节数组为替换字符串ASCII编码。
+            </remarks>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacter.SourceByte">
+            <summary>
+            源字节。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacter.SourceChar">
+            <summary>
+            源字符。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacter.ReplaceString">
+            <summary>
+            替换字符串。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacter.ReplaceStringLength">
+            <summary>
+            替换字符串长度。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacter.ReplaceBytes">
+            <summary>
+            替换字节数组。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacter.RelaceByteLength">
+            <summary>
+            替换字节数组长度。
+            </summary>
+        </member>
+        <member name="T:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacterManager">
+            <summary>
+            保留字符替换管理类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacterManager.#ctor">
+            <summary>
+            构造保留字符替换管理类实例。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacterManager.Item(System.Char)">
+            <summary>
+            获取保留字符替换对象。
+            </summary>
+            <param name="value">保留字符。</param>
+            <returns></returns>
+        </member>
+        <member name="P:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacterManager.Item(System.Byte)">
+            <summary>
+            获取保留字符替换对象。
+            </summary>
+            <param name="value">保留字节。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacterManager.AddReservedCharacter(System.Byte,System.Char,System.String)">
+            <summary>
+            增加保留字符替换。
+            </summary>
+            <param name="sourceByte">源字节。</param>
+            <param name="sourceChar">源字符。</param>
+            <param name="replaceString">替换字符串。</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacterManager.RemoveReservedCharacter(System.Byte)">
+            <summary>
+            移除保留字符替换。
+            </summary>
+            <param name="value">保留字节。</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacterManager.RemoveReservedCharacter(System.Char)">
+            <summary>
+            移除保留字符替换。
+            </summary>
+            <param name="value">保留字符。</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacterManager.ContainsReplaceChar(System.Char)">
+            <summary>
+            判定字符是否为保留字符。
+            </summary>
+            <param name="value">字符。</param>
+            <returns></returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Decorator.ReservedCharacterDecorator.ReservedCharacterManager.ContainsReplaceByte(System.Byte)">
+            <summary>
+            判断字节是否为保留字节。
+            </summary>
+            <param name="value">字节。</param>
+            <returns></returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener">
+            <summary>
+            AppLogger -> TraceListener Adapter
+            </summary>
+            <remarks>
+            不支持TraceOutputOptions，忽略。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.#ctor">
+            <summary>
+            Constructor，使用AppLogger的Singleton实例
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.#ctor(System.String)">
+            <summary>
+            Constructor，按配置文件创建IAppLogger对象
+            </summary>
+            <param name="elementName">配置元素名称</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.Dispose(System.Boolean)">
+            <summary>
+            清理资源
+            </summary>
+            <param name="disposing">资源释放标志，true: 释放所有资源；false: 仅释放非受控资源</param>
+        </member>
+        <member name="P:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.IsThreadSafe">
+            <summary>
+            线程安全标志
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.GetSupportedAttributes">
+            <summary>
+            Gets the custom attributes supported by the trace listener.
+            </summary>
+            <returns>A string array naming the custom attributes supported by the trace listener, or null if there are no custom attributes.</returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.Flush">
+            <summary>
+            Flushes the output buffer.
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.Fail(System.String)">
+            <summary>
+            Emits an error message.
+            </summary>
+            <param name="message">A message to emit.</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.Fail(System.String,System.String)">
+            <summary>
+            Emits an error message and a detailed error message.
+            </summary>
+            <param name="message">A message to emit.</param>
+            <param name="detailMessage">A detailed message to emit.</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.TraceData(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.Object)">
+            <summary>
+            Writes trace information, a data object and event information.
+            </summary>
+            <param name="eventCache">A System.Diagnostics.TraceEventCache object that contains the current process ID, thread ID, and stack trace information.</param>
+            <param name="source">A name used to identify the output, typically the name of the application that generated the trace event.</param>
+            <param name="eventType">One of the System.Diagnostics.TraceEventType values specifying the type of event that has caused the trace.</param>
+            <param name="id">A numeric identifier for the event.</param>
+            <param name="data">The trace data to emit.</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.TraceData(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.Object[])">
+            <summary>
+            Writes trace information, a data object and event information.
+            </summary>
+            <param name="eventCache">A System.Diagnostics.TraceEventCache object that contains the current process ID, thread ID, and stack trace information.</param>
+            <param name="source">A name used to identify the output, typically the name of the application that generated the trace event.</param>
+            <param name="eventType">One of the System.Diagnostics.TraceEventType values specifying the type of event that has caused the trace.</param>
+            <param name="id">A numeric identifier for the event.</param>
+            <param name="data">An array of objects to emit as data.</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32)">
+            <summary>
+            Writes trace and event information to the listener specific output.
+            </summary>
+            <param name="eventCache">A System.Diagnostics.TraceEventCache object that contains the current process ID, thread ID, and stack trace information.</param>
+            <param name="source">A name used to identify the output, typically the name of the application that generated the trace event.</param>
+            <param name="eventType">One of the System.Diagnostics.TraceEventType values specifying the type of event that has caused the trace.</param>
+            <param name="id">A numeric identifier for the event.</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String)">
+            <summary>
+            Writes trace and event information to the listener specific output.
+            </summary>
+            <param name="eventCache">A System.Diagnostics.TraceEventCache object that contains the current process ID, thread ID, and stack trace information.</param>
+            <param name="source">A name used to identify the output, typically the name of the application that generated the trace event.</param>
+            <param name="eventType">One of the System.Diagnostics.TraceEventType values specifying the type of event that has caused the trace.</param>
+            <param name="id">A numeric identifier for the event.</param>
+            <param name="message">A message to write.</param>
+            <remarks>
+            不支持TraceOutputOptions，忽略。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[])">
+            <summary>
+            Writes trace and event information to the listener specific output.
+            </summary>
+            <param name="eventCache">A System.Diagnostics.TraceEventCache object that contains the current process ID, thread ID, and stack trace information.</param>
+            <param name="source">A name used to identify the output, typically the name of the application that generated the trace event.</param>
+            <param name="eventType">One of the System.Diagnostics.TraceEventType values specifying the type of event that has caused the trace.</param>
+            <param name="id">A numeric identifier for the event.</param>
+            <param name="format">A format string that contains zero or more format items, which correspond to objects in the args array.</param>
+            <param name="args">An object array containing zero or more objects to format.</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.Write(System.String)">
+            <summary>
+            Writes the specified message.
+            </summary>
+            <param name="message">A message to write.</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Diagnostics.AppLoggerTraceListener.WriteLine(System.String)">
+            <summary>
+            Writes the specified message, followed by a line terminator.
+            </summary>
+            <param name="message">A message to write.</param>
+        </member>
+        <member name="T:USe.Common.AppLogger.EventFormatter.EventStringFormatter">
+            <summary>
+            日志事件消息格式化器。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.EventFormatter.EventStringFormatter.Format(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            使用指定的日志事件类型格式化产生事件消息记录。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            格式化产生的事件消息记录字符串。
+            </returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.EventFormatter.FriendlyEventStringFormatter">
+            <summary>
+            可读型的日志事件消息格式化器。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.EventFormatter.FriendlyEventStringFormatter.#ctor">
+            <summary>
+            初始化FriendlyEventStringFormatter类的新实例。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.EventFormatter.FriendlyEventStringFormatter.#ctor(System.String,System.String)">
+            <summary>
+            初始化FriendlyEventStringFormatter类的新实例。
+            </summary>
+            <param name="leadBytes">行起始字符串。</param>
+            <param name="timeFormat">时间字符串格式。</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.EventFormatter.FriendlyEventStringFormatter.Format(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            使用指定的日志事件类型格式化产生事件消息记录。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            格式化产生的事件消息记录字符串。
+            </returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.EventFormatter.IEventFormatter">
+            <summary>
+            日志事件消息格式化接口。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.EventFormatter.IEventFormatter.Format(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            使用指定的日志事件类型格式化产生事件消息记录。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            格式化产生的事件消息记录字符串。
+            </returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.EventFormatter.ReservedCharacterFormatter">
+            <summary>
+            日志保留字符格式化类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.EventFormatter.ReservedCharacterFormatter.#ctor(System.Text.Encoding)">
+            <summary>
+            构造ReservedCharacterFormatter实例。
+            </summary>
+            <param name="encoding">编码方式。</param>
+        </member>
+        <member name="P:USe.Common.AppLogger.EventFormatter.ReservedCharacterFormatter.Encoding">
+            <summary>
+            编码方式。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.EventFormatter.ReservedCharacterFormatter.ReplaceReservedCharacter(System.Byte[])">
+            <summary>
+            替换保留字符。
+            </summary>
+            <param name="bytes">预替换字节数组。</param>
+            <returns>替换后字节数组。</returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.EventFormatter.ReservedCharacterFormatter.ReplaceReservedCharacter(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            替换保留字符。
+            </summary>
+            <param name="bytes">预替换字节数组。</param>
+            <param name="startIndex">替换起始位置。</param>
+            <param name="length">替换长度。</param>
+            <returns>替换后字节数组。</returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.IAppLogger">
+            <summary>
+            应用程序日志接口。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.IAppLogger.Name">
+            <summary>
+            获取应用程序日志的对象名称。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.IAppLogger.Encoding">
+            <summary>
+            获取/设置应用程序日志的编码格式。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.IAppLogger.IsThreadSafe">
+            <summary>
+            获取应用程序日志的线程安全标志。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.Flush">
+            <summary>
+            刷新应用程序日志的输出流，缓冲数据写入日志存储。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.LineFeed">
+            <summary>
+            应用程序日志写入回车换行。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteEvent(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            应用程序日志写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteEvent(USe.Common.AppLogger.LogEventType,System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            应用程序日志写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="bytes">日志事件记录的字节序列缓冲区。</param>
+            <param name="startIndex">日志事件记录在字节序列缓冲区里的起始索引。</param>
+            <param name="count">日志事件记录的字节数量。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteCritical(System.String)">
+            <summary>
+            应用程序日志写入一条Critical类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteError(System.String)">
+            <summary>
+            应用程序日志写入一条Error类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteWarning(System.String)">
+            <summary>
+            应用程序日志写入一条Warning类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteInformation(System.String)">
+            <summary>
+            应用程序日志写入一条Information类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteVerbose(System.String)">
+            <summary>
+            应用程序日志写入一条Verbose类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteNotice(System.String)">
+            <summary>
+            应用程序日志写入一条Notice类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteInbound(System.String)">
+            <summary>
+            应用程序日志写入一条Inbound类型事件信息。
+            </summary>
+            <param name="message">入站消息字符串。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteInbound(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            应用程序日志写入一条Inbound类型事件信息。
+            </summary>
+            <param name="bytes">待写入的日志信息字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteOutbound(System.String)">
+            <summary>
+            应用程序日志写入一条Outbound类型事件信息。
+            </summary>
+            <param name="message">出站消息字符串。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteOutbound(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            应用程序日志写入一条Outbound类型事件信息。
+            </summary>
+            <param name="bytes">待写入的日志信息字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteMessage(System.String)">
+            <summary>
+            应用程序日志写入一条Message类型事件信息。
+            </summary>
+            <param name="message">消息字符串。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            应用程序日志写入一条Message类型事件信息。
+            </summary>
+            <param name="bytes">待写入的日志信息字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteAudit(System.String)">
+            <summary>
+            应用程序日志写入一条Audit类型事件信息。
+            </summary>
+            <param name="message">消息字符串。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLogger.WriteAudit(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            应用程序日志写入一条Audit类型事件信息。
+            </summary>
+            <param name="bytes">待写入的日志信息字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.IAppLoggerImpl">
+            <summary>
+            应用程序日志内部实现类的接口。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.IAppLoggerImpl.Name">
+            <summary>
+            获取应用程序日志的对象名称。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.IAppLoggerImpl.Encoding">
+            <summary>
+            获取/设置应用程序日志的编码格式。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.IAppLoggerImpl.IsThreadSafe">
+            <summary>
+            获取应用程序日志的线程安全标志。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLoggerImpl.Flush">
+            <summary>
+            刷新应用程序日志的输出流，缓冲数据写入日志存储。
+            </summary>
+            <returns>刷新成功与否标志。</returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLoggerImpl.LineFeed">
+            <summary>
+            应用程序日志写入回车换行。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLoggerImpl.WriteEvent(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            应用程序日志写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.IAppLoggerImpl.WriteEvent(USe.Common.AppLogger.LogEventType,System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            应用程序日志写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="bytes">日志事件记录的字节序列缓冲区。</param>
+            <param name="startIndex">日志事件记录在字节序列缓冲区里的起始索引。</param>
+            <param name="count">日志事件记录的字节数量。</param>
+            <param name="lineFeed">换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Implementation.AbstractDailyFileLogger">
+            <summary>
+            DailyFileLogger各个类的抽象基类。
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="F:USe.Common.AppLogger.Implementation.AbstractDailyFileLogger.m_dailyFileName">
+            <summary>
+            按日期生成的日志文件名称。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.AbstractDailyFileLogger.#ctor(System.String,System.Text.Encoding,USe.Common.AppLogger.EventFormatter.IEventFormatter)">
+            <summary>
+            初始化AbstractDailyFileLogger类的新实例。
+            </summary>
+            <param name="fileName">日志文件的全路径名称。</param>
+            <param name="encoding">日志信息编码格式。</param>
+            <param name="formatter">事件消息格式化对象。</param>
+            <exception cref="T:System.ArgumentNullException">fileName、encoding和formatter参数任一为null或empty时。</exception>
+            <exception cref="T:System.Exception">创建/打开日志文件失败。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.AbstractDailyFileLogger.ResetDailyFileName">
+            <summary>
+            设置文件名称和当前日期为初始值。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.AbstractDailyFileLogger.CheckDailyFileName">
+            <summary>
+            校验日志文件名称是否包含正确的日期信息。
+            </summary>
+            <returns>表示文件名是否被更新. true:已更新; false:无需更新。</returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Implementation.AbstratFileLogger">
+            <summary>
+            文件日志抽象基类。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.Implementation.AbstratFileLogger.m_fileName">
+            <summary>
+            日志文件名称。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.AbstratFileLogger.#ctor(System.String,System.Text.Encoding,USe.Common.AppLogger.EventFormatter.IEventFormatter)">
+            <summary>
+            初始化AbstratFileLogger类的新实例。
+            </summary>
+            <param name="fileName">日志文件的全路径名称。</param>
+            <param name="encoding">日志信息编码格式。</param>
+            <param name="formatter">事件消息格式化对象。</param>
+            <exception cref="T:System.ArgumentNullException">fileName、encoding和formatter参数任一为null或empty时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.AbstratFileLogger.Finalize">
+            <summary>
+            AbstratFileLogger类对象的析构方法。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.AbstratFileLogger.Dispose">
+            <summary>
+            释放AbstratFileLogger类对象所占用的资源。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.AbstratFileLogger.Dispose(System.Boolean)">
+            <summary>
+            释放AbstratFileLogger类对象所占用的非托管资源，也可以根据需要释放托管资源。
+            </summary>
+            <param name="disposing">资源释放标志，为true则释放托管资源和非托管资源；为false则仅释放非托管资源。</param>
+        </member>
+        <member name="P:USe.Common.AppLogger.Implementation.AbstratFileLogger.Name">
+            <summary>
+            获取AbstratFileLogger类对象的名称。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Implementation.AbstratFileLogger.Encoding">
+            <summary>
+            获取AbstratFileLogger类对象的编码格式。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Implementation.AbstratFileLogger.IsThreadSafe">
+            <summary>
+            获取AbstratFileLogger类对象的线程安全标志。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.AbstratFileLogger.Flush">
+            <summary>
+            清空AbstratFileLogger类对象的日志输出缓冲区。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.AbstratFileLogger.LineFeed">
+            <summary>
+            AbstratFileLogger类对象写入回车换行。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.AbstratFileLogger.WriteEvent(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            AbstratFileLogger类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.AbstratFileLogger.WriteEvent(USe.Common.AppLogger.LogEventType,System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            AbstratFileLogger类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="bytes">日志事件记录的字节序列缓冲区。</param>
+            <param name="startIndex">日志事件记录在字节序列缓冲区里的起始索引。</param>
+            <param name="count">日志事件记录的字节数量。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.AbstratFileLogger.do_Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            日志文件的写入操作。
+            </summary>
+            <param name="bytes">待写入的字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志文件写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.AbstratFileLogger.do_Write(System.Byte[])">
+            <summary>
+            日志文件的写入操作。
+            </summary>
+            <param name="bytes">待写入的字节序列缓冲区。</param>
+            <returns>
+            日志文件写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.AbstratFileLogger.GetDefaultFileName(System.Boolean)">
+            <summary>
+            获取缺省的日志文件名称。
+            </summary>
+            <param name="checkUAC">是否检查UAC标志。</param>
+            <returns>
+            缺省的日志文件名称。
+            </returns> 
+            <remarks>
+            日志文件名称由执行程序的全路径名称转换而来，即将执行程序名称的扩展名替换为.log。
+            </remarks>
+        </member>
+        <member name="T:USe.Common.AppLogger.Implementation.ConsoleLogger">
+            <summary>
+            Console窗口输出日志类。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.ConsoleLogger.#ctor(System.String,System.Text.Encoding,USe.Common.AppLogger.EventFormatter.IEventFormatter)">
+            <summary>
+            初始化ConsoleLogger类的新实例。
+            </summary>
+            <param name="name">日志对象名称。</param>
+            <param name="encoding">日志信息编码格式。</param>
+            <param name="formatter">事件消息格式化对象。</param>
+            <exception cref="T:System.ArgumentNullException">name、encoding和formatter参数任一为null或empty时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.ConsoleLogger.Finalize">
+            <summary>
+            ConsoleLogger类对象的析构方法。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.ConsoleLogger.Dispose">
+            <summary>
+            释放ConsoleLogger类对象所占用的资源。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.ConsoleLogger.Dispose(System.Boolean)">
+            <summary>
+            释放ConsoleLogger类对象所占用的非托管资源，也可以根据需要释放托管资源。
+            </summary>
+            <param name="disposing">资源释放标志，为true则释放托管资源和非托管资源；为false则仅释放非托管资源。</param>
+        </member>
+        <member name="P:USe.Common.AppLogger.Implementation.ConsoleLogger.Name">
+            <summary>
+            获取ConsoleLogger类对象的名称。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Implementation.ConsoleLogger.Encoding">
+            <summary>
+            获取ConsoleLogger类对象的编码格式。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Implementation.ConsoleLogger.IsThreadSafe">
+            <summary>
+            获取ConsoleLogger类对象的线程安全标志。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.ConsoleLogger.Flush">
+            <summary>
+            清空ConsoleLogger类对象的日志输出缓冲区。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.ConsoleLogger.LineFeed">
+            <summary>
+            ConsoleLogger类对象写入回车换行。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.ConsoleLogger.WriteEvent(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            ConsoleLogger类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.ConsoleLogger.WriteEvent(USe.Common.AppLogger.LogEventType,System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            ConsoleLogger类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="bytes">日志事件记录的字节序列缓冲区。</param>
+            <param name="startIndex">日志事件记录在字节序列缓冲区里的起始索引。</param>
+            <param name="count">日志事件记录的字节数量。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.ConsoleLogger.GetDefaultConsoleName">
+            <summary> 
+            获取缺省的ConsoleLogger类对象名称。
+            </summary>
+            <returns>
+            缺省的ConsoleLogger类对象名称。
+            </returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.Implementation.DailyFileLogger">
+            <summary>
+            Daily文件日志类。
+            </summary>
+            <remarks>
+            每次写入日志信息时重复打开/关闭文件。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.DailyFileLogger.#ctor(System.String,System.Text.Encoding,USe.Common.AppLogger.EventFormatter.IEventFormatter)">
+            <summary>
+            初始化DailyFileLogger类的新实例。
+            </summary>
+            <param name="fileName">日志文件的全路径名称。</param>
+            <param name="encoding">日志信息编码格式。</param>
+            <param name="formatter">事件消息格式化对象。</param>
+            <exception cref="T:System.ArgumentNullException">fileName、encoding和formatter参数任一为null或empty时。</exception>
+            <exception cref="T:System.Exception">创建/打开日志文件失败时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.DailyFileLogger.Flush">
+            <summary>
+            清空DailyFileLogger类对象的日志输出缓冲区。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.DailyFileLogger.do_Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            日志文件的写入操作。
+            </summary>
+            <param name="bytes">待写入的字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志文件写入成功与否标志。
+            </returns>
+            <remarks>
+            写入文件失败时不抛出异常，错误信息写入Debug中。
+            </remarks>
+        </member>
+        <member name="T:USe.Common.AppLogger.Implementation.DailyFileLogger2">
+            <summary>
+            Daily文件日志类。
+            </summary>
+            <remarks>
+            对象创建时打开文件，销毁时关闭，写入日志信息时不在打开/关闭文件。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.DailyFileLogger2.#ctor(System.String,System.Text.Encoding,USe.Common.AppLogger.EventFormatter.IEventFormatter)">
+            <summary>
+            初始化DailyFileLogger2类的新实例。
+            </summary>
+            <param name="fileName">日志文件的全路径名称。</param>
+            <param name="encoding">日志信息编码格式。</param>
+            <param name="formatter">事件消息格式化对象。</param>
+            <exception cref="T:System.ArgumentNullException">fileName、encoding和formatter参数任一为null或empty时。</exception>
+            <exception cref="T:System.Exception">创建/打开日志文件失败时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.DailyFileLogger2.Finalize">
+            <summary>
+            DailyFileLogger2类对象的析构方法。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.DailyFileLogger2.Dispose">
+            <summary>
+            释放DailyFileLogger2类对象所占用的资源。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.DailyFileLogger2.Dispose(System.Boolean)">
+            <summary>
+            释放DailyFileLogger2类对象所占用的非托管资源，也可以根据需要释放托管资源。
+            </summary>
+            <param name="disposing">资源释放标志，为true则释放托管资源和非托管资源；为false则仅释放非托管资源。</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.DailyFileLogger2.Flush">
+            <summary>
+            清空DailyFileLogger2类对象的日志输出缓冲区。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.DailyFileLogger2.do_Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            日志文件的写入操作。
+            </summary>
+            <param name="bytes">待写入的字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志文件写入成功与否标志。
+            </returns>
+            <remarks>
+            写入文件失败时不抛出异常，错误信息写入Debug中。
+            </remarks>
+        </member>
+        <member name="T:USe.Common.AppLogger.Implementation.FileLogger">
+            <summary>
+            文件日志类。
+            </summary>
+            <remarks>
+            每次写入日志信息时重复打开/关闭文件。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.FileLogger.#ctor(System.String,System.Text.Encoding,USe.Common.AppLogger.EventFormatter.IEventFormatter)">
+            <summary>
+            初始化FileLogger类的新实例。
+            </summary>
+            <param name="fileName">日志文件的全路径名称。</param>
+            <param name="encoding">日志信息编码格式。</param>
+            <param name="formatter">事件消息格式化对象。</param>
+            <exception cref="T:System.ArgumentNullException">fileName、encoding和formatter参数任一为null或empty时。</exception>
+            <exception cref="T:System.Exception">创建/打开日志文件失败时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.FileLogger.Flush">
+            <summary>
+            清空FileLogger类对象的日志输出缓冲区。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.FileLogger.do_Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            日志文件的写入操作。
+            </summary>
+            <param name="bytes">待写入的字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志文件写入成功与否标志。
+            </returns>
+            <remarks>
+            写入文件失败时不抛出异常，错误信息写入Debug中。
+            </remarks>
+        </member>
+        <member name="T:USe.Common.AppLogger.Implementation.FileLogger2">
+            <summary>
+            文件日志类。
+            </summary>
+            <remarks>
+            对象创建时打开文件，销毁时关闭，写入日志信息时不再打开/关闭文件。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.FileLogger2.#ctor(System.String,System.Text.Encoding,USe.Common.AppLogger.EventFormatter.IEventFormatter)">
+            <summary>
+            初始化FileLogger2类的新实例。
+            </summary>
+            <param name="fileName">日志文件的全路径名称。</param>
+            <param name="encoding">日志信息编码格式。</param>
+            <param name="formatter">事件消息格式化对象。</param>
+            <exception cref="T:System.ArgumentNullException">fileName、encoding和formatter参数任一为null或empty时。</exception>
+            <exception cref="T:System.Exception">创建/打开日志文件失败时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.FileLogger2.Finalize">
+            <summary>
+            FileLogger2类对象的析构方法。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.FileLogger2.Dispose">
+            <summary>
+            释放FileLogger2类对象所占用的资源。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.FileLogger2.Dispose(System.Boolean)">
+            <summary>
+            释放FileLogger2类对象所占用的非托管资源，也可以根据需要释放托管资源。
+            </summary>
+            <param name="disposing">资源释放标志，为true则释放托管资源和非托管资源；为false则仅释放非托管资源。</param>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.FileLogger2.Flush">
+            <summary>
+            清空FileLogger2类对象的日志输出缓冲区。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.FileLogger2.do_Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            日志文件的写入操作。
+            </summary>
+            <param name="bytes">待写入的字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志文件写入成功与否标志。
+            </returns>
+            <remarks>
+            写入文件失败时不抛出异常，错误信息写入Debug中。
+            </remarks>
+        </member>
+        <member name="T:USe.Common.AppLogger.Implementation.NullLogger">
+            <summary>
+            按NULL模式实现的日志实现类，用于测试或关闭实际的日志输出
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.NullLogger.#ctor(System.String,USe.Common.AppLogger.EventFormatter.IEventFormatter)">
+            <summary>
+             初始化NullLogger类的新实例。
+             </summary>
+             <param name="name">日志对象名称。</param>
+             <param name="formatter">事件消息格式化对象，不能为null。</param>
+             <exception cref="T:System.ArgumentNullException">name和/或formatter参数为null或empty时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.NullLogger.Finalize">
+            <summary>
+            NullLogger类对象的析构方法。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.NullLogger.Dispose">
+            <summary>
+            释放NullLogger类对象所占用的资源。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.NullLogger.Dispose(System.Boolean)">
+            <summary>
+            释放NullLogger类对象所占用的非托管资源，也可以根据需要释放托管资源。
+            </summary>
+            <param name="disposing">资源释放标志，为true则释放托管资源和非托管资源；为false则仅释放非托管资源。</param>
+        </member>
+        <member name="P:USe.Common.AppLogger.Implementation.NullLogger.Name">
+            <summary>
+            获取NullLogger类对象的名称。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Implementation.NullLogger.Encoding">
+            <summary>
+            获取NullLogger类对象的编码格式。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.Implementation.NullLogger.IsThreadSafe">
+            <summary>
+            获取NullLogger类对象的线程安全标志。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.NullLogger.Flush">
+            <summary>
+            清空NullLogger类对象的日志输出缓冲区。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.NullLogger.LineFeed">
+            <summary>
+            NullLogger类对象写入回车换行。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.NullLogger.WriteEvent(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            NullLogger类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.NullLogger.WriteEvent(USe.Common.AppLogger.LogEventType,System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            NullLogger类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="bytes">日志事件记录的字节序列缓冲区。</param>
+            <param name="startIndex">日志事件记录在字节序列缓冲区里的起始索引。</param>
+            <param name="count">日志事件记录的字节数量。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.Implementation.NullLogger.GetDefaultName">
+            <summary> 
+            获取缺省的NullLogger类对象名称。
+            </summary>
+            <returns>
+            缺省的NullLogger类对象名称。
+            </returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.LogEventType">
+            <summary>
+            日志事件类型的枚举定义。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogEventType.Critical">
+            <summary>
+            关键性错误或应用程序崩溃信息，ID = 'C'。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogEventType.Error">
+            <summary>
+            可恢复的错误信息，ID = 'E'。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogEventType.Warning">
+            <summary>
+            警告(非关键性问题)信息，ID = 'W'。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogEventType.Information">
+            <summary>
+            一般性信息，ID = 'I'。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogEventType.Verbose">
+            <summary>
+            调试跟踪信息，ID = 'V'。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogEventType.Notice">
+            <summary>
+            通知性信息，ID = 'N'。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogEventType.Inbound">
+            <summary>
+            输入(入站)消息，ID = '&gt;'。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogEventType.Outbound">
+            <summary>
+            输出(出站)消息，ID = '&lt;'。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogEventType.Message">
+            <summary>
+            原始(Raw)消息，ID = 'M'。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogEventType.Audit">
+            <summary>
+            审计事件，ID = 'A'。
+            </summary>
+        </member>
+        <member name="T:USe.Common.AppLogger.LogLevels">
+            <summary>
+            日志事件级别的枚举定义。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogLevels.Off">
+            <summary>
+            完全关闭。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogLevels.Critical">
+            <summary>
+            关键性错误级别。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogLevels.Error">
+            <summary>
+            错误及以上级别。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogLevels.Warning">
+            <summary>
+            警告及以上级别。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogLevels.Information">
+            <summary>
+            一般信息及以上级别。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogLevels.Verbose">
+            <summary>
+            调试信息及以上级别。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogLevels.All">
+            <summary>
+            全部打开。
+            </summary>
+        </member>
+        <member name="T:USe.Common.AppLogger.LogMode">
+            <summary>
+            日志模式的枚举定义。
+            </summary>
+            <remarks>
+            实现类别的日志与装饰类别的日志模式间可按位(bit)进行组合。
+            </remarks>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogMode.Null">
+            <summary>
+            空日志。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogMode.File">
+            <summary>
+            实现类别的文件日志。
+            </summary>
+            <remarks>
+            每次写入信息时打开/关闭文件。
+            </remarks>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogMode.File2">
+            <summary>
+            实现类别的文件日志。
+            </summary>
+            <remarks>
+            日志对象创建时打开文件，直到对象关闭时才关闭文件。
+            </remarks>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogMode.DailyFile">
+            <summary>
+            实现类别的每天自动更换文件名称的文件日志。
+            </summary>
+            <remarks>
+            每次写入信息时打开/关闭文件。
+            </remarks>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogMode.DailyFile2">
+            <summary>
+            实现类别的每天自动更换文件名称的文件日志。
+            </summary>
+            <remarks>
+            日志对象创建时打开文件，直到对象关闭时才关闭文件。
+            </remarks>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogMode.ConsoleA">
+            <summary>
+            实现类别的控制台输出的日志。
+            </summary>
+            <remarks>
+            使用标准的日志信息记录格式。
+            </remarks>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogMode.ConsoleB">
+            <summary>
+            实现类别的控制台输出的日志。
+            </summary>
+            <remarks>
+            使用可读的日志信息记录格式。
+            </remarks>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogMode.Lock">
+            <summary>
+            日志对象的锁定装饰类别。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogMode.Mutex">
+            <summary>
+            日志对象的互斥装饰类别。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogMode.Encrypt">
+            <summary>
+            日志对象的加密装饰类别。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.LogMode.ConsoleDecorator">
+            <summary>
+            日志对象的控制台装饰类别。
+            </summary>
+        </member>
+        <member name="T:USe.Common.AppLogger.NullLogger">
+            <summary>
+            空应用程序日志类。
+            </summary>
+            <remarks>
+            应用程序日志接口的空实现，不执行任何实际的日志输出逻辑，供测试或禁止日志功能的场合使用。
+            </remarks>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.#ctor(System.String)">
+            <summary>
+            初始化NullLogger类的新实例。
+            </summary>
+            <param name="name">日志对象名称。</param>
+            <exception cref="T:System.ArgumentNullException">name参数为null或empty时。</exception>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.Finalize">
+            <summary>
+            NullLogger类对象的析构方法。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.Dispose">
+            <summary>
+            释放NullLogger类对象所占用的资源。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.Dispose(System.Boolean)">
+            <summary>
+            释放NullLogger类对象所占用的非托管资源，也可以根据需要释放托管资源。
+            </summary>
+            <param name="disposing">资源释放标志，为true则释放托管资源和非托管资源；为false则仅释放非托管资源。</param>
+        </member>
+        <member name="P:USe.Common.AppLogger.NullLogger.Name">
+            <summary>
+            获取NullLogger类对象的名称。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.NullLogger.Encoding">
+            <summary>
+            获取NullLogger类对象的编码格式。
+            </summary>
+        </member>
+        <member name="P:USe.Common.AppLogger.NullLogger.IsThreadSafe">
+            <summary>
+            获取NullLogger类对象的线程安全标志。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.Flush">
+            <summary>
+            清空NullLogger类对象的日志输出缓冲区。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.LineFeed">
+            <summary>
+            NullLogger类对象写入回车换行。
+            </summary>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteEvent(USe.Common.AppLogger.LogEventType,System.String,System.Boolean)">
+            <summary>
+            NullLogger类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="eventText">日志事件记录文本。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteEvent(USe.Common.AppLogger.LogEventType,System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            NullLogger类对象写入一条事件信息。
+            </summary>
+            <param name="eventType">日志事件类型。</param>
+            <param name="bytes">日志事件记录的字节序列缓冲区。</param>
+            <param name="startIndex">日志事件记录在字节序列缓冲区里的起始索引。</param>
+            <param name="count">日志事件记录的字节数量。</param>
+            <param name="lineFeed">回车换行标志。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteCritical(System.String)">
+            <summary>
+            NullLogger类对象写入一条Critical类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteError(System.String)">
+            <summary>
+            NullLogger类对象写入一条Error类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteWarning(System.String)">
+            <summary>
+            NullLogger类对象写入一条Warning类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteInformation(System.String)">
+            <summary>
+            NullLogger类对象写入一条Information类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteVerbose(System.String)">
+            <summary>
+            NullLogger类对象写入一条Verbose类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteNotice(System.String)">
+            <summary>
+            NullLogger类对象写入一条Notice类型事件信息。
+            </summary>
+            <param name="text">日志事件记录文本。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteInbound(System.String)">
+            <summary>
+            应用程序日志写入一条Inbound类型事件信息。
+            </summary>
+            <param name="message">入站消息字符串。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteInbound(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            NullLogger类对象写入一条Inbound类型事件信息。
+            </summary>
+            <param name="bytes">待写入的日志信息字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteOutbound(System.String)">
+            <summary>
+            应用程序日志写入一条Outbound类型事件信息。
+            </summary>
+            <param name="message">出站消息字符串。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteOutbound(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            NullLogger类对象写入一条Outbound类型事件信息。
+            </summary>
+            <param name="bytes">待写入的日志信息字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteMessage(System.String)">
+            <summary>
+            应用程序日志写入一条Message类型事件信息。
+            </summary>
+            <param name="message">消息字符串。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            NullLogger类对象写入一条Message类型事件信息。
+            </summary>
+            <param name="bytes">待写入的日志信息字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteAudit(System.String)">
+            <summary>
+            应用程序日志写入一条Audit类型事件信息。
+            </summary>
+            <param name="message">消息字符串。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.WriteAudit(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            应用程序日志写入一条Audit类型事件信息。
+            </summary>
+            <param name="bytes">待写入的日志信息字节序列缓冲区。</param>
+            <param name="startIndex">待写入字节序列在缓冲区中的起始索引。</param>
+            <param name="count">待写入字节序列的数量。</param>
+            <returns>
+            日志写入成功与否标志。
+            </returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.NullLogger.GetDefaultName">
+            <summary> 
+            获取缺省的NullLogger类对象名称。
+            </summary>
+            <returns>
+            缺省的NullLogger类对象名称。
+            </returns>
+        </member>
+        <member name="T:USe.Common.AppLogger.OSVertionType">
+            <summary>
+            操作系统类型。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.OSVertionType.Unknown">
+            <summary>
+            未知。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.OSVertionType.Widows2000">
+            <summary>
+            Windows 2000。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.OSVertionType.WindesXP">
+            <summary>
+            Windows XP。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.OSVertionType.Windows2003">
+            <summary>
+            Windows 2003。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.OSVertionType.WindowsVista">
+            <summary>
+            Windows Vista。
+            </summary>
+        </member>
+        <member name="F:USe.Common.AppLogger.OSVertionType.Windows7">
+            <summary>
+            Windows7。
+            </summary>
+        </member>
+        <member name="T:USe.Common.AppLogger.OSVersionHelper">
+            <summary>
+            操作系统版本。
+            </summary>
+        </member>
+        <member name="M:USe.Common.AppLogger.OSVersionHelper.GetCurrenetOSVertion">
+            <summary>
+            获取当前操作系统版本。
+            </summary>
+            <returns>当前操作系统版本。</returns>
+        </member>
+        <member name="M:USe.Common.AppLogger.OSVersionHelper.HasUAC">
+            <summary>
+            是否包含UAC。
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

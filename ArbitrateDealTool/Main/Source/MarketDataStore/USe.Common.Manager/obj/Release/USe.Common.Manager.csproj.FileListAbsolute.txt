@@ -1,0 +1,14 @@
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\USe.Common.Manager\bin\Release\USe.Common.Manager.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\USe.Common.Manager\bin\Release\USe.Common.Manager.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\USe.Common.Manager\bin\Release\MySql.Data.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\USe.Common.Manager\bin\Release\USe.Common.DBDriver.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\USe.Common.Manager\bin\Release\USe.Common.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\USe.Common.Manager\bin\Release\USe.Common.TradingDay.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\USe.Common.Manager\bin\Release\USe.TradeDriver.Common.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\USe.Common.Manager\bin\Release\USe.Common.xml
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\USe.Common.Manager\bin\Release\USe.Common.DBDriver.xml
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\USe.Common.Manager\bin\Release\USe.Common.TradingDay.xml
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\USe.Common.Manager\bin\Release\USe.TradeDriver.Common.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\USe.Common.Manager\bin\Release\USe.TradeDriver.Common.xml
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\USe.Common.Manager\obj\Release\USe.Common.Manager.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\USe.Common.Manager\obj\Release\USe.Common.Manager.pdb

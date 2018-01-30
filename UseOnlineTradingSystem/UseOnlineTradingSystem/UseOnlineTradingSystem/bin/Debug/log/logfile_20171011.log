@@ -1,0 +1,905 @@
+[2017-10-11 09:53:54,932]  INFO - 初始化界面开始！
+[2017-10-11 09:53:54,944]  INFO - 画板初始化！
+[2017-10-11 09:53:55,131]  INFO - 初始化第一行背景！
+[2017-10-11 09:53:55,133]  INFO - 初始化第一行行情按钮！
+[2017-10-11 09:53:55,134]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 09:53:55,134]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 09:53:55,134]  INFO - 初始化第一行登录按钮！
+[2017-10-11 09:53:55,412]  INFO - 初始化第一行注册按钮！
+[2017-10-11 09:53:55,414]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 09:53:55,415]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 09:53:55,416]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 09:53:55,419]  INFO - 初始化第一列行情！
+[2017-10-11 09:53:55,420]  INFO - 初始化第一列供需发布！
+[2017-10-11 09:53:55,420]  INFO - 初始化第一列K线图！
+[2017-10-11 09:53:55,420]  INFO - 初始化第一列资讯！
+[2017-10-11 09:53:55,420]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 09:53:55,420]  INFO - 初始化买入基价！
+[2017-10-11 09:53:55,421]  INFO - 初始化买入基价值！
+[2017-10-11 09:53:55,421]  INFO - 初始化卖出基价！
+[2017-10-11 09:53:55,421]  INFO - 初始化卖出基价值！
+[2017-10-11 09:53:55,425]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 09:53:55,429]  INFO - 初始化供需发布！
+[2017-10-11 09:53:56,328]  INFO - 初始化界面结束！
+[2017-10-11 09:53:56,470]  INFO - 创建登录界面！
+[2017-10-11 09:53:56,790]  INFO - 初始化内置浏览器！
+[2017-10-11 09:54:00,902]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 09:54:03,652]  INFO - 收到Cookies消息,值为：
+[2017-10-11 15:55:42,879]  INFO - 初始化界面开始！
+[2017-10-11 15:55:42,889]  INFO - 画板初始化！
+[2017-10-11 15:55:43,146]  INFO - 初始化第一行背景！
+[2017-10-11 15:55:43,148]  INFO - 初始化第一行行情按钮！
+[2017-10-11 15:55:43,150]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 15:55:43,150]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 15:55:43,150]  INFO - 初始化第一行登录按钮！
+[2017-10-11 15:55:43,401] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: H. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\MQTTService\MQTTService.cs:行号 164
+[2017-10-11 15:55:43,424]  INFO - 初始化第一行注册按钮！
+[2017-10-11 15:55:43,426]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 15:55:43,427]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 15:55:43,428]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 15:55:43,429]  INFO - 初始化第一列行情！
+[2017-10-11 15:55:43,430]  INFO - 初始化第一列供需发布！
+[2017-10-11 15:55:43,430]  INFO - 初始化第一列K线图！
+[2017-10-11 15:55:43,430]  INFO - 初始化第一列资讯！
+[2017-10-11 15:55:43,430]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 15:55:43,430]  INFO - 初始化买入基价！
+[2017-10-11 15:55:43,431]  INFO - 初始化买入基价值！
+[2017-10-11 15:55:43,431]  INFO - 初始化卖出基价！
+[2017-10-11 15:55:43,431]  INFO - 初始化卖出基价值！
+[2017-10-11 15:55:43,435]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 15:55:43,439]  INFO - 初始化供需发布！
+[2017-10-11 15:55:43,801]  INFO - 初始化界面结束！
+[2017-10-11 15:55:43,982]  INFO - 创建登录界面！
+[2017-10-11 15:55:44,046]  INFO - 初始化内置浏览器！
+[2017-10-11 15:55:46,882]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 15:55:52,265]  INFO - 收到帐号密码消息,值为：15800000003,111111
+[2017-10-11 15:56:20,472]  INFO - 收到Cookies消息,值为：SecurityTicket=pfHO4HOfmfqo7BrP%252FLqcOPqIxW%252BmzPI7E3D145AeuM0DtpXIZkNwFy9oeXip0gX0Os5YZJ%252BIOPQtj0zg1mZjXA%253D%253D; SecurityToken=pfHO4HOfmfqo7BrP%252FLqcOPqIxW%252BmzPI7E3D145AeuM0DtpXIZkNwFy9oeXip0gX0Os5YZJ%252BIOPQtj0zg1mZjXA%253D%253D
+[2017-10-11 15:56:22,614]  INFO - 收到Cookies消息,值为：SecurityTicket=pfHO4HOfmfqo7BrP%252FLqcOPqIxW%252BmzPI7E3D145AeuM0DtpXIZkNwFy9oeXip0gX0Os5YZJ%252BIOPQtj0zg1mZjXA%253D%253D; SecurityToken=pfHO4HOfmfqo7BrP%252FLqcOPqIxW%252BmzPI7E3D145AeuM0DtpXIZkNwFy9oeXip0gX0Os5YZJ%252BIOPQtj0zg1mZjXA%253D%253D
+[2017-10-11 15:56:57,430]  INFO - 初始化界面开始！
+[2017-10-11 15:56:57,441]  INFO - 画板初始化！
+[2017-10-11 15:56:57,694]  INFO - 初始化第一行背景！
+[2017-10-11 15:56:57,697]  INFO - 初始化第一行行情按钮！
+[2017-10-11 15:56:57,698]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 15:56:57,698]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 15:56:57,698]  INFO - 初始化第一行登录按钮！
+[2017-10-11 15:56:58,034]  INFO - 初始化第一行注册按钮！
+[2017-10-11 15:56:58,036]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 15:56:58,041] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: H. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\MQTTService\MQTTService.cs:行号 164
+[2017-10-11 15:56:58,041]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 15:56:58,042]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 15:56:58,043]  INFO - 初始化第一列行情！
+[2017-10-11 15:56:58,044]  INFO - 初始化第一列供需发布！
+[2017-10-11 15:56:58,044]  INFO - 初始化第一列K线图！
+[2017-10-11 15:56:58,044]  INFO - 初始化第一列资讯！
+[2017-10-11 15:56:58,044]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 15:56:58,044]  INFO - 初始化买入基价！
+[2017-10-11 15:56:58,045]  INFO - 初始化买入基价值！
+[2017-10-11 15:56:58,045]  INFO - 初始化卖出基价！
+[2017-10-11 15:56:58,045]  INFO - 初始化卖出基价值！
+[2017-10-11 15:56:58,048]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 15:56:58,052]  INFO - 初始化供需发布！
+[2017-10-11 15:56:58,403]  INFO - 初始化界面结束！
+[2017-10-11 15:56:58,589]  INFO - 创建登录界面！
+[2017-10-11 15:56:58,731]  INFO - 初始化内置浏览器！
+[2017-10-11 15:57:03,299]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 15:57:06,971]  INFO - 收到帐号密码消息,值为：15800000003,111111
+[2017-10-11 15:57:08,030]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 15:57:09,072]  INFO - 收到Cookies消息,值为：ticket=PXisPb7ds8PWHJ%2B06D8%2BenCaVJlXXpEpMmfEjM3%2FHYpeX4NeVeg9ShQHmJnOC0aShpVE1VRghiICPHlDgQrHvA%3D%3D
+[2017-10-11 15:57:09,090]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 15:58:10,285]  INFO - 初始化界面开始！
+[2017-10-11 15:58:10,295]  INFO - 画板初始化！
+[2017-10-11 15:58:10,493]  INFO - 初始化第一行背景！
+[2017-10-11 15:58:10,494]  INFO - 初始化第一行行情按钮！
+[2017-10-11 15:58:10,499]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 15:58:10,499]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 15:58:10,499]  INFO - 初始化第一行登录按钮！
+[2017-10-11 15:58:10,766] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: H. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\MQTTService\MQTTService.cs:行号 164
+[2017-10-11 15:58:10,774]  INFO - 初始化第一行注册按钮！
+[2017-10-11 15:58:10,775]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 15:58:10,777]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 15:58:10,778]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 15:58:10,779]  INFO - 初始化第一列行情！
+[2017-10-11 15:58:10,780]  INFO - 初始化第一列供需发布！
+[2017-10-11 15:58:10,780]  INFO - 初始化第一列K线图！
+[2017-10-11 15:58:10,780]  INFO - 初始化第一列资讯！
+[2017-10-11 15:58:10,780]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 15:58:10,781]  INFO - 初始化买入基价！
+[2017-10-11 15:58:10,781]  INFO - 初始化买入基价值！
+[2017-10-11 15:58:10,781]  INFO - 初始化卖出基价！
+[2017-10-11 15:58:10,781]  INFO - 初始化卖出基价值！
+[2017-10-11 15:58:10,786]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 15:58:10,789]  INFO - 初始化供需发布！
+[2017-10-11 15:58:11,097]  INFO - 初始化界面结束！
+[2017-10-11 15:58:11,301]  INFO - 创建登录界面！
+[2017-10-11 15:58:11,425]  INFO - 初始化内置浏览器！
+[2017-10-11 15:58:14,007]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 15:58:20,151]  INFO - 收到帐号密码消息,值为：15800000003,111111
+[2017-10-11 15:58:21,205]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 15:58:22,239]  INFO - 收到Cookies消息,值为：ticket=FyDhN7kVRJzdoes12AraB0pCYUHewHr13bfiTayaCyjpOudMtQwsL9HhSVG4GbmaNLYG71MfqukuVTuMWFFh2Q%3D%3D
+[2017-10-11 15:58:22,271]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 16:00:54,022]  INFO - 初始化界面开始！
+[2017-10-11 16:00:54,033]  INFO - 画板初始化！
+[2017-10-11 16:00:54,271]  INFO - 初始化第一行背景！
+[2017-10-11 16:00:54,273]  INFO - 初始化第一行行情按钮！
+[2017-10-11 16:00:54,278]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 16:00:54,279]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 16:00:54,279]  INFO - 初始化第一行登录按钮！
+[2017-10-11 16:00:54,554] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: H. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\MQTTService\MQTTService.cs:行号 164
+[2017-10-11 16:00:54,556]  INFO - 初始化第一行注册按钮！
+[2017-10-11 16:00:54,558]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 16:00:54,559]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 16:00:54,561]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 16:00:54,562]  INFO - 初始化第一列行情！
+[2017-10-11 16:00:54,562]  INFO - 初始化第一列供需发布！
+[2017-10-11 16:00:54,562]  INFO - 初始化第一列K线图！
+[2017-10-11 16:00:54,562]  INFO - 初始化第一列资讯！
+[2017-10-11 16:00:54,562]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:00:54,563]  INFO - 初始化买入基价！
+[2017-10-11 16:00:54,563]  INFO - 初始化买入基价值！
+[2017-10-11 16:00:54,563]  INFO - 初始化卖出基价！
+[2017-10-11 16:00:54,563]  INFO - 初始化卖出基价值！
+[2017-10-11 16:00:54,567]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:00:54,570]  INFO - 初始化供需发布！
+[2017-10-11 16:00:54,915]  INFO - 初始化界面结束！
+[2017-10-11 16:00:55,140]  INFO - 创建登录界面！
+[2017-10-11 16:00:55,248]  INFO - 初始化内置浏览器！
+[2017-10-11 16:00:57,422]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:01:09,228]  INFO - 收到帐号密码消息,值为：15800000003,111111
+[2017-10-11 16:01:10,285]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:01:11,324]  INFO - 收到Cookies消息,值为：ticket=%2BWwWmqWWj9aD6EER789QqC9E%2FVxCmRT9zmWx3709daJKUPNwdLWkTVtsBZZnhDrnc6PcXb85iW%2FlniB43DI0xQ%3D%3D
+[2017-10-11 16:01:11,332]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 16:04:30,682]  INFO - 初始化界面开始！
+[2017-10-11 16:04:30,692]  INFO - 画板初始化！
+[2017-10-11 16:04:30,990]  INFO - 初始化第一行背景！
+[2017-10-11 16:04:31,005]  INFO - 初始化第一行行情按钮！
+[2017-10-11 16:04:31,007]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 16:04:31,007]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 16:04:31,007]  INFO - 初始化第一行登录按钮！
+[2017-10-11 16:04:31,297]  INFO - 初始化第一行注册按钮！
+[2017-10-11 16:04:31,299]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 16:04:31,301]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 16:04:31,302]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 16:04:31,304]  INFO - 初始化第一列行情！
+[2017-10-11 16:04:31,304]  INFO - 初始化第一列供需发布！
+[2017-10-11 16:04:31,304]  INFO - 初始化第一列K线图！
+[2017-10-11 16:04:31,304]  INFO - 初始化第一列资讯！
+[2017-10-11 16:04:31,304]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:04:31,305]  INFO - 初始化买入基价！
+[2017-10-11 16:04:31,305]  INFO - 初始化买入基价值！
+[2017-10-11 16:04:31,305]  INFO - 初始化卖出基价！
+[2017-10-11 16:04:31,305]  INFO - 初始化卖出基价值！
+[2017-10-11 16:04:31,311]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:04:31,315]  INFO - 初始化供需发布！
+[2017-10-11 16:04:31,487] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: H. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\MQTTService\MQTTService.cs:行号 164
+[2017-10-11 16:04:31,693]  INFO - 初始化界面结束！
+[2017-10-11 16:04:31,867]  INFO - 创建登录界面！
+[2017-10-11 16:04:31,988]  INFO - 初始化内置浏览器！
+[2017-10-11 16:04:34,160]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:04:42,930]  INFO - 收到帐号密码消息,值为：15800000003,111111
+[2017-10-11 16:04:43,987]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:04:45,378]  INFO - 收到帐号密码消息,值为：15800000003,111111
+[2017-10-11 16:04:46,429]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:04:51,990]  INFO - 收到帐号密码消息,值为：15800000003,111111
+[2017-10-11 16:04:51,992]  INFO - 收到Cookies消息,值为：ticket=82uyaeMAQKaobQFMIG9Bjy65nA4bFRvwIWVMUNNZsEpMgz6WIwSfFqYFFbr%2BTuvYGpq9%2FaWTdE4taGEycFcwCQ%3D%3D
+[2017-10-11 16:04:53,119]  INFO - 收到Cookies消息,值为：ticket=82uyaeMAQKaobQFMIG9Bjy65nA4bFRvwIWVMUNNZsEpMgz6WIwSfFqYFFbr%2BTuvYGpq9%2FaWTdE4taGEycFcwCQ%3D%3D
+[2017-10-11 16:04:53,174]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 16:06:18,691]  INFO - 初始化界面开始！
+[2017-10-11 16:06:18,701]  INFO - 画板初始化！
+[2017-10-11 16:06:18,854]  INFO - 初始化第一行背景！
+[2017-10-11 16:06:18,855]  INFO - 初始化第一行行情按钮！
+[2017-10-11 16:06:18,856]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 16:06:18,857]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 16:06:18,857]  INFO - 初始化第一行登录按钮！
+[2017-10-11 16:06:19,089] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: H. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\MQTTService\MQTTService.cs:行号 164
+[2017-10-11 16:06:19,096]  INFO - 初始化第一行注册按钮！
+[2017-10-11 16:06:19,097]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 16:06:19,099]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 16:06:19,100]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 16:06:19,101]  INFO - 初始化第一列行情！
+[2017-10-11 16:06:19,101]  INFO - 初始化第一列供需发布！
+[2017-10-11 16:06:19,101]  INFO - 初始化第一列K线图！
+[2017-10-11 16:06:19,101]  INFO - 初始化第一列资讯！
+[2017-10-11 16:06:19,101]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:06:19,102]  INFO - 初始化买入基价！
+[2017-10-11 16:06:19,102]  INFO - 初始化买入基价值！
+[2017-10-11 16:06:19,102]  INFO - 初始化卖出基价！
+[2017-10-11 16:06:19,102]  INFO - 初始化卖出基价值！
+[2017-10-11 16:06:19,107]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:06:19,109]  INFO - 初始化供需发布！
+[2017-10-11 16:06:19,381]  INFO - 初始化界面结束！
+[2017-10-11 16:06:20,000]  INFO - 创建登录界面！
+[2017-10-11 16:06:20,237]  INFO - 初始化内置浏览器！
+[2017-10-11 16:06:23,506]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:06:29,413]  INFO - 收到帐号密码消息,值为：15800000003,111111
+[2017-10-11 16:06:30,463]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:06:31,480]  INFO - 收到Cookies消息,值为：ticket=uIcBrcCC3%2B2VySrbGjqOn4H6pYaQ6vTDLzjEIYuHAVysizFzhyeNPX7IdN0gA4fNLDUpqHk9%2BF1DletMrO54Bg%3D%3D
+[2017-10-11 16:06:31,494]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 16:08:31,789]  INFO - 初始化界面开始！
+[2017-10-11 16:08:31,800]  INFO - 画板初始化！
+[2017-10-11 16:08:32,094]  INFO - 初始化第一行背景！
+[2017-10-11 16:08:32,096]  INFO - 初始化第一行行情按钮！
+[2017-10-11 16:08:32,097]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 16:08:32,097]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 16:08:32,097]  INFO - 初始化第一行登录按钮！
+[2017-10-11 16:08:32,548] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: H. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\MQTTService\MQTTService.cs:行号 164
+[2017-10-11 16:08:32,578]  INFO - 初始化第一行注册按钮！
+[2017-10-11 16:08:32,579]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 16:08:32,580]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 16:08:32,582]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 16:08:32,583]  INFO - 初始化第一列行情！
+[2017-10-11 16:08:32,583]  INFO - 初始化第一列供需发布！
+[2017-10-11 16:08:32,583]  INFO - 初始化第一列K线图！
+[2017-10-11 16:08:32,583]  INFO - 初始化第一列资讯！
+[2017-10-11 16:08:32,583]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:08:32,584]  INFO - 初始化买入基价！
+[2017-10-11 16:08:32,584]  INFO - 初始化买入基价值！
+[2017-10-11 16:08:32,585]  INFO - 初始化卖出基价！
+[2017-10-11 16:08:32,585]  INFO - 初始化卖出基价值！
+[2017-10-11 16:08:32,590]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:08:32,596]  INFO - 初始化供需发布！
+[2017-10-11 16:08:32,819]  INFO - 初始化界面结束！
+[2017-10-11 16:08:32,855]  INFO - 创建登录界面！
+[2017-10-11 16:08:32,927]  INFO - 初始化内置浏览器！
+[2017-10-11 16:08:36,991]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:23:16,397]  INFO - 初始化界面开始！
+[2017-10-11 16:23:16,407]  INFO - 画板初始化！
+[2017-10-11 16:23:16,820]  INFO - 初始化第一行背景！
+[2017-10-11 16:23:16,861]  INFO - 初始化第一行行情按钮！
+[2017-10-11 16:23:16,863]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 16:23:16,863]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 16:23:16,863]  INFO - 初始化第一行登录按钮！
+[2017-10-11 16:23:17,191]  INFO - 初始化第一行注册按钮！
+[2017-10-11 16:23:17,193]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 16:23:17,194]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 16:23:17,196]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 16:23:17,197]  INFO - 初始化第一列行情！
+[2017-10-11 16:23:17,197]  INFO - 初始化第一列供需发布！
+[2017-10-11 16:23:17,197]  INFO - 初始化第一列K线图！
+[2017-10-11 16:23:17,197]  INFO - 初始化第一列资讯！
+[2017-10-11 16:23:17,197]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:23:17,199]  INFO - 初始化买入基价！
+[2017-10-11 16:23:17,199]  INFO - 初始化买入基价值！
+[2017-10-11 16:23:17,199]  INFO - 初始化卖出基价！
+[2017-10-11 16:23:17,199]  INFO - 初始化卖出基价值！
+[2017-10-11 16:23:17,205]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:23:17,209]  INFO - 初始化供需发布！
+[2017-10-11 16:23:17,290] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: H. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\MQTTService\MQTTService.cs:行号 164
+[2017-10-11 16:23:17,592]  INFO - 初始化界面结束！
+[2017-10-11 16:23:17,763]  INFO - 创建登录界面！
+[2017-10-11 16:23:17,927]  INFO - 初始化内置浏览器！
+[2017-10-11 16:23:20,201]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:23:29,184]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:23:30,245]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:23:30,267]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:23:31,318]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:23:32,321]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:23:33,364]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:23:34,415]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:23:35,471]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:23:35,578]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:23:36,637]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:23:36,645]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:23:36,664]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:23:36,666]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:23:36,670]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:23:36,672]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:23:37,699]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:23:38,739]  INFO - 收到Cookies消息,值为：ticket=VpcJKjX1P5gz8pJ1t9tBZuZcMP91bsBPWq5Hjz20TORa8xHh6qsuIfvHDT5qO%2FrDesFFS1Ijgva%2FPYS1aD3y2Q%3D%3D
+[2017-10-11 16:23:38,771]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 16:26:52,862]  INFO - 初始化界面开始！
+[2017-10-11 16:26:52,877]  INFO - 画板初始化！
+[2017-10-11 16:26:53,096]  INFO - 初始化第一行背景！
+[2017-10-11 16:26:53,097]  INFO - 初始化第一行行情按钮！
+[2017-10-11 16:26:53,098]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 16:26:53,098]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 16:26:53,098]  INFO - 初始化第一行登录按钮！
+[2017-10-11 16:26:53,399]  INFO - 初始化第一行注册按钮！
+[2017-10-11 16:26:53,401]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 16:26:53,403]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 16:26:53,404]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 16:26:53,405]  INFO - 初始化第一列行情！
+[2017-10-11 16:26:53,406]  INFO - 初始化第一列供需发布！
+[2017-10-11 16:26:53,406]  INFO - 初始化第一列K线图！
+[2017-10-11 16:26:53,406]  INFO - 初始化第一列资讯！
+[2017-10-11 16:26:53,406]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:26:53,407]  INFO - 初始化买入基价！
+[2017-10-11 16:26:53,407]  INFO - 初始化买入基价值！
+[2017-10-11 16:26:53,407]  INFO - 初始化卖出基价！
+[2017-10-11 16:26:53,407]  INFO - 初始化卖出基价值！
+[2017-10-11 16:26:53,431]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:26:53,441]  INFO - 初始化供需发布！
+[2017-10-11 16:26:53,458] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: H. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\MQTTService\MQTTService.cs:行号 164
+[2017-10-11 16:26:53,740]  INFO - 初始化界面结束！
+[2017-10-11 16:26:53,918]  INFO - 创建登录界面！
+[2017-10-11 16:26:54,072]  INFO - 初始化内置浏览器！
+[2017-10-11 16:26:58,069]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:27:09,977]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:27:11,033]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:27:12,093]  INFO - 收到Cookies消息,值为：ticket=8q9eXXLuUSMYI6XjTihxHy8D8q1%2FQl2YUkbZdt16WZL1P%2FpkuV6Aqyr%2BIO78k2Tlm2lm7njFiUYrAdQJIX%2Bo3Q%3D%3D
+[2017-10-11 16:27:12,126]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 16:33:26,412]  INFO - 初始化界面开始！
+[2017-10-11 16:33:26,422]  INFO - 画板初始化！
+[2017-10-11 16:33:26,687]  INFO - 初始化第一行背景！
+[2017-10-11 16:33:26,696]  INFO - 初始化第一行行情按钮！
+[2017-10-11 16:33:26,698]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 16:33:26,698]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 16:33:26,698]  INFO - 初始化第一行登录按钮！
+[2017-10-11 16:33:26,948]  INFO - 初始化第一行注册按钮！
+[2017-10-11 16:33:26,950]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 16:33:26,955]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 16:33:26,956] ERROR - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: H. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 UseOnlineTradingSystem.MQTTService.M_mqttClient_MqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) 位置 C:\USeClient\TFS\UseOnlineTradingSystem\UseOnlineTradingSystem\UseOnlineTradingSystem\USeCommon\MQTTService\MQTTService.cs:行号 164
+[2017-10-11 16:33:26,957]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 16:33:26,958]  INFO - 初始化第一列行情！
+[2017-10-11 16:33:26,958]  INFO - 初始化第一列供需发布！
+[2017-10-11 16:33:26,958]  INFO - 初始化第一列K线图！
+[2017-10-11 16:33:26,958]  INFO - 初始化第一列资讯！
+[2017-10-11 16:33:26,958]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:33:26,959]  INFO - 初始化买入基价！
+[2017-10-11 16:33:26,959]  INFO - 初始化买入基价值！
+[2017-10-11 16:33:26,959]  INFO - 初始化卖出基价！
+[2017-10-11 16:33:26,959]  INFO - 初始化卖出基价值！
+[2017-10-11 16:33:26,964]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:33:26,968]  INFO - 初始化供需发布！
+[2017-10-11 16:33:27,314]  INFO - 初始化界面结束！
+[2017-10-11 16:33:27,534]  INFO - 创建登录界面！
+[2017-10-11 16:33:27,660]  INFO - 初始化内置浏览器！
+[2017-10-11 16:33:30,583]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:33:38,664]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:33:39,724]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:33:40,750]  INFO - 收到Cookies消息,值为：ticket=gid9W2QVqkDYKfa5NwmMJY9gn8O6igzni5rqOxFC6FEnG%2Fg8KRhRQyPj1BJhi%2F22S2X0LAJQY%2FYeQ%2F6O7gLK%2Bg%3D%3D
+[2017-10-11 16:33:40,774]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 16:39:21,141]  INFO - 初始化界面开始！
+[2017-10-11 16:39:21,151]  INFO - 画板初始化！
+[2017-10-11 16:39:21,411]  INFO - 初始化第一行背景！
+[2017-10-11 16:39:21,412]  INFO - 初始化第一行行情按钮！
+[2017-10-11 16:39:21,413]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 16:39:21,413]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 16:39:21,413]  INFO - 初始化第一行登录按钮！
+[2017-10-11 16:39:21,678]  INFO - 初始化第一行注册按钮！
+[2017-10-11 16:39:21,679]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 16:39:21,680]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 16:39:21,681]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 16:39:21,682]  INFO - 初始化第一列行情！
+[2017-10-11 16:39:21,682]  INFO - 初始化第一列供需发布！
+[2017-10-11 16:39:21,682]  INFO - 初始化第一列K线图！
+[2017-10-11 16:39:21,682]  INFO - 初始化第一列资讯！
+[2017-10-11 16:39:21,682]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:39:21,682]  INFO - 初始化买入基价！
+[2017-10-11 16:39:21,682]  INFO - 初始化买入基价值！
+[2017-10-11 16:39:21,682]  INFO - 初始化卖出基价！
+[2017-10-11 16:39:21,682]  INFO - 初始化卖出基价值！
+[2017-10-11 16:39:21,686]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:39:21,689]  INFO - 初始化供需发布！
+[2017-10-11 16:39:22,077]  INFO - 初始化界面结束！
+[2017-10-11 16:39:22,277]  INFO - 创建登录界面！
+[2017-10-11 16:39:22,403]  INFO - 初始化内置浏览器！
+[2017-10-11 16:39:24,361]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:39:34,093]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:39:35,157]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:39:36,195]  INFO - 收到Cookies消息,值为：ticket=t0AoCulxnZ2ipogDwODJUD0jUKuzgHdDJUucEWbwu62qbDKe0hEzYaAKITuQyx7s3fO7tBgiIqdhcGrzExKPnQ%3D%3D
+[2017-10-11 16:39:36,272]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 16:41:42,877]  INFO - 初始化界面开始！
+[2017-10-11 16:41:42,893]  INFO - 画板初始化！
+[2017-10-11 16:41:43,112]  INFO - 初始化第一行背景！
+[2017-10-11 16:41:43,113]  INFO - 初始化第一行行情按钮！
+[2017-10-11 16:41:43,114]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 16:41:43,114]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 16:41:43,114]  INFO - 初始化第一行登录按钮！
+[2017-10-11 16:41:43,442]  INFO - 初始化第一行注册按钮！
+[2017-10-11 16:41:43,444]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 16:41:43,445]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 16:41:43,446]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 16:41:43,447]  INFO - 初始化第一列行情！
+[2017-10-11 16:41:43,447]  INFO - 初始化第一列供需发布！
+[2017-10-11 16:41:43,447]  INFO - 初始化第一列K线图！
+[2017-10-11 16:41:43,447]  INFO - 初始化第一列资讯！
+[2017-10-11 16:41:43,447]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:41:43,448]  INFO - 初始化买入基价！
+[2017-10-11 16:41:43,448]  INFO - 初始化买入基价值！
+[2017-10-11 16:41:43,448]  INFO - 初始化卖出基价！
+[2017-10-11 16:41:43,448]  INFO - 初始化卖出基价值！
+[2017-10-11 16:41:43,452]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:41:43,456]  INFO - 初始化供需发布！
+[2017-10-11 16:41:43,761]  INFO - 初始化界面结束！
+[2017-10-11 16:41:43,806]  INFO - 创建登录界面！
+[2017-10-11 16:41:43,868]  INFO - 初始化内置浏览器！
+[2017-10-11 16:41:46,977]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:41:51,851]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:41:52,902]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:41:53,932]  INFO - 收到Cookies消息,值为：ticket=Dt5pIJdJH5BGc3n8hnscJBOCXZkJnvhj0XvGUH69L7LmlkwkNYX%2Ff%2FNTK5zv0mA3Wu1hXyTZHgWmkWIfn6SMxg%3D%3D
+[2017-10-11 16:41:53,982]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 16:44:22,067]  INFO - 初始化界面开始！
+[2017-10-11 16:44:22,078]  INFO - 画板初始化！
+[2017-10-11 16:44:22,310]  INFO - 初始化第一行背景！
+[2017-10-11 16:44:22,312]  INFO - 初始化第一行行情按钮！
+[2017-10-11 16:44:22,313]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 16:44:22,313]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 16:44:22,313]  INFO - 初始化第一行登录按钮！
+[2017-10-11 16:44:22,556]  INFO - 初始化第一行注册按钮！
+[2017-10-11 16:44:22,557]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 16:44:22,558]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 16:44:22,559]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 16:44:22,560]  INFO - 初始化第一列行情！
+[2017-10-11 16:44:22,560]  INFO - 初始化第一列供需发布！
+[2017-10-11 16:44:22,560]  INFO - 初始化第一列K线图！
+[2017-10-11 16:44:22,560]  INFO - 初始化第一列资讯！
+[2017-10-11 16:44:22,560]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:44:22,561]  INFO - 初始化买入基价！
+[2017-10-11 16:44:22,561]  INFO - 初始化买入基价值！
+[2017-10-11 16:44:22,561]  INFO - 初始化卖出基价！
+[2017-10-11 16:44:22,561]  INFO - 初始化卖出基价值！
+[2017-10-11 16:44:22,564]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:44:22,566]  INFO - 初始化供需发布！
+[2017-10-11 16:44:22,839]  INFO - 初始化界面结束！
+[2017-10-11 16:44:23,041]  INFO - 创建登录界面！
+[2017-10-11 16:44:23,182]  INFO - 初始化内置浏览器！
+[2017-10-11 16:44:25,299]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:44:29,704]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:44:30,756]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:44:34,977]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:44:36,039]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:44:39,077]  INFO - 收到Cookies消息,值为：ticket=%2B5CuE2Y5nEnvIp3kN639dntT6SAkGPCXEHz7EK914ZIWCO52%2Bsenle6zu59i9UgZM90tLGky7S8iHuVCUU9j8Q%3D%3D
+[2017-10-11 16:44:40,150]  INFO - 收到Cookies消息,值为：SecurityTicket=%252B5CuE2Y5nEnvIp3kN639dntT6SAkGPCXEHz7EK914ZIWCO52%252Bsenle6zu59i9UgZM90tLGky7S8iHuVCUU9j8Q%253D%253D; SecurityToken=%252B5CuE2Y5nEnvIp3kN639dntT6SAkGPCXEHz7EK914ZIWCO52%252Bsenle6zu59i9UgZM90tLGky7S8iHuVCUU9j8Q%253D%253D
+[2017-10-11 16:44:40,155]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 16:45:16,627]  INFO - 初始化界面开始！
+[2017-10-11 16:45:16,637]  INFO - 画板初始化！
+[2017-10-11 16:45:16,876]  INFO - 初始化第一行背景！
+[2017-10-11 16:45:16,877]  INFO - 初始化第一行行情按钮！
+[2017-10-11 16:45:16,878]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 16:45:16,878]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 16:45:16,878]  INFO - 初始化第一行登录按钮！
+[2017-10-11 16:45:17,180]  INFO - 初始化第一行注册按钮！
+[2017-10-11 16:45:17,181]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 16:45:17,182]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 16:45:17,184]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 16:45:17,185]  INFO - 初始化第一列行情！
+[2017-10-11 16:45:17,185]  INFO - 初始化第一列供需发布！
+[2017-10-11 16:45:17,185]  INFO - 初始化第一列K线图！
+[2017-10-11 16:45:17,185]  INFO - 初始化第一列资讯！
+[2017-10-11 16:45:17,185]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:45:17,186]  INFO - 初始化买入基价！
+[2017-10-11 16:45:17,186]  INFO - 初始化买入基价值！
+[2017-10-11 16:45:17,186]  INFO - 初始化卖出基价！
+[2017-10-11 16:45:17,186]  INFO - 初始化卖出基价值！
+[2017-10-11 16:45:17,189]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:45:17,192]  INFO - 初始化供需发布！
+[2017-10-11 16:45:17,480]  INFO - 初始化界面结束！
+[2017-10-11 16:45:17,687]  INFO - 创建登录界面！
+[2017-10-11 16:45:17,820]  INFO - 初始化内置浏览器！
+[2017-10-11 16:45:20,417]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:45:24,339]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:45:25,396]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:45:26,414]  INFO - 收到Cookies消息,值为：ticket=2cr8QFglzau798PAvKKQZlVhSE98fKjH5YFQ%2FCutDYlXvhegKCUOTmhluO1nJasUJUStAHua2Fx5e0sf3BZxbA%3D%3D
+[2017-10-11 16:45:26,422]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 16:46:17,484]  INFO - 初始化界面开始！
+[2017-10-11 16:46:17,494]  INFO - 画板初始化！
+[2017-10-11 16:46:17,804]  INFO - 初始化第一行背景！
+[2017-10-11 16:46:17,831]  INFO - 初始化第一行行情按钮！
+[2017-10-11 16:46:17,832]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 16:46:17,833]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 16:46:17,833]  INFO - 初始化第一行登录按钮！
+[2017-10-11 16:46:18,108]  INFO - 初始化第一行注册按钮！
+[2017-10-11 16:46:18,109]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 16:46:18,110]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 16:46:18,111]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 16:46:18,113]  INFO - 初始化第一列行情！
+[2017-10-11 16:46:18,113]  INFO - 初始化第一列供需发布！
+[2017-10-11 16:46:18,113]  INFO - 初始化第一列K线图！
+[2017-10-11 16:46:18,113]  INFO - 初始化第一列资讯！
+[2017-10-11 16:46:18,113]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:46:18,114]  INFO - 初始化买入基价！
+[2017-10-11 16:46:18,114]  INFO - 初始化买入基价值！
+[2017-10-11 16:46:18,114]  INFO - 初始化卖出基价！
+[2017-10-11 16:46:18,114]  INFO - 初始化卖出基价值！
+[2017-10-11 16:46:18,119]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:46:18,123]  INFO - 初始化供需发布！
+[2017-10-11 16:46:18,444]  INFO - 初始化界面结束！
+[2017-10-11 16:46:18,630]  INFO - 创建登录界面！
+[2017-10-11 16:46:18,754]  INFO - 初始化内置浏览器！
+[2017-10-11 16:46:21,384]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:46:32,597]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:46:33,655]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:46:34,699]  INFO - 收到Cookies消息,值为：ticket=NpK5anmbWlQwtNJU5giM3KtwmVbanoLDLS6c%2BZaoBv7EbqZymlMOem6N8lY04WynKOuteEZ1ir%2FKOOIm4BwiGg%3D%3D
+[2017-10-11 16:46:34,752]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 16:50:55,709]  INFO - 初始化界面开始！
+[2017-10-11 16:50:55,718]  INFO - 画板初始化！
+[2017-10-11 16:50:56,031]  INFO - 初始化第一行背景！
+[2017-10-11 16:50:56,033]  INFO - 初始化第一行行情按钮！
+[2017-10-11 16:50:56,034]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 16:50:56,034]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 16:50:56,034]  INFO - 初始化第一行登录按钮！
+[2017-10-11 16:50:56,266]  INFO - 初始化第一行注册按钮！
+[2017-10-11 16:50:56,268]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 16:50:56,269]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 16:50:56,270]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 16:50:56,271]  INFO - 初始化第一列行情！
+[2017-10-11 16:50:56,272]  INFO - 初始化第一列供需发布！
+[2017-10-11 16:50:56,272]  INFO - 初始化第一列K线图！
+[2017-10-11 16:50:56,272]  INFO - 初始化第一列资讯！
+[2017-10-11 16:50:56,272]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:50:56,272]  INFO - 初始化买入基价！
+[2017-10-11 16:50:56,272]  INFO - 初始化买入基价值！
+[2017-10-11 16:50:56,273]  INFO - 初始化卖出基价！
+[2017-10-11 16:50:56,273]  INFO - 初始化卖出基价值！
+[2017-10-11 16:50:56,276]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 16:50:56,278]  INFO - 初始化供需发布！
+[2017-10-11 16:50:56,659]  INFO - 初始化界面结束！
+[2017-10-11 16:50:56,702]  INFO - 创建登录界面！
+[2017-10-11 16:50:56,823]  INFO - 初始化内置浏览器！
+[2017-10-11 16:50:59,028]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:51:17,477]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 16:51:18,549]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 16:51:19,575]  INFO - 收到Cookies消息,值为：ticket=azxG8F6ovZPgNODQ6T8cxE7HbVPUKn%2FHFRc%2BzoZ09mnYkxk5wKuz22GJcGaBeyO3KqgHvyJKbES8VKRfNZSPsA%3D%3D
+[2017-10-11 16:51:19,689]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 17:00:38,801]  INFO - 初始化界面开始！
+[2017-10-11 17:00:38,813]  INFO - 画板初始化！
+[2017-10-11 17:00:39,002]  INFO - 初始化第一行背景！
+[2017-10-11 17:00:39,003]  INFO - 初始化第一行行情按钮！
+[2017-10-11 17:00:39,004]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 17:00:39,005]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 17:00:39,005]  INFO - 初始化第一行登录按钮！
+[2017-10-11 17:00:39,212]  INFO - 初始化第一行注册按钮！
+[2017-10-11 17:00:39,213]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 17:00:39,215]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 17:00:39,216]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 17:00:39,218]  INFO - 初始化第一列行情！
+[2017-10-11 17:00:39,218]  INFO - 初始化第一列供需发布！
+[2017-10-11 17:00:39,218]  INFO - 初始化第一列K线图！
+[2017-10-11 17:00:39,218]  INFO - 初始化第一列资讯！
+[2017-10-11 17:00:39,218]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:00:39,219]  INFO - 初始化买入基价！
+[2017-10-11 17:00:39,219]  INFO - 初始化买入基价值！
+[2017-10-11 17:00:39,219]  INFO - 初始化卖出基价！
+[2017-10-11 17:00:39,219]  INFO - 初始化卖出基价值！
+[2017-10-11 17:00:39,243]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:00:39,247]  INFO - 初始化供需发布！
+[2017-10-11 17:00:39,519]  INFO - 初始化界面结束！
+[2017-10-11 17:00:39,679]  INFO - 创建登录界面！
+[2017-10-11 17:00:39,798]  INFO - 初始化内置浏览器！
+[2017-10-11 17:00:42,202]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 17:01:01,915]  INFO - 初始化界面开始！
+[2017-10-11 17:01:01,925]  INFO - 画板初始化！
+[2017-10-11 17:01:02,164]  INFO - 初始化第一行背景！
+[2017-10-11 17:01:02,165]  INFO - 初始化第一行行情按钮！
+[2017-10-11 17:01:02,166]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 17:01:02,166]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 17:01:02,167]  INFO - 初始化第一行登录按钮！
+[2017-10-11 17:01:02,472]  INFO - 初始化第一行注册按钮！
+[2017-10-11 17:01:02,474]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 17:01:02,475]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 17:01:02,475]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 17:01:02,476]  INFO - 初始化第一列行情！
+[2017-10-11 17:01:02,476]  INFO - 初始化第一列供需发布！
+[2017-10-11 17:01:02,476]  INFO - 初始化第一列K线图！
+[2017-10-11 17:01:02,476]  INFO - 初始化第一列资讯！
+[2017-10-11 17:01:02,476]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:01:02,477]  INFO - 初始化买入基价！
+[2017-10-11 17:01:02,477]  INFO - 初始化买入基价值！
+[2017-10-11 17:01:02,477]  INFO - 初始化卖出基价！
+[2017-10-11 17:01:02,477]  INFO - 初始化卖出基价值！
+[2017-10-11 17:01:02,480]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:01:02,483]  INFO - 初始化供需发布！
+[2017-10-11 17:01:02,800]  INFO - 初始化界面结束！
+[2017-10-11 17:01:02,968]  INFO - 创建登录界面！
+[2017-10-11 17:01:03,070]  INFO - 初始化内置浏览器！
+[2017-10-11 17:01:06,245]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 17:01:10,354]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 17:01:11,409]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 17:01:15,017]  INFO - 收到Cookies消息,值为：ticket=ZI34kBV%2BO%2FRNuDKPts26%2F1kSZ7OdyjvccFEufI4dlO%2Ba0Q8RJGH4fpnhXctp5VmVU5bQ6uTgxtW%2FozE%2BwAQwMA%3D%3D
+[2017-10-11 17:01:16,045]  INFO - 收到Cookies消息,值为：SecurityTicket=ZI34kBV%252BO%252FRNuDKPts26%252F1kSZ7OdyjvccFEufI4dlO%252Ba0Q8RJGH4fpnhXctp5VmVU5bQ6uTgxtW%252FozE%252BwAQwMA%253D%253D; SecurityToken=ZI34kBV%252BO%252FRNuDKPts26%252F1kSZ7OdyjvccFEufI4dlO%252Ba0Q8RJGH4fpnhXctp5VmVU5bQ6uTgxtW%252FozE%252BwAQwMA%253D%253D
+[2017-10-11 17:01:16,197]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 17:31:15,411]  INFO - 初始化界面开始！
+[2017-10-11 17:31:15,422]  INFO - 画板初始化！
+[2017-10-11 17:31:15,664]  INFO - 初始化第一行背景！
+[2017-10-11 17:31:15,665]  INFO - 初始化第一行行情按钮！
+[2017-10-11 17:31:15,666]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 17:31:15,666]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 17:31:15,666]  INFO - 初始化第一行登录按钮！
+[2017-10-11 17:31:15,946]  INFO - 初始化第一行注册按钮！
+[2017-10-11 17:31:15,947]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 17:31:15,948]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 17:31:15,949]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 17:31:15,950]  INFO - 初始化第一列行情！
+[2017-10-11 17:31:15,950]  INFO - 初始化第一列供需发布！
+[2017-10-11 17:31:15,950]  INFO - 初始化第一列K线图！
+[2017-10-11 17:31:15,950]  INFO - 初始化第一列资讯！
+[2017-10-11 17:31:15,950]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:31:15,950]  INFO - 初始化买入基价！
+[2017-10-11 17:31:15,950]  INFO - 初始化买入基价值！
+[2017-10-11 17:31:15,951]  INFO - 初始化卖出基价！
+[2017-10-11 17:31:15,951]  INFO - 初始化卖出基价值！
+[2017-10-11 17:31:15,955]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:31:15,959]  INFO - 初始化供需发布！
+[2017-10-11 17:31:16,257]  INFO - 初始化界面结束！
+[2017-10-11 17:31:16,428]  INFO - 创建登录界面！
+[2017-10-11 17:31:16,540]  INFO - 初始化内置浏览器！
+[2017-10-11 17:31:18,740]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 17:31:30,256]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 17:31:31,310]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 17:31:35,692]  INFO - 收到Cookies消息,值为：ticket=n28361N4BzQGE5azOgEW6b7TXdzm12LAK%2FXW9XSV2yVfBz5%2FMoaqLydogBQrDczDxIjTF5PAEOOPMB9Sur4qEw%3D%3D
+[2017-10-11 17:31:36,734]  INFO - 收到Cookies消息,值为：SecurityTicket=n28361N4BzQGE5azOgEW6b7TXdzm12LAK%252FXW9XSV2yVfBz5%252FMoaqLydogBQrDczDxIjTF5PAEOOPMB9Sur4qEw%253D%253D; SecurityToken=n28361N4BzQGE5azOgEW6b7TXdzm12LAK%252FXW9XSV2yVfBz5%252FMoaqLydogBQrDczDxIjTF5PAEOOPMB9Sur4qEw%253D%253D
+[2017-10-11 17:31:36,744]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 17:34:24,145]  INFO - 初始化界面开始！
+[2017-10-11 17:34:24,154]  INFO - 画板初始化！
+[2017-10-11 17:34:24,398]  INFO - 初始化第一行背景！
+[2017-10-11 17:34:24,399]  INFO - 初始化第一行行情按钮！
+[2017-10-11 17:34:24,400]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 17:34:24,400]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 17:34:24,400]  INFO - 初始化第一行登录按钮！
+[2017-10-11 17:34:24,612]  INFO - 初始化第一行注册按钮！
+[2017-10-11 17:34:24,614]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 17:34:24,616]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 17:34:24,617]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 17:34:24,618]  INFO - 初始化第一列行情！
+[2017-10-11 17:34:24,619]  INFO - 初始化第一列供需发布！
+[2017-10-11 17:34:24,619]  INFO - 初始化第一列K线图！
+[2017-10-11 17:34:24,619]  INFO - 初始化第一列资讯！
+[2017-10-11 17:34:24,619]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:34:24,619]  INFO - 初始化买入基价！
+[2017-10-11 17:34:24,620]  INFO - 初始化买入基价值！
+[2017-10-11 17:34:24,620]  INFO - 初始化卖出基价！
+[2017-10-11 17:34:24,620]  INFO - 初始化卖出基价值！
+[2017-10-11 17:34:24,624]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:34:24,628]  INFO - 初始化供需发布！
+[2017-10-11 17:34:24,918]  INFO - 初始化界面结束！
+[2017-10-11 17:34:25,079]  INFO - 创建登录界面！
+[2017-10-11 17:34:25,181]  INFO - 初始化内置浏览器！
+[2017-10-11 17:34:27,331]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 17:34:33,970]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 17:34:35,022]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 17:34:36,099]  INFO - 收到Cookies消息,值为：ticket=brqLZcjGnBKakOiqoWMrHjHdIryRaTdzq%2B4H2AGJIs5ID0MHgVIpiEQ7605IugJduVNIY3jhbKpSPlZYegjsVg%3D%3D
+[2017-10-11 17:34:36,107]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 17:45:07,065]  INFO - 初始化界面开始！
+[2017-10-11 17:45:07,074]  INFO - 画板初始化！
+[2017-10-11 17:45:07,277]  INFO - 初始化第一行背景！
+[2017-10-11 17:45:07,278]  INFO - 初始化第一行行情按钮！
+[2017-10-11 17:45:07,279]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 17:45:07,279]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 17:45:07,279]  INFO - 初始化第一行登录按钮！
+[2017-10-11 17:45:07,553]  INFO - 初始化第一行注册按钮！
+[2017-10-11 17:45:07,555]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 17:45:07,556]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 17:45:07,557]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 17:45:07,559]  INFO - 初始化第一列行情！
+[2017-10-11 17:45:07,559]  INFO - 初始化第一列供需发布！
+[2017-10-11 17:45:07,559]  INFO - 初始化第一列K线图！
+[2017-10-11 17:45:07,559]  INFO - 初始化第一列资讯！
+[2017-10-11 17:45:07,559]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:45:07,560]  INFO - 初始化买入基价！
+[2017-10-11 17:45:07,560]  INFO - 初始化买入基价值！
+[2017-10-11 17:45:07,560]  INFO - 初始化卖出基价！
+[2017-10-11 17:45:07,560]  INFO - 初始化卖出基价值！
+[2017-10-11 17:45:07,565]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:45:07,568]  INFO - 初始化供需发布！
+[2017-10-11 17:45:07,839]  INFO - 初始化界面结束！
+[2017-10-11 17:45:07,995]  INFO - 创建登录界面！
+[2017-10-11 17:45:08,111]  INFO - 初始化内置浏览器！
+[2017-10-11 17:45:10,281]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 17:45:30,518]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 17:45:31,568]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 17:45:40,374]  INFO - 收到Cookies消息,值为：ticket=j%2B2hESc006%2Ff3mjjnLoPAxjlTfFz1SVNdJ18UMFgbVv5fKqfgwMyqLcysnusyNCSQnE7j5hrAmEx2ZlOAlRo7Q%3D%3D
+[2017-10-11 17:45:40,392]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 17:45:41,459]  INFO - 收到Cookies消息,值为：SecurityTicket=j%252B2hESc006%252Ff3mjjnLoPAxjlTfFz1SVNdJ18UMFgbVv5fKqfgwMyqLcysnusyNCSQnE7j5hrAmEx2ZlOAlRo7Q%253D%253D; SecurityToken=j%252B2hESc006%252Ff3mjjnLoPAxjlTfFz1SVNdJ18UMFgbVv5fKqfgwMyqLcysnusyNCSQnE7j5hrAmEx2ZlOAlRo7Q%253D%253D
+[2017-10-11 17:45:42,464]  INFO - 收到Cookies消息,值为：SecurityTicket=j%252B2hESc006%252Ff3mjjnLoPAxjlTfFz1SVNdJ18UMFgbVv5fKqfgwMyqLcysnusyNCSQnE7j5hrAmEx2ZlOAlRo7Q%253D%253D; SecurityToken=j%252B2hESc006%252Ff3mjjnLoPAxjlTfFz1SVNdJ18UMFgbVv5fKqfgwMyqLcysnusyNCSQnE7j5hrAmEx2ZlOAlRo7Q%253D%253D
+[2017-10-11 17:45:42,520]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 17:47:44,645]  INFO - 初始化界面开始！
+[2017-10-11 17:47:44,654]  INFO - 画板初始化！
+[2017-10-11 17:47:44,884]  INFO - 初始化第一行背景！
+[2017-10-11 17:47:44,886]  INFO - 初始化第一行行情按钮！
+[2017-10-11 17:47:44,887]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 17:47:44,887]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 17:47:44,887]  INFO - 初始化第一行登录按钮！
+[2017-10-11 17:47:45,131]  INFO - 初始化第一行注册按钮！
+[2017-10-11 17:47:45,132]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 17:47:45,133]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 17:47:45,134]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 17:47:45,135]  INFO - 初始化第一列行情！
+[2017-10-11 17:47:45,135]  INFO - 初始化第一列供需发布！
+[2017-10-11 17:47:45,135]  INFO - 初始化第一列K线图！
+[2017-10-11 17:47:45,135]  INFO - 初始化第一列资讯！
+[2017-10-11 17:47:45,135]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:47:45,135]  INFO - 初始化买入基价！
+[2017-10-11 17:47:45,135]  INFO - 初始化买入基价值！
+[2017-10-11 17:47:45,135]  INFO - 初始化卖出基价！
+[2017-10-11 17:47:45,135]  INFO - 初始化卖出基价值！
+[2017-10-11 17:47:45,139]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:47:45,141]  INFO - 初始化供需发布！
+[2017-10-11 17:47:45,401]  INFO - 初始化界面结束！
+[2017-10-11 17:47:45,597]  INFO - 创建登录界面！
+[2017-10-11 17:47:45,711]  INFO - 初始化内置浏览器！
+[2017-10-11 17:47:47,876]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 17:48:56,217]  INFO - 初始化界面开始！
+[2017-10-11 17:48:56,225]  INFO - 画板初始化！
+[2017-10-11 17:48:56,463]  INFO - 初始化第一行背景！
+[2017-10-11 17:48:56,464]  INFO - 初始化第一行行情按钮！
+[2017-10-11 17:48:56,465]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 17:48:56,465]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 17:48:56,465]  INFO - 初始化第一行登录按钮！
+[2017-10-11 17:48:56,765]  INFO - 初始化第一行注册按钮！
+[2017-10-11 17:48:56,767]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 17:48:56,768]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 17:48:56,769]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 17:48:56,771]  INFO - 初始化第一列行情！
+[2017-10-11 17:48:56,771]  INFO - 初始化第一列供需发布！
+[2017-10-11 17:48:56,771]  INFO - 初始化第一列K线图！
+[2017-10-11 17:48:56,771]  INFO - 初始化第一列资讯！
+[2017-10-11 17:48:56,771]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:48:56,772]  INFO - 初始化买入基价！
+[2017-10-11 17:48:56,772]  INFO - 初始化买入基价值！
+[2017-10-11 17:48:56,772]  INFO - 初始化卖出基价！
+[2017-10-11 17:48:56,772]  INFO - 初始化卖出基价值！
+[2017-10-11 17:48:56,777]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:48:56,781]  INFO - 初始化供需发布！
+[2017-10-11 17:48:57,035]  INFO - 初始化界面结束！
+[2017-10-11 17:48:57,202]  INFO - 创建登录界面！
+[2017-10-11 17:48:57,301]  INFO - 初始化内置浏览器！
+[2017-10-11 17:48:59,699]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 17:49:05,734]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 17:49:06,781]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 17:49:07,800]  INFO - 收到Cookies消息,值为：ticket=mgOmecU6SgHnZ2C2HXvIMfvaZlAHpp5GMf1Q9At%2BFFtTzSuQ4AiUlTnALhxxPxPVST%2Fga0n%2B0iAPwWgmmnsSjw%3D%3D
+[2017-10-11 17:49:07,813]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 17:51:05,943]  INFO - 初始化界面开始！
+[2017-10-11 17:51:05,954]  INFO - 画板初始化！
+[2017-10-11 17:51:06,158]  INFO - 初始化第一行背景！
+[2017-10-11 17:51:06,159]  INFO - 初始化第一行行情按钮！
+[2017-10-11 17:51:06,160]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 17:51:06,160]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 17:51:06,160]  INFO - 初始化第一行登录按钮！
+[2017-10-11 17:51:06,436]  INFO - 初始化第一行注册按钮！
+[2017-10-11 17:51:06,437]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 17:51:06,439]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 17:51:06,440]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 17:51:06,441]  INFO - 初始化第一列行情！
+[2017-10-11 17:51:06,442]  INFO - 初始化第一列供需发布！
+[2017-10-11 17:51:06,442]  INFO - 初始化第一列K线图！
+[2017-10-11 17:51:06,442]  INFO - 初始化第一列资讯！
+[2017-10-11 17:51:06,442]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:51:06,443]  INFO - 初始化买入基价！
+[2017-10-11 17:51:06,443]  INFO - 初始化买入基价值！
+[2017-10-11 17:51:06,443]  INFO - 初始化卖出基价！
+[2017-10-11 17:51:06,443]  INFO - 初始化卖出基价值！
+[2017-10-11 17:51:06,448]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 17:51:06,451]  INFO - 初始化供需发布！
+[2017-10-11 17:51:06,799]  INFO - 初始化界面结束！
+[2017-10-11 17:51:06,967]  INFO - 创建登录界面！
+[2017-10-11 17:51:07,072]  INFO - 初始化内置浏览器！
+[2017-10-11 17:51:09,250]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 17:51:16,181]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 17:51:17,234]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 17:51:18,292]  INFO - 收到Cookies消息,值为：ticket=BC9w3fIlWNRsh8G1tr3PsSMV3NMcZEUHDiZLOsDabAEWH9T5MXCSsTkApQ6yMazTRlQ%2BYrWJmNqOEs6Jgcm%2BnQ%3D%3D
+[2017-10-11 17:51:18,326]  INFO - 收到登录成功消息,值为：IsLogin
+[2017-10-11 18:02:39,078]  INFO - 初始化界面开始！
+[2017-10-11 18:02:39,088]  INFO - 画板初始化！
+[2017-10-11 18:02:39,382]  INFO - 初始化第一行背景！
+[2017-10-11 18:02:39,383]  INFO - 初始化第一行行情按钮！
+[2017-10-11 18:02:39,385]  INFO - 初始化第一行我的资金按钮！
+[2017-10-11 18:02:39,385]  INFO - 初始化第一行基础管理按钮！
+[2017-10-11 18:02:39,385]  INFO - 初始化第一行登录按钮！
+[2017-10-11 18:02:39,648]  INFO - 初始化第一行注册按钮！
+[2017-10-11 18:02:39,649]  INFO - 初始化第一行最小化按钮！
+[2017-10-11 18:02:39,650]  INFO - 初始化第一行最大化按钮！
+[2017-10-11 18:02:39,650]  INFO - 初始化第一行关闭按钮！
+[2017-10-11 18:02:39,651]  INFO - 初始化第一列行情！
+[2017-10-11 18:02:39,652]  INFO - 初始化第一列供需发布！
+[2017-10-11 18:02:39,652]  INFO - 初始化第一列K线图！
+[2017-10-11 18:02:39,652]  INFO - 初始化第一列资讯！
+[2017-10-11 18:02:39,652]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 18:02:39,652]  INFO - 初始化买入基价！
+[2017-10-11 18:02:39,652]  INFO - 初始化买入基价值！
+[2017-10-11 18:02:39,652]  INFO - 初始化卖出基价！
+[2017-10-11 18:02:39,652]  INFO - 初始化卖出基价值！
+[2017-10-11 18:02:39,657]  INFO - 初始化第二行快捷按钮！
+[2017-10-11 18:02:39,660]  INFO - 初始化供需发布！
+[2017-10-11 18:02:39,913]  INFO - 初始化界面结束！
+[2017-10-11 18:02:40,049]  INFO - 创建登录界面！
+[2017-10-11 18:02:40,136]  INFO - 初始化内置浏览器！
+[2017-10-11 18:02:42,090]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 18:02:49,191]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 18:02:50,240]  INFO - 收到Cookies消息,值为：SecurityTicket=
+[2017-10-11 18:02:50,263]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 18:02:50,285]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 18:02:50,289]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 18:02:50,291]  INFO - 收到帐号密码消息,值为：15800000003 ,111111
+[2017-10-11 18:02:51,316]  INFO - 收到Cookies消息,值为：ticket=uQ3Rob3Sbj9ChgL94CQOCMZTf8POK%2FW3C2oeCpIe4H9yauhFbJhmiXQedrlsI8J21qwLmUt0UCvezi0ziIR2Ag%3D%3D
+[2017-10-11 18:02:52,339]  INFO - 收到Cookies消息,值为：ticket=uQ3Rob3Sbj9ChgL94CQOCMZTf8POK%2FW3C2oeCpIe4H9yauhFbJhmiXQedrlsI8J21qwLmUt0UCvezi0ziIR2Ag%3D%3D
+[2017-10-11 18:02:52,369]  INFO - 收到登录成功消息,值为：IsLogin

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USe.Common.AppLogger", "USe.Common.AppLogger\USe.Common.AppLogger.csproj", "{9D9C25D1-139B-4B50-BBAA-371E2F292CFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USe.Common", "USe.Common\USe.Common.csproj", "{8AF05AA8-4051-4601-B317-5F370A2173E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USe.Common.TradingDay", "USe.Common.TradingDay\USe.Common.TradingDay.csproj", "{7C47624F-C78C-40AC-8A30-45C010DA86D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USe.Common.DBDriver", "USe.Common.DBDriver\USe.Common.DBDriver.csproj", "{E1656145-159B-4AFF-A4BD-BB3690F034D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D9C25D1-139B-4B50-BBAA-371E2F292CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D9C25D1-139B-4B50-BBAA-371E2F292CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D9C25D1-139B-4B50-BBAA-371E2F292CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D9C25D1-139B-4B50-BBAA-371E2F292CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF05AA8-4051-4601-B317-5F370A2173E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF05AA8-4051-4601-B317-5F370A2173E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF05AA8-4051-4601-B317-5F370A2173E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF05AA8-4051-4601-B317-5F370A2173E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C47624F-C78C-40AC-8A30-45C010DA86D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C47624F-C78C-40AC-8A30-45C010DA86D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C47624F-C78C-40AC-8A30-45C010DA86D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C47624F-C78C-40AC-8A30-45C010DA86D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1656145-159B-4AFF-A4BD-BB3690F034D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1656145-159B-4AFF-A4BD-BB3690F034D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1656145-159B-4AFF-A4BD-BB3690F034D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1656145-159B-4AFF-A4BD-BB3690F034D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.16.88.11:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = USe.Common.AppLogger\\USe.Common.AppLogger.csproj
+		SccProjectName1 = USe.Common.AppLogger
+		SccLocalPath1 = USe.Common.AppLogger
+		SccProjectUniqueName2 = USe.Common.TradingDay\\USe.Common.TradingDay.csproj
+		SccProjectName2 = USe.Common.TradingDay
+		SccLocalPath2 = USe.Common.TradingDay
+		SccProjectUniqueName3 = USe.Common\\USe.Common.csproj
+		SccProjectName3 = USe.Common
+		SccLocalPath3 = USe.Common
+		SccProjectUniqueName4 = USe.Common.DBDriver\\USe.Common.DBDriver.csproj
+		SccProjectName4 = USe.Common.DBDriver
+		SccLocalPath4 = USe.Common.DBDriver
+	EndGlobalSection
+EndGlobal

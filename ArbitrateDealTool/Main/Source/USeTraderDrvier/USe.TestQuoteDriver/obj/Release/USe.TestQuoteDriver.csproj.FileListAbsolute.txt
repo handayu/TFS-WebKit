@@ -1,0 +1,5 @@
+C:\USeClient\TFS\ArbitrateDealTool\Main\Bin\USe.TestQuoteDriver.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Bin\USe.TestQuoteDriver.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeTraderDrvier\USe.TestQuoteDriver\obj\Release\USe.TestQuoteDriver.csprojResolveAssemblyReference.cache
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeTraderDrvier\USe.TestQuoteDriver\obj\Release\USe.TestQuoteDriver.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\USeTraderDrvier\USe.TestQuoteDriver\obj\Release\USe.TestQuoteDriver.pdb

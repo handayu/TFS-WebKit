@@ -1,0 +1,16 @@
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\bin\Debug\TempUtilityForm.exe.config
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\bin\Debug\TempUtilityForm.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\bin\Debug\TempUtilityForm.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\bin\Debug\MySql.Data.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\bin\Debug\Newtonsoft.Json.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\bin\Debug\USe.Common.DBDriver.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\bin\Debug\USe.TradeDriver.Common.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\bin\Debug\USe.Common.DBDriver.xml
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\bin\Debug\USe.TradeDriver.Common.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\bin\Debug\USe.TradeDriver.Common.xml
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\obj\Debug\TempUtilityForm.Form1.resources
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\obj\Debug\TempUtilityForm.Properties.Resources.resources
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\obj\Debug\TempUtilityForm.csproj.GenerateResource.Cache
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\obj\Debug\TempUtilityForm.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\obj\Debug\TempUtilityForm.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TempUtilityForm\obj\Debug\TempUtilityForm.csprojResolveAssemblyReference.cache

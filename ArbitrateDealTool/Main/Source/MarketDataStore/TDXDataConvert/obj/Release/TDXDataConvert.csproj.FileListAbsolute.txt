@@ -1,0 +1,7 @@
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\bin\Release\TDXDataConvert.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\bin\Release\TDXDataConvert.pdb
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\bin\Release\USe.Common.DBDriver.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\bin\Release\MySql.Data.dll
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\bin\Release\USe.Common.DBDriver.xml
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\obj\Release\TDXDataConvert.exe
+C:\USeClient\TFS\ArbitrateDealTool\Main\Source\MarketDataStore\TDXDataConvert\obj\Release\TDXDataConvert.pdb

@@ -1,0 +1,4 @@
+C:\USeClient\TFS\USeCommon\Main\Bin\USe.Common.TradingDay.dll
+C:\USeClient\TFS\USeCommon\Main\Bin\USe.Common.TradingDay.pdb
+C:\USeClient\TFS\USeCommon\Main\Source\USeCommon\USe.Common.TradingDay\obj\Debug\USe.Common.TradingDay.dll
+C:\USeClient\TFS\USeCommon\Main\Source\USeCommon\USe.Common.TradingDay\obj\Debug\USe.Common.TradingDay.pdb
